@@ -1,0 +1,81 @@
+:root {
+   --cnc-callout-tip-background: #f0fff4;
+   --cnc-callout-tip-border: #38a169;
+   --cnc-callout-info-background: #f0f8ff;
+   --cnc-callout-info-border: #4e82b4;
+   --cnc-callout-warning-background: #fbeff3;
+   --cnc-callout-warning-border: #da0b50;
+   --cnc-callout-working-background: #f1e4f8;
+   --cnc-callout-working-border: #666b8f;
+   --cnc-callout-checkpoint-background: #e6fffa;
+   --cnc-callout-checkpoint-border: #4fd1c5;
+}
+
+div.cnc-callout {
+   position: relative;
+   margin: 2em 0;
+   padding: 1em 1.5em 1em 3.5em;
+   border-radius: 0 4px 4px 0;
+   border-width: 0 0 0 4px;
+   border-style: solid;
+} 
+
+div.cnc-callout:before {
+   font-family: "Font Awesome 5 Free"; 
+   font-weight: 900;
+   font-size: 1.5em;
+   line-height: 1.5;
+   display: inline-block;
+   position: absolute;
+   left: 0.75em;
+}
+
+div.cnc-callout.cnc-working {
+   border-color: var(--cnc-callout-working-border);
+   background: var(--cnc-callout-working-background);
+}
+
+div.cnc-callout.cnc-working:before {
+   content: "\f059"; /* question mark */
+   color: var(--cnc-callout-working-border);
+}
+
+div.cnc-callout.cnc-tip {
+   border-color: var(--cnc-callout-tip-border);
+   background: var(--cnc-callout-tip-background);
+} 
+
+ div.cnc-callout.cnc-tip:before {
+   content: "\f0eb"; /* light bulb */
+   color: var(--cnc-callout-tip-border);
+}
+
+div.cnc-callout.cnc-info {
+   border-color: var(--cnc-callout-info-border);
+   background: var(--cnc-callout-info-background);
+} 
+
+ div.cnc-callout.cnc-info:before {
+   content: "\f05a"; /* info mark */
+   color: var(--cnc-callout-info-border);
+}
+
+div.cnc-callout.cnc-warning {
+   border-color: var(--cnc-callout-warning-border);
+   background: var(--cnc-callout-warning-background);
+} 
+
+ div.cnc-callout.cnc-warning:before {
+   content: "\f06a"; /* exclamation */
+   color: var(--cnc-callout-warning-border);
+}
+
+div.cnc-callout.cnc-checkpoint {
+   border-color: var(--cnc-callout-checkpoint-border);
+   background: var(--cnc-callout-checkpoint-background);
+} 
+
+ div.cnc-callout.cnc-checkpoint:before {
+   content: "\f058"; /* check mark */
+   color: var(--cnc-callout-checkpoint-border);
+}

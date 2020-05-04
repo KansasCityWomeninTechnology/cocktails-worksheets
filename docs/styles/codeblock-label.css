@@ -1,0 +1,13 @@
+.cnc-codeblock-label {
+   font-size: small;
+   font-weight: 600;
+   margin-bottom: 0px !important;
+   padding: 2px 8px;
+   background-color: var(--selection-color);
+   border-radius: var(--code-block-border-radius) var(--code-block-border-radius) 0 0;
+}
+
+.cnc-codeblock-label + pre {
+   margin-top: 0px !important;
+   border-radius: 0 0 var(--code-block-border-radius) var(--code-block-border-radius) !important;
+}

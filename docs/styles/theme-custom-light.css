@@ -1,0 +1,29 @@
+
+:root {
+
+    /* App */
+    --theme-color     : #484e78;
+
+    /* Base */
+    /* --base-background-color: #fcfcfc; */
+    --selection-color      : #d2c4d4;
+
+    /* Content */
+
+    /* Heading */
+    --heading-h1-color      : var(--theme-color) ;
+
+    /* Sidebar */
+    --sidebar-background                          : #fcfcfc;
+    --sidebar-border-color                        : var(--mono-tint2);
+    --sidebar-nav-link-before-content-l3          : ;
+    --sidebar-nav-pagelink-background-image             : ;
+    --sidebar-nav-pagelink-background-image--active     : ;
+    --sidebar-nav-pagelink-background-image--collapse   : ;
+    --sidebar-nav-pagelink-background-image--loaded     : ;
+
+    /* Sidebar Toggle */
+    --sidebar-toggle-background                         : var(--sidebar-border-color);
+
+}
+

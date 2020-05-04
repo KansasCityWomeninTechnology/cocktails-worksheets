@@ -1,0 +1,24 @@
+@import 'callout.css';
+@import 'codeblock-label.css';
+
+/* Overrides not available in the themes plugin*/
+article.markdown-section > h1:not(:first-child) {
+   margin-top: 3rem;
+}
+
+.markdown-section iframe {
+   margin: 1em 0;
+   border: 1px solid #eee;
+   width: 1px;
+   min-width: 100%;
+}
+
+/* Added styles */
+.image-border {
+   border: 2px solid #9d81a2;
+   border-radius: 6px;
+}
+
+
+
+
