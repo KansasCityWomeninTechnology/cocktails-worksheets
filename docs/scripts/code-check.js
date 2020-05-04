@@ -4,7 +4,6 @@
   const install = (hook, vm) => {
     hook.afterEach(function (html, next) {
 
-      console.log(html);
       const modifiedHtml = html.replace(REGEX, (match, contents) => {
         return (
           `
