@@ -1,5 +1,5 @@
 (function () {
-  const REGEX = /<p>{% filename %}(.+){% endfilename %}<\/p>/g;
+  const REGEX = /<p>\s*{% filename %}(.+?){% endfilename %}<\/p>/g;
 
   const install = (hook, vm) => {
     hook.afterEach(function (html, next) {
