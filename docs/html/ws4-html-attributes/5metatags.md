@@ -10,21 +10,20 @@
 
 1. Create another `meta` tag for keywords and fill in the `content` attribute for "keywords" using a comma separated list of words for search engines to use, such as "Cocktails,Code".
 
-      [!CODECHECK]
-Your code should look like this
-```html
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      ... other head tags here
-      <meta name="author" content="Coding &amp; Cocktails">
-      <meta name="description" content="Yummy cocktails served with a side of code">
-      <meta name="keywords" content="Cocktails,HTML,Code">
-    </head>
-   <body>
-   </body>
-</html>
-```
-   [CODECHECK!]
+   >[!HINT]
+   >Your code should look like this
+   >```html
+   ><!DOCTYPE html>
+   ><html lang="en">
+   >   <head>
+   >      ... other head tags here
+   >      <meta name="author" content="Coding &amp; Cocktails">
+   >      <meta name="description" content="Yummy cocktails served with a side of code">
+   >      <meta name="keywords" content="Cocktails,HTML,Code">
+   >    </head>
+   >   <body>
+   >   </body>
+   ></html>
+   >```
 
 1. Save your file. You won't see any visible changes, but under the covers, your website is now more searchable.

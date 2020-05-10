@@ -5,10 +5,12 @@
    --cnc-callout-info-border: #4e82b4;
    --cnc-callout-warning-background: #fbeff3;
    --cnc-callout-warning-border: #da0b50;
-   --cnc-callout-working-background: #f1e4f8;
-   --cnc-callout-working-border: #666b8f;
-   --cnc-callout-checkpoint-background: #e6fffa;
-   --cnc-callout-checkpoint-border: #4fd1c5;
+   --cnc-callout-extracredit-background: #f1e4f8;
+   --cnc-callout-extracredit-border: #666b8f;
+   --cnc-callout-hint-background: #f1e4f8;
+   --cnc-callout-hint-border: #666b8f;
+   --cnc-callout-codecheck-background: #e6fffa;
+   --cnc-callout-codecheck-border: #38b2ac;
 }
 
 div.cnc-callout {
@@ -30,14 +32,14 @@ div.cnc-callout:before {
    left: 0.75em;
 }
 
-div.cnc-callout.cnc-working {
-   border-color: var(--cnc-callout-working-border);
-   background: var(--cnc-callout-working-background);
+div.cnc-callout.cnc-extracredit {
+   border-color: var(--cnc-callout-extracredit-border);
+   background: var(--cnc-callout-extracredit-background);
 }
 
-div.cnc-callout.cnc-working:before {
-   content: "\f059"; /* question mark */
-   color: var(--cnc-callout-working-border);
+div.cnc-callout.cnc-extracredit:before {
+   content: "\f135"; /* rocket */
+   color: var(--cnc-callout-extracredit-border);
 }
 
 div.cnc-callout.cnc-tip {
@@ -70,12 +72,22 @@ div.cnc-callout.cnc-warning {
    color: var(--cnc-callout-warning-border);
 }
 
-div.cnc-callout.cnc-checkpoint {
-   border-color: var(--cnc-callout-checkpoint-border);
-   background: var(--cnc-callout-checkpoint-background);
+div.cnc-callout.cnc-hint {
+   border-color: var(--cnc-callout-hint-border);
+   background: var(--cnc-callout-hint-background);
+}
+
+div.cnc-callout.cnc-hint:before {
+   content: "\f059"; /* question mark */
+   color: var(--cnc-callout-hint-border);
+}
+
+div.cnc-callout.cnc-codecheck {
+   border-color: var(--cnc-callout-codecheck-border);
+   background: var(--cnc-callout-codecheck-background);
 } 
 
- div.cnc-callout.cnc-checkpoint:before {
-   content: "\f058"; /* check mark */
-   color: var(--cnc-callout-checkpoint-border);
+ div.cnc-callout.cnc-codecheck:before {
+   content: "\f559"; /* award */
+   color: var(--cnc-callout-codecheck-border);
 }

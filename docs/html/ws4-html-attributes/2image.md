@@ -10,8 +10,8 @@
 <img src="FILENAME"/>
    ```
 
-   >[!WORKING]
->We now have an image element with an invalid source location. Try saving the _index.html_ and viewing it in Chrome. We see the dreaded broken image icon! What happens if you open Chrome DevTools?
+   >[!EXTRACREDIT]
+   >We now have an image element with an invalid source location. Try saving the _index.html_ and viewing it in Chrome. We see the dreaded broken image icon! What happens if you open Chrome DevTools?
 
 1. Now we need to replace the "FILENAME" with the real filename of the image including the file extension.
 

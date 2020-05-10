@@ -18,18 +18,17 @@
 There are 2 types of lists-- **u**nordered (bulleted) **l**ists and **o**rdered (numbered) **l**ists. Website navigation is often an unordered list.
 
 1. Each item in the unordered list has its own tag, `li`. Inside the `ul` element, add two `li` elements with the text "About" and "Contact".
-   [!CODECHECK]
-Place your cursor after `<ul>`, press `Enter`, and type `<li>About</li>`. Add a new `<li>` for "Contact". Your code should look like this
-```html
-<body>
-   <nav>
-      <ul>
-         <li>About</li>
-         <li>Contact</li>
-      </ul>
-   </nav>
-   <h1>Coding's Cocktail Lounge</h1>
-   Remaining code for subtitle and sections...
-</body>
-```
-   [CODECHECK!]
+   >[!HINT]
+   >Place your cursor after `<ul>`, press `Enter`, and type `<li>About</li>`. Add a new `<li>` for "Contact". Your code should look like this
+   >```html
+   ><body>
+   >   <nav>
+   >      <ul>
+   >         <li>About</li>
+   >         <li>Contact</li>
+   >      </ul>
+   >   </nav>
+   >   <h1>Coding's Cocktail Lounge</h1>
+   >   Remaining code for subtitle and sections...
+   ></body>
+   >```

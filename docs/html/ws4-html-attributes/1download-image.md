@@ -9,7 +9,7 @@
 
     ![](images/download.png)
 
-    >[!WORKING]
->Apply the concepts you learned about front-end architecture tonight! 
->
->Create folders and move the cocktail image to use the same directory structure we used to group images together in the front-end architecture portion of the worksheet. 
+    >[!EXTRACREDIT]
+    >Apply the concepts you learned about front-end architecture tonight! 
+    >
+    >Create folders and move the cocktail image to use the same directory structure we used to group images together in the front-end architecture portion of the worksheet. 

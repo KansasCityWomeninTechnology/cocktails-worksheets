@@ -7,12 +7,11 @@
 
 1. Now we use an attribute to help tie HTML elements together. The `for` attribute specifies the id of the control to tie it to (which we will create soon). Inside the opening `<label>` tag, add a`for` attribute and set the value to "email", like you did for the image `src` attribute and the filename of the image. 
 
-   [!CODECHECK] 
-Inside the opening `<label>` tag, type `for="email"`. Your code should look like this
-```html
-<label for="email">Email</label>
-```
-   [CODECHECK!]
+   >[!HINT] 
+   >Inside the opening `<label>` tag, type `for="email"`. Your code should look like this
+   >```html
+   ><label for="email">Email</label>
+   >```
 
 1. Save your file and preview it in Chrome. Do you see your "Email" label right above the footer?
 
@@ -28,12 +27,11 @@ Inside the opening `<label>` tag, type `for="email"`. Your code should look like
 
 1. Lastly, add the `id` attribute with the value "email". The `id` of the control must match the label's `for` attribute. This is what ties the label and the input together. 
 
-   [!CODECHECK]
-All these attribute instructions can be confusing. Double check your input element. Your code should look like this
-```html
-<label for="email">Email</label>
-<input type="email" name="contactEmail" id="email" />
-```
-   [CODECHECK!]
+   >[!HINT]
+   >All these attribute instructions can be confusing. Double check your input element. Your code should look like this
+   >```html
+   ><label for="email">Email</label>
+   ><input type="email" name="contactEmail" id="email" />
+   >```
 
 1. Save your file and preview it in Chrome.

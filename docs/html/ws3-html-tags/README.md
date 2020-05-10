@@ -37,13 +37,10 @@ Take a moment to celebrate what you've learned tonight!
 # Checkpoint
 Compare your _index.html_ against the answer key for your work so far. It might look a little different depending on your spacing and text.  
 
->[!CHECKPOINT]<details>
->  <summary>Expand this section to compare your work.</summary>
->
->   ![](./images/checkpoint.png)
+>[!CODECHECK]
+>![](./images/checkpoint.png)
 >      
->   You can also compare your _index.html_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/AnswerKeys/blob/checkpoint-html-elements/html/index.html) if the image is too difficult to read.
-></details>
+>You can also compare your _index.html_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/AnswerKeys/blob/checkpoint-html-elements/html/index.html) if the image is too difficult to read.
 
 
 ## References and helpful links :id=references
