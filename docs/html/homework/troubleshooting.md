@@ -1,13 +1,12 @@
 # Homework
 
-{% hint style='tip' %}
-##### Hey Slacker!
+>[!TIP]
+>**Hey Slacker!**
+>
+>Remember, we're here to help.
+>Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
 
-Remember, we're here to help.
-Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
-{% endhint %}
-
-### Troubleshooting Exercises
+## Troubleshooting Exercises
 Try some troubleshooting so you can feel more confident coding on your own!
 
 1.  Open a new file in VS Code and save it in your "CodingAndCocktails/session1/html" folder as *troubleshooting.html*
@@ -56,9 +55,8 @@ Try some troubleshooting so you can feel more confident coding on your own!
 
 1.  The first thing to fix is that our image is not displayed underneath the first paragraph.  See if you can make the image show up by editing the HTML. 
 
-   {% hint style='tip' %}
-Remember to save and refresh the page in Google Chrome to see your changes or run Live Server.
-   {% endhint %}
+   >[!TIP]
+   >Remember to save and refresh the page in Google Chrome to see your changes or run Live Server.
 
 1. Update the list of items to use an HTML ordered list so our webpage has the correct structure.
 
@@ -68,13 +66,17 @@ Remember to save and refresh the page in Google Chrome to see your changes or ru
 
 ### View Pages and Answer Key
 
-**View Starting Point:** [**http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/exercise1.html**](http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/exercise1.html)
+**View Starting Point:** 
+
+[http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/exercise1.html](http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/exercise1.html)
 
 **View Solution:**
-[**http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/solutions/exercise1.html**](http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/solutions/exercise1.html)
+
+[http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/solutions/exercise1.html](http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/solutions/exercise1.html)
 
 **Code Answer Key:**
-[**https://github.com/KansasCityWomeninTechnology/examples/blob/master/html-troubleshooting/solutions/exercise1.html**](https://github.com/KansasCityWomeninTechnology/examples/blob/master/html-troubleshooting/solutions/exercise1.html)
+
+[https://github.com/KansasCityWomeninTechnology/examples/blob/master/html-troubleshooting/solutions/exercise1.html](https://github.com/KansasCityWomeninTechnology/examples/blob/master/html-troubleshooting/solutions/exercise1.html)
 
 
 

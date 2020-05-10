@@ -38,7 +38,7 @@
 
 1. Reload _index.html_ in Chrome. Chrome has a powerful built-in way to look for errors and inspect your code, called **Chrome DevTools**. We can use Chrome DevTools to see if there are any errors finding references.
 
-   >[!TIP]
+   >[!INFO]
    >Opening up Chrome DevTools to identify and fix errors is **debugging** code. Fancy!
 
 1. Open Chrome DevTools on Windows by pressing `F12` and on a Mac using the keyboard shortcut `cmd + option + i`. If you missed a file reference it will show up as an error. Errors show up as a red 'x' in the toolbar of DevTools. Select **Console** to see more details about an error.

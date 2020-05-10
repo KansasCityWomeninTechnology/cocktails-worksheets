@@ -1,13 +1,12 @@
 # Homework
 
-{% hint style='tip' %}
-##### Hey Slacker!
+>[!TIP]
+> **Hey Slacker!**
+>
+>Remember, we're here to help.
+>Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
 
-Remember, we're here to help.
-Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
-{% endhint %}
-
-### Troubleshooting Bonus
+## Troubleshooting Bonus
 This exercise only requires one addition.  Can you figure out what it is? 
 
 1.  Open a new file in VS Code and save it in your `CodingAndCocktails/session1/html` folder as *troubleshooting2.html*
@@ -32,13 +31,18 @@ This exercise only requires one addition.  Can you figure out what it is?
 
 ### View Pages and Answer Key
 
-**View Starting Point:** [**http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/bonus.html**](http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/bonus.html)
+**View Starting Point:** 
+
+[http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/bonus.html](http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/bonus.html)
 
 **View Solution:**
-[**http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/solutions/bonus.html**](http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/solutions/bonus.html)
+
+
+[http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/solutions/bonus.html](http://kansascitywomenintechnology.github.io/examples/html-troubleshooting/solutions/bonus.html)
 
 **Code Answer Key:**
-[**https://github.com/KansasCityWomeninTechnology/examples/blob/master/html-troubleshooting/solutions/bonus.html**](https://github.com/KansasCityWomeninTechnology/examples/blob/master/html-troubleshooting/solutions/bonus.html)
+
+[https://github.com/KansasCityWomeninTechnology/examples/blob/master/html-troubleshooting/solutions/bonus.html](https://github.com/KansasCityWomeninTechnology/examples/blob/master/html-troubleshooting/solutions/bonus.html)
 
 
 

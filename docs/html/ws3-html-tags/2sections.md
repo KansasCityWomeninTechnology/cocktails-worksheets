@@ -20,7 +20,7 @@ Place your cursor between the opening and closing tags for `section`, press `Ent
    >[!TIP]Don't forget to close the `<p>` tag.
 
 1. Save your file and preview your page in Chrome. ![](../../images/emojis/star-eyes.png) 
-   >[!TIP]Feel free to save your work and preview your page as you code tonight. It's fun to see how each element progresses the creation of the webpage.
+   >[!INFO]Feel free to save your work and preview your page as you code tonight. It's fun to see how each element progresses the creation of the webpage.
 
 1. Now we want to add a new section to the page for "Contact". After the closing tag for `<section>`, add a new section element.
    [!CODECHECK]
