@@ -1,17 +1,18 @@
 ### Helpful Keyboard Shortcuts
-{% include "./keyboard-shortcuts.md" %}
+
+[filename](./keyboard-shortcuts.md ':include')
+
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
 ### VS Code Keyboard Shortcuts 
 
-{% hint style='info' %}
-Too many keyboard shortcuts?
-
-You can type what you're looking for in the **Command Palette**. Open the Command Palette by selecting **View** :fas fa-long-arrow-alt-right: **Command Palette...** and type the action you want to do.
-
-To open the Command Palette quickly, use the keyboard shortcut `ctrl` + `shift` + `p`.
-{% endhint %}
+>[!INFO]
+>Too many keyboard shortcuts?
+>
+>You can type what you're looking for in the **Command Palette**. Open the Command Palette by selecting **View** :fas fa-long-arrow-alt-right: **Command Palette...** and type the action you want to do.
+>
+>To open the Command Palette quickly, use the keyboard shortcut `ctrl` + `shift` + `p`.
 
 **Helpful Keyboard Shortcuts**
 

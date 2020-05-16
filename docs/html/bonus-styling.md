@@ -10,7 +10,7 @@
 We'll download a pre-created stylesheet and add a link element in the header to use the styles.
 
 1. Create a folder for the stylesheet inside your "CodingAndCocktails/session1/html" folder following the techniques we learned for front-end architecture.
-   >[!WORKING]
+   >[!EXTRACREDIT]
 >Need a hint?
 >
 >A stylesheet is a **CSS** file. What folder structure did you use in the front-end architecture section to store CSS files? 
