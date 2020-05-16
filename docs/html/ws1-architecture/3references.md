@@ -27,7 +27,7 @@
 
    >[!TIP]You may run into an error saving _index.html_ if your VS Code needs elevated permissions on Windows. Select **Retry as Admin** to finish saving.
 
-1. In Chrome, reload _index.html_. Wow! The page looks so different with styles! ![](../../assets/emojis/party-popper.png)
+1. In Chrome, reload _index.html_. Wow! The page looks so different with styles! ![](../../images/emojis/party-popper.png)
 
 1. In VS Code, go through the rest of the _index.html_ file and make the same necessary changes for the other lines beginning with  `<!-- REPLACE DIR PATH`. Feel free to save and inspect your work in Chrome as you go along. Once done, save _index.html_.
   >[!TIP]
