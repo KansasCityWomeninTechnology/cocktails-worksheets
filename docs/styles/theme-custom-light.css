@@ -8,6 +8,14 @@
     /* --base-background-color: #fcfcfc; */
     --selection-color      : #d2c4d4;
 
+    /* Cover */
+    --cover-background-color: #666b8f;
+    --cover-background-image: unset;
+    --cover-max-width: 80%;
+    --cover-blockquote-color: #fff;     
+    --cover-blockquote-font-size: var(--font-size-m);    
+    --cover-button-background: #ba99c0 ;
+
     /* Content */
 
     /* Heading */
