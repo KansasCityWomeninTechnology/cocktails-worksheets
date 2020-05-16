@@ -1,3 +1,4 @@
+{% cloud-ide-begin %}
 You will use **CodeSandbox** tonight as your **I**ntegrated **D**evelopment **E**nvironment. Any time the worksheet references Visual Studio Code, use CodeSandbox instead.
 Follow the instructions below to get your environment going.
 
@@ -19,3 +20,4 @@ Follow the instructions below to get your environment going.
 1. Before you start following the worksheet, click the **<span class="octicon octicon-repo-forked"></span> Fork** button in the toolbar. You'll see it at the top right of your screen. This makes your own copy of the project so you can save your changes.
 
 1. You created your project and are ready to go! Follow along with [Group like files into appropriate directories](?id=group) using CodeSandbox in place of Visual Studio Code and your file explorer. You will create folders and move files around in CodeSandbox directly. There are 2 files you can ignore, _package.json_ and _sandbox.config.json_. These are files CodeSandbox need.
+{% cloud-ide-end %}

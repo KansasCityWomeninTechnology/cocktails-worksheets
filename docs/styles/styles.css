@@ -1,5 +1,6 @@
 @import 'callout.css';
 @import 'codeblock-label.css';
+@import 'cloud-ide.css';
 
 /* Overrides not available in the themes plugin*/
 article.markdown-section > h1:not(:first-child) {

@@ -1,0 +1,9 @@
+.cnc-cloud-ide {
+   margin: 1em 0;
+   padding: 0.5em;
+   border-radius: 0 4px 4px 0;
+   border-width: 0 0 0 4px;
+   border-style: solid;
+   background: #edf2f7;
+   color: #4a5568;
+}
