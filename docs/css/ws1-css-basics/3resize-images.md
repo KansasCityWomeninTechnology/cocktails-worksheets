@@ -19,7 +19,7 @@
 
 1. Open _styles.css_ and add the following code
     
-    {% filename %}styles.css{% endfilename %}
+    {% codeblock %}styles.css{% codeblock %}
     ```css
     img {
         width: 25%;

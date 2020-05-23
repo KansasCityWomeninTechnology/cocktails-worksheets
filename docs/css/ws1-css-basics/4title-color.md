@@ -6,7 +6,7 @@
 
 1. We'll start applying colors to the main `h1` header first. In _styles.css_ in VS Code, declare a style for `h1` tag above the selector for `img`. Use the `color` property and substitute the hex color you selected for the title like this
     
-    {% filename %}styles.css{% endfilename %}
+    {% codeblock %}styles.css{% codeblock %}
     ```css
     h1 {
         color: #637056;

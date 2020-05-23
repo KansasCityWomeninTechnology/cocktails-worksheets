@@ -2,7 +2,7 @@
 
 1. Navigation sections have their own HTML element called `nav`. Add a `nav` element (don't forget the closing tag). Your code will look something like this.
 
-   {% filename %}index.html{% endfilename %}
+   {% codeblock %}index.html{% codeblock %}
     ```html
     <body>
         <nav>

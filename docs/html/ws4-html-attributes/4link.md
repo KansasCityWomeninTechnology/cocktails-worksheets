@@ -1,6 +1,6 @@
 1. Links use the anchor element, `<a>`. We'll wrap the list items "About" and "Contact" in the navbar to link to their respective sections. In VS Code, place your cursor after the opening `<li>` tag and before the text **"About"** and type `<a>` to create a the anchor tag. Add the closing `</a>` after the text. The **"About"** text should now look like this:
 
-    {% filename %}index.html{% endfilename %}
+    {% codeblock %}index.html{% codeblock %}
     ```html
     <li><a>About</a></li>
     ```

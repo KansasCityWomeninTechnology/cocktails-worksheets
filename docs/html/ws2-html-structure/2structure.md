@@ -2,7 +2,7 @@
 
 1. Copy the following code snippet and paste it into your _index.html_ file.
 
-   {% filename %}index.html{% endfilename %}
+   {% codeblock %}index.html{% codeblock %}
    ```html
    <!DOCTYPE html>
    <html lang="en">

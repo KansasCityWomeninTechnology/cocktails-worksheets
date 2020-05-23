@@ -20,7 +20,7 @@
 
    Create a grid with 2 columns with specified width by adding `grid-template-columns: 75% auto;`. Your style should look like
    
-   {% filename %}styles.css{% endfilename %}
+   {% codeblock %}styles.css{% codeblock %}
     ```css
     .grid-container {
         display: grid;

@@ -33,5 +33,9 @@
     /* Sidebar Toggle */
     --sidebar-toggle-background                         : var(--sidebar-border-color);
 
+    /* Copy Code */
+    --copycode-background: #666b8f;
+    --copycode-color     : #fff;
+
 }
 

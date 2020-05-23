@@ -13,7 +13,7 @@ Try some troubleshooting so you can feel more confident coding on your own!
 
 2.  Paste the following code into the file
 
-    {% filename %}troubleshooting.html{% endfilename %}
+    {% codeblock %}troubleshooting.html{% codeblock %}
     ```
     <!DOCTYPE html>
     <html>

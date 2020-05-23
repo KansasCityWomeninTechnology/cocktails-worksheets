@@ -10,4 +10,3 @@ Install the tools, then navigate to tonight's session
 
 * [The Glass: HTML](/html/)
 * [The Garnish: CSS](/css/)
-
