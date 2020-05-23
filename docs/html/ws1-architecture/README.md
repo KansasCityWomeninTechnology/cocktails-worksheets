@@ -23,10 +23,10 @@ At the end of this section, you will have a webpage that looks like this:
 
 
 >[!WARNING]
-Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for tonight's work.
+>Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for tonight's work.
 
 >[!WARNING]
-If you are using CodeSandbox, please skip to [CodeSandbox instructions](./?id=cloud-ide) below.
+>If you are using CodeSandbox, please skip to [CodeSandbox instructions](./?id=cloud-ide) below.
 
 # Create application folder and download assets
 Let's get the files we need so we can practice website asset organization.

@@ -32,7 +32,7 @@
    >The `alt` attribute content displays if the browser can't show (aka **render**) your image. Screen readers use the `alt` for better accessibility to help visually impaired users of the site.
    
 
-1. Save your file and preview it in Chrome. Do you see your image? ![](../images/emojis/party-popper.png)
+1. Save your file and preview it in Chrome. Do you see your image? ![](../../images/emojis/party-popper.png)
 
    >[!TIP]
    >Not seeing your image? Try opening up Chrome DevTools to see if there's an error. Does your filename of the image match up to what's in the `src` attribute?

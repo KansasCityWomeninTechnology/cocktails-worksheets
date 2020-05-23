@@ -1,5 +1,5 @@
 # Setup
-Tonight we will learn front-end architecture and HTML.
+Tonight we will learn the basics of applying styles to a website using **C**ascading **S**tyle **S**heets (**CSS**). 
 
 Follow the instructions on this page to prepare your workspace.
 
@@ -13,13 +13,11 @@ Follow the instructions on this page to prepare your workspace.
 >
 > Navigate to GitHub to create a personal account or log in. Feel free to ask your mentor for help! When complete and logged in to GitHub, return here to continue the instructions. You won't install any tools listed on this page, but please read through them so you have context for tonight's worksheet.
 
-
 # Required tools for this session
 
-You don't need all the tools for tonight's session. If you haven't installed all the tools listed in [The Tools](https://bit.ly/CnCTheTools) guide already, use the following list to install only the required tools for the worksheet:
+You don't need all the tools for tonight's session. If you haven't installed all the tools listed in [The Tools](https://bit.ly/CnCTheTools) guide already, use the following list to install the required tools for the worksheet:
 
 >[!WARNING]If you are borrowing a laptop, your tools are pre-installed. Please ask your mentor to explain the tools we are using tonight.
-
 
 1. [Chrome browser](/tools/browser/ ':target=_blank')
 
@@ -32,7 +30,7 @@ You don't need all the tools for tonight's session. If you haven't installed all
 
 # Create a folder for tonight's work
 
-Create a folder named "session1" in your "CodingAndCocktails" folder by following the steps below.
+Create a folder named "session2" in your "CodingAndCocktails" folder by following the steps below
 
 1. Open a file explorer and navigate to your home directory.
    >[!TIP]
@@ -42,12 +40,9 @@ Create a folder named "session1" in your "CodingAndCocktails" folder by followin
 
 1. Find and navigate into the "CodingAndCocktails" folder you created as part of your tools setup.
 
-1. Create a folder named "session1".
-
-1. Leave the file explorer open. You'll use it in the next section of the worksheet.
+1. Create a folder named "session2".
 
 # Helpful tips as you work through the worksheet
-
 >[!TIP]
 >View the worksheet and your IDE in split screen. 
 >
@@ -65,6 +60,6 @@ Create a folder named "session1" in your "CodingAndCocktails" folder by followin
 >[!TIP]
 >Did you know you can perform common tasks such as copy and paste and navigate VS Code using keyboard shortcuts? 
 >
->When working without a mouse, keyboard shortcuts will be faster than a trackpad. Open the [handy dandy keyboard shortcut reference in a new tab](/html/references/ ':target=_blank') so you can refer to it easily!
+>When working without a mouse, keyboard shortcuts will be faster than a trackpad. Open the [handy dandy keyboard shortcut reference in a new tab](/css/references/ ':target=_blank') so you can refer to it easily!
 
 

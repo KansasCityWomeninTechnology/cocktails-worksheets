@@ -1,5 +1,5 @@
 # Coding & Cocktails Worksheets :id=worksheets
-> Coding & Cocktails is an introductory programming series for women presented by [Kansas City Women in Technology](https://kcwomenintech.org/)
+_Coding & Cocktails is an introductory programming series for women presented by [Kansas City Women in Technology](https://kcwomenintech.org/)_
 
 Install the tools, then navigate to tonight's session
 
@@ -9,4 +9,5 @@ Install the tools, then navigate to tonight's session
 # Session Worksheets
 
 * [The Glass: HTML](/html/)
-* [The Garnish: CSS](/html/)
+* [The Garnish: CSS](/css/)
+
