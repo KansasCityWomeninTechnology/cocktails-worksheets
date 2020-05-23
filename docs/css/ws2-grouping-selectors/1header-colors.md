@@ -2,7 +2,7 @@
 
 1. Combine the `h1` and `h2` selectors by separating them with a comma like this
 
-   {% filename %}styles.css{% endfilename %}
+   {% codeblock %}styles.css{% codeblock %}
    ```css
     h1, h2 {
         color: #637056;

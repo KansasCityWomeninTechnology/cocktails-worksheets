@@ -42,7 +42,7 @@ Now it's time to add the image to our website. We get to use our first attribute
 
 1. We need to add metadata to the `<img />` tag so that the browser knows what image to display. The first one we'll add is the image source, `src`. The `src` attribute tells your code where to look for your image. Place your cursor inside the`<img />` tag after the `g` and press `Space`. Type `src="FILENAME"`. Your image tag will look like this
 
-   {% filename %}index.html{% endfilename %}
+   {% codeblock %}index.html{% codeblock %}
    ```html
 <img src="FILENAME"/>
    ```
@@ -60,7 +60,7 @@ Now it's time to add the image to our website. We get to use our first attribute
 
 1. You can have more than 1 attribute on a HTML element. Image tags have another attribute for alternate content, `alt`. Inside the `img` tag after the `src` attribute, type `alt="Image of cocktail"`. You can replace "Image of cocktail" to text better describing your image. Your image tag will look like this
 
-   {% filename %}index.html{% endfilename %}
+   {% codeblock %}index.html{% codeblock %}
    ```html
 <img src="FILENAME" alt="Image of cocktail" />
    ```
@@ -130,7 +130,7 @@ A navbar isn't helpful if it doesn't navigate to the different sections of the w
 
 1. Links use the anchor element, `<a>`. We'll wrap the list items "About" and "Contact" in the navbar to link to their respective sections. In VS Code, place your cursor after the opening `<li>` tag and before the text **"About"** and type `<a>` to create a the anchor tag. Add the closing `</a>` after the text. The **"About"** text should now look like this:
 
-    {% filename %}index.html{% endfilename %}
+    {% codeblock %}index.html{% codeblock %}
     ```html
     <li><a>About</a></li>
     ```

@@ -4,7 +4,7 @@ Tonight we will learn front-end architecture and HTML.
 Follow the instructions on this page to prepare your workspace.
 
 >[!TIP]
->Open [Slack](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails girlfriends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any stumbling blocks tonight.
+>Open [Slack](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails friends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any stumbling blocks tonight.
 
 >[!WARNING]If you are borrowing a laptop, please ask your mentor to explain the tools.
 

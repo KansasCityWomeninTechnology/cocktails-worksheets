@@ -19,7 +19,7 @@
 
 1. Define borders between each drink in the drink menu by adding a dotted top border to each item in the list. In the style for `class="item"`, apply a thin dotted top border. The style will look like
     
-    {% filename %}styles.css{% endfilename %}
+    {% codeblock %}styles.css{% codeblock %}
     ```css
     .item {
         border-top: 1px dotted #637056;

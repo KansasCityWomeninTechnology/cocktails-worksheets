@@ -1,6 +1,6 @@
 1. Select a background color for the entire page and add it to the top of _styles.css_ by using the HTML `body` selector and `background-color` property. 
 
-   {% filename %}styles.css{% endfilename %}
+   {% codeblock %}styles.css{% codeblock %}
     ```css
     body {
         background-color: #fefaec;

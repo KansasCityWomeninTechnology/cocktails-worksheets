@@ -22,7 +22,7 @@ Let's start adding some visual elements to our web page by adding headers.
 
 1. Add the text "Cocktails with a side of Code". The body section should look something like this
 
-   {% filename %}index.html{% endfilename %}
+   {% codeblock %}index.html{% codeblock %}
     ```html
     <body>
         <h1>Coding's Cocktail Lounge</h1>
@@ -112,7 +112,7 @@ Using list elements is also helpful for accessibility since screenreaders utiliz
 
 1. Navigation sections have their own HTML element called `nav`. Add a `nav` element (don't forget the closing tag). Your code will look something like this.
 
-   {% filename %}index.html{% endfilename %}
+   {% codeblock %}index.html{% codeblock %}
     ```html
     <body>
         <nav>

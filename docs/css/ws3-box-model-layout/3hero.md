@@ -2,7 +2,7 @@
 
 1. Add a background image to hero section by adding 
     
-   {% filename %}styles.css{% endfilename %}
+   {% codeblock %}styles.css{% codeblock %}
    ```css   
       background: url("../images/hero.jpg") no-repeat center top;
    ```

@@ -11,7 +11,7 @@
    
    The `<head>` section of your HTML should look like this:
 
-      {% filename %}index.html{% endfilename %}
+      {% codeblock %}index.html{% codeblock %}
     ```html
     <head>
       <meta charset="UTF-8">

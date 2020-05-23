@@ -1,6 +1,6 @@
 1. We don't want the bullets for any lists. Remove the bullets for all `ul` by creating a global style and setting the `list-style-type` property to "none". Your code should look like this.
 
-    {% filename %}styles.css{% endfilename %}
+    {% codeblock %}styles.css{% codeblock %}
     ```css
     ul {
         list-style-type: none;
@@ -26,7 +26,7 @@
 
 1. In the second definition of the style, add the **Pseudo Class** `first-child` and define the `margin-top` property using the value "0". We are overriding the previous style selectively for the first child, or the first element of the list. Your code should look like this
 
-  {% filename %}styles.css{% endfilename %}
+  {% codeblock %}styles.css{% codeblock %}
     ```css
     .small-plates li:first-child {
         margin-top: 0;

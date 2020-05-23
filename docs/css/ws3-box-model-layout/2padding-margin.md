@@ -7,7 +7,7 @@
 ### Navigation and Footer
 1. Add padding between the list items in the navigation bar by declaring a new style and adding the `padding` property to look something like
     
-    {% filename %}styles.css{% endfilename %}
+    {% codeblock %}styles.css{% codeblock %}
     ```css
     nav li {
         padding: 2px;

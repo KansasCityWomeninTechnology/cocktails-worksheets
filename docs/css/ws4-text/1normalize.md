@@ -1,6 +1,6 @@
 1. Add the following to the top of _styles.css_.
     
-    {% filename %}styles.css{% endfilename %}
+    {% codeblock %}styles.css{% codeblock %}
     ```css
     /* Reset */
     html, body, div, h1, h2, h3, h4, h5, h6, p, a,

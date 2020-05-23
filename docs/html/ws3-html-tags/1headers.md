@@ -13,7 +13,7 @@
 
 1. Add the text "Cocktails with a side of Code". The body section should look something like this
 
-   {% filename %}index.html{% endfilename %}
+   {% codeblock %}index.html{% codeblock %}
     ```html
     <body>
         <h1>Coding's Cocktail Lounge</h1>
