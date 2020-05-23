@@ -29,7 +29,7 @@ Websites have eye catching images. Let's find one we like and get it ready to ad
     >Create folders and move the cocktail image to use the same directory structure we used to group images together in the front-end architecture portion of the worksheet. 
 
 
-## Add an image
+# Add an image
 Now it's time to add the image to our website. We get to use our first attributes to provide the info the browser needs to display the image.
 
 <!-- [filename](./2image.md ':include') -->
@@ -69,7 +69,7 @@ Now it's time to add the image to our website. We get to use our first attribute
    >The `alt` attribute content displays if the browser can't show (aka **render**) your image. Screen readers use the `alt` for better accessibility to help visually impaired users of the site.
    
 
-1. Save your file and preview it in Chrome. Do you see your image? ![](../images/emojis/party-popper.png)
+1. Save your file and preview it in Chrome. Do you see your image? ![](../../images/emojis/party-popper.png)
 
    >[!TIP]
    >Not seeing your image? Try opening up Chrome DevTools to see if there's an error. Does your filename of the image match up to what's in the `src` attribute?
@@ -77,7 +77,7 @@ Now it's time to add the image to our website. We get to use our first attribute
 
 
 
-## Set up an text input element
+# Set up an text input element
 Some websites have the ability to subscribe to a mailing list. We won't set up the HTML form elements necessary to make it work, but we can practice learning about HTML elements and attributes by setting up a text input element.
 
 <!-- [filename](./3input.md ':include') -->
@@ -122,8 +122,7 @@ Some websites have the ability to subscribe to a mailing list. We won't set up t
 1. Save your file and preview it in Chrome.
 
 
-
-## Use `anchor` elements for navigation 
+# Use `anchor` elements for navigation 
 A navbar isn't helpful if it doesn't navigate to the different sections of the webpage. In this section we'll add `anchor` elements to the list of sections in the navbar and make it link their respective section in the webpage. The linked section also needs an attribute for hyperlinks to work.
 
 <!-- [filename](./4link.md ':include') -->
@@ -168,7 +167,7 @@ A navbar isn't helpful if it doesn't navigate to the different sections of the w
 
 
 
-## Add tags to improve SEO 
+# Add tags to improve SEO 
 Your website is almost done! Now we want to apply concepts we learned about **S**earch **E**ngine **O**ptimization (SEO) to make your web page easier for search engines like Google to index.
 
 <!-- [filename](./5metatags.md ':include') -->
