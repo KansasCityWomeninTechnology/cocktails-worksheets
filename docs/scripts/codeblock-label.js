@@ -1,60 +1,51 @@
 (function () {
-  const REGEX = /<p>\s*{% codeblock (.+?)?\s?%}(.+?){% codeblock %}<\/p>(<pre[\S\s]+?<\/pre>)/g;
-
-  const buttonListener = (evt) => {
-    navigator.clipboard.writeText(evt.target.previousSibling.innerText)
-      .then(() => {
-          evt.target.classList.add('success');
-          setTimeout(() => evt.target.classList.remove('success'), 1000);
-        }, 
-        ()=> {
-          evt.target.classList.add('error');
-          setTimeout(() => evt.target.classList.remove('error'), 1000);
-        }
-      );
-  };
+  const REGEX = /<p>\s*{% codeblock (.+?)?\s?%}(.+?)?{% codeblock %}<\/p>(<pre[\S\s]+?<\/pre>)/g;
 
   const install = (hook, vm) => {
     hook.afterEach(function (html, next) {
-      const modifiedHtml = html.replace(REGEX, (match, copyButton, filename, code) => {
+      const modifiedHtml = html.replace(REGEX, (match, copy, filename, code) => {
         
-        const label = filename ? `<p class="cnc-codeblock-label">${filename}</p>` : '';
-        const data = copyButton ? 'data-cnc-copy-button' : '';
+        const copyButton = copy ? `
+        <button class="cnc-copy-code-button">
+          <span><i class="far fa-copy"></i>&nbsp;Copy</span>
+          <div class="cnc-copy-code-indicator cnc-copy-code-hide">
+            <span><i class="fas fa-check"></i> Copied</span>
+          </div>
+        </button>` : '';
+        const filenameLabel = filename ? `<span class="cnc-filename-label">${filename}</span>` : `<span class="cnc-filename-label"></span>`;
 
         return `
-        <div class="cnc-codeblock-label" ${data}>
-          ${label}
+        <div class="cnc-codeblock-label">
+          <div class="cnc-codeblock-label-header">${filenameLabel}${copyButton}</div>
           ${code}
         </div>
         `;
-      
       });
 
       next(modifiedHtml);
-    });
-
-    hook.doneEach(() => {
-      const targetElms = [...document.querySelectorAll('div[data-cnc-copy-button] > pre[data-lang]')];      
-      const template = `<button class="cnc-copy-code-button"><span class="label">Click to copy</span><span class="error">Error</span><span class="success">Copied!</span></button>`;
-
-      targetElms.forEach(elm => {
-          elm.insertAdjacentHTML('beforeend', template);
-      });
     });
 
     hook.ready(function() {
       const listenerHosts = [...document.querySelectorAll('button.cnc-copy-code-button')];
       listenerHosts.forEach( el => el.addEventListener('click', (evt) => {
 
+        let codeNode = evt.target.parentNode;
+        while(codeNode.tagName !== 'DIV' || ![...codeNode.classList].find(name => name === 'cnc-codeblock-label')) {
+          codeNode = codeNode.parentNode;
+        }
+        codeNode = codeNode.querySelector('code');
+
+        let buttonNode = evt.target;
+        while(buttonNode.tagName !== 'BUTTON') {
+          buttonNode = buttonNode.parentNode;
+        }
+
         navigator.clipboard
-          .writeText(evt.target.previousSibling.innerText)
+          .writeText(codeNode.innerText)
           .then(() => {
-            evt.target.classList.add('success');
-            setTimeout(() => evt.target.classList.remove('success'));
-          }, () => {
-            evt.target.classList.add('error');
-            setTimeout(() => evt.target.classList.remove('error'));
-          });
+            buttonNode.lastElementChild.classList.remove('cnc-copy-code-hide');
+            setTimeout(() => buttonNode.lastElementChild.classList.add('cnc-copy-code-hide'), 3000);
+          }, () => {});
       }));
     });
 
