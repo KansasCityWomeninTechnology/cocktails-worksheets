@@ -25,7 +25,7 @@
       next(modifiedHtml);
     });
 
-    hook.ready(function() {
+    hook.doneEach(function() {
       const listenerHosts = [...document.querySelectorAll('button.cnc-copy-code-button')];
       listenerHosts.forEach( el => el.addEventListener('click', (evt) => {
 
