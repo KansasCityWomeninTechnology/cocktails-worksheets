@@ -8,6 +8,6 @@ Install the tools, then navigate to tonight's session.
 
 # Session Worksheets
 
-Session worksheets are available on the day of the session.
 <!-- * [The Glass: HTML](/html/)
 * [The Garnish: CSS](/css/) -->
+* [SPA Session 1 - Scaffolding](/spa/1scaffold/README.md)
