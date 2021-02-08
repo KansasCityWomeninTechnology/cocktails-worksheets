@@ -15,7 +15,7 @@ Follow the instructions on this page to prepare your workspace.
 
 # Required tools for this session
 
-You don't need all the tools for tonight's session. If you haven't installed all the tools listed in [The Tools](https://bit.ly/CnCTheTools) guide already, use the following list to install the required tools for the worksheet:
+You don't need all the tools for tonight's session. If you haven't installed all the tools listed in [The Tools](/tools/ ':target=_blank') guide already, use the following list to install the required tools for the worksheet:
 
 >[!WARNING]If you are borrowing a laptop, your tools are pre-installed. Please ask your mentor to explain the tools we are using tonight.
 
@@ -33,7 +33,7 @@ You don't need all the tools for tonight's session. If you haven't installed all
 Create a folder named "session2" in your "CodingAndCocktails" folder by following the steps below
 
 1. Open a file explorer and navigate to your home directory.
-   >[!TIP]
+>[!TIP]
 >Your home directory is typically `/users/<your user name>` on a Mac or `C:/Users/<your user name>` on a Windows machine.
 >
 >**Windows users**- You can navigate to your home directory by typing `%USERPROFILE%` in the file location bar of File Explorer and pressing `Enter`. 
