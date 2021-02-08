@@ -1,5 +1,5 @@
 (function () {
-  const REGEX = /<p>\s*{% codeblock (.+?)?\s?%}(.+?)?{% codeblock %}<\/p>(<pre[\S\s]+?<\/pre>)/g;
+  const REGEX = /<p>\s*{% codeblock ([a-z ]+?)?%}(.+?)?{% codeblock %}<\/p>(<pre[\S\s]+?<\/pre>)/g;
 
   const install = (hook, vm) => {
     hook.afterEach(function (html, next) {
