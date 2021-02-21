@@ -1,4 +1,4 @@
-![](images/vscode-logo.png)
+![Visual Studio Code logo](images/vscode-logo.png)
 
 # Text Editor: Microsoft Visual Studio Code
 
@@ -14,68 +14,74 @@ After downloading we will configure it with extra tools called _extensions_ that
 >[!TIP]
 >You'll often hear Visual Studio Code referred as VS Code.
 
-
-
 # Download and install Visual Studio Code :id=download
 
 Navigate to [Visual Studio Code download site](https://code.visualstudio.com/download) and click the download button for your Operating System. This will start downloading the VS Code installer. Run through the installation process.
 
 When the installation is complete, launch Visual Studio Code if it didn't open automatically. You will see a welcome screen that looks something like this.
 
-![](images/vs-code-welcome.png)
-
+![Visual Studio Code welcome screen](images/vs-code-welcome.png)
 
 # Configuring Visual Studio Code :id=configure
+
 Next, to get the most out of Visual Studio Code, we need to install extensions.
 
 If you have ever downloaded and installed a custom font to use in your word processing program, installing extensions is similar. They are features that can be individually installed to enhance your experience.
 
 We will install required extension and list optional extensions you can install at the end of the page to add a little pizzazz to your coding experience.
 
+# Required Extensions
 
-## Required Extensions
-Install the following required extensions:
+Install the required extensions:
 
-* [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)- Provides HTML hints and helps identify potential mistakes 
-* [Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)- Adds indention guide lines making it easier for you to match tags in HTML, class style definitions in CSS, and nested JavaScript code
-* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)- Opens a tab in your default browser to view static webpages and automatically refreshes the webpage whenever you save changes in VS Code
-* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)- Changes colors of opening and closing pairs of brackets to make it easier to identify nested JavaScript code
+* [Angular Essentials](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials) - An all in one extension covering the needs for Angular developers
 
+<!-- * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)- Opens a tab in your default browser to view static webpages and automatically refreshes the webpage whenever you save changes in VS Code -->
 
-To start installing extensions
-1. Select the **Extensions** icon on the left toolbar. 
-2. Type the name of the extension in the input, in this case, type "HTMLHint". 
-3. Find "HTMLHint" by Mike Kaufman and press the **Install** button to the install the extension. You can press the **Install** button directly in the search results or in the extension's information page.
+To install extensions
 
-![Visual Studio Code Extensions Menu](./images/vs-code-install-extensions.png)
+1. Select the **Extensions** icon on the left toolbar.
+2. Type the name of the extension in the input, such as, type "Angular Essentials". 
+3. Find "Angular Essentials" by John Papa and press the **Install** button to the install the extension. You can press the **Install** button directly in the search results or in the extension's information page.
 
-Repeat the 3 steps to install the other required extensions.
+<!-- ![Visual Studio Code Extensions Menu](./images/vs-code-install-extensions.png) -->
+
+Repeat the 3 steps to install other extensions.
 
 Visual Studio Code may prompt you to reload after installing an extension. Make sure you press the **Reload** button when prompted or restart Visual Studio Code after installing all the required extensions if you didn't restart for each extension.
 
 # Optional - Review tips for using Visual Studio Code :id=tips
 
 ## Uninstall or Disable an Extension
+
 To uninstall or disable an extension, open the Extensions menu like we did above. VS Code displays your enabled extensions. Select the extension you want to uninstall or disable to view the extensions information page. Press the **Uninstall** or **Disable** button.
 
 ## Splitting the Screen
+
 Right click on the tab you want to view in split mode and select an option to **Split Up**, **Split Down**, **Split Left**, or **Split Right**. Once you split your view, you can drag tabs over to the other columns or rows.
 
 # Optional - Customize Visual Studio Code :id=customize
+
 There are optional plugins and themes you can install to help customize your IDE and make it your own. Open the **Extensions** menu, search for the extension name, and click install.
 
-## Additional Plugins
+## Optional Extensions
 
-* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)- Adds icons to files in the **Explorer** view to make it easier to find files
+Here's some recommended extensions to help make your coding life easier:
+
+* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)- Changes colors of opening and closing pairs of brackets to make it easier to identify nested JavaScript code
+* [Guides](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)- Adds indention guide lines making it easier for you to match tags in HTML, class style definitions in CSS, and nested JavaScript code
+* [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)- Provides HTML hints and helps identify potential mistakes
+<!-- * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)- Adds icons to files in the **Explorer** view to make it easier to find files -->
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)- Calls attention to misspellings in your code. This is particularly helpful to ensure variable names are spelled correctly.
 
 ## Themes
+
 Make it look pretty with themes. You will install themes the same way you install extensions.
 
 Visual Studio Code comes with a couple of themes built in, but you can find colors that speak to your personality by searching for themes in the **Extension** input. Type "@category:themes" to limit the extension search results to only show theme extensions.
 
 > [!TIP]
-> Click on the theme in the search results to view an example of the theme colors. 
+> Click on the theme in the search results to view an example of the theme colors.
 
 Some popular themes include
 * [Winter is Coming Theme](https://marketplace.visualstudio.com/items?itemName=johnpapa.winteriscoming)- Has both dark and light variants built in
@@ -92,8 +98,8 @@ Select the color theme you want to use in the **Color Theme** selector. To open 
 
 In the **Color Theme** selector, select the theme you like out of the list.
 
-
 ## Keyboard Shortcuts :id=keyboard-shortcuts
+
 **Open VS Code in a folder from command line:** `code .`
 
 >[!INFO]
@@ -116,8 +122,8 @@ In the **Color Theme** selector, select the theme you like out of the list.
 | Save | `cmd` + `s` | `ctrl` + `s` |
 | Toggle comment | `cmd` + `f` | `ctrl` + `f` |
 | Go to file | `cmd` + `p` | `ctrl` + `p` |
-| Open terminal pane | `ctrl` + \` | `ctrl` + \` |
-| Create new terminal | `ctrl` + `shift` + \` | `ctrl` + `shift` + \` |
+| Open terminal pane | `ctrl` + `` ` `` | `ctrl` + `` ` `` |
+| Create new terminal | `ctrl` + `shift` + `` ` `` | `ctrl` + `shift` + `` ` `` |
 | Auto-format file | `shift` + `option` + `f` | `shift` + `alt` + `f` |
 | Auto-format selection | `cmd`+ `k` `cmd` + `f` | `ctrl`+ `k` `ctrl` + `f` |
 | Indent | `cmd` + `]` | `ctrl` + `]` |
