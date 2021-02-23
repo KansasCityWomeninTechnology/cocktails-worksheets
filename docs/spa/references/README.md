@@ -36,8 +36,8 @@
 | Save | `cmd` + `s` | `ctrl` + `s` |
 | Toggle comment | `cmd` + `f` | `ctrl` + `f` |
 | Go to file | `cmd` + `p` | `ctrl` + `p` |
-| Open terminal pane | `ctrl` + \` | `ctrl` + \` |
-| Create new terminal | `ctrl` + `shift` + \` | `ctrl` + `shift` + \` |
+| Open terminal pane | `ctrl` + `` ` `` | `ctrl` + `` ` `` |
+| Create new terminal | `ctrl` + `shift` + `` ` `` | `ctrl` + `shift` + `` ` `` |
 | Auto-format file | `shift` + `option` + `f` | `shift` + `alt` + `f` |
 | Auto-format selection | `cmd`+ `k` `cmd` + `f` | `ctrl`+ `k` `ctrl` + `f` |
 | Indent | `cmd` + `]` | `ctrl` + `]` |

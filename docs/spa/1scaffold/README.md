@@ -35,7 +35,7 @@ You should see something that looks like this.
 
 # Application foundation
 
-Let's create the app! In your command line application, navigate to your Coding & Cocktails code directory.
+Let's create the app! In your command line application, navigate to your Coding & Cocktails code directory. This is where we'll create the project.
 
 {% codeblock %}terminal{% codeblock %}
 ```sh
@@ -49,7 +49,7 @@ To scaffold a new Angular application named "triva", run the following Angular C
 ng new trivia
 ```
 
-The `ng new` command prompts you for information about features to include in the app. We recommend selecting the default for the questions by pressing `Enter` for each, but you may elect to a different stylesheet format as shown below:
+The `ng new` command prompts you for information about features to include in the app. We recommend selecting the default for the questions by pressing `Enter` for each, but you may elect to use a different stylesheet format as shown below:
 
 1. Do you want to enforce stricter type checking and stricter bundle budgets in the workspace? (y/N): **N**
 2. Would you like to add Angular routing? (y/N): **N**
@@ -69,7 +69,9 @@ cd trivia
 
 # Open the application in your IDE
 
-Let's open the code up in the IDE to make it easier to work.
+Let's open the code up in the IDE to get a tour of the files and make code changes.
+
+Open the "trivia" project folder in VS Code.
 
 >[!TIP]
 >Open the current working directory in VS Code by running
@@ -86,7 +88,7 @@ We'll take a quick tour of the code that Angular CLI generated and see how Angul
 
 In the top level "trivia" directory, there are configuration files used to compile, test, and run your application. Because Angular uses TypeScript, there are configuration files to define how the TypeScript compiler generates JavaScript code.
 
-Open _package.json_ and take a look at the settings. Here, you see basic **npm** commands that wrap Angular CLI commands as a convenience, and the list of dependencies. 
+Open _package.json_ and take a look at the settings. Here, you see basic **npm** commands that wrap Angular CLI commands as a convenience, and the list of dependencies.
 
 >[!INFO]
 >We'll use the Angular CLI commands in the worksheets, but you could use the npm commands for certain operations.

@@ -8,5 +8,6 @@ Install the tools, then navigate to tonight's session.
 
 # Session Worksheets
 
-* [The Glass: HTML](/html/)
-* [The Garnish: CSS](/css/)
+Session worksheets are available on the day of the session.
+<!-- * [The Glass: HTML](/html/)
+* [The Garnish: CSS](/css/) -->
