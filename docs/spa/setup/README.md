@@ -17,7 +17,7 @@ Additionally, we recommended knowledge of JavaScript ES6 constructs and API fund
 
 ## Required tools for this session
 
-All of the tools listed below are required.
+All of the tools listed below are required. Open a new tab for [tools installation instructions](/tools/ ':target=_blank') to find more detailed installation instructions.
 
 ### Browser
 
@@ -26,6 +26,8 @@ A modern browser such as [Google Chrome](https://www.google.com/chrome/browser/d
 ### Terminal application
 
 We will use the command line and a **C**ommand **L**ine **I**nterface. Use the terminal application you are most familar with. Some examples of terminal applications include iTerm2 or Terminal for macOS and Cmder or GitBash for Windows OS. You may need your terminal application open for the next few required tools depending on your OS configuration.
+
+In the session worksheets, we'll use the terminal built in to Visual Studio Code IDE.
 
 ### Node & npm
 
