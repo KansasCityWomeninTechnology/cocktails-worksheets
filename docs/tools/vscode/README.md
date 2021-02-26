@@ -22,13 +22,16 @@ When the installation is complete, launch Visual Studio Code if it didn't open a
 
 ![Visual Studio Code welcome screen](images/vs-code-welcome.png)
 
+>[!TIP]
+>**macOS users** Add VS Code to your system path by following the [instructions on VS Code's install page](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
+
 # Configuring Visual Studio Code :id=configure
 
 Next, to get the most out of Visual Studio Code, we need to install extensions.
 
 If you have ever downloaded and installed a custom font to use in your word processing program, installing extensions is similar. They are features that can be individually installed to enhance your experience.
 
-We will install required extension and list optional extensions you can install at the end of the page to add a little pizzazz to your coding experience.
+We will install required extensions and list optional extensions you can install at the end of the page to add a little pizzazz to your coding experience.
 
 # Required Extensions
 

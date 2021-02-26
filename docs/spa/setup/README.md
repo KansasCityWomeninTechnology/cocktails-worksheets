@@ -2,8 +2,6 @@
 
 Tonight we will use a SPA framework to create a web application. Follow the instructions on this page to prepare your workspace.
 
-Follow the instructions on this page to prepare your workspace.
-
 >[!TIP]
 >Open [Slack](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails friends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any stumbling blocks tonight.
 
@@ -58,6 +56,9 @@ Install or update your version of [Git](https://git-scm.com/downloads) to ensure
 Use your favorite IDE. We recommend [Microsoft Visual Studio Code](https://code.visualstudio.com/download).
 
 Install extensions needed for Angular development. We recommend [John Papa's "Angular Essentials"](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials) as an all in one extension covering all the needs for an Angular developer.
+
+>[!TIP]
+>**macOS users** Add VS Code to your system path by following the [instructions on VS Code's install page](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
 
 ### Coding & Cocktails Directory
 

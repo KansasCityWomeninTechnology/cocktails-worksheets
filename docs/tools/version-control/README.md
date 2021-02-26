@@ -8,9 +8,13 @@ Git is a tool that helps you manage versions of your code and work in collaborat
 
 Close Visual Studio Code if you have it open.
 
-In Google Chrome go to [https://git-scm.com/downloads](https://git-scm.com/downloads). Select the installer for your OS, **Windows Installer** or **macOS Installer**, to download the installer. If you use Linux, download the binaries appropriate for your distribution of Linux.
+In Google Chrome go to [https://git-scm.com/downloads](https://git-scm.com/downloads). Select the installer for your OS.
 
-Run through the installer and select all default options.
+**Windows Users** - The installer will download. Run through the installer and select all default options.
+
+**macOS Users** - Follow the instructions on the download page to install through Homebrew or download the binaries.
+
+**Linux Users** - Follow the instructions on the download page appropriate for your distribution of Linux.
 
 # Initialize User Settings
 

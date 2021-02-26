@@ -73,15 +73,21 @@ Let's open the code up in the IDE to get a tour of the files and make code chang
 
 Open the "trivia" project folder in VS Code.
 
->[!TIP]
->Open the current working directory in VS Code by running
+>[!INFO]
+>You can open the current working directory in VS Code by running
 >```sh
 >  code .
 >  ```
+>If VS Code doesn't open, it may not be available in your system path.
+>
+>**Windows users** - close your terminal and reopen it.
+>
+>**macOS users** - follow the [instructions on VS Code's install page](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
 
 >[!TIP]
 >Did you know you can access your terminal within VS Code?
 >Help declutter your workspace and use VS Code's integrated terminal by navigating to **View** :fas fa-long-arrow-alt-right: **Terminal**.
+>
 >Read more about [VS Code's Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
 
 We'll take a quick tour of the code that Angular CLI generated and see how Angular organizes code into different directories in VS Code.
