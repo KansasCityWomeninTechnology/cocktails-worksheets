@@ -2,7 +2,7 @@
 
 We will create a web application using a SPA framework with interactive elements and dynamic content that looks like this:
 
-![Completed trivia application](../images/app.gif)
+![Completed trivia application](../images/app.gif ':size=500')
 
 >[!WARNING]
 >Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for tonight's work.

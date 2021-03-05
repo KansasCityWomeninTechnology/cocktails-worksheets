@@ -13,7 +13,7 @@ Single Page Applications provide a more native app-like experience to users, whi
 
 We will create a web application using a SPA framework with interactive elements and dynamic content that looks like this:
 
-![Completed trivia application](images/app.gif)
+![Completed trivia application](images/app.gif ':size=600')
 
 >[!TIP]
 >First time at Coding & Cocktails?   [Click here to Install the Tools!](/tools/ ':target=_blank')
