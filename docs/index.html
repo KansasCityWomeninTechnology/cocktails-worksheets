@@ -28,9 +28,13 @@
       repo: '', 
       coverpage: true,
       logo: 'images/logo.png',
+      loadNavbar: true,
       loadSidebar: true,
       relativePath: true,
       auto2top: true,
+      alias: {
+      '/.*/_navbar.md': '/_navbar.md',
+      },
       pagination: {
         crossChapter: true,
         crossChapterText: false
@@ -49,5 +53,6 @@
   <script src="scripts/callout.js"></script>
   <script src="scripts/codeblock-label.js"></script>
   <script src="scripts/cloud-ide.js"></script>
+  <script src="scripts/remove-navbar-from-cover.js"></script>
 </body>
 </html>
