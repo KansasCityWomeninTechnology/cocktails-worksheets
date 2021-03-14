@@ -20,6 +20,13 @@ article.markdown-section > h1:not(:first-child) {
    border-radius: 6px;
 }
 
+.cnc-hide-element {
+   display: none;
+}
 
+/* Fix TOC plugin not taking into account navbar */
+.page_toc {
+   top: 70px;
+}
 
 
