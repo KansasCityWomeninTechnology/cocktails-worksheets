@@ -10,4 +10,4 @@ Install the tools, then navigate to tonight's session.
 
 <!-- * [The Glass: HTML](/html/)
 * [The Garnish: CSS](/css/) -->
-* [SPA Session 1 - Scaffolding](/spa/1scaffold/README.md)
+* [Angular Series Session 1 - SPA Day](/spa/)
