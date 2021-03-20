@@ -17,7 +17,7 @@ Tonight we will add on to the code by adding a new component and setting up rout
 Open the "trivia" project in your IDE. We recommend using Visual Studio Code. Open VS Code and navigate to your project directory.
 
 >[!TIP]
->If you are a terminal poweruser, you can navigate to your "trivia" project folder and open the current working directory in VS Code by running
+>If you are a terminal poweruser, you can navigate to your "trivia" project folder in your terminal and open the current working directory in VS Code by running
 >```sh
 >  code .
 >  ```
@@ -30,14 +30,14 @@ In VS Code, open a terminal window. It should automatically open to your project
 >Open a terminal window in VS Code by navigating to **View** :fas fa-long-arrow-alt-right: **Terminal**.
 >Read more about [VS Code's Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
 
-Let's run the application. We use Angular CLI to serve the webpage so we can view it locally. Run the following code in VS Code's terminal:
+Let's run the application. We use Angular CLI to serve the webpage so we can view it locally. Run the following code in VS Code's terminal to serve the app:
 
 {% codeblock copy %}terminal{% codeblock %}
 ```sh
 ng serve
 ```
 
-In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app. Angular scaffolds a basic webpage with links to their documentation and help to continue building the app that looks something like this except you'll see the title of your app in the top banner:
+In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app. Angular scaffolds a basic webpage with links to their documentation and help to continue building the app that looks something like this except you'll see the title of your app in the top banner next to the rocket icon:
 
 ![Angular basic scaffolded app](https://angular.io/generated/images/guide/setup-local/app-works.png)
 
@@ -87,7 +87,7 @@ The HTML template for the `AppComponent` resides in the _app.component.html_. Th
 >
 >3. `styleUrls` - the name of the external stylesheets for this component (Styles can be internal to the component file.)
 >
->The `class AppComponent` contains business-logic for the component. We'll add business logic in a later session.
+>The `class AppComponent` contains behaviors and business-logic for the component. We'll add business logic in a later session.
 >
 >The _app.component.spec.ts_ file is for writing tests, which is outside the scope of our sessions.
 >
@@ -158,13 +158,18 @@ footer {
 }
 ```
 
+>[!EXTRACREDIT]
+>We're using Flexbox to help position the content. Take a moment to understand the CSS.
+>
+>**M**ozilla **D**eveloper **N**etwork (**MDN**) is a great resource to learn or review in their [CSS Flexible Box Layout documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout). Feel free to talk through the CSS with your mentor too!
+
 Take a look at the app in Chrome. Do you see a header and footer with blank space between? It's now time to fill that blank space with a new component!
 
 # Create a trivia component
 
 Before we get into the instructions, let's talk about what our goals are for the trivia component. We want to display our trivia questions within the trivia component so that we can keep our components small and focused.
 
-We could put the trivia questions directly in the App component, but what happens when we want to add an "About" page or add a new feature to the app, such as ~silly Buzzfeed like~ very important quizzes that try to match your personality to questions about tacos?
+We could put the trivia questions directly in the App component, but what happens when we want to add an "About" page or add a new feature to the app, such as very important quizzes that try to match your personality to questions about tacos?
 
 It sounds like there's lots of good reasons to create a trivia component. Let's get going!
 
@@ -177,11 +182,14 @@ In the new terminal, we'll use Angular CLI to create the component. Run the foll
 
 {% codeblock copy %}app.component.html{% codeblock %}
 ```sh
-ng g component trivia
+ng generate component trivia
 ```
 
 >[!INFO]
 >This creates a "src/app/trivia" directory with 4 files in it: _trivia.component.html_, _trivia.component.css_, _trivia.component.ts_ & _trivia.component.spec.ts_.  The _*.spec.ts_ files are for testing your code (to make sure your code works), but we won't be adding tests as part of the SPA sessions.
+
+>[!TIP]
+>That's too much typing for a commandline operation! Angular CLI supports shortcuts to generate components too. You can use single character shortcuts to **g**enerate a **c**omponent, so we could also run `ng g c trivia`.
 
 ## Set up the Trivia component HTML
 
@@ -230,7 +238,7 @@ We'll skip looking at _trivia.component.ts_ for now as we have no changes to mak
 
 # Add routing
 
-Right now the app has one route, and one view. When we add routing, we can change the view when we change the route. This is helpful when you have an "About" page or another page not dedicated to showing trivia questions.
+Right now the app has one route, and one view. When we add routing, we can change the view when we change the route. This is helpful when you have an "About" page or another page not dedicated to showing trivia questions, such as that taco-based personality quiz.
 
 Let's take a look at a diagram that shows the final setup for our app that we'll create by the end of this session.
 * `<app-root>`-the first component to load and a container for other components. This is the App component.
@@ -337,7 +345,9 @@ Our first route is complete!
 
 ## Add default and fallback routes
 
-We want to display the trivia component when the app first loads, without having to specify `/trivia` in the URL. We can set the default route to display `TriviaComponent` too. Create another entry in the `routes` array after the first where the path is an empty string `''`, and the component is `TriviaComponent`.
+We want to display the trivia component when the app first loads, without having to specify `/trivia` in the URL. We can set the default route to display `TriviaComponent` too. 
+
+Create another entry in the `routes` array after the first where the path is an empty string `''`, and the component is `TriviaComponent`.
 
 >[!HINT]
 >Add the following route object to your array: `{ path: '', component: TriviaComponent}`.
@@ -346,12 +356,14 @@ We want to display the trivia component when the app first loads, without having
 >
 >```ts
 >const routes: Routes[] = [
->  { path: "trivia", component: TriviaComponent },
->  { path: "", component: TriviaComponent }  
+>  { path: 'trivia', component: TriviaComponent },
+>  { path: '', component: TriviaComponent }  
 >];
 >```
 
-Lastly, we want to handle the case where the user accidentally mistypes a url to a route that doesn't exist in the application. This time we'll set up a redirect to a defined path. Add a final entry to the `routes` array, using `path: '**'` and a new property, `redirectTo: ''`.
+Lastly, we want to handle the case where the user accidentally mistypes a url to a route that doesn't exist in the application. This time we'll set up a redirect to a defined path. 
+
+Add a final entry to the `routes` array, using `path: '**'` and a new property, `redirectTo: ''`.
 
 >[!INFO]
 >What's going on?
@@ -379,13 +391,21 @@ Check out the app in Chrome. Do you see your Trivia component?
 
 # Check your code in to GitHub
 
-We covered a lot today and added a bit on to our app! Let's get code into GitHub so we don't lose our work for upcoming sessions.
+We covered a lot today and added a bit on to our app! Let's get the code into GitHub so we don't lose our work for upcoming sessions.
 
 Stage your changes using `git add .` and commit with a message of your chosing. Push your changes to your `main` branch.
-
 # Next sessions
 
 In the upcoming sessions we'll use component data communication patterns to help keep our trivia app modular, use data binding to calculate scores, and call to load trivia questions from an API.
+
+>[!EXTRACREDIT]
+>Do you want to keep working on your app between sessions? We have some ideas for you to try. Feel free to message us in #codingandcocktails Slack channel if you need help between sessions!
+>
+>1. Add more flair to your app by picking out fonts and applying the font to your app. We recommend using [Google Fonts](https://fonts.google.com/).
+>2. Feel free to chang up the colors of the app!
+>3. Ready for a challenge? How about generating a new component for your "About" page, and add a new route named 'about'. Add the new route to the route array. Read more from Angular's [route order documentation](https://angular.io/guide/router#route-order) to understand where to add the new route definition in the array.
+
+# Answer key
 
 >[!CODECHECK]
 >Check your code by [viewing the completed code in StackBlitz cloud IDE](https://stackblitz.com/github/KansasCityWomeninTechnology/trivia/tree/component).
