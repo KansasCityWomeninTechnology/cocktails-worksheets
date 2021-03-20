@@ -1,5 +1,5 @@
 (function () {
-   const HOME_LOCATION = /#\/\??/g;
+   const HOME_LOCATION = /#\/\??(?![a-z]+)/gi;
    const install = (hook, vm) => {
      hook.doneEach(function() {
       if (HOME_LOCATION.test(window.location.hash)) {
