@@ -402,8 +402,8 @@ In the upcoming sessions we'll use component data communication patterns to help
 >Do you want to keep working on your app between sessions? We have some ideas for you to try. Feel free to message us in #codingandcocktails Slack channel if you need help between sessions!
 >
 >1. Add more flair to your app by picking out fonts and applying the font to your app. We recommend using [Google Fonts](https://fonts.google.com/).
->2. Feel free to chang up the colors of the app!
->3. Ready for a challenge? How about generating a new component for your "About" page, and add a new route named 'about'. Add the new route to the route array. Read more from Angular's [route order documentation](https://angular.io/guide/router#route-order) to understand where to add the new route definition in the array.
+>2. Feel free to change up the colors of the app!
+>3. Ready for a challenge? How about generating a new component for your "About" page, and adding a new route named 'about'. Add the new route to the route array. Read more from Angular's [route order documentation](https://angular.io/guide/router#route-order) to understand where to add the new route definition in the array.
 
 # Answer key
 
