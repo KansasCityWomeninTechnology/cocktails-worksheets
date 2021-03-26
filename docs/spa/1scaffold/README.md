@@ -121,7 +121,7 @@ ng serve
 >2. Start a local server on your computer so you can view your project before making it live on the internet
 >3. Watch your project files for changes so that when one of them changes it will automatically reload in the browser for you and avoid the step of having to press the **Refresh** button to see every update you make.
 
-In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app. Angular scaffolds a basic webpage with links to their documentation and help to continue building the app that looks something like this except you'll see your app name "trivia" in the banner where the text "my-app app is running" is:
+In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app. Angular scaffolds a basic webpage with links to their documentation and help to continue building the app that looks something like this, except you'll see your app name "trivia" in the banner where the text "my-app app is running" is:
 
 ![Angular basic scaffolded app](https://angular.io/generated/images/guide/setup-local/app-works.png)
 
