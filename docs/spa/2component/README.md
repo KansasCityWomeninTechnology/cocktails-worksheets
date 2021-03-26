@@ -37,7 +37,7 @@ Let's run the application. We use Angular CLI to serve the webpage so we can vie
 ng serve
 ```
 
-In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app. Angular scaffolds a basic webpage with links to their documentation and help to continue building the app that looks something like this except you'll see the title of your app in the top banner next to the rocket icon:
+In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to see your working (basic) app. Angular scaffolds a basic webpage with links to their documentation and help to continue building the app that looks something like this, except you'll see the title of your app in the top banner next to the rocket icon:
 
 ![Angular basic scaffolded app](https://angular.io/generated/images/guide/setup-local/app-works.png)
 
@@ -91,7 +91,7 @@ The HTML template for the `AppComponent` resides in the _app.component.html_. Th
 >
 >The _app.component.spec.ts_ file is for writing tests, which is outside the scope of our sessions.
 >
->Angular CLI generates 4 files for a component, but we only need 1 file, the _app.component.ts_ file.
+>While Angular CLI generates 4 files for a component, only 1 file, the _component.ts_ file, is required by the compiler.
 
 >[!EXTRACREDIT]
 >Read more about Angular components - [https://angular.io/guide/component-overview](https://angular.io/guide/component-overview)
@@ -230,7 +230,7 @@ div {
 >
 >Angular's components are isolated from each other. Component styles are **encapsulated** into the component's view and don't affect other components. So when we create another component, the `div` styles we added in `TriviaComponent` won't apply to the new component. 
 >
->To follow best practices for maintainability and code legibility, we _should_ use a class on the `div`, such as `class="trivia"`, and style the class. This makes it much easier to read the CSS without having to understand HTML element positioning from the template. We are styling `div` to demonstrate view encapsulation, but feel free to change it to use a class. We'll cover more about view encapsulation with child components next session.
+>To follow best practices for maintainability and code legibility, we _should_ use a class on the `div`, such as `class="trivia"`, and style the class. This makes it much easier to read the CSS without having to understand HTML element positioning from the template. We are styling `div` to demonstrate how view encapsulation works as you continue to style the app, but feel free to change it to use a class. We'll cover more about view encapsulation with child components next session.
 >
 >To learn more about Angular's view encapsulation, [read their documentation page](https://angular.io/guide/view-encapsulation).
 
@@ -280,11 +280,14 @@ const routes: Route[] = [];
 >[!INFO]
 >Let's talk about what we did here. This looks a little different from JavaScript.
 >
->1. We declare a variable named `routes`. We add the `const` declaration because the variable `routes` will not be reassigned to another type. 
->2. Then we declare the **type** of the variable `routes` - it is of type `Route[]`, which is an array of `Route`. `Route` is an interface from Angular's `RouterModule`. 
+>1. We declare a variable named `routes`. We add the `const` declaration because the variable `routes` will not be reassigned to another type.
+>2. Then we declare the **type** of the variable `routes` - it is of type `Route[]`, which is an array of `Route`. `Route` is an interface from Angular's `RouterModule`.
 >3. Lastly, we set the variable `route` to the value of an empty array. We'll populate it in the next step.
 > 
 > Why did we add the type `Route[]`? This is so that we can take advantage of type safety in TypeScript. This means the compiler now knows what `routes` is and can help verify that we're creating objects using the `Route` interface properly. The IDE helps us out by providing syntax checking and hints for code completion.
+
+>[!EXTRACREDIT]
+>Interested in learning more about TypeScript? Read more and check out their TypeScript playground on their [documentation site](https://www.typescriptlang.org/).
 
 ## Import `RouterModule`
 
@@ -394,6 +397,9 @@ Check out the app in Chrome. Do you see your Trivia component?
 We covered a lot today and added a bit on to our app! Let's get the code into GitHub so we don't lose our work for upcoming sessions.
 
 Stage your changes using `git add .` and commit with a message of your chosing. Push your changes to your `main` branch.
+
+>[!TIP]
+>Need a Git refresher? Check out the [tutorials from Atlassian](https://www.atlassian.com/git/tutorials).
 # Next sessions
 
 In the upcoming sessions we'll use component data communication patterns to help keep our trivia app modular, use data binding to calculate scores, and call to load trivia questions from an API.
