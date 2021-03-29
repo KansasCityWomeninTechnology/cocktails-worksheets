@@ -411,6 +411,10 @@ In the upcoming sessions we'll use component data communication patterns to help
 >2. Feel free to change up the colors of the app!
 >3. Ready for a challenge? How about generating a new component for your "About" page, and adding a new route named 'about'. Add the new route to the route array. Read more from Angular's [route order documentation](https://angular.io/guide/router#route-order) to understand where to add the new route definition in the array.
 
+# Take a quiz and provide feedback
+
+We want to hear from you! Take a [short quiz about Angular and let us know what you liked and how we can do better](https://forms.gle/eeg5GY3Lguj8FZUN9)!
+
 # Answer key
 
 >[!CODECHECK]
