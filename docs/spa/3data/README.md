@@ -721,6 +721,10 @@ In the upcoming session (our last session!) we'll conditionally display DOM elem
 >3. Ready for a challenge? How about generating a new component for your "About" page, and add a new route named 'about'. Add the new route to the route array. Read more from Angular's [route order documentation](https://angular.io/guide/router#route-order) to understand where to add the new route definition in the array.
 >4. Update the header and footer of the app (the title and copyright) to use variables defined inside the `AppComponent` and use data binding to display the text.
 
+# Take a quiz and provide feedback
+
+We want to hear from you! Take a [short quiz about Angular and let us know what you liked and how we can do better](https://forms.gle/m3gAGfS5WDB3skEJ9)!
+
 # Answer key
 
 >[!CODECHECK]
