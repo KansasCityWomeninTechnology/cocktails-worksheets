@@ -43,7 +43,7 @@ In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to 
 
 ![App starting view](images/starting-app.png ':class=image-border')
 
-# Data setup
+# Data binding
 
 That middle section is looking pretty empty. Let's get some data to work with! We'll add a couple of fake questions and answers to your component, and change the template code to render the trivia questions dynamically.
 
@@ -102,7 +102,7 @@ Copy and paste the following code inside the body of the TriviaComponent, before
 >
 >We created a property in the `TriviaComponent` class named `questions` that is publicly available, which means anything that calls `TriviaComponent` has access to `questions`. Then we set the value of the `questions` property to an array with 2 elements. Each element is a question object. We didn't set type of `questions` property yet, but we will soon.
 
-# Data binding
+## Binding data to DOM
 
 In the trivia app, the HTML template displays data dynamically. We don't want to always have the same set of trivia questions! That means something has to manuever data behind the covers to display.
 
@@ -131,7 +131,7 @@ Save your code and take a look at it in Chrome. You should see "Questions 2" dis
 >
 >You can read more about interpolation in [Angular's documentation](https://angular.io/guide/interpolation).
 
-# Define interfaces for trivia questions
+# Define interfaces
 
 We added the sample trivia questions, but didn't define the type for the object. Let's do that now before we get further in the code. Having defined types allows the IDE to help us code by providing code completion hints and type safety (catching errors early).
 
@@ -216,7 +216,7 @@ We don't see any difference in our code because we already set up our sample tri
 >[!EXTRACREDIT]
 >Try testing out what **type-safe** means. Add a new question to the array without adding any properties. Your IDE tells you there's a problem, that you're missing properties from type `Question`. Add a property that doesn't exist in the `Question` interface, such as `cocktail`. Your IDE tells you there's a problem there too.
 
-# Create a trivia-question component
+# Create a TriviaQuestion component
 
 Before we get into the instructions, let's talk about what our goals are for the trivia-question component. We want the trivia-question component to handle the responsibilities of displaying a question and the user interaction of selecting an answer. By creating smaller components with focused responsibilities, we keep our app more modular and maintainable.
 
@@ -298,7 +298,7 @@ button {
 
 Open _trivia-component.component.ts_ and take a look at the `@Component` decorator metadata. When we created the component, Angular CLI used the component name in the `selector`. This means we can refer to this component from another component template by using `app-trivia-question` as the element name.
 
-# Add the TriviaQuestion component to the view
+## Add the TriviaQuestion component to the view
 
 Now we need to display the TriviaQuestion component. Before we jump to the instructions, let's take a moment to understand the goals. We want the TriviaComponent to delegate responsibility of each trivia question to the TriviaQuestion component. This means the TriviaComponent is the parent component to TriviaQuestionComponent, the child component.
 
@@ -323,7 +323,7 @@ After the paragraph element where we display the length of the questions array, 
 
 Take a look in Chrome. Do you see a label "Question" and a button with the text "Answer"? We're now looking at the trivia-question component through the trivia component!
 
-# Display all of the trivia questions
+# Display a list of trivia questions
 
 We see 1 trivia question, but want to see every trivia question. To do so, we need to use the structural directive `*ngFor` to loop through the question array and display each one. We can add `*ngFor` to the HTML element we want to iterate on, the `trivia-question` element. Let's add that now.
 
@@ -353,7 +353,7 @@ To the `<app-trivia-question>`, add the `*ngFor` directive like this:
 
 Take a look in Chrome. You should see 2 trivia-question component output in your app!
 
-# Passing data to the trivia-question component
+# Passing data to TriviaQuestion component
 
 The `TriviaQuestionComponent` should take care of displaying a trivia question, but we don't see the trivia question yet. Let's pass the trivia question to display from the `TriviaComponent` (the parent component) to the `TriviaQuestionComponent` (the child component) so that the `TriviaQuestionComponent` is responsible for displaying and handling interaction logic for a trivia question.
 
@@ -415,7 +415,7 @@ Find `<app-trivia-question>` and use property binding to pass the `item` object 
 
 Take a look in Chrome. Do you see your question text in your app?
 
-# Adding trivia question answers
+## Adding trivia question answers
 
 Let's bind the rest of our trivia question properties in the `TriviaQuestionComponent` so that we can see all the possible answers for each trivia question!
 
@@ -435,7 +435,7 @@ Take a look in Chrome. Now we see a button for each answer, but they all have th
 >[!HINT]
 >Update the `button` element text from "Answer" to the `text` property name of the current array element in double curly braces, such as `{{answer.text}}`.
 
-# Passing data from child to parent component
+# Passing data from TriviaQuestion component
 
 As a user answers trivia questions, the `TriviaQuestionComponent` should notify the `TriviaComponent` that an answer was selected.
 
@@ -620,7 +620,7 @@ To the `app-trivia-question` element, add event binding to the output property `
 >[!TIP]
 >If all the input and output properties `app-trivia-question` is making the line too long, add a line break between each attribute to make things easier to read.
 
-# Show results
+# Show trivia results
 
 Now that we track correct answers for the trivia questions, we can display results!
 
@@ -699,6 +699,28 @@ Update the second paragraph to look like this:
 Do you see the correctly formatted result as percent form in Chrome?
 
 Try answering the trivia questions and test out your math!
+
+## Adding and removing DOM elements
+
+Sometimes we need to control what we show and hide in the view. We can add and remove DOM elements using another built in structural directive, the `*ngIf`.
+
+Like the `*ngFor` directive, you add `*ngIf` to the host element you want to control. The `*ngIf` directive works like an `if` statement in code - when the expression evaluates to `false` the element and all its descendants are removed from the DOM. Angular then manages memory and resources appropriately and can optimize performance!
+
+Let's try this out by hiding the trivia results.
+
+Open _trivia.component.html_.
+
+To the `section` element containing the trivia results, add the `*ngIf` directive and set the value to `false`. Your code will look like this:
+
+{% codeblock %}trivia.component.html{% codeblock %}
+```html
+<section class="results" *ngIf="false">
+```
+
+Take a look in Chrome. Do you see the results section? Try changing the value to `true`.
+
+>[!INFO]
+>Read more about `*ngIf` on [Angular's documentation site](https://angular.io/guide/built-in-directives#adding-or-removing-an-element-with-ngif).
 
 We don't want to show all the trivia questions at once and we don't want to show the results until after all the questions are answered, but we'll make those changes next time.
 
