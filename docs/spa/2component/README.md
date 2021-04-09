@@ -358,7 +358,7 @@ Create another entry in the `routes` array after the first where the path is an 
 >Your `routes` array now looks like this:
 >
 >```ts
->const routes: Routes[] = [
+>const routes: Route[] = [
 >  { path: 'trivia', component: TriviaComponent },
 >  { path: '', component: TriviaComponent }  
 >];
