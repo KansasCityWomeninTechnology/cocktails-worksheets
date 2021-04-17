@@ -14,6 +14,9 @@ Tonight we will add on to the code by adding mock data that allows use to build 
 >
 >Or [clone the answer key from last session](https://github.com/KansasCityWomeninTechnology/trivia/tree/component), install Angular CLI, and run `npm install` in the project directory.
 
+>[!TIP]
+>Has it been a while since you've looked at your project or are you joining us for the first time? Take a moment to refresh your memory and review your code. We're going to jump right into it.
+
 # Prepare your workspace
 
 Open the "trivia" project in your IDE. We recommend using Visual Studio Code. Open VS Code and navigate to your project directory.
@@ -47,7 +50,7 @@ In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to 
 
 That middle section is looking pretty empty. Let's get some data to work with! We'll add a couple of fake questions and answers to your component, and change the template code to render the trivia questions dynamically.
 
-In VS Code, open _trivia/trivia.component.ts_. We're going to add fake questions here.
+In VS Code, open _trivia/trivia.component.ts_. We're going to add some fake questions here.
 
 Copy and paste the following code inside the body of the TriviaComponent, before the `constructor` method.
 
@@ -102,7 +105,7 @@ Copy and paste the following code inside the body of the TriviaComponent, before
 >
 >We created a property in the `TriviaComponent` class named `questions` that is publicly available, which means anything that calls `TriviaComponent` has access to `questions`. Then we set the value of the `questions` property to an array with 2 elements. Each element is a question object. We didn't set type of `questions` property yet, but we will soon.
 
-## Binding data to DOM
+## Binding data to the DOM
 
 In the trivia app, the HTML template displays data dynamically. We don't want to always have the same set of trivia questions! That means something has to manuever data behind the covers to display.
 
@@ -110,7 +113,7 @@ In Angular, we can separate the presentation (the HTML template) from the logic 
 
 Interpolation allows us to embed expressions into the template and uses double curly braces  to denote the expression. The syntax looks like `{{expression}}`. Let's see how this works with some hard-coded trivia questions.
 
-Let's use the `questions` property in the template and display how many elements are in the `questions` array.
+We'll use the `questions` property in the template and display how many elements are in the `questions` array.
 
 Open _trivia.component.html_.
 
@@ -238,13 +241,13 @@ The Angular CLI generated a small bit of HTML for us that says "trivia-question 
 
 {% codeblock copy %}trivia-component.component.html{% codeblock %}
 ```html
-	<h3>Question</h3>
+<h3>Question</h3>
 
-	<ul>
-		<li>
-			<button class="answer">Answer</button>
-		</li>
-	</ul>
+<ul>
+   <li>
+      <button class="answer">Answer</button>
+   </li>
+</ul>
 ```
 
 ## Add some styles to the TriviaQuestion component
@@ -341,7 +344,7 @@ To the `<app-trivia-question>`, add the `*ngFor` directive like this:
 >[!INFO]
 >Let's go over what we did here.
 >
->We added the **structural directive** `*ngFor` that iterates through the list of questions and adds a trivia-question-component to the DOM for every item in the list.
+>We added the **structural directive** `*ngFor` that iterates through the list of questions and adds a trivia-question component to the DOM for every item in the list.
 >The syntax in this example is as follows:
 >
 >* `<app-trivia-question>` is the host element for the directive.
@@ -413,6 +416,16 @@ Find `<app-trivia-question>` and use property binding to pass the `item` object 
 >[!INFO]
 >We added the `[question]` property binding syntax to the `<app-trivia-question>` selector. In the `*ngFor` we iterate over a list of trivia `questions` and create a local variable named `item` for the element in the `questions` array. We pass in `item` into the `question` property. As the `*ngFor` iterates through the list of `questions`, it will send the current `item` to the `<app-trivia-question>`.
 
+>[!TIP]
+>If the line is starting to get too long, feel free to split `*ngFor` directive and `@Input` property onto separate lines:
+>
+>```html
+><app-trivia-question
+>   *ngFor="let item of questions"
+>   [question]="item">
+></app-trivia-question>
+>```
+
 Take a look in Chrome. Do you see your question text in your app?
 
 ## Adding trivia question answers
@@ -437,7 +450,7 @@ Take a look in Chrome. Now we see a button for each answer, but they all have th
 
 # Passing data from TriviaQuestion component
 
-As a user answers trivia questions, the `TriviaQuestionComponent` should notify the `TriviaComponent` that an answer was selected.
+As an user answers trivia questions, the `TriviaQuestionComponent` should notify the `TriviaComponent` that an answer was selected.
 
 Child components send data to parent components by specifying an output property using the `@Output()` decorator. The child then emits an event containing the data that the parent components listens and reacts to.
 
@@ -463,7 +476,7 @@ Before the constructor, but after the `@Input()` property, add the following cod
 >* `@Output()` - a decorator marking the property as a data flow to parent components.
 >* `answeredEvent` - the name of the `@Output()`
 >* `EventEmitter<boolean>` - the `@Output()`'s type
->* `new EventEmitter<boolean>()` - initialize `answeredEvent` by creating a new event emitter and the data it emits is of type `boolean`.
+>* `new EventEmitter<boolean>()` - initialize `answeredEvent` by creating a new `EventEmitter` and the type of data it emits is a `boolean`.
 
 >[!TIP]
 >Don't forget to import the `Output` and `EventEmitter` types. Both are available from the `@angular/core` library.
@@ -501,13 +514,17 @@ Inside the `onAnswerSelected` method, add
 
 {% codeblock %}trivia-question.component.ts{% codeblock %}
 ```ts
-  this.answered.emit(this.question.answers[index].correct);
+  this.answeredEvent.emit(this.question.answers[index].correct);
 ```
 
 >[!INFO]
 >Let's walk through this.
 >
->The `onAnswerSelected()` method uses the `@Output()`, `answeredEvent`, to raise an event with the value of the `correct` property for the answer selected by the array index of the `answers` array.
+>The `onAnswerSelected()` method uses the `@Output()` property, `answeredEvent`, to raise an event.
+>
+>* We access the internal `answeredEvent` property using the `this` keyword, and call the method `emit()`. We need to pass data of type `boolean`, which is the type we specified in the `EventEmitter`.
+>* We access the internal `question` property using the `this` keyword and access its property, the `answers` array.
+>* For the `index` passed into the method, we get the answer object of the `answers` array by its `index` and return the `correct` property.
 
 >[!EXTRACREDIT]
 >What happens if my data isn't the type specified in the event emitter?
@@ -534,15 +551,15 @@ We want to bind to the `click` event on `button` and when the `click` event is r
 ```
 
 >[!INFO]
->The `(click)` event is bound to the `onAnswerSelected()` method in the component. The syntax for binding to events is parenthses `()`.
+>The `(click)` event is bound to the `onAnswerSelected()` method in the component. The syntax for binding to events is parentheses `()`.
 >
 >Read more about [event binding on Angular's documentation](https://angular.io/guide/event-binding).
 
 In Chrome, first open Dev Tools and then try selecting an answer to the first trivia question. We see an error in the Dev Tools console where we're trying to access the property `correct` of undefined.
 
-The `onAnswerSelected()` method takes a number, the index of the answer in the `answers` array as a parameter, to get the correct `answer` object for the `correct` property. We need to pass in the index, but how do we know which answer element in the array we clicked?
+The `onAnswerSelected()` method takes a number, the index of the answer in the `answers` array as a parameter. This index allows us to get the correct `answer` object and then we can access the `correct` property. We need to pass in the index, but how do we know which answer element in the array we clicked?
 
-The `*ngFor` directive has array metadata we can access. In the `*ngFor` for the `li` element, add a semicolon to the existing string where we defined the local variable `answer` and provided the `answers` array to and add `let i=index`.
+The `*ngFor` directive has array metadata avaiable to us. In the `*ngFor` for the `li` element, add a semicolon to the existing string where we defined the local variable `answer` and provided the `answers` array to and add `let i=index`.
 
 Your code will look like this:
 
@@ -552,7 +569,7 @@ Your code will look like this:
 ```
 
 >[!INFO]
->We now have the current index of the array element in a local variable named 'i'. Angular provides access to the index in a variable named `index`.
+>We now have the current index of the array element in a local variable named 'i'. Angular provides access to the array index of a `*ngFor` in a variable named `index`.
 >
 >The `*ngFor` structural directive includes even more information about the array. We can also get the length of the array, and details about the array element. Such as whether the array element is the first item, the last item, or if the item index is even or odd. In short, we get so much metadata about the array and the array element!
 
@@ -574,7 +591,7 @@ We now need to bind the `questionAnswered` event in the parent component. Much l
 
 Open _trivia.component.ts_.
 
-Create a new public property named `correctAnswers` and initialize the value to the number '0'.
+Create a new public property named `correctAnswers` and initialize the value to the number `0`.
 
 >[!HINT]
 >Before the constructor, add the following code
@@ -610,7 +627,7 @@ Here's how input and output properties on the `TriviaQuestionComponent` work tog
 
 Let's implement this.
 
-To the `app-trivia-question` element, add event binding to the output property `answeredEvent` and bind it to the method `onQuestionAnswered()`. Pass the data from the event to the method using the `$event` variable.
+To the `app-trivia-question` element, add event binding to the output property `answeredEvent` and bind it to the method `onQuestionAnswered()`. Pass the data from the event to the method using the `$event` variable. Use concepts we learned about event handling in the trivia-question component here.
 
 >[!HINT]
 >The syntax is similar to the `click` event handling. Use parentheses `()` around the output property and bind it to the method.
@@ -675,7 +692,7 @@ For the second paragraph, we need to do a little math.
 We want the second paragraph to read
 > Your score is 90%
 
-First let's do the math to calculate the correct answers fraction. Don't worry about the percent sign yet. You can do this directly in data binding. Apply the needed code updates.
+First let's do the math to calculate the correct answers fraction. Don't worry about the percent sign (or multiplying by 100) yet. You can do this directly in data binding. Apply the needed code updates.
 
 >[!HINT]
 >You can do math in data binding. You'll need to divide the number of correct answers by the number of questions.
@@ -717,7 +734,7 @@ To the `section` element containing the trivia results, add the `*ngIf` directiv
 <section class="results" *ngIf="false">
 ```
 
-Take a look in Chrome. Do you see the results section? Try changing the value to `true`.
+Take a look in Chrome. Do you see the results section? Change the value to `true`.
 
 >[!INFO]
 >Read more about `*ngIf` on [Angular's documentation site](https://angular.io/guide/built-in-directives#adding-or-removing-an-element-with-ngif).
