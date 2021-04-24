@@ -130,7 +130,7 @@ Save your code and take a look at it in Chrome. You should see "Questions 2" dis
 >Enable auto save in VS Code to avoid manually saving after each change by selecting **File** :fas fa-long-arrow-alt-right: **Auto Save**.
 
 >[!EXTRACREDIT]
->Interpolation supports expressions, so you can do more than displaying the property. Try putting in simple math, such as `{{2+2}}` or add on to your `questions` property by appending text, such as `{{questions.length + ' is a good number.'}}`. Feel free to try to different expressions and when you're done, remove all the test code you added.
+>Interpolation supports expressions, so you can do more than displaying the property. Try putting in simple math, such as `{{2+2}}` or add on to your `questions` property by appending text, such as `{{questions.length + ' is a good number.'}}`. Feel free to try different expressions and when you're done, remove all the test code you added.
 >
 >You can read more about interpolation in [Angular's documentation](https://angular.io/guide/interpolation).
 
@@ -154,7 +154,7 @@ ng generate interface question
 >This creates a single TypeScript file, _src/app/question.ts_.
 
 >[!TIP]
->That's too much typing for a commandline operation!
+>That's too much typing for a command line operation!
 >
 >Angular CLI supports shortcuts to generate components too. You can use single character shortcuts to **g**enerate an **i**nterface, so we could also run `ng g i question`.
 
@@ -176,9 +176,9 @@ text: string;
 >
 >We created a property in the `Question` interface named `text` of type `string`. We don't set the access of a property (such as public or private) in an interface.
 
-We need to add one more property to the `Question` interface, but we'll create a new interface first.
+We need to add one more property to the `Question` interface, but we'll create a new interface first. Angular recommends using a separate file for each class and interface, but we'll define both interfaces in the same _question.ts_ file to keep things simple.
 
-Above the `Question` interface, create a new interface named `Answer` by following the same syntax as the `Question` interface.
+Above the `Question` interface, create a new interface named `Answer` by following the same code syntax as the `Question` interface.
 
 >[!HINT]
 >Create the `Answer` interface before the `Question` interface by adding the following code: `export interface Answer { }`.
@@ -385,13 +385,16 @@ Before the constructor, add the following code:
 >3. We set the type of the property to `Question`. The list of trivia questions is of type `Question[]`, so each question is of type `Question`.
 >4. Lastly, we add the `@Input()` decorator. This is an Angular decorator to identify input properties. The `@Input()` decorator can be used in components and directives. When we specified the list of trivia questions in the `*ngFor` structural directive, we passed data into an input property.  
 
->[!TIP] Don't forget to import the `Input` and `Question` types.
+>[!TIP] Don't forget to import the `Input` and `Question` types. `Input` is part of `@angular/core`.
 
 Let's update the HTML for the `TriviaQuestionComponent` to use this property so we can start seeing results.
 
 Open _trivia-question.component.html_.
 
 Replace the hard coded "Question" text in the `<h3>` with the `question.text` property. Use what we learned about data binding to update the `h3` element.
+
+>[!TIP]
+>You won't see the question yet because we have to configure the parent to pass the question to the child component first.
 
 >[!HINT]
 >Replace `<h3>Question</h3>` with `<h3>{{question.text}}</h3>`.
@@ -414,7 +417,7 @@ Find `<app-trivia-question>` and use property binding to pass the `item` object 
 ```
 
 >[!INFO]
->We added the `[question]` property binding syntax to the `<app-trivia-question>` selector. In the `*ngFor` we iterate over a list of trivia `questions` and create a local variable named `item` for the element in the `questions` array. We pass in `item` into the `question` property. As the `*ngFor` iterates through the list of `questions`, it will send the current `item` to the `<app-trivia-question>`.
+>We added the `[question]` property binding syntax to the `<app-trivia-question>` selector. In the `*ngFor` we iterate over a list of trivia `questions` and create a local variable named `item` for the element in the `questions` array. We pass `item` into the `question` property. As the `*ngFor` iterates through the list of `questions`, it will send the current `item` to the `<app-trivia-question>`.
 
 >[!TIP]
 >If the line is starting to get too long, feel free to split `*ngFor` directive and `@Input` property onto separate lines:
@@ -543,7 +546,7 @@ Let's update the HTML for the `TriviaQuestionComponent` to bind the `button`'s `
 
 Open _trivia-question.component.html_.
 
-We want to bind to the `click` event on `button` and when the `click` event is raised, we want to call our `onAnswerSelected()` method. Update the button element to add the event binding:
+We want to bind to the `click` event on `button` and when the `click` event is raised, we want to call our `onAnswerSelected()` method. Update the button element to add the event binding. The opening `button` element tag will look like this:
 
 {% codeblock %}trivia-question.component.html{% codeblock %}
 ```html
@@ -632,7 +635,7 @@ To the `app-trivia-question` element, add event binding to the output property `
 >[!HINT]
 >The syntax is similar to the `click` event handling. Use parentheses `()` around the output property and bind it to the method.
 >
->The code to bind the output property looks like this: `(answeredEvent)="onQuestionAnswered($event)`.
+>The code to bind the output property looks like this: `(answeredEvent)="onQuestionAnswered($event)"`.
 
 >[!TIP]
 >If all the input and output properties `app-trivia-question` is making the line too long, add a line break between each attribute to make things easier to read.
@@ -756,7 +759,7 @@ In the upcoming session (our last session!) we'll conditionally display DOM elem
 >Do you want to keep working on your app between sessions? We have some ideas for you to try. Feel free to message us in #codingandcocktails Slack channel if you need help between sessions!
 >
 >1. Add more flair to your app by picking out fonts and applying the font to your app. We recommend using [Google Fonts](https://fonts.google.com/).
->2. Feel free to chang up the colors of the app!
+>2. Feel free to change up the colors of the app!
 >3. Ready for a challenge? How about generating a new component for your "About" page, and add a new route named 'about'. Add the new route to the route array. Read more from Angular's [route order documentation](https://angular.io/guide/router#route-order) to understand where to add the new route definition in the array.
 >4. Update the header and footer of the app (the title and copyright) to use variables defined inside the `AppComponent` and use data binding to display the text.
 

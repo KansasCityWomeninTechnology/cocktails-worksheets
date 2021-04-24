@@ -189,7 +189,7 @@ ng generate component trivia
 >This creates a "src/app/trivia" directory with 4 files in it: _trivia.component.html_, _trivia.component.css_, _trivia.component.ts_ & _trivia.component.spec.ts_.  The _*.spec.ts_ files are for testing your code (to make sure your code works), but we won't be adding tests as part of the SPA sessions.
 
 >[!TIP]
->That's too much typing for a commandline operation! Angular CLI supports shortcuts to generate components too. You can use single character shortcuts to **g**enerate a **c**omponent, so we could also run `ng g c trivia`.
+>That's too much typing for a command line operation! Angular CLI supports shortcuts to generate components too. You can use single character shortcuts to **g**enerate a **c**omponent, so we could also run `ng g c trivia`.
 
 ## Set up the Trivia component HTML
 
