@@ -239,7 +239,7 @@ Let's prepare the HTML template. Open the _trivia-question.component.html_ file.
 
 The Angular CLI generated a small bit of HTML for us that says "trivia-question works!". Delete all the HTML and replace it with:
 
-{% codeblock copy %}trivia-component.component.html{% codeblock %}
+{% codeblock copy %}trivia-question.component.html{% codeblock %}
 ```html
 <h3>Question</h3>
 
