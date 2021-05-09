@@ -299,7 +299,7 @@ button {
 >
 >In an effort to keep the project focused on Single Page Applications concepts, we're providing the bare bones HTML & CSS code for you to copy and paste. Take a moment to examine the code HTML and CSS you added to understand what we're building. You'll be adding on to the HTML yourself soon and pep up the CSS to your own tastes between sessions.
 
-Open _trivia-component.component.ts_ and take a look at the `@Component` decorator metadata. When we created the component, Angular CLI used the component name in the `selector`. This means we can refer to this component from another component template by using `app-trivia-question` as the element name.
+Open _trivia-question.component.ts_ and take a look at the `@Component` decorator metadata. When we created the component, Angular CLI used the component name in the `selector`. This means we can refer to this component from another component template by using `app-trivia-question` as the element name.
 
 ## Add the TriviaQuestion component to the view
 
