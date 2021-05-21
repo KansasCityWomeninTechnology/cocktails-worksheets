@@ -50,11 +50,11 @@ In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to 
 
 Right now we show all the trivia questions at once. But we should show one question at a time. By tracking the progress of the user interacting with the trivia app, we know which question to display.
 
-We're using the principles of defined responsibilities in our components. In our case, we want the parent, the Trivia component, to tell the child, the TriviaQuestion component, which question to display.
+We're using the principles of defined responsibilities in our components. In our case, we want the parent, the `TriviaComponent`, to tell the child, the `TriviaQuestionComponent`, which question to display.
 
 In VS Code, open _trivia.question.component.ts_.
 
-First, let's set up an `@Input` property in the `TriviaQuestion` component with a `boolean` type to handle whether the component should display. Name the property `shouldDisplay` and apply the concepts we learned last session and follow the same pattern implemented for the `question` `@Input` property.
+First, let's set up an `@Input` property in the `TriviaQuestion` component with a `boolean` type to handle whether the component should display. Name the property `shouldDisplay`. Apply the concepts we learned last session to create `@Input` properties by following the same pattern implemented for the `question` `@Input` property.
 
 >[!HINT]
 >In the _trivia.question.component.ts_, add a public `@Input` property named `shouldDisplay` and set the type to `boolean`.
@@ -81,7 +81,7 @@ Add the `*ngIf` directive to the `div` and bind it to the new `shouldDisplay` pr
 </div>
 ```
 
-Save your files and take a look in Chrome. Oh no! Now we're not showing any questions! Before we configure the TriviaComponent to use the new `@Input` property, let's make one more change in the HTML.
+Save your files and take a look in Chrome. Oh no! Now we're not showing any questions! We need to configure the parent component. Before we do so, let's make one more change in the HTML.
 
 >[!TIP]
 >Enable auto save in VS Code to avoid manually saving after each change by selecting **File** :fas fa-long-arrow-alt-right: **Auto Save**.
@@ -91,7 +91,7 @@ Save your files and take a look in Chrome. Oh no! Now we're not showing any ques
 >
 >The `*ngIf` directive guards against null and undefined values. Because we didn't set an initial value on the property (using the syntax `@Input() public shouldDisplay: boolean = false;`), the value of the property is `undefined`. Angular does not display the `div` because `shouldDisplay` is `undefined`.
 
-We added a `div` to apply conditional logic to the template, but Angular has a grouping element we can use instead that allows us to host a directive without a DOM element.
+We added a `div` to apply conditional logic to the template, but Angular has a grouping element we can use instead that allows us to host a directive without adding an unnecessary DOM element.
 
 Edit the tagname `div` to `ng-container`. Your code will look like this:
 
@@ -107,9 +107,9 @@ Edit the tagname `div` to `ng-container`. Your code will look like this:
 >[!INFO]
 >Why use `ng-container` when `div` worked?
 >
->The difference is an extra DOM element. When using a `div`, a `div` is added to the DOM. You'll see this in Chrome DevTools Elements tab. But if you use `ng-container`, Angular removes the container from the DOM, so all you see is the elements for the component.
+>The difference is an extra DOM element. When using a `div`, the `div` is added to the DOM. You'll see this in Chrome DevTools Elements tab. But if you use `ng-container`, Angular removes the container from the DOM, so all you see is the elements for the component.
 >
->While we may not see any difference here, depending on other factors of an application or the styles applied to it, you may see a difference.
+>While we may not see any difference in this case, you may see a difference depending on other factors of an application or the applied styles applied.
 >
 >Read more about `<ng-container>` on [Angular's documentation site](https://angular.io/guide/built-in-directives#hosting-a-directive-without-a-dom-element).
 
@@ -146,7 +146,12 @@ Open _trivia.component.html_.
 
 The `shouldDisplay` `@Input` property expects a boolean value. We need to send `true` if the current question should display. We can determine this condition if the `currentQuestionIndex` equals the index of the question in the array.
 
-Using concepts we used to capture the index of the `*ngFor` element in the `TriviaQuestionComponent` template in the last session, make the changes to the `TriviaQuestionComponent` template to the correct boolean value if the `currentQuestionIndex` equals the index of the question array element. Feel free to move the property and event bindings to separate lines to make it easier to read.
+Using concepts we used to capture the index of the `*ngFor` element in the `TriviaQuestionComponent` template in the last session, make the following changes in the `TriviaQuestionComponent` template:
+
+1. Capture the `index` of the `*ngFor` in a variable.
+2. Set the input property to an equality check where `currentQuestionIndex` equals the index of the question array element.
+
+Feel free to move the property and event bindings to separate lines to make it easier to read.
 
 >[!HINT]
 >Take a look at _trivia-question.component.html_. We'll access the question index in the same way.
@@ -174,14 +179,14 @@ Open _trivia.component.html_.
 Update the text in the paragraph element above the `<app-trivia-question>` by applying the data binding concepts we learned last session.
 
 >[!HINT]
->Change the text by data binding to `currentQuestionIndex`. Don't forget to add `1` to property to handle the offset. Your code will looks like this
+>Change the text by data binding to `currentQuestionIndex`. Don't forget to add `1` to properly handle the array index offset. Your code will looks like this
 >```html
 ><p class="question-tracker>Question {{currentQuestionIndex + 1}} of {{questions.length}}</p>
 >```
 
 # Display trivia results only when complete
 
-We're showing only one question at a time now, but we still see the results section. We want to only show the results when the user completes answering all the trivia questions. We also want to only show the question section with the label we recently updated to only show when the user is answering questions.
+We're showing one question at a time now, but we still see the results section. We want to show the results when the user completes answering all the trivia questions, not before. We also want to show the question section with the recently updated label to show when the user is answering questions, not after.
 
 We already have a `*ngIf` added to the results section that we can use to check whether the user answered all the questions. We _could_ add another `*ngIf` to the question section to check whether the user is still in the process of answering questions. It works, but it isn't as easy to read and can make things unnecessarily complicated. What we really want is an `if/else`.
 
@@ -277,7 +282,7 @@ ng generate service trivia
 
 Feel free to close the new terminal.
 
-HTTP calls require a new module, Angular's `HttpClientModule`, which contains a simplified library. We'll use the `HttpClient` service in the `HttpClientModule` to make our API calls.
+HTTP calls require a new module, Angular's `HttpClientModule`, which contains a simplified Http library. We'll use the `HttpClient` service in the `HttpClientModule` to make our API calls.
 
 Open _app.module.component_.
 
@@ -322,6 +327,15 @@ export class TriviaService {
 >}
 >```
 
+>[!EXTRACREDIT]
+>What is **Dependency Injection**?
+>
+>Dependency injection is a technique to provide code dependencies within an application. It is a software pattern where a class relies on dependencies from an external source rather than creating them on their own, and it a best practice for writing well-architected code. This, in turn, makes the code is more maintainable and testable.
+>
+>Angular has a DI system built in and automatically creates all dependencies. When code has a dependency, such as `TriviaService` depending on `HttpClient`, Angular automatically creates an instance of `HttpClient` to pass into the `TriviaService`.
+>
+>Learn about dependency injection in Angular [on their documentation site](https://angular.io/guide/architecture-services).
+
 We now have access to Angular's `HttpClient` in the `TriviaService` so we can start making API calls.
 
 Inside the `TrivaService` class, create a public method called `getTriviaQuestions`. Your code will look like this
@@ -340,15 +354,15 @@ public getTriviaQuestions(): Observable<Question[]> {
 >
 >Similar to when we added the `@Output` event and used the `EventEmitter<boolean>`, an `Observable` type requires the type of data being passed, in our case `Question[]`. The `Question` type is one we defined in the `Question` interface.
 
+>[!TIP]
+>Don't forget to import `HttpClient` from `@angular/common/http`, `Observable` from `rxjs`, and `Question`.
+
 >[!EXTRACREDIT]
 >What's an **Observable**?
 >
 >Observables are "streams" of data and is derived from a library called [RxJS](https://rxjs-dev.firebaseapp.com/guide/overview). RxJS simplifies making asynchronous calls, such as calling an API, and composing logic that handle the outcome of asynchronous responses using functional programming concepts. This paradigm is called "reactive programming". RxJS is one of the many languages supporting reactive programming under the [ReactiveX project](http://reactivex.io/).
 >
 >Read more about the RxJS and how it's used in Angular on [Angular's documentation site](https://angular.io/guide/rx-library).
-
->[!TIP]
->Don't forget to import `HttpClient` from `@angular/common/http`, `Observable` from `rxjs`, and `Question`.
 
 Let's add the call to the API.
 
@@ -393,7 +407,12 @@ Rename the `questions` property to `questions$` and change the type to match wha
 >[!TIP]
 >Don't forget to import `Observable` from `rxjs`.
 
-The app is completely broken now, let's fix it.
+>[!EXTRACREDIT]
+>`questions$` is a funny variable name. Why did we do that?
+>
+>Adding the `$` after a variable name is commonly used in RxJS to identify `Observables`. This makes it easy for us to know which variables contain asynchronous data.
+
+The app is completely broken now, let's fix it. ![face with tears of joy emoji](../../images/emojis/joy.png)
 
 Open _trivia.component.html_.
 
@@ -413,7 +432,9 @@ Update your code to look like this:
 >
 >`questions$` - the expression to evaluate. The expression is the property `questions$` of type `Observable<Question[]>`. We defined the `questions$` property but didn't assign an initial value, so this evaluates as [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy).
 >
->`as questions` - a local variable named `questions` containing the output of the expression. When we complete configuring, this will become the questions array of type `Question[]`. Right now, `questions` is an error in the template. 😅
+>`as questions` - a local variable named `questions` containing the output of the expression. When we complete configuring, this will become the questions array of type `Question[]`. Right now, `questions` is an error in the template.
+>
+>![cold sweat emoji](../../images/emojis/cold-sweat.png)
 
 The `Observable<Question[]>` type on `questions$` needs to be converted to a `Question[]` after we get the trivia API response back. We can use the **Async Pipe**. Update your code to look like this:
 
