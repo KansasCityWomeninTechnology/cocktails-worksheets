@@ -104,7 +104,7 @@ Edit the tagname `div` to `ng-container`. Your code will look like this:
 </ng-container>
 ```
 
->[!INFO]
+>[!EXTRACREDIT]
 >Why use `ng-container` when `div` worked?
 >
 >The difference is an extra DOM element. When using a `div`, the `div` is added to the DOM. You'll see this in Chrome DevTools Elements tab. But if you use `ng-container`, Angular removes the container from the DOM, so all you see is the elements for the component.
@@ -119,7 +119,7 @@ Now we turn our attention to the parent component to use the new property. We wa
 
 Open _trivia.component.ts_.
 
-Create a public property named `currentQuestionIndex` and initialize the value to `0`. Apply concepts we learned in past sessions and use the existing properties in the component to implement the property.
+Create a public property named `currentQuestionIndex` and initialize the value to `0`. Apply concepts we learned in past sessions to implement the property. You can also look at existing properties in the component as a pattern to use for this new property.
 
 >[!HINT]
 >Above the constructor, add the public property `currentQuestionIndex` and set it equal to `0`. Your code will look like this
@@ -160,7 +160,7 @@ Feel free to move the property and event bindings to separate lines to make it e
 >
 >Your code should look like this
 >```html
-><app-trivia-question *ngFor="let item of question; index as i"
+><app-trivia-question *ngFor="let item of question; let i = index"
 >   [question]="item"
 >   [shouldDisplay]="i === currentQuestionIndex"
 >   (answeredEvent)="onQuestionAnswered($event)">
@@ -194,9 +194,9 @@ Angular's `*ngIf` structural directive handles `if/else` cases. Let's use this t
 
 Open _trivia.component.html_.
 
-Remove the `*ngIf` from the results section. We'll make the results section the else case.
+Remove the `*ngIf` from the results `<section>`. We'll make the results section the else case.
 
-Add an `*ngIf` to the question section (the first section in the html). In the conditional logic, we want to evaluate whether the user answered less than all the questions we have. We can compare `currentQuestionIndex` to the length of the `questions` array.
+Add an `*ngIf` to the question `<section>` (the first `<section>` in the html). In the conditional logic, we want to evaluate whether the user answered less than all the questions we have. We can compare `currentQuestionIndex` to the length of the `questions` array.
 
 >[!HINT]
 >Add the `*ngIf` structural directive to the first `section` element and pass in an equality check for `currentQuestionIndex` is less than the length of `questions`.
@@ -330,7 +330,7 @@ export class TriviaService {
 >[!EXTRACREDIT]
 >What is **Dependency Injection**?
 >
->Dependency injection is a technique to provide code dependencies within an application. It is a software pattern where a class relies on dependencies from an external source rather than creating them on their own, and it a best practice for writing well-architected code. This, in turn, makes the code is more maintainable and testable.
+>Dependency injection is a technique to provide code dependencies within an application. It is a software pattern where a class relies on dependencies from an external source rather than creating them on their own, and it is a best practice for writing well-architected code. This, in turn, makes the code is more maintainable and testable.
 >
 >Angular has a DI system built in and automatically creates all dependencies. When code has a dependency, such as `TriviaService` depending on `HttpClient`, Angular automatically creates an instance of `HttpClient` to pass into the `TriviaService`.
 >
@@ -416,7 +416,7 @@ The app is completely broken now, let's fix it. ![face with tears of joy emoji](
 
 Open _trivia.component.html_.
 
-The call to the API is an asynchronous call. Meaning we won't have an array of questions until after the API call completes. We want to guard against showing the trivia page until we have the questions. We can use an `*ngIf` on the first element in this tempate, the `div`.
+The call to the API is an asynchronous call. Meaning we won't have an array of questions until after the API call completes. We want to guard against showing the trivia page until we have the questions. We can use an `*ngIf` on the first element in this template, the `div`.
 
 Update your code to look like this:
 
@@ -452,7 +452,7 @@ Open _trivia.component.ts_.
 
 When Angular CLI creates a component, it implements the `OnInit` interface and adds the `ngOnInit()` method. This is a component lifecycle hook and triggers when the component initializes. This is where we'll make the call to the trivia service.
 
-First we need to inject the `TriviaService` into the component. Using concepts we learned earlier, inject `TriviaService` and create a private class property named `triviaService`.
+First we need to inject the `TriviaService` into the component. Using concepts we learned earlier, inject `TriviaService` via the constructor and create a private class property named `triviaService`.
 
 >[!HINT]
 >To the `TriviaComponent` `constructor`, add a parameter named `triviaService` of type `TriviaService` and declare the access as `private`. Your code will look like this
@@ -481,7 +481,7 @@ That's it! You have a completed trivia app! Try testing it out!
 
 We covered a lot today and completed our app! Let's get the code into GitHub.
 
-Stage your changes using `git add .` and commit with a message of your chosing. Push your changes to your `main` branch.
+Stage your changes using `git add .` and commit with a message of your choosing. Push your changes to your `main` branch.
 
 >[!TIP]
 >Need a Git refresher? Check out the [tutorials from Atlassian](https://www.atlassian.com/git/tutorials).
