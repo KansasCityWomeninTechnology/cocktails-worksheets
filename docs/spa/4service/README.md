@@ -4,7 +4,7 @@ We will create a web application using a SPA framework with interactive elements
 
 ![Completed trivia application](../images/app.gif ':size=500')
 
-Tonight we will add on to the code by completing DOM manipulation logic to display trivia questions and results conditionally and building a service to interact with an external trivia API.
+Tonight we will add on to the code by completing DOM manipulation logic to display trivia questions and results conditionally. We'll also interact with an external trivia API to build a service that populates a dynamic list of trivia questions.
 
 >[!WARNING]
 >Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for tonight's work.
@@ -12,7 +12,7 @@ Tonight we will add on to the code by completing DOM manipulation logic to displ
 >[!TIP]
 >Couldn't make it to last session? Follow [the instructions from the last session](../3data/) to add data handling and incorporating structural directives for the best learning experience. This session builds upon concepts learned in the last sessions.
 >
->Or [clone the answer key from last session](https://github.com/KansasCityWomeninTechnology/trivia/tree/data), install Angular CLI, and run `npm install` in the project directory.
+>Or [clone the answer key from last session](https://github.com/KansasCityWomeninTechnology/trivia/tree/data), install Angular CLI, and run `npm install` in the project directory. Please glance through the previous session material to catch up on how to install and run the CLI.
 
 # Prepare your workspace
 
@@ -48,9 +48,9 @@ In Google Chrome, navigate to [http://localhost:4200](http://localhost:4200) to 
 
 # Showing one question at a time
 
-Right now we show all the trivia questions at once. But we should show one question at a time. By tracking the progress of the user interacting with the trivia app, we know which question to display.
+Right now we show all the trivia questions at once. But we should show one question at a time. We can track the user's interaction with the trivia app so we know which question to display.
 
-We're using the principles of defined responsibilities in our components. In our case, we want the parent, the `TriviaComponent`, to tell the child, the `TriviaQuestionComponent`, which question to display.
+We're using single-responsibility principles in our components. In our case, we want the parent, the `TriviaComponent`, to tell the child, the `TriviaQuestionComponent`, which question to display.
 
 In VS Code, open _trivia.question.component.ts_.
 
@@ -284,7 +284,7 @@ Feel free to close the new terminal.
 
 HTTP calls require a new module, Angular's `HttpClientModule`, which contains a simplified Http library. We'll use the `HttpClient` service in the `HttpClientModule` to make our API calls.
 
-Open _app.module.component_.
+Open _app.module.ts_.
 
 Add `HttpClientModule` to the `imports` array.
 
@@ -370,7 +370,7 @@ Inside the `getTriviaQuestions()` method, we'll call the API endpoint using the 
 
 {% codeblock %}trivia.service.ts{% codeblock %}
 ```ts
-public getTriviaQuestion(): Observable<Question[]> {
+public getTriviaQuestions(): Observable<Question[]> {
   return this.http.get<Question[]>('https://cnc-trivia-api.herokuapp.com/sampleQuestions');
 }
 ```
