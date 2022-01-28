@@ -15,8 +15,6 @@
 
 ---
 
-<!-- //TODO: update answer key -->
-
 - [Answer Key](/html/answer-key.md)
 - [HTML Cheat Sheet](/html/references/html-cheat-sheet.md)
 - [References & Shortcuts](/html/references/)
