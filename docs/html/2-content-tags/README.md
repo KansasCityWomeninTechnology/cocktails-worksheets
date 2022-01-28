@@ -110,8 +110,7 @@ Next, we'll want an "About" section and a "Contact" sections and add text. We'll
    > ```
 
 1. Save your file and view it in Google Chrome. Your page should look similar to this:
-
-![](images/headersSectionsEnd.png ":class=image-border")
+   ![](images/headersSectionsEnd.png ":class=image-border")
 
 # Navigation list of sections
 
@@ -184,7 +183,6 @@ You'll often find yourself needing to look at how your page renders in the brows
    > Chrome DevTools has a lot of features. We used it earlier today to look for console logs and now to inspect elements. We'll continue to use DevTools in upcoming sessions to help us dig deeper into our code.
 
 1. Notice you can see all your tags that you've added to the page and how they nest inside each other. It should look something like this:
-
    ![](images/devTools.png ":class=image-border")
 
 1. Notice as you mouse over elements in the DevTools that they highlight in the rendered view above.
@@ -219,12 +217,10 @@ Take a moment to celebrate what you've learned today!
 # Checkpoint
 
 Compare your _index.html_ against the answer key for your work so far. It might look a little different depending on your spacing and text.
-//TODO: get new checkpoint image with year 2022
 
-> [!CODECHECK] >![](./images/checkpoint.png)
+> [!CODECHECK] > ![](./images/checkpoint.png)
 >
 > You can also compare your _index.html_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/AnswerKeys/blob/checkpoint-html-elements/html/index.html) if the image is too difficult to read.
-> //TODO: update answer key esp with 2022 year
 
 ## References and helpful links :id=references
 

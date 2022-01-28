@@ -44,7 +44,7 @@ To install extensions
 
 1. Select the **Extensions** icon on the left toolbar.
 2. Type the name of the extension in the input, such as, type "Angular Essentials".
-3. Find "Angular Essentials" by John Papa and press the **Install** button to the install the extension. You can press the **Install** button directly in the search results or in the extension's information page.
+3. Find "Angular Essentials" by John Papa (or "Live Server" by Ritwick Dey) and press the **Install** button to the install the extension. You can press the **Install** button directly in the search results or in the extension's information page.
 
 <!-- ![Visual Studio Code Extensions Menu](./images/vs-code-install-extensions.png) -->
 

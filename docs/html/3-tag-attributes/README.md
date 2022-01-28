@@ -59,7 +59,7 @@ Now it's time to add the image to our website. We get to use our first attribute
    {% codeblock %}index.html{% codeblock %}
 
    ```html
-   <img src="DIRECTORYNAME/FILENAME" alt="Image of cocktail" />
+   <img src="./images/cocktail.jpg" alt="Image of cocktail" />
    ```
 
    > [!INFO]
@@ -124,7 +124,6 @@ You did it! You created a website!
 
 # Checkpoint
 
-//TODO:update checkpoint esp year 2022 and answer key
 Compare your _index.html_ against the answer key for your work so far. It might look a little different depending on your spacing and text.
 
 > [!CODECHECK] > ![](./images/checkpoint.png)
