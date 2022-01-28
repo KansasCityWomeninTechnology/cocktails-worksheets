@@ -11,7 +11,6 @@ Follow the instructions on this page to prepare your workspace.
 
 > [!WARNING]
 > If you are using a Chromebook, having trouble installing tools, or otherwise need to use a Cloud IDE option, we will use a cloud development environment called [**StackBlitz**](https://stackblitz.com/). In order to use StackBlitz, you will need a GitHub account.
-> // TODO: update code sandbox to stackblitz
 >
 > Navigate to GitHub to create a personal account or log in. Feel free to ask your mentor for help! When complete and logged in to GitHub, return here to continue the instructions. You won't install any tools listed on this page, but please read through them so you have context for today's worksheet.
 

@@ -103,13 +103,14 @@ Most of our work today will be inside the `<body></body>` tags. This is where vi
 
 {% cloud-ide-begin %}
 We will create a new StackBlitz for the HTML section of the worksheet.
-//TODO: stackbiltz update
 
-1. Navigate to your **Dashboard** in StackBlitz by clicking on the Dashboard icon at the top left of the toolbar (left of **File**).
+1. Log in with your GitHub account
 
-1. On the **Dashboard** view, click the green **Create Static Sandbox** button. This creates a new project with your _index.html_ already created.
+1. Once you're logged in, navigate to your **Dashboard** in StackBlitz by clicking on the StackBlitz icon at the top left of the toolbar.
 
-1. Delete all the code from the _index.html_ so that you can follow the worksheet instructions and save your file by navigating to **File** :fas fa-long-arrow-alt-right: **Save**.
+1. On the **Dashboard** view, under **Create a new project** section, click **Static** icon. This creates a new project with your _index.html_ already created.
 
-1. You created your project and are ready to go! Follow along with [Create HTML structure](?id=structure) using CodeSandbox in place of Visual Studio Code.
+1. Delete all the code from the _index.html_ so that you can follow the worksheet instructions and save your file by clicking **Save** icon at the top left of the toolbar.
+
+1. You created your project and are ready to go! Follow along with [Create HTML structure](?id=structure) using StackBlitz in place of Visual Studio Code.
    {% cloud-ide-end %}
