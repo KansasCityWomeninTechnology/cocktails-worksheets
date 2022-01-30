@@ -6,12 +6,13 @@
   - [Intro to HTML](/html/1-intro/)
   - [HTML Content Tags](/html/2-content-tags/)
   - [HTML Tag Attributes](/html/3-tag-attributes/)
+  - [Quiz](/html/quiz.md)
 
-<!-- - [Bonus](/html/bonus-styling.md)
-//TODO: do we want homework and quiz and bonus??
+<!-- - [Bonus](/html/bonus-styling.md) -->
+
 - Homework
   - [Troubleshooting](/html/homework/troubleshooting.md)
-  - [Troubleshooting Bonus](/html/homework/troubleshooting-bonus.md) -->
+  - [Troubleshooting Bonus](/html/homework/troubleshooting-bonus.md)
 
 ---
 
