@@ -6,9 +6,6 @@ The body section of your HTML contains the visible part of your webpage. Let's s
 
 Let's start adding some visual elements to our web page by adding headers.
 
-<!-- [filename](./1headers.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
-
 1.  In VS Code, place your cursor on the blank line between `<body>` and `</body>`.
 
     > [!INFO]Most HTML elements have an opening and closing tag. The `<body>` tag is the opening tag. The `</body>` tag closes that element.
@@ -44,9 +41,6 @@ Let's start adding some visual elements to our web page by adding headers.
 # Create "About" and "Contact" sections
 
 Next, we'll want an "About" section and a "Contact" sections and add text. We'll explore using `section` and `p` elements.
-
-<!-- [filename](./2sections.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
 
 1. After the `<h2></h2>` subtitle, press `Enter` to start a new line. Add a "About" section by typing `<section></section>`.
 
@@ -118,9 +112,6 @@ Most websites have a navigation element with a list of links also called a "navb
 
 Using list elements is also helpful for accessibility since screenreaders utilize the metadata it provides.
 
-<!-- [filename](./3lists.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
-
 1. We want to add the navigation bar at the very top of the web page. Place your cursor after the opening tag for `<body>` and press `Enter`. You are now adding HTML before the `<h1>` tag.
 
 1. Navigation sections have their own HTML element called `nav`. Add a `nav` element (don't forget the closing tag). Your code will look something like this.
@@ -161,9 +152,6 @@ Using list elements is also helpful for accessibility since screenreaders utiliz
 
 We want recognize our work and add a footer with copyright information.
 
-<!-- [filename](./4footer.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
-
 1. After the "Contact" section, at the very end of the page but still in the `body`, we want to add a footer. The HTML element for footer is `footer`. Place your cursor after the closing `section` tag for "Contact", press `Enter`, and add the `footer` element.
 
 1. Footers often contain copyright information so try using an [HTML entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) to add a copyright symbol. Between the opening and closing `<footer></footer>` tags add the text
@@ -173,9 +161,6 @@ We want recognize our work and add a footer with copyright information.
 # Inspect HTML in Chrome
 
 You'll often find yourself needing to look at how your page renders in the browser to troubleshoot issues so let's give that a try.
-
-<!-- [filename](./5chrome-dev-tools.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
 
 1. In Chrome, right-click on your `<h2>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
 

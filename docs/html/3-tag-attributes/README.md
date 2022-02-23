@@ -8,9 +8,6 @@ We'll add an image, links to practice using attributes.
 
 Websites have eye catching images. Let's find one we like and get it ready to add to our site!
 
-<!-- [filename](./1download-image.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
-
 1. in "html" folder you created during the "Intro to HTML" section, create a new folder named "images"
 
 1. In Google Chrome, navigate to [flickr.com](http://flickr.com).
@@ -26,9 +23,6 @@ Websites have eye catching images. Let's find one we like and get it ready to ad
 # Add an image
 
 Now it's time to add the image to our website. We get to use our first attributes to provide the info the browser needs to display the image.
-
-<!-- [filename](./2image.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
 
 1. Images elements don't require closing tags. In VS Code, find the "About" section. Add an `<img />` tag below the "**About**" header on your page to add an image.
 
@@ -73,9 +67,6 @@ Now it's time to add the image to our website. We get to use our first attribute
 # Use `anchor` elements for navigation
 
 A navbar isn't helpful if it doesn't navigate to the different sections of the webpage. In this section we'll add `anchor` elements to the list of sections in the navbar and make it link their respective section in the webpage. The linked section also needs an attribute for hyperlinks to work.
-
-<!-- [filename](./4link.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
 
 1. Links use the anchor element, `<a>`. We'll wrap the list items "About" and "Contact" in the navbar to link to their respective sections. In VS Code, place your cursor after the opening `<li>` tag and before the text **"About"** and type `<a>` to create a the anchor tag. Add the closing `</a>` after the text. The **"About"** text should now look like this:
 

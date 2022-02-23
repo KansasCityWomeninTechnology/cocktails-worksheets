@@ -14,9 +14,6 @@ At the end of this section, you will have a webpage that looks like this:
 
 # Create the HTML file
 
-<!-- [filename](./1file.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
-
 1. Using the file explorer, in the "CodingAndCocktails/session1" folder you created during the tools setup, create a new folder named "html".
 
 1. In VS Code, select **File** :fas fa-long-arrow-alt-right: **Open Folder...** for Windows and **File** :fas fa-long-arrow-alt-right: **Open...** for Mac. Navigate to and select the "CodingAndCocktails/session1/html" folder.
@@ -30,9 +27,6 @@ At the end of this section, you will have a webpage that looks like this:
    ![](images/vs-code-name-file.png)
 
 # Create HTML structure :id=structure
-
-<!-- [filename](./2structure.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
 
 1. VS Code should open the _index.html_ file for you in the editor.
 
@@ -64,9 +58,6 @@ At the end of this section, you will have a webpage that looks like this:
 
 # HEAD section
 
-<!-- [filename](./3head.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
-
 1. In VS Code, change the text between the `<title></title>` tags. The title displays on the browser tab. Today we'll make a Cocktail Lounge site so change the text from "Document" to "YourName's Cocktail Lounge".
 
    > [!INFO]
@@ -75,9 +66,6 @@ At the end of this section, you will have a webpage that looks like this:
 1. Save the file.
 
 # View your web page
-
-<!-- [filename](./4view.md ':include') -->
-<!-- Contents from file. make changes in external files and copy here until bug is fixed -->
 
 1. Now we want to preview the _index.html_ file in Chrome. Instead of saving and reloading the page like we did earlier, we'll use the VS Code plugin **Live Server**. This extension opens up the web page in your default web browser and reloads the page whenever you save files. In VS Code, start the live server by right clicking on _index.html_ in the **EXPLORER** pane and selecting **Open with Live Server**. A browser tab will open.
 

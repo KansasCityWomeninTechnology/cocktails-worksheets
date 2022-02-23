@@ -8,8 +8,6 @@
   - [HTML Tag Attributes](/html/3-tag-attributes/)
   - [Quiz](/html/quiz.md)
 
-<!-- - [Bonus](/html/bonus-styling.md) -->
-
 - Homework
   - [Troubleshooting](/html/homework/troubleshooting.md)
   - [Troubleshooting Bonus](/html/homework/troubleshooting-bonus.md)
