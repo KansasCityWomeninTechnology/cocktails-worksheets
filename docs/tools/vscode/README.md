@@ -36,7 +36,7 @@ We will install required extensions and list optional extensions you can install
 
 Install the required extensions:
 
-- [Angular Essentials](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials) - An all in one extension covering the needs for Angular developers
+<!-- - [Angular Essentials](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials) - An all in one extension covering the needs for Angular developers -->
 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)- Opens a tab in your default browser to view static webpages and automatically refreshes the webpage whenever you save changes in VS Code
 
