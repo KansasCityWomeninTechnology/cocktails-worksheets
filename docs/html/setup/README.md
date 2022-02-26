@@ -16,7 +16,7 @@ Follow the instructions on this page to prepare your workspace.
 
 # Required tools for this session
 
-You don't need all the tools for today's session. If you haven't installed all the tools listed in [The Tools](https://bit.ly/CnCTheTools) guide already, use the following list to install only the required tools for the worksheet:
+Below is a list of the required tools for the worksheet:
 
 > [!WARNING]If you are borrowing a laptop, your tools are pre-installed. Please ask your mentor to explain the tools we are using today.
 
