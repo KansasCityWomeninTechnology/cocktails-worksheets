@@ -1,3 +1,3 @@
-* [Tools](#tools)
+<!-- * [Tools](#tools) -->
 
 * [Session Worksheets](#session-worksheets)

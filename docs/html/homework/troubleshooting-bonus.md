@@ -1,7 +1,7 @@
 # Homework
 
 >[!TIP]
-> **Hey Slacker!**
+>**Hey Slacker!**
 >
 >Remember, we're here to help.
 >Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
