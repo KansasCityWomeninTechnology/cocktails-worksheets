@@ -104,7 +104,7 @@ Next, we'll want an "About" section and a "Contact" sections and add text. We'll
    > ```
 
 1. Save your file and view it in Google Chrome. Your page should look similar to this:
-   ![](images/headersSectionsEnd.png ":class=image-border")
+   ![](images/headers-sections-end.png ":class=image-border")
 
 # Navigation list of sections
 
@@ -168,11 +168,11 @@ You'll often find yourself needing to look at how your page renders in the brows
    > Chrome DevTools has a lot of features. We used it earlier today to look for console logs and now to inspect elements. We'll continue to use DevTools in upcoming sessions to help us dig deeper into our code.
 
 1. Notice you can see all your tags that you've added to the page and how they nest inside each other. It should look something like this:
-   ![](images/devTools.png ":class=image-border")
+   ![](images/dev-tools.png ":class=image-border")
 
 1. Notice as you mouse over elements in the DevTools that they highlight in the rendered view above.
 
-   ![](images/highlight.png ":class=image-border")
+   ![](images/dev-tool-highlight.png ":class=image-border")
 
 1. You can also click the arrows to the left of your `<section>` elements to expand them and see the elements inside them.
 
@@ -180,11 +180,11 @@ In addition to viewing elements, you can make and preview changes here before ma
 
 1.  In the **Elements** section of the DevTools, double click on the text inside your `<h2>` tag. This should make it editable. Change it to "Hello World" and then press `Enter`
 
-    ![](images/helloWorld1.png ":class=image-border")
+    ![](images/hello-world1.png ":class=image-border")
 
 1.  Your `<h2>` text should now display "Hello World" on your rendered page.
 
-    ![](images/helloWorld2.png ":class=image-border")
+    ![](images/hello-world2.png ":class=image-border")
 
     > [!WARNING]
     > This only lasts until you refresh the page! If you want to make a lasting change you need to make the change to the code in your IDE.
