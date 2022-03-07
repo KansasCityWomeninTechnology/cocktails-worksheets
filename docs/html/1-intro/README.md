@@ -90,7 +90,7 @@ Most of our work today will be inside the `<body></body>` tags. This is where vi
 ### Cloud IDE instructions :id=cloud-ide
 
 {% cloud-ide-begin %}
-We will create a new StackBlitz for the HTML section of the worksheet.
+We will create a new [StackBlitz](https://stackblitz.com) for the HTML section of the worksheet.
 
 1. Log in with your GitHub account
 
