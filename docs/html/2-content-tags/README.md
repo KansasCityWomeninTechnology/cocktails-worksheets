@@ -36,7 +36,7 @@ Let's start adding some visual elements to our web page by adding headers.
     >
     > If you imagine your HTML as an outline, the highest section level is `h1` and `h6` is the lowest section level. As we move into more details within the webpage, we decrease the header section level. Use the different header levels to categorize content in your web page, not because you want different size text.
 
-1.  Exciting! You're rocking now! Show off your webpage to your neighbors. Take a screenshot and upload a picture of your webpage to the **#codingandcocktails** channel in [Slack](http://kcwit.slack.com/)!
+1.  Exciting! You're rocking now! Take a screenshot and upload a picture of your webpage to the **#codingandcocktails** channel in [Slack](http://kcwit.slack.com/)!
 
 # Create "About" and "Contact" sections
 
@@ -165,7 +165,7 @@ You'll often find yourself needing to look at how your page renders in the brows
 1. In Chrome, right-click on your `<h2>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
 
    > [!TIP]
-   > Chrome DevTools has a lot of features. We used it earlier today to look for console logs and now to inspect elements. We'll continue to use DevTools in upcoming sessions to help us dig deeper into our code.
+   > Chrome DevTools has a lot of features. We'll use DevTools in upcoming sessions to help us dig deeper into our code.
 
 1. Notice you can see all your tags that you've added to the page and how they nest inside each other. It should look something like this:
    ![](images/dev-tools.png ":class=image-border")
@@ -203,7 +203,8 @@ Take a moment to celebrate what you've learned today!
 
 Compare your _index.html_ against the answer key for your work so far. It might look a little different depending on your spacing and text.
 
-> [!CODECHECK] > ![](./images/checkpoint.png)
+> [!CODECHECK] 
+> ![](./images/checkpoint.png)
 >
 > You can also compare your _index.html_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/AnswerKeys/blob/checkpoint-html-elements/html/index.html) if the image is too difficult to read.
 
