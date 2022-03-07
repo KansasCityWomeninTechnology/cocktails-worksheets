@@ -117,8 +117,8 @@ You did it! You created a website!
 
 Compare your _index.html_ against the answer key for your work so far. It might look a little different depending on your spacing and text.
 
-> [!CODECHECK]
-> ![](./images/html-checkpoint.png)
+> [!CODECHECK] 
+> ![](images/html-checkpoint.png)
 >
 > You can also compare your _index.html_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/AnswerKeys/blob/checkpoint-html-attributes/html/index.html) if the image is too difficult to read.
 
