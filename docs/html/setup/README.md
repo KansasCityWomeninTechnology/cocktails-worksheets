@@ -7,8 +7,6 @@ Follow the instructions on this page to prepare your workspace.
 > [!TIP]
 > Open [Slack](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails friends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any stumbling blocks today.
 
-> [!WARNING]If you are borrowing a laptop, please ask your mentor to explain the tools.
-
 > [!WARNING]
 > If you are using a Chromebook, having trouble installing tools, or otherwise need to use a Cloud IDE option, we will use a cloud development environment called [**StackBlitz**](https://stackblitz.com/). In order to use StackBlitz, you will need a GitHub account.
 >
@@ -17,8 +15,6 @@ Follow the instructions on this page to prepare your workspace.
 # Required tools for this session
 
 Below is a list of the required tools for the worksheet:
-
-> [!WARNING]If you are borrowing a laptop, your tools are pre-installed. Please ask your mentor to explain the tools we are using today.
 
 1. [Chrome browser](/tools/browser/ ":target=_blank")
 

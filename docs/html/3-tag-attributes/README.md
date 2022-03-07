@@ -2,7 +2,7 @@
 
 Our web page is coming together. But web pages have images, and links. All these HTML elements use **attributes** for extra metadata it needs to work.
 
-We'll add an image, links to practice using attributes.
+We’ll add an image and links to practice using attributes.
 
 # Find and download a fun and exciting image
 
@@ -24,7 +24,7 @@ Websites have eye catching images. Let's find one we like and get it ready to ad
 
 Now it's time to add the image to our website. We get to use our first attributes to provide the info the browser needs to display the image.
 
-1. Images elements don't require closing tags. In VS Code, find the "About" section. Add an `<img />` tag below the "**About**" header on your page to add an image.
+1. Image elements don't require closing tags. In VS Code, find the "About" section. Add an `<img />` tag below the "**About**" header on your page to add an image.
 
    > [!INFO]
    > We created a **self-closing** tag. Self-closing tags have the `/>` written into the tag. HTML elements that don't require content or derive their information from attributes are self-closing.

@@ -20,12 +20,9 @@ The combination of these two concepts provides the structure and the bones of a 
 Reference the [HTML Cheat Sheet](references/html-cheat-sheet.md) at the end of the worksheet for a quick reminder on HTML element options as needed.
 
 >[!TIP]
->First time at Coding & Cocktails?   [Click here to Install the Tools!](http://bit.ly/CnCTheTools)
-
->[!TIP]
 >Don't know a term?   [Click here to check out our glossary!](http://bit.ly/CnCgloss)
 
 >[!TIP]Want to be more efficient at working with your computer?
 >
->[Click here to see our list of Helpful Keyboard Shortcuts!](/references/README.md)
+>[Click here to see our list of Helpful Keyboard Shortcuts!](/html/references/)
 

@@ -1,7 +1,7 @@
 # Homework
 
-> [!TIP] 
->**Hey Slacker!**
+> [!TIP]
+> **Hey Slacker!**
 >
 > Remember, we're here to help.
 > Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
@@ -22,7 +22,6 @@ Try some troubleshooting so you can feel more confident coding on your own!
         <head>
             <meta charset="UTF-8">
             <title>Coding &amp; Cocktails Troubleshooting</title>
-            <!--What are some other tags we can add to help with Search Engine Optimization (SEO)?-->
         </head>
         <body>
             <h1>Exercise 1</h1>
@@ -31,7 +30,7 @@ Try some troubleshooting so you can feel more confident coding on your own!
             <p>Does anyone know why there is no image displayed below this paragraph?</p>
 
             <!--Fix the following HTML to get the image to display-->
-            <div<img src="https://source.unsplash.com/lwoTuByIuC4/600x400" alt="cocktail"></div>
+            <div<img src="https://source.unsplash.com/xBFTjrMIC0c/600x400" alt="cocktail"></div>
 
             <!-- This HTML should display an ordered list of items. -->
             <h3>Is this list formatted according to best practices?</h3>
@@ -60,11 +59,11 @@ Try some troubleshooting so you can feel more confident coding on your own!
 > [!TIP]
 > Remember to save and refresh the page in Google Chrome to see your changes or run Live Server.
 
-1. Update the list of items to use an HTML ordered list so our webpage has the correct structure.
+5. Update the list of items to use an HTML ordered list so our webpage has the correct structure.
 
-1. Update the HTML headers keeping an eye to our HTML best practices.
+6. Update the HTML headers keeping an eye to our HTML best practices.
 
-1. The `<img>` tag is missing an important attribute. Update the image tag to have this attribute.
+7. The `<img>` tag is missing an important attribute. Update the image tag to have this attribute.
 
 ### View Pages and Answer Key
 
