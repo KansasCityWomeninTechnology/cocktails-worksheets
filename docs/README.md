@@ -9,8 +9,10 @@ _Coding & Cocktails is an introductory programming series for women presented by
 
 # Session Worksheets
 
-- [Intro to HTML](/html/)
+<!-- - [Intro to HTML](/html/) -->
+
+[CSS Basics](/css/)
 
 <!-- * [The Glass: HTML](/html/)
-* [The Garnish: CSS](/css/) -->
+[The Garnish: CSS](/css/)
 <!-- * [Angular Series SPA](/spa/) -->
