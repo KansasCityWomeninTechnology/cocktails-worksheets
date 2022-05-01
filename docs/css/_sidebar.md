@@ -3,15 +3,14 @@
 - Worksheet
 
   - [Setup Instructions](/css/setup/)
-  - [CSS Basics](/css/ws1-css-basics/)
-  - [Grouping & Special Selectors](/css/ws2-grouping-selectors/)
-  - [Box Model & Layout](/css/ws3-box-model-layout/)
-  - [Text](/css/ws4-text/)
+  - [CSS Basic](/css/1-css-basics/)
+  - [Selectors](/css/2-selectors/)
+  - [Box Model & Text and Icons](/css/3-box-model-text-icons/)
   - [Quiz](/css/quiz.md)
 
-- Bonus
+<!-- - Bonus
   - [Media Queries](/css/homework/media-query.md)
-  - [Homework](/css/homework/homework.md)
+  - [Homework](/css/homework/homework.md) -->
 
 ---
 
