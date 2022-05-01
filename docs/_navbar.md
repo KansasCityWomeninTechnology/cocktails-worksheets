@@ -1,5 +1,5 @@
-* [Home](/#worksheets)
-* [Intro to HTML](/html/)
+- [Home](/#worksheets)
+  [CSS Basics](/css/)
 
 <!-- * [Tools](/tools/)
 * [SPA Sessions](/spa/) -->
