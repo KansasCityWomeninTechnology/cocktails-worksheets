@@ -24,9 +24,20 @@
 
 1. Let's also add a right and left margin to each list item in the "Drinks menu" section. Set the values to 15px; Can you guess the property names of the right and left margins?
 
+   > [!HINT]
+   >
+   > ```css
+   > .drinks li {
+   >   margin-right: 15px;
+   >   margin-left: 15px;
+   > }
+   > ```
+
 1. Save your file and view in Chrome. You now have plenty of spacing between each drink menu item.
 
 # Add normalization
+
+Many browsers have their own pre-settings such as margins, paddings and font styling. Normalizing evens out the difference between browsers by resetting the browser default stylings so your website can be consistent no matter what browswer you are using.
 
 1. Add the following to the top of _styles.css_.
 
@@ -136,7 +147,7 @@ Our "LadyDev Bar" looks better but not quiet there yet. Let's keep on applying s
    >
    > _"For `h3` elements that also have the class attribute `beverage`, apply the style."_
    >
-   > There more than one way to target the drink titles styles. What are some other ways using what you've learned about **Descendant** and **Child** combinators? Feel free to talk it through with your mentor!
+   > There is more than one way to target the drink title's styles. What are some other ways using what you've learned about **Descendant** and **Child** combinators? Feel free to talk it through with your mentor!
 
 1. We want to add extra space at the bottom of the "Drinks menu" section by setting the `padding-bottom` property to "60px". Add the styling to `class="drinks"`
 
@@ -154,7 +165,7 @@ Our "LadyDev Bar" looks better but not quiet there yet. Let's keep on applying s
    > }
    > ```
 
-1. Border between each list item might help to distinguish each menu. Let's add 1px width white dotted border above each list item
+1. Borders between each list item might help to distinguish each menu. Let's add a 1px width white dotted border above each list item
 
    > [!HINT]
    >
@@ -166,7 +177,7 @@ Our "LadyDev Bar" looks better but not quiet there yet. Let's keep on applying s
 
 ## Navigation
 
-Let's add some styling to `nav` element
+Let's add some styling to the `nav` element
 
 1. The navigation text should be right aligned. In the `nav` style, add `text-align: right;`.
 
@@ -200,7 +211,7 @@ We still have default styling for the hyperlink such as underline. Let's style `
    >
    > Read more about the [Margin and padding properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties#margin_and_padding_properties).
 
-1. Let's position each list item to be next to each other instead of stacked over each other. Add `display: inline` to list item inside of `nav` element
+1. Let's position each list item to be next to each other instead of stacked over each other. Add `display: inline` to list item inside of the `nav` element
 
 ## Footer
 
@@ -218,7 +229,7 @@ We still have default styling for the hyperlink such as underline. Let's style `
 
 # Add icon
 
-Let's add icon in front of each drink menu
+Let's add an icon in front of each drink menu
 
 1. Head to [FontAwesome icons](https://fontawesome.com/icons) and search for `drink` icon.
 
