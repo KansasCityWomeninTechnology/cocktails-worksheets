@@ -14,4 +14,4 @@ During this session we’ll introduce **C**ascading **S**tyle **S**heets (**CSS*
 
 > [!TIP]Want to be more efficient at working with your computer?
 >
-> [Click here to see our list of Helpful Keyboard Shortcuts!](/references/README.md)
+> [Click here to see our list of Helpful Keyboard Shortcuts!](/css/references/)
