@@ -3,9 +3,9 @@
 - Worksheet
 
   - [Setup Instructions](/css/setup/)
-  - [CSS Basic](/css/1-css-basics/)
+  - [CSS Basics](/css/1-css-basics/)
   - [Selectors](/css/2-selectors/)
-  - [Box Model & Text and Icons](/css/3-box-model-text-icons/)
+  - [Box Model, Text and Icons](/css/3-box-model-text-icons/)
   - [Quiz](/css/quiz.md)
 
 <!-- - Bonus

@@ -56,15 +56,15 @@ Let's add some styling to the HTML!
 
 1. Since "Drink menu" section is further down the file, we'll add the style at the bottom of the _styles.css_. "Drink menu" is in a `section` element, let's create a style for the `section` selector and set the `background-color`.
 
-1. Uh oh! We set the background color for all `section` elements, including about sections. That's not what we wanted so let's fix it. The HTML element for "Drink menu" also has a `class` attribute name `drinks`. Change the selector from `section` to `.drinks`.
+1. Uh oh! We set the background color for all `section` elements, including about sections. That's not what we wanted so let's fix it. The HTML element for "Drink menu" also has a `class` attribute named `drinks`. Change the selector from `section` to `.drinks`.
 
    > [!INFO]
    > When applying CSS rules to `class` attributes, prepend a `.` to the selector.
 
    > [!INFO]
-   > This is an example of overriding a global style. The background color for the entire page is one color, but we defined a different color part of the view.
+   > This is an example of overriding a global style. The background color for the entire page is one color, but we defined a different color for part of the view.
    >
-   > Using the element's `class` to allow us to target only the elements with the `class` name, in this case just the "Small plates" section, instead of all elements of the same type.
+   > Using the element's `class` allows us to target only the elements with the `class` name, in this case just the "Drink menu" section, instead of all elements of the same type.
 
    > [!HINT]
    >

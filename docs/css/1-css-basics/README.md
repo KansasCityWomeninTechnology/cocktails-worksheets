@@ -120,7 +120,7 @@ First we need the HTML file. We'll create the file and set up the development en
 > [!TIP]
 > You may run into an error saving _index.html_ if your VS Code needs elevated permissions on Windows. Select **Retry as Admin** to finish saving.
 
-# Create a style sheet and link it into HTML
+# Create a style sheet and link it into HTML :id=create-stylesheet
 
 1. We need a folder for the stylesheet we'll be creating tonight. In VS Code, create the "styles" folder for the project and create the _styles.css_ file inside the "styles" folder.
 
@@ -174,5 +174,94 @@ We will create a new [StackBlitz](https://stackblitz.com) for the HTML section o
 
 1. Delete all the code from the _index.html_ so that you can follow the worksheet instructions and save your file by clicking **Save** icon at the top left of the toolbar.
 
-1. You created your project and are ready to go!
+1. Copy and paste the following HTML code into your _index.html_ file.
+
+   {% codeblock copy %}index.html{% codeblock %}
+
+   ```html
+   <html lang="en">
+     <head>
+       <meta charset="UTF-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
+       <title>LadyDev Bar</title>
+       <script
+         src="https://kit.fontawesome.com/eeb19414a4.js"
+         crossorigin="anonymous"
+       ></script>
+       <link rel="stylesheet" href="styles.css" />
+     </head>
+     <body>
+       <nav class="navbar">
+         <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#menu">Menu</a></li>
+           <li><a href="#contact">Contact</a></li>
+         </ul>
+       </nav>
+       <section id="about" class="hero">
+         <div class="hero-text">
+           <h1>LadyDev Bar</h1>
+           <h2>Making development more delicious every day!</h2>
+           <p>Welcome to the LadyDev Bar. We're glad you're here!</p>
+           <p>Sit down, relax, and enjoy good drinks and good friends.</p>
+         </div>
+       </section>
+       <main class="grid-container">
+         <section id="menu" class="drinks">
+           <h2>Drink menu</h2>
+           <ul>
+             <li class="item">
+               <h3 class="beverage">Martinis</h3>
+               <p>
+                 Made with our own homemade gin and dry vermouth. Choose from
+                 The Classic, Lemondrop, or Chocolate.
+               </p>
+             </li>
+             <li class="item">
+               <h3 class="beverage">Wine</h3>
+               <p>
+                 There are just too many to list. Ask your server for a
+                 recommendation.
+               </p>
+             </li>
+             <li class="item">
+               <h3 class="beverage">Margaritas</h3>
+               <p>
+                 Slushy frozen delicousness, in Peach, Strawberry, or Mango.
+                 Served with a rock-salted rim and lime.
+               </p>
+             </li>
+             <li class="item">
+               <h3 class="beverage">Hot &amp; Creamy</h3>
+               <p>
+                 Just what you need to kick off a night of coding. We offer
+                 concoctions with coffee, Kahlua, Bailey's, and more.
+               </p>
+             </li>
+             <li class="item">
+               <h3 class="beverage">Beer</h3>
+               <p>
+                 We serve the finest microbrews from around the world. How about
+                 a Saison, IPA, or Stout?
+               </p>
+             </li>
+             <li class="item">
+               <h3 class="beverage">Non alcoholic</h3>
+               <p>
+                 We have plenty of NA options available to quench your thirst,
+                 like lemonade, milk or soda.
+               </p>
+             </li>
+           </ul>
+         </section>
+       </main>
+       <footer id="contact">
+         <p>&copy; 2022 LadyDev Bar</p>
+       </footer>
+     </body>
+   </html>
+   ```
+
+1. You created your project and are ready to [Create a style sheet and link it into HTML](./?id=create-stylesheet)!
    {% cloud-ide-end %}
