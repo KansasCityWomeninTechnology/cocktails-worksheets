@@ -14,6 +14,10 @@ Let's add some styling to the HTML!
    }
    ```
 
+   > [!TIP]
+   > Feel free to choose different color if you'd like. You can always zoom in to have a closer look.
+   > Check out [keyboard shortcut](/css/references/) for `Zoom in` and `Zoom out` shortcuts.
+
 1. Save your file and view in Chrome. Do you see the color of your header change?
 
 1. Repeat to create styles targeting `h2` right after your `h1` style and apply the same color.
