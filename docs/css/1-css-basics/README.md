@@ -40,7 +40,6 @@ First we need the HTML file. We'll create the file and set up the development en
          src="https://kit.fontawesome.com/eeb19414a4.js"
          crossorigin="anonymous"
        ></script>
-       <link rel="stylesheet" href="styles/styles.css" />
      </head>
      <body>
        <nav class="navbar">
@@ -188,7 +187,6 @@ We will create a new [StackBlitz](https://stackblitz.com) for the HTML section o
          src="https://kit.fontawesome.com/eeb19414a4.js"
          crossorigin="anonymous"
        ></script>
-       <link rel="stylesheet" href="styles.css" />
      </head>
      <body>
        <nav class="navbar">
