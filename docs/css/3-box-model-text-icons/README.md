@@ -79,17 +79,17 @@ Many browsers have their own pre-settings such as margins, paddings and font sty
 
 1. Click `Select this style` next to the style you want
 
-![](images/font-select.png ":class=image-border")
+![](images/fontSelect.png ":class=image-border")
 
 1. Find a font to use for body text and select the font using the steps outlined above.
 
 1. On the side bar, click on **@IMPORT** and copy the `@import` statement under `Use on the web` section.
 
-![](images/import-font.png ":class=image-border")
+![](images/importFont.png ":class=image-border")
 
 1. Paste the `@import` statement at the top of your _styles.css_ file, before the normalizing styles.
 
-1. In the style declared for the `body`, add font for body text using the CSS rules specified by Google. In the example above, Google specified `font-family: 'Bangers', cursive;`.
+1. In the style declared for the `body`, add font for body text using the CSS rules specified by Google. In the example above, Google specified `font-family: 'Catamaran', sans-serif;`.
 
    > [!INFO]
    > If you select a font with 2 word in the name you'll need to wrap the font name in quotation marks.
@@ -260,4 +260,4 @@ Compare your _styles.css_ against the answer key for your work. It might look a 
 
 1. Share your success by posting a screenshot to Slack!
 
-![](https://media.giphy.com/media/3ohhwo4PzDFaz2sADu/giphy.gif)
+![](https://media.giphy.com/media/26tPplGWjN0xLybiU/giphy.gif)

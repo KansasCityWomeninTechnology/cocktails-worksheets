@@ -40,7 +40,7 @@ Let's add some styling to the HTML!
 
    ```css
    body {
-     background-color: #fefaec;
+     background-color: #f9f7f7;
    }
    ```
 
@@ -76,7 +76,7 @@ Let's add some styling to the HTML!
    >
    > ```css
    > .drinks {
-   >   background-color: #9d81a2;
+   >   background-color: #dbe2ef;
    > }
    > ```
 
@@ -87,9 +87,9 @@ Let's add some styling to the HTML!
    > [!HINT]
    >
    > The colors may be different depending on your color choice.
-   > Declare a style for `nav` after the style for `body` and add `background-color: #484e78;`.
+   > Declare a style for `nav` after the style for `body` and add `background-color: #364F6B;`.
    >
-   > Declare a style for `footer` and add `background-color: #484e78;`.
+   > Declare a style for `footer` and add `background-color: #364F6B;`.
 
 # Grouping selectors
 
@@ -127,7 +127,7 @@ Let's add some styling to the HTML!
 
 1. Save your file and view in Chrome. What happens when you hover over the list items in the drink menu?
 
-![](https://media.giphy.com/media/B0vFTrb0ZGDf2/giphy.gif)
+![](https://media.giphy.com/media/chzz1FQgqhytWRWbp3/giphy.gif)
 
 1. But we don't want all the `li` tags to hover. Just the ones in the drink menu. We could add a `class` or we can target only the `li` elements in `main` by changing the selector to `main li:hover`.
 
@@ -148,11 +148,11 @@ You'll often find yourself needing to look at how your page renders in the brows
    > Chrome DevTools has a lot of features. We'll use DevTools in upcoming sessions to help us dig deeper into our code.
 
 1. Notice you can see all your tags that you've added to the page and how they nest inside each other. It should look something like this:
-   ![](images/dev-tools.png ":class=image-border")
+   ![](images/devTools.png ":class=image-border")
 
 1. Notice as you mouse over elements in the DevTools that they highlight in the rendered view above.
 
-   ![](images/dev-tool-highlight.png ":class=image-border")
+   ![](images/devToolHighlight.png ":class=image-border")
 
 1. You can also click the arrows to the left of your `<main>` elements to expand them and see the elements inside them.
 
@@ -160,11 +160,11 @@ In addition to viewing elements, you can make and preview changes here before ma
 
 1.  In the **Elements** section of the DevTools, double click on the text inside your `<h1>` tag. This should make it editable. Change it to "Hello World" and then press `Enter`
 
-    ![](images/hello-world1.png ":class=image-border")
+    ![](images/helloWorld1.png ":class=image-border")
 
 1.  Your `<h1>` text should now display "Hello World" on your rendered page.
 
-    ![](images/hello-world2.png ":class=image-border")
+    ![](images/helloWorld2.png ":class=image-border")
 
     > [!WARNING]
     > This only lasts until you refresh the page! If you want to make a lasting change you need to make the change to the code in your IDE.

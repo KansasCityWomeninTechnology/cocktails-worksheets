@@ -2,7 +2,7 @@
 
 **C**ascading **S**tyle **S**heets (**CSS**) decorates your website with visual appeal and invites the user to connect with your website's personality. Tonight we'll apply CSS to the "LadyDev Bar" web page. If you follow our instructions your page will end up looking like the example below but feel free to add in some of your own creativity if you feel comfortable!
 
-![](images/ladyDevBar.png ":class=image-border")
+![](images/lady-dev-bar.png ":class=image-border")
 
 > [!WARNING]
 > Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
@@ -40,7 +40,6 @@ First we need the HTML file. We'll create the file and set up the development en
          src="https://kit.fontawesome.com/eeb19414a4.js"
          crossorigin="anonymous"
        ></script>
-       <link rel="stylesheet" href="styles/styles.css" />
      </head>
      <body>
        <nav class="navbar">
@@ -188,7 +187,6 @@ We will create a new [StackBlitz](https://stackblitz.com) for the HTML section o
          src="https://kit.fontawesome.com/eeb19414a4.js"
          crossorigin="anonymous"
        ></script>
-       <link rel="stylesheet" href="styles.css" />
      </head>
      <body>
        <nav class="navbar">
