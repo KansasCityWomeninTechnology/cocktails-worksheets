@@ -201,6 +201,7 @@ In addition to viewing elements, you can make and preview changes here before ma
 
 Compare your _styles.css_ against the answer key for your work. It might look a little different depending on the color palette you chose.
 
-> [!CODECHECK] > ![Code from styles.css](images/checkpoint.png)
+> [!CODECHECK]
+> ![Code from styles.css](images/checkpoint.png)
 >
 > Hard to read? Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2022-checkpoint-2-selectors/styles/styles.css).
