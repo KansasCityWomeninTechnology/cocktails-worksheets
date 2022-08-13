@@ -166,7 +166,7 @@ Compare your project folder against the answer key for your work.
 
 > [!CODECHECK]
 >
-> Compare your folder setup with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2022-checkpoint-1-css-basics).
+> Compare your folder setup with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/tree/2022-checkpoint-1-css-basics).
 
 ### Cloud IDE instructions :id=cloud-ide
 
@@ -270,4 +270,4 @@ We will create a new [StackBlitz](https://stackblitz.com) for the HTML section o
    ```
 
 1. You created your project and are ready to [Create a style sheet and link it into HTML](./?id=create-stylesheet)!
-{% cloud-ide-end %}
+   {% cloud-ide-end %}

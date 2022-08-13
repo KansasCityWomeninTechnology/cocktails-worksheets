@@ -181,4 +181,4 @@ Compare your _styles.css_ against the answer key for your work. It might look a 
 > [!CODECHECK]
 > ![Code from styles.css](images/checkpoint.png)
 >
-> Hard to read? Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2022-checkpoint-2-selectors/css/styles.css).
+> Hard to read? Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2022-checkpoint-2-selectors/styles/styles.css).
