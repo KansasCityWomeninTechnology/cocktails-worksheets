@@ -119,6 +119,9 @@ First we need the HTML file. We'll create the file and set up the development en
 > [!TIP]
 > You may run into an error saving _index.html_ if your VS Code needs elevated permissions on Windows. Select **Retry as Admin** to finish saving.
 
+> [!TIP]
+> Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
+
 # Create a style sheet and link it into HTML :id=create-stylesheet
 
 1. We need a folder for the stylesheet we'll be creating tonight. In VS Code, create the "styles" folder for the project and create the _styles.css_ file inside the "styles" folder.

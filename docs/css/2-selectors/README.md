@@ -2,6 +2,9 @@
 
 Let's add some styling to the HTML!
 
+> [!TIP]
+> Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
+
 # Add text color
 
 1. We'll start applying colors to the main `h1` header first. In _styles.css_ in VS Code, declare a style for `h1` tag. Use the `color` property and substitute the hex color you selected for the title like this
