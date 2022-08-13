@@ -145,6 +145,10 @@ First we need the HTML file. We'll create the file and set up the development en
      <meta charset="UTF-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1" />
      <title>LadyDev Bar</title>
+     <script
+       src="https://kit.fontawesome.com/eeb19414a4.js"
+       crossorigin="anonymous"
+     ></script>
      <link rel="stylesheet" href="styles/styles.css" />
    </head>
    ```

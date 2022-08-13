@@ -1,6 +1,6 @@
 # Adding styles
 
-Let's add some styling to the HTML!
+Let's add some styling to the HTML! Throughout this worksheet, if you need help choosing colors, feel free to use [Colorhunt.co](https://colorhunt.co/). They have lots of color palette samples!
 
 > [!TIP]
 > Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
@@ -23,7 +23,21 @@ Let's add some styling to the HTML!
 
 1. Save your file and view in Chrome. Do you see the color of your header change?
 
-1. Repeat to create styles targeting `h2` right after your `h1` style and apply the same color.
+1. Repeat step 1 and add the same color to `h2`. You'll add this right after your `h1` style.
+
+   > [!HINT]
+   >
+   > {% codeblock %}styles.css{% codeblock %}
+   >
+   > ```css
+   > h1 {
+   >   color: #637056;
+   > }
+   >
+   > h2 {
+   >   color: #637056;
+   > }
+   > ```
 
    > [!INFO]
    > Notice the color applies to all `h2` elements, including the "Drink menu" text. This is an example of how styles **cascade**.
@@ -38,6 +52,9 @@ Let's add some styling to the HTML!
 # Add background color
 
 1. Select a background color for the entire page and add it to the top of _styles.css_ by using the HTML `body` selector and `background-color` property.
+
+   > [!TIP]
+   > Feel free to use [Colorhunt.co](https://colorhunt.co/) for colors.
 
    {% codeblock %}styles.css{% codeblock %}
 
@@ -56,7 +73,7 @@ Let's add some styling to the HTML!
 
 1. Select a background color for the "Drink menu" section.
 
-1. Note the HTML element for "Drink menu" in the _index.html_.
+1. To add the background color for the "Drink menu" section, we need to know which HTML element is used for the section. In VS Code, open _index.html_ and find the HTML element for "Drink menu".
 
    > [!TIP]
    > You can search for and find "Drink menu" in the _index.html_ in VS Code. In the toolbar, select **Edit** :fas fa-long-arrow-alt-right: **Find in Files** or click on the magnifying glass on the left toolbar (where you installed Extensions). You can also use a [keyboard shortcut](/css/references/).
@@ -85,7 +102,10 @@ Let's add some styling to the HTML!
 
 ## Navigation and footer
 
-1. To help make the navigation and footer area pop, select a background color to use. Look at the _index.html_ file to identify the selectors for the navigation and footer sections. Since these are global styles, declare the styles near the top of _styles.css_ file.
+1. To make the navigation and footer area pop, let's add a background color to them. Look at the _index.html_ file to identify the selectors for the navigation and footer sections. Since these are global styles, declare the styles near the top of _styles.css_ file.
+
+   > [!TIP]
+   > HTML element for navigation is `nav` and HTML element for footer is `footer`
 
    > [!HINT]
    >
