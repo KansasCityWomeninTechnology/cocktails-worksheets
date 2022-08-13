@@ -2,6 +2,9 @@
 
 Let's add some styling to the HTML!
 
+> [!TIP]
+> Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
+
 # Add text color
 
 1. We'll start applying colors to the main `h1` header first. In _styles.css_ in VS Code, declare a style for `h1` tag. Use the `color` property and substitute the hex color you selected for the title like this
@@ -173,3 +176,12 @@ In addition to viewing elements, you can make and preview changes here before ma
 
     > [!INFO]
     > Element inspection comes in handy when you're trying to style your page too!
+
+# Checkpoint
+
+Compare your _styles.css_ against the answer key for your work. It might look a little different depending on the color palette you chose.
+
+> [!CODECHECK]
+> ![Code from styles.css](images/checkpoint.png)
+>
+> Hard to read? Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2022-checkpoint-2-selectors/styles/styles.css).

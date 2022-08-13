@@ -119,6 +119,9 @@ First we need the HTML file. We'll create the file and set up the development en
 > [!TIP]
 > You may run into an error saving _index.html_ if your VS Code needs elevated permissions on Windows. Select **Retry as Admin** to finish saving.
 
+> [!TIP]
+> Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
+
 # Create a style sheet and link it into HTML :id=create-stylesheet
 
 1. We need a folder for the stylesheet we'll be creating tonight. In VS Code, create the "styles" folder for the project and create the _styles.css_ file inside the "styles" folder.
@@ -159,6 +162,14 @@ First we need the HTML file. We'll create the file and set up the development en
    > If you get an access warning, click "Allow" to let **Live Server** serve the application.
 
 1. Take a look at your app in Google Chrome and notice the current styling. The page doesn't look good yet but we've got our initial setup for our project done. Now let's get to the fun part - styling!
+
+# Checkpoint
+
+Compare your project folder against the answer key for your work.
+
+> [!CODECHECK]
+>
+> Compare your folder setup with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/tree/2022-checkpoint-1-css-basics).
 
 ### Cloud IDE instructions :id=cloud-ide
 
