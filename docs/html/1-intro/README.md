@@ -4,31 +4,35 @@ Today we cover what web development is and HTML basics. In this section of the w
 
 At the end of this section, you will have a webpage that looks like this:
 
+//TODO: update image
 ![](./images/end-result.png ":class=image-border")
 
 > [!WARNING]
 > Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
 
-> [!WARNING]
-> If you are using StackBlitz, please skip to [StackBlitz instructions](./?id=cloud-ide) below.
+# Prepare the project for our code
 
-# Create the HTML file
+StackBlitz creates some files and codes for us when we create a new project. Let's checkout out what StackBlitz gave us and prepare the project for our code.
 
-1. Using the file explorer, in the "CodingAndCocktails/session1" folder you created during the tools setup, create a new folder named "html".
+1. First, let's check out _index.js_. We already have some codes but we don't need line 6. Let's delete line 6.
 
-1. In VS Code, select **File** :fas fa-long-arrow-alt-right: **Open Folder...** for Windows and **File** :fas fa-long-arrow-alt-right: **Open...** for Mac. Navigate to and select the "CodingAndCocktails/session1/html" folder.
+   {% codeblock copy %}index.js line #6{% codeblock %}
 
-1. Create a file called _index.html_. In VS Code's **EXPLORER** pane, hover over **HTML** to display action buttons. Click the **New File** button.
+   ```js
+   appDiv.innerHTML = `<h1>JS Starter</h1>`;
+   ```
 
-   ![](images/vs-code-new-file.png)
+![](images/stackblitz-indexjs.png ":class=image-border")
 
-1. In the text box that appears, name the file _index.html_ and press `Enter` to save it in your "CodingAndCocktails/session1/html" folder.
+2. Now let's move on to _index.html_. We will add our code here so let's clear this file and leave it empty.
 
-   ![](images/vs-code-name-file.png)
+![](images/stackblitz-indexhtml.png ":class=image-border")
+
+> [!TIP]Don't forget to save the files. If you have a white circle next to file name, it means you have changes that haven't saved yet. You can either click **Save** button on the top left or use shortcut `cmd` + `s` for Mac or `ctrl` + `s` for Window.
+>
+> ![](images/stackblitz-save.png ":class=image-border")
 
 # Create HTML structure :id=structure
-
-1. VS Code should open the _index.html_ file for you in the editor.
 
 1. Copy the following code snippet and paste it into your _index.html_ file.
 
@@ -52,53 +56,28 @@ At the end of this section, you will have a webpage that looks like this:
    >
    > The `meta` and `title` tags are also children. What tag is `meta` and `title`'s parent? Feel free to grab a mentor to talk out the answers to these questions. They LOVE to help and act as a soundboard!
 
-1. Save the file.
+2. Save the file.
 
-1. Cheers! You set up the structural foundation of a web page!
+3. Cheers! You set up the structural foundation of a web page!
 
 # HEAD section
 
-1. In VS Code, change the text between the `<title></title>` tags. The title displays on the browser tab. Today we'll make a Cocktail Lounge site so change the text from "Document" to "YourName's Cocktail Lounge".
+1. In _index.html_, change the text between the `<title></title>` tags. The title displays on the browser tab. Today we'll make a Cocktail Lounge site so change the text from "Document" to "YourName's Cocktail Lounge".
 
-   > [!INFO]
-   > The title is in the `head` section. The `head` section contains data telling your browser more information about your page. This is also where you link to your styles and script files.
+![](images/stackblitz-tab-change.png ":class=image-border")
 
-1. Save the file.
+> [!INFO]
+> The title is in the `head` section. The `head` section contains data telling your browser more information about your page. This is also where you link to your styles and script files.
 
-# View your web page
-
-1. Now we want to preview the _index.html_ file in Chrome. Instead of saving and reloading the page like we did earlier, we'll use the VS Code plugin **Live Server**. This extension opens up the web page in your default web browser and reloads the page whenever you save files. In VS Code, start the live server by right clicking on _index.html_ in the **EXPLORER** pane and selecting **Open with Live Server**. A browser tab will open.
+2. Save the file.
 
    > [!WARNING]
-   > If you don't have the **Live Server** option, take a moment to [set up your workspace](../../tools/vscode/?id=required-extensions).
+   > If you didn't open the browser view in a new tab, you won't be able to see the change.
 
-   > [!WARNING]
-   > If the tab opens in another browser, copy the URL and paste it into a new tab in Chrome. The reload will automatically happen in Chrome.
-   >
-   > If you get an access warning, click "Allow" to let **Live Server** serve the application.
-   >
-   > If you are borrowing a laptop and get an access warning, please contact a member of the Coding & Cockails leadership team for access.
-
-1. You won't see anything exciting on the page yet, but you should see your title displayed in the page tab.
+You won't see anything exciting on the page yet, but you should see your title displayed in the page tab.
 
 Most of our work today will be inside the `<body></body>` tags. This is where visible page content goes.
 
 ## References and helpful links
 
 [Mozilla Developer Network Head element documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
-
-### Cloud IDE instructions :id=cloud-ide
-
-{% cloud-ide-begin %}
-We will create a new [StackBlitz](https://stackblitz.com) for the HTML section of the worksheet.
-
-1. Log in with your GitHub account
-
-1. Once you're logged in, navigate to your **Dashboard** in StackBlitz by clicking on the StackBlitz icon at the top left of the toolbar.
-
-1. On the **Dashboard** view, under **Create a new project** section, click **Static** icon. This creates a new project with your _index.html_ already created.
-
-1. Delete all the code from the _index.html_ so that you can follow the worksheet instructions and save your file by clicking **Save** icon at the top left of the toolbar.
-
-1. You created your project and are ready to go! Follow along with [Create HTML structure](?id=structure) using StackBlitz in place of Visual Studio Code.
-   {% cloud-ide-end %}
