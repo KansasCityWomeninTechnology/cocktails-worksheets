@@ -27,3 +27,6 @@ We will use lighthouse to check our accessibility score.
    ![](images/lighthouse-analyze.png ":class=image-border")
 3. Check your score and see where you can improve
    ![](images/lighthouse-score.png":class=image-border")
+
+Great job with your website! Share your success by posting a screenshot to Slack!
+![](https://media.giphy.com/media/LQFNwVlQ4B5FtStbip/giphy.gif)
