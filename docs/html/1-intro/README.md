@@ -4,8 +4,7 @@ Today we cover what web development is and HTML basics. In this section of the w
 
 At the end of this section, you will have a webpage that looks like this:
 
-//TODO: update image
-![](./images/end-result.png ":class=image-border")
+![](./images/result.png ":class=image-border")
 
 > [!WARNING]
 > Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
