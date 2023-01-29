@@ -1,8 +1,9 @@
 # Helpful Keyboard Shortcuts
 
-[filename](./keyboard-shortcuts.md ':include')
+[filename](./keyboard-shortcuts.md ":include")
 
-# VS Code Keyboard Shortcuts 
+<!--
+# VS Code Keyboard Shortcuts
 
 >[!INFO]
 >Too many keyboard shortcuts?
@@ -32,4 +33,4 @@
 | Outdent line | `cmd` + `[` | `ctrl` + `[` |
 
 **Need more info?** Refer to [VS Code's Documentation](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).
-
+ -->

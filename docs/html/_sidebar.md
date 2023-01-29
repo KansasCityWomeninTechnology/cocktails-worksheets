@@ -6,6 +6,7 @@
   - [Intro to HTML](/html/1-intro/)
   - [HTML Content Tags](/html/2-content-tags/)
   - [HTML Tag Attributes](/html/3-tag-attributes/)
+  - [Accessibility](/html/4-ally/)
   - [Quiz](/html/quiz.md)
 
 - Homework
@@ -17,3 +18,5 @@
 - [Answer Key](/html/answer-key.md)
 - [HTML Cheat Sheet](/html/references/html-cheat-sheet.md)
 - [References & Shortcuts](/html/references/)
+- [Glossary](https://github.com/KansasCityWomeninTechnology/LearningResources/blob/master/glossary.md)
+- [Learning Resources](https://github.com/KansasCityWomeninTechnology/LearningResources/blob/master/LearningResources.md)
