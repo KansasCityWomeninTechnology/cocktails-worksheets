@@ -45,7 +45,7 @@ Next, we'll want an "About" section and a "Contact" sections and add text. We'll
 1. After the `<h2></h2>` subtitle, press `Enter` to start a new line. Add a "About" section by typing `<section></section>`.
 
    > [!INFO]
-   > There's a lot of different HTML elements. When writing HTML, focus on the content and the meaning of what you are trying to communicate, not the website presentation. Good web development practice recommends doing so and calls this style of coding **Semantic HTML**.
+   > There's a lot of different HTML elements. There is a **semantic element** which tells you, the developer, and the browser its meaning such as `<header>`, `<footer>` and `<table>`. Then there is a **non-semantic element** that doesn't tell you much about its content such as `<div>` and `<span>`. When writing HTML, focus on the content and the meaning of what you are trying to communicate, not the website presentation. Good web development practice recommends doing so and calls this style of coding **Semantic HTML**.
    >
    > `section` groups standalone content, typically include a header, and helps organize the HTML into logical pieces. Use the element that best describes your content to align with Semantic HTML practices.
    >
@@ -203,8 +203,7 @@ Take a moment to celebrate what you've learned today!
 
 Compare your _index.html_ against the answer key for your work so far. It might look a little different depending on your spacing and text.
 
-> [!CODECHECK]
-> ![](images/html-checkpoint-1.png)
+> [!CODECHECK] > ![](images/html-checkpoint-1.png)
 > You can also compare your _index.html_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/AnswerKeys/blob/checkpoint-html-elements/html/index.html) if the image is too difficult to read.
 
 ## References and helpful links :id=references
