@@ -11,8 +11,4 @@ _Coding & Cocktails is an introductory programming series for women presented by
 
 [The Glass: Front-End Architecture & HTML](/html/)
 
-[The Garnish: CSS](/css/)
-
-<!--[The Glass: Front-End Architecture & HTML](/html/)
-[The Garnish: CSS](/css/)
 <!-- * [Angular Series SPA](/spa/) -->
