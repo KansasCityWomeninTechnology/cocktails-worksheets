@@ -10,13 +10,24 @@
 
 Try some troubleshooting so you can feel more confident coding on your own!
 
-1.  Open a new file in VS Code and save it in your "CodingAndCocktails/session1/html" folder as _troubleshooting.html_
+1.  Create a new Javascript project in StackBlitz.
 
-2.  Paste the following code into the file
+> [!TIP]
+> If you need a refresher on how to create a new Javascript project in StackBlitz, refer to step #2 in [Create StackBlitz account](../setup/?id=create-stackblitz-account) section.
 
-    {% codeblock %}troubleshooting.html{% codeblock %}
+2.  We don't need line #6 in _index.js_. Let's delete the code.
 
+    {% codeblock copy %}index.js line #6{% codeblock %}
+
+    ```js
+    appDiv.innerHTML = `<h1>JS Starter</h1>`;
     ```
+
+3.  Replace code in _index.html_ with the code below.
+
+    {% codeblock copy%}index.html{% codeblock %}
+
+    ```html
     <!DOCTYPE html>
     <html>
         <head>
@@ -51,8 +62,6 @@ Try some troubleshooting so you can feel more confident coding on your own!
         </body>
     </html>
     ```
-
-3.  Save the file and open it in your Google Chrome browser.
 
 4.  The first thing to fix is that our image is not displayed underneath the first paragraph. See if you can make the image show up by editing the HTML.
 
