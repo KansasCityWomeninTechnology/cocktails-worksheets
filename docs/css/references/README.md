@@ -17,7 +17,7 @@
 | Switch between Chrome windows              | `shift` + `cmd` + `~`  | N/A                     |
 | Open Google Chrome developer tools console | `cmd` + `option` + `i` | `F12`                   |
 
-# VS Code Keyboard Shortcuts
+<!-- # VS Code Keyboard Shortcuts
 
 > [!INFO]
 > Too many keyboard shortcuts?
@@ -46,4 +46,4 @@
 | Indent                | `cmd` + `]`              | `ctrl` + `]`             |
 | Outdent line          | `cmd` + `[`              | `ctrl` + `[`             |
 
-**Need more info?** Refer to [VS Code's Documentation](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).
+**Need more info?** Refer to [VS Code's Documentation](https://code.visualstudio.com/docs/getstarted/tips-and-tricks). -->
