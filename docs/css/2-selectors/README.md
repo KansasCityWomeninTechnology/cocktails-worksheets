@@ -1,6 +1,6 @@
 # Adding styles
 
-Let's add some styling to the HTML! Throughout this worksheet, if you need help choosing colors, feel free to use [Colorhunt.co](https://colorhunt.co/). They have lots of color palette samples!
+Let's add some styling to the HTML! Throughout this worksheet, if you need help choosing colors, feel free to use [Colorhunt.co](https://colorhunt.co/) or [accessible color palette generator by Venngage](https://venngage.com/tools/accessible-color-palette-generator) for accessibility friendly color palette. They have lots of color palette samples!
 
 > [!TIP]
 > Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
@@ -9,11 +9,11 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 1. We'll start applying colors to the main `h1` header first. In _styles.css_ in VS Code, declare a style for `h1` tag. Use the `color` property and substitute the hex color you selected for the title like this
 
-   {% codeblock %}styles.css{% codeblock %}
+   {% codeblock copy %}styles.css{% codeblock %}
 
    ```css
    h1 {
-     color: #637056;
+     color: #1d1395;
    }
    ```
 
@@ -31,11 +31,11 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    >
    > ```css
    > h1 {
-   >   color: #637056;
+   >   color: #1d1395;
    > }
    >
    > h2 {
-   >   color: #637056;
+   >   color: #1d1395;
    > }
    > ```
 
@@ -54,13 +54,13 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 1. Select a background color for the entire page and add it to the top of _styles.css_ by using the HTML `body` selector and `background-color` property.
 
    > [!TIP]
-   > Feel free to use [Colorhunt.co](https://colorhunt.co/) for colors.
+   > Feel free to use [Colorhunt.co](https://colorhunt.co/) or [accessible color palette generator by Venngage](https://venngage.com/tools/accessible-color-palette-generator) for colors.
 
-   {% codeblock %}styles.css{% codeblock %}
+   {% codeblock copy %}styles.css{% codeblock %}
 
    ```css
    body {
-     background-color: #f9f7f7;
+     background-color: #f2dcf2;
    }
    ```
 
@@ -73,12 +73,25 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 1. Select a background color for the "Drink menu" section.
 
-1. To add the background color for the "Drink menu" section, we need to know which HTML element is used for the section. In VS Code, open _index.html_ and find the HTML element for "Drink menu".
+1. To add the background color for the "Drink menu" section, we need to know which HTML element is used for the section. In StackBlitz, open _index.html_ and find the HTML element for "Drink menu".
 
    > [!TIP]
-   > You can search for and find "Drink menu" in the _index.html_ in VS Code. In the toolbar, select **Edit** :fas fa-long-arrow-alt-right: **Find in Files** or click on the magnifying glass on the left toolbar (where you installed Extensions). You can also use a [keyboard shortcut](/css/references/).
+   > You can search for and find "Drink menu" in the _index.html_ in StackBlitz. Click on the magnifying glass on the left toolbar.
+   >
+   > ![](images/stackblitz-search.png ":class=image-border")
+   >
+   > Or you can click anywhere in the _index.html_ file then use [keyboard shortcut](/css/references/).
+   > ![](images/stackblitz-search-shortcut.png ":class=image-border")
 
 1. Since "Drink menu" section is further down the file, we'll add the style at the bottom of the _styles.css_. "Drink menu" is in a `section` element, let's create a style for the `section` selector and set the `background-color`.
+
+   {% codeblock copy %}styles.css{% codeblock %}
+
+   ```css
+   section {
+     background-color: #cc8ecc;
+   }
+   ```
 
 1. Uh oh! We set the background color for all `section` elements, including about sections. That's not what we wanted so let's fix it. The HTML element for "Drink menu" also has a `class` attribute named `drinks`. Change the selector from `section` to `.drinks`.
 
@@ -92,7 +105,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
    > [!HINT]
    >
-   > {% codeblock %}styles.css{% codeblock %}
+   > {% codeblock copy %}styles.css{% codeblock %}
    >
    > ```css
    > .drinks {
@@ -110,9 +123,9 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > [!HINT]
    >
    > The colors may be different depending on your color choice.
-   > Declare a style for `nav` after the style for `body` and add `background-color: #364F6B;`.
+   > Declare a style for `nav` after the style for `body` and add `background-color: #8dbfa1;`.
    >
-   > Declare a style for `footer` and add `background-color: #364F6B;`.
+   > Declare a style for `footer` and add `background-color: #8dbfa1;`.
 
 # Grouping selectors
 
@@ -120,12 +133,12 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 1. Combine the `h1` and `h2` selectors by separating them with a comma like this
 
-   {% codeblock %}styles.css{% codeblock %}
+   {% codeblock copy %}styles.css{% codeblock %}
 
    ```css
    h1,
    h2 {
-     color: #637056;
+     color: #1d1395;
    }
    ```
 
@@ -148,6 +161,16 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 1. We want the background to show on hover, so we can use the **Pseudo Class** `:hover`. Change the selector to `li:hover`.
 
+   > [!HINT]
+   >
+   > {% codeblock copy %}styles.css{% codeblock %}
+   >
+   > ```css
+   > li :hover {
+   >   background-color: #deb6de;
+   > }
+   > ```
+
 1. Save your file and view in Chrome. What happens when you hover over the list items in the drink menu?
 
 ![](https://media.giphy.com/media/chzz1FQgqhytWRWbp3/giphy.gif)
@@ -165,7 +188,9 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 You'll often find yourself needing to look at how your page renders in the browser to troubleshoot issues so let's give that a try.
 
-1. In Chrome, right-click on your `<h1>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
+1. If you haven't, in Chrome, open your website in a new tab.
+
+1. right-click on your `<h1>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
 
    > [!TIP]
    > Chrome DevTools has a lot of features. We'll use DevTools in upcoming sessions to help us dig deeper into our code.
@@ -204,4 +229,4 @@ Compare your _styles.css_ against the answer key for your work. It might look a 
 > [!CODECHECK]
 > ![Code from styles.css](images/checkpoint.png)
 >
-> Hard to read? Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2022-checkpoint-2-selectors/styles/styles.css).
+> Hard to read? Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2023-checkpoint-2-selectors/styles.css).

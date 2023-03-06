@@ -8,7 +8,7 @@ Follow the instructions on this page to prepare your workspace.
 > Open [Slack](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails friends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any stumbling blocks today.
 
 > [!WARNING]
-> We will use a cloud development environment called **StackBlitz**. In order to use StackBlitz, you will need a GitHub account.
+> We will use a cloud development environment called [**StackBlitz**](https://stackblitz.com/). In order to use StackBlitz, you will need a GitHub account.
 >
 > Navigate to [**GitHub**](https://github.com) to create a personal account or log in. Feel free to ask your mentor for help! When complete and logged in to GitHub, return here to continue the instructions.
 
