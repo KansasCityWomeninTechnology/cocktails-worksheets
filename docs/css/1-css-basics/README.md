@@ -19,7 +19,7 @@ StackBlitz creates some files and codes for us when we create a new project. Let
 
 ![](images/stackblitz-indexhtml.png ":class=image-border")
 
-> [!TIP]Don't forget to save the files. If you have a white circle next to file name, it means you have changes that haven't saved yet. You can either click **Save** button on the top left or use shortcut `cmd` + `s` for Mac or `ctrl` + `s` for Window.
+> [!TIP]Don't forget to save the files. If you have a white circle next to file name, it means you have changes that haven't saved yet. You can either click **Save** button on the top left or use shortcut `cmd` + `s` for Mac or `ctrl` + `s` for Windows.
 >
 > ![](images/stackblitz-save.png ":class=image-border")
 
@@ -122,7 +122,7 @@ StackBlitz creates some files and codes for us when we create a new project. Let
 
 # Prepare the styles.css :id=prepare-stylesheet
 
-1. We need a stylesheet file where we will put all our styles in it. StackBlitz already created it for us when we started our project. Look for _styles.css_ file. Let's see what's in the _styles.css_ file.
+1. We need a stylesheet file where we will put all our styles. StackBlitz already created it for us when we started our project. Look for _styles.css_ file. Let's see what's in the _styles.css_ file.
 
 > ![](images/stackblitz-css-file.png ":class=image-border")
 
@@ -130,7 +130,7 @@ StackBlitz creates some files and codes for us when we create a new project. Let
 
 # Link the style sheet into HTML :id=link-stylesheet
 
-1. In StackBlitz, open _index.html_. In the HTML `<head>` section (between the opening `<head>` and closing `</head>`), find the HTML tags for `title` and `script`. Place your cursor after the closing `title` tag, press `Enter`, and link your stylesheet by adding
+1. In StackBlitz, open _index.html_. In the HTML `<head>` section (between the opening `<head>` and closing `</head>`), find the HTML tags for `title` and `script`. Place your cursor after the closing `script` tag, press `Enter`, and link your stylesheet by adding
 
    {% codeblock copy %}index.html{% codeblock %}
 
