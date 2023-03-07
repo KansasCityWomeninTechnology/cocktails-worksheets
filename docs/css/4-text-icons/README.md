@@ -1,6 +1,6 @@
 # Apply text styling for each area
 
-Our "LadyDev Bar" looks better but not quiet there yet. Let's keep on applying styles!
+Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying styles!
 
 ## About section
 
@@ -87,7 +87,7 @@ Our "LadyDev Bar" looks better but not quiet there yet. Let's keep on applying s
 1. In the style declared for the `body`, add font for body text using the CSS rules specified by Google. In the example above, Google specified `font-family: 'Catamaran', sans-serif;`.
 
    > [!INFO]
-   > If you select a font with 2 word in the name you'll need to wrap the font name in quotation marks.
+   > If you select a font with 2 words in the name you'll need to wrap the font name in quotation marks.
 
 1. Add the font family for header text to the style you declared for all headers using Google's supplied CSS rule. Add the font to other styles if you want to override any other text, such as the text in the `nav` and `footer`.
 

@@ -14,7 +14,7 @@ Follow the instructions on this page to prepare your workspace.
 
 # Create StackBlitz account
 
-We will use StackBlitz for our workshop. StackBlitz is a cloud development environment which means you have an access to your code even if you are not on your own laptop.
+We will use StackBlitz for our workshop. StackBlitz is a cloud development environment which means you have access to your code even if you are not on your own laptop.
 
 1. Navigate to [**StackBlitz**](https://stackblitz.com/) and sign in with your GitHub account.
 
@@ -26,7 +26,7 @@ We will use StackBlitz for our workshop. StackBlitz is a cloud development envir
 
 ![](./images/stackblitz-create-project.png ":class=image-border")
 
-3. Now you are ready to write some code! StackBlitz page is splited in 3 different sections. Far left is the project's file structure. The middle section is where you will write your code. Far right section is how your code looks like in a browser. Whenever you make a code change, you will see the change in the browser view as well.
+3. Now you are ready to write some code! The StackBlitz page is split into 3 different sections. Far left is the project's file structure. The middle section is where you will write your code. Far right section is how your code looks like in a browser. Whenever you make a code change, you will see the change in the browser view as well.
 
 ![](./images/stackblitz-project-view.png ":class=image-border")
 

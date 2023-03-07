@@ -7,7 +7,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 # Add text color
 
-1. We'll start applying colors to the main `h1` header first. In _styles.css_ in VS Code, declare a style for `h1` tag. Use the `color` property and substitute the hex color you selected for the title like this
+1. We'll start applying colors to the main `h1` header first. In _styles.css_, declare a style for `h1` tag. Use the `color` property and substitute the hex color you selected for the title like this
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -47,7 +47,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 1. Save your file and view your page in Chrome.
 
    > [!TIP]
-   > Save your _styles.css_ file and view your app often so you can see the changes as we go along. The worksheet will call out specific places to save and view the web page to illustrate a concept, but feel free to save and view your page as often as you want. It helps to see the changes as your write your CSS.
+   > Save your _styles.css_ file and view your app often so you can see the changes as we go along. The worksheet will call out specific places to save and view the web page to illustrate a concept, but feel free to save and view your page as often as you want. It helps to see the changes as you write your CSS.
 
 # Add background color
 
@@ -226,7 +226,6 @@ In addition to viewing elements, you can make and preview changes here before ma
 
 Compare your _styles.css_ against the answer key for your work. It might look a little different depending on the color palette you chose.
 
-> [!CODECHECK]
-> ![Code from styles.css](images/checkpoint.png)
+> [!CODECHECK] > ![Code from styles.css](images/checkpoint.png)
 >
 > Hard to read? Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2023-checkpoint-2-selectors/styles.css).
