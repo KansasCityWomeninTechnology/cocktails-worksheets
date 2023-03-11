@@ -84,6 +84,8 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
 
 1. Paste the `@import` statement at the top of your _styles.css_ file, before the normalizing styles.
 
+   > [!INFO] We don't need the `<style></style>` tag around the `@import` statement
+
 1. In the style declared for the `body`, add font for body text using the CSS rules specified by Google. In the example above, Google specified `font-family: 'Catamaran', sans-serif;`.
 
    > [!INFO]
