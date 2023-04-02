@@ -1,4 +1,4 @@
-# Setup
+# Setup :id=setup
 
 Tonight we will learn the basics of applying styles to a website using **C**ascading **S**tyle **S**heets (**CSS**).
 
