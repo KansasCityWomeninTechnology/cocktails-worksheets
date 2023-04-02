@@ -5,7 +5,7 @@
   - [Setup Instructions](/javascript/setup/)
   - [Intro to JavaScript](/javascript/1-js-intro/)
   - [Working with functions](/javascript/2-function/)
-  - [Arrays](/javascript/3-array/)
+  - [Arrays and loops](/javascript/3-array-loop/)
   - [Events](/javascript/4-events/)
   - [Quiz](/javascript/quiz.md)
 

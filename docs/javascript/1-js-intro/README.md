@@ -47,6 +47,8 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 
 ## Prepare the script.js file
 
+1. Copy and paste the following JavaScript code into your _script.js_ file.
+
 {% codeblock copy %}script.js{% codeblock %}
 
     // Define two numeric variables
@@ -65,6 +67,9 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 ## Look for the MadLibs items to replace
 
 Remember these are the noun or verb text surrounded by angle brackets: **&lt;noun_2>**. You can use choose any noun or verb you like for the variable name.
+
+> [!TIP]
+> Feel free to ask mentors for help! We are here to help you?
 
 > [!TIP]
 > A noun is a person, place or thing such as "pen" or "drink."
