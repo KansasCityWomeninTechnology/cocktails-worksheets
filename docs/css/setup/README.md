@@ -52,4 +52,4 @@ We will use StackBlitz for our workshop. StackBlitz is a cloud development envir
 > [!TIP]
 > Did you know you can perform common tasks such as copy and paste?
 >
-> When working without a mouse, keyboard shortcuts will be faster than a trackpad. Open the [handy dandy keyboard shortcut reference in a new tab](/html/references/ ":target=_blank") so you can refer to it easily!
+> When working without a mouse, keyboard shortcuts will be faster than a trackpad. Open the [handy dandy keyboard shortcut reference in a new tab](/css/references/ ":target=_blank") so you can refer to it easily!
