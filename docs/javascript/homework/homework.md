@@ -19,6 +19,8 @@ The more you practice, the more comfortable you’ll feel! Work through the foll
 
 1. [The Modern JavaScript Tutorial](https://javascript.info/)
 
+1. [AirBnB JavaScript Style Guide](https://github.com/airbnb/javascript)
+
 ### Practice debugging
 
 1. Work through the [Debugging JavaScript tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript/) from the Chrome Dev Team
