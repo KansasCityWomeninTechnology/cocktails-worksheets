@@ -15,5 +15,4 @@
 ---
 
 - [Answer Key](/javascript/answer-key.md)
-- [JavaScript Cheat Sheet](/javascript/references/js_cheat_sheet.md)
 - [References & Shortcuts](/javascript/references/)
