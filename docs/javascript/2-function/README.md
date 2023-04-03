@@ -326,7 +326,12 @@ Business needs can be complex. We'll add conditional logic to execute different 
 
 7. In the _scripts.js_ tab in Chrome, hover over `numberOfClicks`. It shows you the current value of the variable, 0. Click **Step** button, ![](images/step.png) (located at the upper right of DevTools window), to execute the next line of code in _script.js_. The line where we increment `numberOfClicks` highlights. The current value of `numberOfClicks` is still 0.
 
+> [!TIP]
+> Need help with debugging tool? Feel free to reach out to mentors!
+
 8. Click **Step** again. Now we see `numberOfClicks` increment to 1.
+
+![](images/debugging.png ":class=image-border")
 
 9. Click **Step** until the `if` statement highlights.
 
