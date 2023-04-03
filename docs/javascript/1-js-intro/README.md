@@ -39,8 +39,9 @@ You'll start practicing some JavaScript basics covered in the presentation and p
    </html>
    ```
 
-> [!TIP]
-> Don't forget to save the file!
+> [!TIP]Don't forget to save the files. If you have a white circle next to file name, it means you have changes that haven't saved yet. You can either click **Save** button on the top left or use shortcut `cmd` + `s` for Mac or `ctrl` + `s` for Windows.
+>
+> ![](images/stackblitz-save.png ":class=image-border")
 
 > [!TIP]
 > Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
@@ -87,7 +88,7 @@ Check what you have!
 
 # Checkpoint
 
-Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable name you chose.
+Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
 
 > [!CODECHECK]
 >
@@ -114,15 +115,16 @@ Logical operations are the basis of computer programming. Explore types, arithme
 > [!HINT]
 > What is the output of "What type is the first variable" when you add quotation marks around the 5? What if you change the variable in `typeof()` on line 12 to use the variable **&lt;noun_3>** from line 6?
 
-1.  Remove the `* 2` from line 6 then change the `>` to `==`. Make note of the comparison value in the output.
+2.  Remove the `* 2` from line 6 then change the `>` to `==`. Make note of the comparison value in the output.
 
-1.  After reviewing the comparison with `==`, change it to `===`. How is the output different from the `==` comparison in the previous step?
+3.  After reviewing the comparison with `==`, change it to `===`. How is the output different from the `==` comparison in the previous step?
 
-> [!INFO] > `==` compares the value and does not care about the data type so a string "5" is the same as the number 5.
+> [!INFO]
+> `==` compares the value and does not care about the data type so a string "5" is the same as the number 5.
 >
 > `===` compares both the value and the data type so a string "5" is not the same as the number 5.
 
-1. Try out other variable values, different mathematic operators, or different comparison operators and see what happens.
+4. Try out other variable values, different mathematic operators, or different comparison operators and see what happens.
 
 | Mathematic operator | Operation      |
 | ------------------- | -------------- |

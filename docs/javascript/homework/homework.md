@@ -4,7 +4,7 @@ The more you practice, the more comfortable you’ll feel! Work through the foll
 
 > [!TIP]
 >
-> ##### Hey Slacker!
+> ### Hey Slacker!
 >
 > Remember, we're here to help.
 > Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
