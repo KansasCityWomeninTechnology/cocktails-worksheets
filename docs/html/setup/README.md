@@ -1,4 +1,4 @@
-# Setup
+# Setup :id=setup
 
 Today we will learn what web development is and HTML.
 
@@ -12,7 +12,7 @@ Follow the instructions on this page to prepare your workspace.
 >
 > Navigate to [**GitHub**](https://github.com) to create a personal account or log in. Feel free to ask your mentor for help! When complete and logged in to GitHub, return here to continue the instructions.
 
-# Create StackBlitz account
+# Create StackBlitz account :id=create-stackblitz-account
 
 We will use StackBlitz for our workshop. StackBlitz is a cloud development environment which means you have an access to your code even if you are not on your own laptop.
 
