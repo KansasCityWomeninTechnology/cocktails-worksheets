@@ -358,7 +358,8 @@ Business needs can be complex. We'll add conditional logic to execute different 
 
 Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
 
-> [!CODECHECK] > ![](images/checkpoint.png ":class=image-border")
+> [!CODECHECK]
+> ![](images/checkpoint.png ":class=image-border")
 >
 > Hard to read? Compare your _script.js_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/javascript-101/blob/answerkey-functions/scripts.js).
 

@@ -122,7 +122,8 @@ Logical operations are the basis of computer programming. Explore types, arithme
 
 3.  After reviewing the comparison with `==`, change it to `===`. How is the output different from the `==` comparison in the previous step?
 
-> [!INFO] > `==` compares the value and does not care about the data type so a string "5" is the same as the number 5.
+> [!INFO]
+> `==` compares the value and does not care about the data type so a string "5" is the same as the number 5.
 >
 > `===` compares both the value and the data type so a string "5" is not the same as the number 5.
 
