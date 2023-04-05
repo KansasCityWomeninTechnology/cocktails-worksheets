@@ -235,7 +235,7 @@ As applications grow, we need ways to troubleshoot code. We'll learn the basics 
 3. Make sure your project is opened in a new tab. In the project tab, to see console logging in action, open the Chrome DevTools and click on the button. You should see the number of clicks write to the console. Leave DevTools open.
 
 > [!TIP]
-> Open Chrome DevTools by using `cmd` + `option` + `i` on Macs, `F12` on Windows. Refer to [Helpful Keyboard Shortcuts](/references).
+> Open Chrome DevTools by using `cmd` + `option` + `i` on Macs, `F12` on Windows. Refer to [Helpful Keyboard Shortcuts](/javascript/references/).
 
 4. We declared `numberOfClicks` using `let`. What happens if we used `const`? In _script.js_, change the declaration for `numberOfClicks` to use `const`.
 
@@ -284,7 +284,7 @@ Business needs can be complex. We'll add conditional logic to execute different 
    > Change `if (numberOfClicks > 2)` to either
    >
    > ```
-   > if (numberOfClicks &lt;= 3)
+   > if (numberOfClicks <= 3)
    > ```
    >
    > Or
@@ -358,16 +358,13 @@ Business needs can be complex. We'll add conditional logic to execute different 
 
 Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
 
-> [!CODECHECK]
-> ![](images/checkpoint.png ":class=image-border")
+> [!CODECHECK] > ![](images/checkpoint.png ":class=image-border")
 >
 > Hard to read? Compare your _script.js_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/javascript-101/blob/answerkey-functions/scripts.js).
 
 ## References and helpful links
 
-[MDN Reference: Variable assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators)
-
-[MDN Reference: Arithemetic operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Arithmetic)
+[MDN Reference: Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 
 [MDN Reference: if else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
