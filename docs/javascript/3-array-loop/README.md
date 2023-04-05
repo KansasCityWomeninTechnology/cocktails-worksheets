@@ -17,7 +17,7 @@ First we'll declare an array so we can use the array data in the application. We
 1. Place your cursor between the opening and closing square brackets and press `Enter`. Type `"JavaScript Types"`.
 
    > [!TIP]
-   > Don't forget the double quotes to make the value a string.
+   > Don't forget the quotes to make the value a string.
 
    > [!INFO]
    > You added an element to the array. Your array now has a length of 1.

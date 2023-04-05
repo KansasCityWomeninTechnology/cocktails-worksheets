@@ -11,7 +11,7 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 
 ## Prepare the HTML file
 
-1. Copy and paste the following HTML code into your _index.html_ file.
+1. Replace code in _index.html_ with the code below.
 
    {% codeblock copy %}index.html{% codeblock %}
 
@@ -48,7 +48,7 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 
 ## Prepare the script.js file
 
-1. Copy and paste the following JavaScript code into your _script.js_ file.
+1. Replace code in _script.js_ with the code below.
 
 {% codeblock copy %}script.js{% codeblock %}
 
@@ -57,13 +57,16 @@ You'll start practicing some JavaScript basics covered in the presentation and p
     const <noun_2> = 25;
 
     // Set a new variable to determine if twice the first numeric variable is greater than the second numeric variable from above.
-    const <noun_3> = <noun_1> \* 2 > <noun_2>;
+    const <noun_3> = <noun_1> * 2 > <noun_2>;
 
     // Output the comparison.
     document.getElementById("math").innerHTML = <noun_3>;
 
     // Practice types and equality
     document.getElementById("type").innerHTML = typeof(<noun_1>);
+
+> [!WARNING]
+> Don’t worry about the error message! We’ll fix that in a minute
 
 ## Look for the MadLibs items to replace
 
