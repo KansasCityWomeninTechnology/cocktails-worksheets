@@ -18,7 +18,7 @@ Let's start adding some visual elements to our web page by adding headers.
 
     ![](https://media.giphy.com/media/3o6gEeg80PqeJBtsdy/giphy.gif)
 
-4.  In VS Code, after the closing `</h1>` tag, press `Enter` to start a new line and add an `<h2>` tag for a subtitle.
+4.  In Stackblitz, after the closing `</h1>` tag, press `Enter` to start a new line and add an `<h2>` tag for a subtitle.
 
 5.  Add the text "Cocktails with a side of Code". The body section should look something like this
 
