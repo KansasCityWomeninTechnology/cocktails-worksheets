@@ -1,6 +1,15 @@
+<div>
+    <img src="images/logo.png" style="float: left; margin: 0px 15px 15px 0px; height:125px;">
+    <h2 style="display:inline-block;margin-top:1em;">Coding &amp; Cocktails: The Liquor</h2>
+    <h3 style="margin-top:0;margin-bottom:2em;">Introduction to JavaScript</h3>
+</div>
+<hr>
+
 # Introduction to JavaScript-ES6
 
-As we learned previously, Javascript is the programming language of the web and is the basis of everything we see on the internat.  Or, if you're creating a cocktail, JavaScript is the liquor - the base and foundation of the drink.  In this session, we'll build on our knowledge of JavaScript by becomming familiar with some of the features in the newest version of JavaScript, ES6, including new variable declarations (const and let), arrow functions, new array methods, and many others. We will go through features that are common practices today in this curriculum. 
+As we learned previously, Javascript is the programming language of the web and is the basis of everything we see on the internat.  Or, if you're creating a cocktail, JavaScript is the liquor - the base and foundation of the drink.  
+
+In this session, we'll build on our knowledge of JavaScript by becomming familiar with some of the features in the newest version of JavaScript, ES6, including new variable declarations (const and let), arrow functions, new array methods, and many others. We will go through features that are common practices today in this curriculum. 
 
 
 > [!WARNING]
@@ -91,7 +100,7 @@ Check what you have!
 ![](images/checkpoint.png ":class=image-border")
 
 # Checkpoint
-# TODO Anita make sure the answer key is updated
+
 Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
 
 > [!CODECHECK]

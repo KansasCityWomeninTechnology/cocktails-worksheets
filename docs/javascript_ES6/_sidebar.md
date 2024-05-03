@@ -1,15 +1,15 @@
-- [Overview](/javascript/)
+- [Overview](/javascript_ES6/)
 
 - Worksheet
 
-  - [Setup Instructions](/javascript/setup/)
-  - [Intro to JavaScript](/javascript/1-js-intro/)
-  - [Working with functions](/javascript/2-function/)
-  - [Arrays and loops](/javascript/3-array-loop/)
-  - [Quiz](/javascript/quiz.md)
+  - [Setup Instructions](/javascript_ES6/setup/)
+  - [Intro to JavaScript-ES6](/javascript_ES6/1-ES6-intro/)
+  - [Data Types and Methods](/tbd/)
+  - [Functions](/tbd/)
+  - [Quiz](/tbd)
 
 - Bonus
-  - [Homework](/javascript/homework/homework.md)
+  - [Homework](/tbd)
 
 ---
 
