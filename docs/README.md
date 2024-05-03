@@ -13,9 +13,9 @@ _Coding & Cocktails is an introductory programming series for women presented by
 
 <!-- [The Garnish | Introduction to CSS](/css/) -->
 
-[The Liquor | Introduction to JavaScript](/javascript/)
+<!--[The Liquor | Introduction to JavaScript](/javascript/)-->
 
 <!-- * [Angular Series SPA](/spa/) -->
 
-<!-- [The Garnish | Introduction to CSS](/javascript-ES6/) -->
+ [Top Shelf | Advanced Javascript - ES6](/javascript_ES6/)
 
