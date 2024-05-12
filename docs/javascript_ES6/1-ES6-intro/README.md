@@ -7,7 +7,7 @@ As we learned previously, Javascript is the programming language of the web and 
 > Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
 
 # Declare variables and assign values
-## TODO Anita update the madlibs game for ES6
+
 You'll start practicing some ES6 Basics covered in the presentation and play a variation of [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs). You will replace temporary code snippets with nouns or verbs of your choosing as instructed. The code to replace will look like this: **&lt;noun_1>**. You'll replace everything, including the angle brackets, so **&lt;noun_1>** becomes **drink**.
 
 ## Prepare the HTML file
@@ -24,7 +24,7 @@ You'll start practicing some ES6 Basics covered in the presentation and play a v
      </head>
 
      <body>
-       <h1>Introducing JavaScript</h1>
+       <h1>Introducing JavaScript ES6</h1>
 
        <h2>Variables, Booleans, Operators, Comparison</h2>
        <h3>

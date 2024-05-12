@@ -1,10 +1,12 @@
-# Writing Javascript
+# Writing Javascript ES6
 
-Now we will create a web page with interactive elements. In the rest of the worksheet we will build button click handling and manipulate the elements on the web page. When complete, you will have a web page that looks like this
+Now we will create a project with interactive elements. In the rest of the worksheet we will add functionality to make the project more dynamic. When complete, you will have a web page that looks like this:
 
-![](images/result.png ":class=image-border")
+![](images/finalProject.png ":class=image-border")
 
-In this section, we will write our own functions in JavaScript by using conditional logic and learn how to debug our code.
+## TODO Anita  - Upadate code:
+
+In this section, we will practice declaring variables, importing modules and using the Rest and Spread operators 
 
 ## Prepare your workspace
 
@@ -19,94 +21,139 @@ Let's create a new static project and set up our workspace.
 
    ```html
    <!DOCTYPE html>
-   <html lang="en">
-     <head>
-       <title>C&amp;C App</title>
-       <script type="text/javascript" src="script.js"></script>
-       <link rel="stylesheet" type="text/css" href="styles.css" />
-     </head>
-     <body>
-       <h1>Welcome to Coding &amp; Cocktails!</h1>
+<html lang="en">
+  <head>
+       <!--Change title to Live Userr Filter-->
+    <title>My Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+      <div class="container">
+        <header class="header">
+             <!--change h4 to Live User Filter -->
+          <h4 class="headline">Search Project</h4>
+          <!--change small to Search by name and/or location -->
+          <small class="subtitle">Find</small>
+          <!--change Placeholder to Search -->
+          <input type="text" id="filter" placeholder="Placeholder">
+        </header> 
 
-       <div class="content">
-         <div class="learn">
-           <h2>Where smart ladies learn</h2>
-           <ul id="coding-section"></ul>
-         </div>
+          <li>
+            <h3>Loading...</h3>
+          </li>
+         </ul>
+ 
+        </div>
+  </body>
+</html>
 
-         <div class="meet">
-           <h2>And meet awesome women like</h2>
-           <ul id="fellow-ladydevs"></ul>
-         </div>
-
-         <div class="cocktail">
-           <h2>All while enjoying stylish cocktails!</h2>
-           <button
-             id="cocktail-section"
-             onclick="clickHandler('Hi there LadyDev!')"
-           ></button>
-         </div>
-       </div>
-     </body>
-   </html>
    ```
+#TODO Anita- Figure out why this isn't showing the text color
 
 1. Copy and paste the following CSS code into your _styles.css_ file.
+
+
 
    {% codeblock copy %}styles.css{% codeblock %}
 
    ```css
    @import url("https://fonts.googleapis.com/css?family=Work+Sans");
+* {
+  box-sizing: border-box;
+}
 
-   body {
-     background-color: #666b8f;
-     color: #fff;
-     font-family: "Work Sans", sans-serif;
-     margin: 0;
-     font-size: 16px;
-   }
+body {
+  background-color: #f8f9fd;;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
 
-   h1 {
-     text-align: center;
-   }
+.container {
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
 
-   img {
-     display: block;
-     margin: 0 auto;
-   }
+.headline {
+  margin: 0;
+}
 
-   .content {
-     margin-left: 20px;
-   }
+.subtitle {
+  display: inline-block;
+  margin: 5px 0 20px;
+  opacity: 0.8;
+}
 
-   .content ul {
-     list-style-type: none;
-   }
+.header {
+  background-color: #3e57db;
+  color: #ffff;
+  padding: 20px 20px;
+}
 
-   .content div + div {
-     margin-top: 50px;
-   }
+.header input {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 100%;
+}
 
-   .coding {
-     color: #d0c675;
-     font-size: 20px;
-     font-weight: bold;
-     transition: color 1s, font-size 1s;
-   }
+.header input:focus {
+  outline: none;
+}
 
-   .meet li::first-letter {
-     font-size: 150%;
-     font-weight: 700;
-   }
+.user-list {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+ .user-list li {
+   display: flex;
+   padding: 10px;
+ }
 
-   .cocktail > button {
-     background-color: #9d81a2;
-     border: none;
-     color: white;
-     padding: 15px 32px;
-     text-align: center;
-     font-size: 16px;
-   }
+ .user-list img {
+   border-radius: 50%;
+   object-fit: cover;
+   width: 50px;
+   height: 50px;
+ }
+
+ .user-list .user-info {
+   margin-left: 10px;
+ }
+
+ .user-list .user-info h4 {
+  margin: 0 0 10px;
+}
+
+.user-list .user-info p {
+  font-size: 12px;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.user-list li.hide {
+  display: none;
+}
    ```
 
 1. Copy and paste the following JavaScript code into your _script.js_ file.
@@ -114,28 +161,56 @@ Let's create a new static project and set up our workspace.
    {% codeblock copy %}script.js{% codeblock %}
 
    ```
-   const addDevSkill = function (skill) {
-   	let listItem = document.createElement('li');
-   	listItem.innerHTML = skill;
-   	document.getElementById("coding-section").appendChild(listItem);
-   };
+   //import * as getData from getData.js;
 
-    const <verb> = function (item) {
-    return 'I\'d like a ' + item + ', please!';
-    };
-    const <noun> = 'cocktail';
+const result = document.getElementById('result');
+const filter = document.getElementById('filter');
+const listItems = [];
 
-    const clickHandler = function (text) {
+getData();
 
-    };
+filter.addEventListener('input', (e) => filterData(e.target.value));
+//REmoved getData
 
-    // Declare brainSkills array below this line
+async function getData() {
+  const res = await fetch('https://randomuser.me/api?results=10');
 
-    document.addEventListener("DOMContentLoaded", function (event) {
+  // Use this first, then destruct as shown: const data = await res.json()
 
-        document.getElementById('cocktail-section').innerHTML = <verb>(<noun>);
+  const { results } = await res.json();
 
-    });
+  // clear results
+  result.innerHTML = '';
+
+  //write out as a regular function first? then change to arrow?
+  results.forEach((user) => {
+    //console.log(user)
+    const li = document.createElement('li');
+
+    listItems.push(li);
+
+    //Add addition info to the user info
+    li.innerHTML = `
+      <img src="${user.picture.large}" alt="${user.name.first}">
+      <div class="user-info">
+        <h4>${user.name.first} ${user.name.last}</h4>
+        <p>${user.location.city}, ${user.location.country}</p>
+    `;
+
+    result.appendChild(li);
+  });
+}
+
+function filterData(searchTerm) {
+  listItems.forEach((item) => {
+    if (item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
+      item.classList.remove('hide');
+    } else {
+      item.classList.add('hide');
+    }
+  });
+}
+
 
    ```
 
