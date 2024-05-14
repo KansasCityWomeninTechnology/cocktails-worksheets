@@ -1,6 +1,6 @@
 # Introduction to JavaScript-ES6
 
-As we learned previously, Javascript is the programming language of the web and is the baissi of everything we see on the internat.  Or, if you're creating a cocktail, JavaScript is the liquor - the base and foundation of the drink.  In this session, we'll build on our knowledge of JavaScript by becomming familiar with some of the features in the newest version of JavaScript, ES6, including new variable declarations (const and let), arrow functions, new array methods, and many others. We will go through features that are common practices today in this curriculum. 
+As we learned previously, Javascript is the programming language of the web and is the basis of everything we see on the internat.  Or, if you're creating a cocktail, JavaScript is the liquor - the base and foundation of the drink.  In this session, we'll build on our knowledge of JavaScript by becomming familiar with some of the features in the newest version of JavaScript, ES6, including new variable declarations (const and let), arrow functions, new array methods, and many others. We will go through features that are common practices today in this curriculum. 
 
 
 > [!WARNING]

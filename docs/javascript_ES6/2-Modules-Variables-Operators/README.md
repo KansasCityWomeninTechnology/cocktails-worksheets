@@ -15,7 +15,7 @@ Let's create a new static project and set up our workspace.
 > [!TIP]
 > If you need a refresher on how to create a new project in StackBlitz, refer to [Create a new StackBlitz project](../setup/?id=create-new-project) section.
 
-1. Copy and paste the following HTML code into your _index.html_ file.
+1. Remove the code in your  _index.html_ file. Replace it with the following HTML code.
 
    {% codeblock copy %}index.html{% codeblock %}
 
@@ -57,7 +57,7 @@ Let's create a new static project and set up our workspace.
    ```
 #TODO Anita- Figure out why this isn't showing the text color
 
-1. Copy and paste the following CSS code into your _styles.css_ file.
+2. Remove the css code in your _styles.css_ file an replace it with the following code.
 
 
 
@@ -156,7 +156,8 @@ body {
 }
    ```
 
-1. Copy and paste the following JavaScript code into your _script.js_ file.
+
+3. Copy and paste the following JavaScript code into your _script.js_ file.
 
    {% codeblock copy %}script.js{% codeblock %}
 
@@ -170,7 +171,7 @@ const listItems = [];
 getData();
 
 filter.addEventListener('input', (e) => filterData(e.target.value));
-//REmoved getData
+
 
 async function getData() {
   const res = await fetch('https://randomuser.me/api?results=10');
@@ -214,13 +215,32 @@ function filterData(searchTerm) {
 
    ```
 
-## Write a function
+## Create a module
 
-Let's get coding! We'll call a function and keep track of click events.
+Let's get coding! We'll make our code cleaner but creating a separate module for one of our functions.
 
-1. In _script.js_. You'll see MadLibs items like we had in the first section of the worksheet.
+1. Create a new file under your Files
 
-2. Search for **&lt;noun>** and **&lt;verb>** and replace the variables. Save the file and look at the web page in Chrome. The lavender button now has the text "I'd like a cocktail please!", but we want it do something when we click on it.
+2. Name it getData.js
+
+3. Go back to your script. JS file and copy the entire getData() function (lines 12-40)
+
+4. Go to your new getData module (file) and paste the entire function there. 
+
+Remember that we need to tell modules to export their information and we need to tell the files that need that information to import it
+
+5. At the bottom of the code in the getData module, add this line to export the data:
+
+export { getData };
+
+6. Now we need to tell the file that needs this data to import it. At the top of your script.js file, add this line:
+
+import {getData} from './getData.js';
+
+7. Now, you can comment out the getData file (You probably don't want to delete them until everything is working!)
+
+
+Search for **&lt;noun>** and **&lt;verb>** and replace the variables. Save the file and look at the web page in Chrome. The lavender button now has the text "I'd like a cocktail please!", but we want it do something when we click on it.
 
 > [!TIP]
 > Don't forget to save files!
