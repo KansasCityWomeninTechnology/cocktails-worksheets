@@ -4,9 +4,9 @@ Now we will create a project with interactive elements. In the rest of the works
 
 ![](images/finalProject.png ":class=image-border")
 
-## TODO Anita  - Upadate code:
+## TODO Anita  - figure out why some code isn't in color
 
-In this section, we will practice declaring variables, importing modules and using the Rest and Spread operators 
+In this section, we will practice declaring variables, importing modules and using the Rest and Spread operators.
 
 ## Prepare your workspace
 
@@ -57,7 +57,7 @@ Let's create a new static project and set up our workspace.
    ```
 #TODO Anita- Figure out why this isn't showing the text color
 
-2. Remove the css code in your _styles.css_ file an replace it with the following code.
+2. Remove the css code in your _styles.css_ file and replace it with the following code.
 
 
 
@@ -161,10 +161,9 @@ body {
 
    {% codeblock copy %}script.js{% codeblock %}
 
-   ```
-   //import * as getData from getData.js;
-
-const result = document.getElementById('result');
+   ```js
+  
+const result = document.getElementById('result'); 
 const filter = document.getElementById('filter');
 const listItems = [];
 
@@ -215,9 +214,10 @@ function filterData(searchTerm) {
 
    ```
 
-## Create a module
+## Create a Module
 
-Let's get coding! We'll make our code cleaner but creating a separate module for one of our functions.
+
+Let's get coding! We'll make our code cleaner by creating a separate module for one of our functions.
 
 1. Create a new file under your Files
 
@@ -227,7 +227,9 @@ Let's get coding! We'll make our code cleaner but creating a separate module for
 
 4. Go to your new getData module (file) and paste the entire function there. 
 
-Remember that we need to tell modules to export their information and we need to tell the files that need that information to import it
+```
+[!INFO] Remember that we need to tell modules to export their information and we need to tell the files that need that information to import it
+```
 
 5. At the bottom of the code in the getData module, add this line to export the data:
 
@@ -237,209 +239,26 @@ export { getData };
 
 import {getData} from './getData.js';
 
-7. Now, you can comment out the getData file (You probably don't want to delete them until everything is working!)
+7. Now, you can comment out the getData function code (You probably don't want to delete it until everything is working!)
 
 
-Search for **&lt;noun>** and **&lt;verb>** and replace the variables. Save the file and look at the web page in Chrome. The lavender button now has the text "I'd like a cocktail please!", but we want it do something when we click on it.
-
-> [!TIP]
-> Don't forget to save files!
-
-3. It's easier to understand what's going on if we have visual indications of our work. Browsers have a built-in function to display alert messages. Let's display an alert message with the word "click" inside of it. Find the `clickHandler` function in _script.js_ and add `alert('click');` inside the function (between the curly braces). The `clickHandler` function should look like this:
-
-   {% codeblock copy %}script.js{% codeblock %}
-
-   ```
-   const clickHandler = function (text) {
-     alert("click");
-   };
+   
    ```
 
 > [!TIP]
-> Notice `alert('click');` is **indented** inside the function. Indenting code inside functions make it easier for you to see where a function begins (the open curly brace) and where it ends (the close curly brace). Indention makes code human readable.
+> Don't forget to save files as you go!
+
+> [!TIP]
+> Add comments throughout the page
 
 > [!INFO]
-> We passed in the string "click" to the built in function `alert`. You can use either double quotes "" or single quotes '' for strings.
+> Add info to help clarify
 
-4. Now try clicking the button in Chrome. An alert message appears! Close the alert message by clicking **Ok**.
-
-5. In _script.js_, define a new variable called `numberOfClicks` above the line with the code `const clickHandler = function(text)` so we can keep track of the number of button clicks and set the value to 0. Your variable should look like this:
-
-   {% codeblock copy %}script.js{% codeblock %}
-
-   ```
-   let numberOfClicks = 0;
-   ```
-
-> [!INFO]
-> You declared `numberOfClicks` variable outside of the function so that it's accessible by more than `clickHandler` function. The **scope** of the variable and function determines accessibility of that variable or function in the application.
-> Learn more by reading [MDN documentation on scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope).
-
-6. Track the clicks by incrementing `numberOfClicks` by 1 for each button click. We can do this inside the `clickHandler` function. Place your cursor after the opening curly brace and press `Enter` to create a new line above `alert('click');`. Type the following statement:
-
-   {% codeblock copy %}script.js{% codeblock %}
-
-   ```
-   numberOfClicks = numberOfClicks + 1;
-   ```
-
-> [!INFO]
-> We are adding 1 to `numberOfClicks` variable and setting the result back to `numberOfClicks`.
-> There are other ways to assign an increment to the `numberOfClicks` variable. You could have also written:
->
-> ```
->   numberOfClicks += 1;
-> ```
->
-> or
->
-> ```
->   numberOfClicks++;
-> ```
-
-7. Update the alert message to show the number of clicks by adding `numberOfClicks` to the display text using string concatenation.
-
-   {% codeblock copy %}script.js{% codeblock %}
-
-   ```
-   alert('click ' + numberOfClicks);
-   ```
-
-8. In Chrome, click the button a few times to see your click counter in action. Don't forget to close the alert message between each click.
-
-## Navigate Chrome DevTools debugging interface and learn different debugging techniques
-
-As applications grow, we need ways to troubleshoot code. We'll learn the basics of debugging a web app.
-
-1. There's a better message to display in the alert, to provide more context. In _script.js_, change the parameter you pass in to the `alert` method to use the variable named `text`. You are using the same parameter passed into the `clickHandler` function. Your code should look like this:
-
-   {% codeblock copy %}script.js{% codeblock %}
-
-   ```
-   alert(text);
-   ```
 
 > [!TIP]
 > Don't forget mentors are here to help you. If you have any questions, feel free to ask!
 
-> [!INFO]
-> Notice there are no quotation marks. This now references the variable named `text`, not the string "text". Try adding quotation marks and interact with the button in Chrome to see the difference.
 
-2. We still want to see the button click counter for troubleshooting purposes. We can log the number of clicks to the console. Add `console.log(numberOfClicks);` right after incrementing the clicks in the `clickHandler` function.
-
-3. Make sure your project is opened in a new tab. In the project tab, to see console logging in action, open the Chrome DevTools and click on the button. You should see the number of clicks write to the console. Leave DevTools open.
-
-> [!TIP]
-> Open Chrome DevTools by using `cmd` + `option` + `i` on Macs, `F12` on Windows. Refer to [Helpful Keyboard Shortcuts](/javascript/references/).
-
-4. We declared `numberOfClicks` using `let`. What happens if we used `const`? In _script.js_, change the declaration for `numberOfClicks` to use `const`.
-
-> [!HINT]
-> Change `let numberOfClicks = 0;` to `const numberOfClicks = 0;`
-
-5. Try clicking on the button in Chrome. Oh no! Now we see an error in the console. Notice how DevTools helps you debug your script. It tells you which line of code the failure occurs `scripts.js:7`. The line number may be different for you.
-
-> [!INFO]
-> It also provides information on caller of the failing line-- `HTMLButtonElement.onClick (index:25)`. As you create complex applications, there may be layers of functions called. The layers of functions called is a **call stack**. The output containing the error, along with all the functions called leading up to it, is a **stack trace**.
-
-6. The keyword `const` makes a variable read-only, so we can't increment the value. The error message helps us identify the problem by providing both the line of code and why. In _script.js_, change the declaration of `numberOfClicks` to use `let`. Leave DevTools open.
-
-> [!INFO]
-> Since we want to reassign the value of numberOfClicks every time we click the button, we are using `let` instead of `const`
-> Learn more about difference between const and let by reading [Medium article on JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75)
-
-7. Click the button in Chrome and notice we fixed the error.
-
-## Conditional logic
-
-Business needs can be complex. We'll add conditional logic to execute different code paths.
-
-1. Inside the `clickHandler` function, add an `if` statement to only show the alert for greater than 2 button clicks by adding a conditional statement:
-
-   {% codeblock copy %}script.js{% codeblock %}
-
-   ```
-   if (numberOfClicks > 2) {
-         alert(text);
-   }
-   ```
-
-   > [!TIP]
-   > Notice the indention on the `alert(text);`. Indent everything inside the `if` statement to make it easier to read your code. Doing so helps your brain group logical units of code together at a glance!
-
-2. Use the `console.log` output to confirm we show the alert starting from the 3rd button click.
-
-   > [!TIP]
-   > You will use StackBlitz to type code statements and Chrome to verify your work when your web page reloads. Don't forget to save _scripts.js_ every time you type a code statement.
-
-3. If we want to only show the alert the first 3 times you clicked the button, how would you change the conditional statement?
-
-   > [!HINT]
-   > There are 2 different ways to apply this condition.
-   > Change `if (numberOfClicks > 2)` to either
-   >
-   > ```
-   > if (numberOfClicks <= 3)
-   > ```
-   >
-   > Or
-   >
-   > ```
-   > if (numberOfClicks < 4)
-   > ```
-
-4. What if we want to show a different alert message after 3 button clicks? Add an `else` clause to the conditional statement:
-
-   {% codeblock copy %}script.js{% codeblock %}
-
-   ```
-   if (numberOfClicks <= 3) {
-     alert(text);
-   } else {
-     alert("Drink in moderation-- no more cocktails for you!");
-   }
-   ```
-
-5. This is starting to become difficult to track using `console.log`. Let's try **debugging** the `onClickHandler` function in DevTools. Add `debugger;` as the first line of the `clickHandler` function. Your function should look like this:
-
-   {% codeblock copy %}script.js{% codeblock %}
-
-   ```
-   const clickHandler = function (text) {
-     debugger;
-     numberOfClicks = numberOfClicks + 1;
-
-     // rest of the function remains here
-   };
-   ```
-
-6. In Chrome, click on the button. Your web page paused execution and DevTools now shows _script.js_. We can now step through the code line by line and inspect the function along the way.
-
-> [!TIP]
->
-> `debugger;` works only when debugging capabilities, such as Chrome DevTools, is open.
-
-7. In the _scripts.js_ tab in Chrome, hover over `numberOfClicks`. It shows you the current value of the variable, 0. Click **Step** button, ![](images/step.png) (located at the upper right of DevTools window), to execute the next line of code in _script.js_. The line where we increment `numberOfClicks` highlights. The current value of `numberOfClicks` is still 0.
-
-> [!TIP]
-> Need help with debugging tool? Feel free to reach out to mentors!
-
-8. Click **Step** again. Now we see `numberOfClicks` increment to 1.
-
-![](images/debugging.png ":class=image-border")
-
-9. Click **Step** until the `if` statement highlights.
-
-10. Click **Step** to execute the `if` statement. Since 1 is less than or equal to 3, we expect to execute `alert(text);` statement. Does it?
-
-11. Click **Resume**, ![](images/resume.png), to resume execution on the rest of the code.
-
-> [!INFO]
-> We are using **Step** in this session, but debugging tools, such as Chrome DevTools, have other capabilities to make debugging easy. You can add **breakpoints** to force your web page to pause execution without adding `debugger;` statements so you can execute multiple lines of code pausing execution using the **Resume** button instead of **Step**. You can also add the `numberOfClicks` variable to a watch list so that you can see the value at a glance.
-
-12. Repeat the stepping through the code and resuming until you click for the 4th time. Does the `else` condition execute?
-
-13. In _script.js_, remove the `debugger;` statement so we aren't interrupted in the rest of the worksheet. Feel free to add it back if you get stuck!
 
 > [!INFO]
 >
