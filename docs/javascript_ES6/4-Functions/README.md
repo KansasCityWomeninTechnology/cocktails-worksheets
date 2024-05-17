@@ -2,7 +2,7 @@
 
 In this section, we'll practice defining and calling various types of functions
 
-## TBD
+## Exercises for default paremeters, arrow functions and Promise, resolve, reject, then(), catch(), async/await
  
 ## References and helpful links
 

@@ -60,7 +60,6 @@ Let's create a new static project and set up our workspace.
 2. Remove the css code in your _styles.css_ file and replace it with the following code.
 
 
-
    {% codeblock copy %}styles.css{% codeblock %}
 
    ```css
@@ -157,62 +156,48 @@ body {
    ```
 
 
-3. Copy and paste the following JavaScript code into your _script.js_ file.
+## Replace the code in the JS file
 
-   {% codeblock copy %}script.js{% codeblock %}
 
-   ```js
-  
-const result = document.getElementById('result'); 
-const filter = document.getElementById('filter');
-const listItems = [];
+3. Remove the code in your _script.js_ file and replace it with the following code.
 
-getData();
-
-filter.addEventListener('input', (e) => filterData(e.target.value));
-
+    {% codeblock copy %}script.js{% codeblock %}
+```js
+   
+   import * as listItems from './appFinal.js';
 
 async function getData() {
   const res = await fetch('https://randomuser.me/api?results=10');
 
-  // Use this first, then destruct as shown: const data = await res.json()
+  agb Use this first, then destruct as shown: const data = await res.json()
 
   const { results } = await res.json();
 
-  // clear results
-  result.innerHTML = '';
+  agbclear results
+  agb - changed result to results in line10
+  results.innerHTML = '';
 
-  //write out as a regular function first? then change to arrow?
+agb write out as a regular function first? then change to arrow?
   results.forEach((user) => {
-    //console.log(user)
+  agb console.log(user)
     const li = document.createElement('li');
 
     listItems.push(li);
 
-    //Add addition info to the user info
+    agbAdd addition info to the user info
     li.innerHTML = `
       <img src="${user.picture.large}" alt="${user.name.first}">
       <div class="user-info">
         <h4>${user.name.first} ${user.name.last}</h4>
         <p>${user.location.city}, ${user.location.country}</p>
     `;
-
-    result.appendChild(li);
+    agb - changed result to results in line27
+    results.appendChild(li);
   });
 }
+export { getData };
+  ```
 
-function filterData(searchTerm) {
-  listItems.forEach((item) => {
-    if (item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
-      item.classList.remove('hide');
-    } else {
-      item.classList.add('hide');
-    }
-  });
-}
-
-
-   ```
 
 ## Create a Module
 
@@ -243,8 +228,11 @@ import {getData} from './getData.js';
 
 
    
-   ```
 
+
+
+
+## Exercises for Rest and Spread - 
 > [!TIP]
 > Don't forget to save files as you go!
 
