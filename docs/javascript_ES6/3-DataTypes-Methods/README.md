@@ -1,15 +1,18 @@
 # Data Types and Methods
 
-In this section, we'll practice defining and calling various types of functions
 
-## Exercises for template Literals. objecst shorthand syntax and new array methods(forEach, map, find, indexOf)
-## Maybe have the students rewrite what appears on the list as 
-`${name} is from ${city},${country}` for the template literals for a few people
-and maybe play around with them, like ${name.toUpperCase()}
 
-For ForEach - like 41 of appFinal
+## In this section, we'll practice working with objects, template literals and array methods
 
-Not sure about the object shorthand. Maybe grab someome from results.js, destructure them like the example from the curriculum?  But what is the value of that?
+
+1.  Return to the _utils.js_ file.  In the fetchInitialRecipies() function, rewrite the for loop using forEach();
+
+2. If that works, try rewriting it again using map().
+
+3. In the displayRecipes() function, create template literals in recipeElement.innerHTML for the following:
+<p>The name of the recipe</p>
+<p> The ingredients of the recipe <i>hint: you will need to add .join</i></p>
+<p> The instructions for how to prepare the recipe</p>
 
 
  
