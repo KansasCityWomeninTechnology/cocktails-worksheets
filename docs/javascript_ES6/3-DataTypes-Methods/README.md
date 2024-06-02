@@ -9,7 +9,7 @@
 
 2. If that works, try rewriting it again using map().
 
-3. In the displayRecipes() function, create template literals in recipeElement.innerHTML for the following:
+3. Return to your _script.js_ file.  In the displayRecipes() function, create template literals in recipeElement.innerHTML for the following:
 <p>The name of the recipe</p>
 <p> The ingredients of the recipe <i>hint: you will need to add .join</i></p>
 <p> The instructions for how to prepare the recipe</p>

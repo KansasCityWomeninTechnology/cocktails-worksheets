@@ -85,9 +85,16 @@ Let's create a new static project and set up our workspace.
 
 
 
-3. Create a _utils.js_ file and copy this into the new file
+3. Create a _utils.js_ file and copy the code below into the new file.  To create a new file, click on the Add File icon, then name the file _utils.js_
 
-    {% codeblock copy %}utils.js{% codeblock %}
+
+![](./images/addFilesIcon.png ":class=image-border")
+
+
+![](./images/UtilsAdded.png ":class=image-border")
+
+
+  {% codeblock copy %}utils.js{% codeblock %}
 ```js
 
   const apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1';
@@ -142,18 +149,15 @@ Let's create a new static project and set up our workspace.
 
 5. At the top of the file add a statement to pull in the  _fetchInitialRecipie_ and _addRecipe_ from the utils.js file.
 
-6. Under the like declaring the constant addRecipeButton, declare an array to hold new recipes that will be added.
+6. Under the line declaring the constant addRecipeButton, declare an array to hold new recipes that will be added.
 
 7. Within the function _handleAddRecipe_ declare a constant variable and create a prompt users will see when they need to name the new drink
 
 8. Within the same function, declare a constant variable and prompt for when users need to add instructions for creating the new drink 
-Note: use the _try_ clause below to see what variable names are expected
+Note: Reference the _try_ clause in the function to see what variable names are expected
 
-9. Finally, in the same function, add parameters to the displayRecipes() method using rest/spread. This will create a new array containing all of the elements from two separate arrays.
 
- 
-
-    {% codeblock copy %}script.js{% codeblock %}
+  {% codeblock copy %}script.js{% codeblock %}
 ```js
     const recipesContainer = document.getElementById('recipes');
     const addRecipeButton = document.getElementById('addRecipeButton'); 
@@ -163,9 +167,9 @@ Note: use the _try_ clause below to see what variable names are expected
     recipes.forEach(function(recipe) {
     const recipeElement = document.createElement('div');
       recipeElement.innerHTML = `
-      <h3>${recipe.name}</h3>
-      <p>Ingredients: ${recipe.ingredients.join(', ')}</p>
-      <p>Instructions: ${recipe.instructions}</p>
+      <h3></h3>
+      <p>Ingredients:</p>
+      <p>Instructions:</p>
     `;
     recipesContainer.appendChild(recipeElement);
   });
