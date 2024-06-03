@@ -147,15 +147,6 @@ Let's create a new static project and set up our workspace.
 
 4. Remove the code in your _script.js_ file and replace it with the following code.
 
-5. At the top of the file add a statement to pull in the  _fetchInitialRecipie_ and _addRecipe_ from the utils.js file.
-
-6. Under the line declaring the constant addRecipeButton, declare an array to hold new recipes that will be added.
-
-7. Within the function _handleAddRecipe_ declare a constant variable and create a prompt users will see when they need to name the new drink
-
-8. Within the same function, declare a constant variable and prompt for when users need to add instructions for creating the new drink 
-Note: Reference the _try_ clause in the function to see what variable names are expected
-
 
   {% codeblock copy %}script.js{% codeblock %}
 ```js
@@ -203,6 +194,17 @@ Note: Reference the _try_ clause in the function to see what variable names are 
   init();
 ```
 
+5. At the top of the file add a statement to pull in the  _fetchInitialRecipes_ and _addRecipe_ from the utils.js file.
+
+6. Under the line declaring the constant addRecipeButton, declare an array to hold new recipes that will be added.
+
+7. Within the function _handleAddRecipe_ declare a constant variable and create a prompt users will see when they need to name the new drink
+
+8. Within the same function, declare a constant variable and prompt for when users need to add instructions for creating the new drink 
+Note: Reference the _try_ clause in the function to see what variable names are expected
+
+
+
 > [!TIP]
 > Don't forget to save files as you go!
 
@@ -217,15 +219,6 @@ Note: Reference the _try_ clause in the function to see what variable names are 
 > Don't forget mentors are here to help you. If you have any questions, feel free to ask!
 
 
-
-> [!INFO]
->
-> `debugger;` is helpful for writing code, but don't use it for production code. Most linters will red flag `debugger` during the build process to help safe-guard your application.
-
-### Celebrate with a cocktail or mocktail! You deserve it, rockstar!
-
-![](https://media.giphy.com/media/l378qdC4yO0YEv5Re/giphy.gif)
-
 # Checkpoint
 
 Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
@@ -234,6 +227,11 @@ Compare your _script.js_ against the answer key for your work. It might look a l
 > ![](images/checkpoint.png ":class=image-border")
 >
 > Hard to read? Compare your _script.js_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/javascript-101/blob/answerkey-functions/scripts.js).
+
+
+### Celebrate with a cocktail or mocktail! You deserve it, rockstar!
+
+![](https://media.giphy.com/media/l378qdC4yO0YEv5Re/giphy.gif)
 
 ## References and helpful links
 
