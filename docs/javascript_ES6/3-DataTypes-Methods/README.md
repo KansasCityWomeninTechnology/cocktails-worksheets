@@ -15,9 +15,21 @@ Compare your _script.js_ against the answer key for your work. It might look a l
 > [!CODECHECK]
 > ![](images/fetchInitialRecipeForEach.png ":class=image-border")
 
+
+
 2. If that works, try rewriting it again using map().
+
+# Checkpoint
+
 > [!CODECHECK]
-> ![](images/fetchInitialRecipeMap.png ":class=image-border")
+>![](images/fetchInitialRecipeMap.png ":class=image-border")
+
+
+> [!TIP]
+> Need a refresher on template literals? Remember that they allow us to embed variables
+> and expressions within our strings.
+> Example 1: `string text ${expression} string text`
+
 
 3. Return to your _script.js_ file.  In the displayRecipes() function, create template literals in recipeElement.innerHTML for the following:
 <p>The name of the recipe</p>
@@ -31,3 +43,6 @@ Compare your _script.js_ against the answer key for your work. It might look a l
 [MDN Reference: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 [MDN Reference: Function](https://developer.mozilla.org/en-US/docs/Glossary/Function)
+
+[MDN Reference: Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+
