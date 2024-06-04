@@ -7,7 +7,17 @@
 
 1.  Return to the _utils.js_ file.  In the fetchInitialRecipies() function, rewrite the for loop using forEach();
 
+
+# Checkpoint
+
+Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
+
+> [!CODECHECK]
+> ![](images/fetchInitialRecipeForEach.png ":class=image-border")
+
 2. If that works, try rewriting it again using map().
+> [!CODECHECK]
+> ![](images/fetchInitialRecipeMap.png ":class=image-border")
 
 3. Return to your _script.js_ file.  In the displayRecipes() function, create template literals in recipeElement.innerHTML for the following:
 <p>The name of the recipe</p>
