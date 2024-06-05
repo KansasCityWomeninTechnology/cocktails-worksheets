@@ -1,10 +1,8 @@
 ## Functions, Promises and Finally
 
  
- 1. In the utils.js file, try rewriting the fetchInitialRecipes() function using a promise. Here are some hints:
+ 1. In the utils.js file, try rewriting the fetchInitialRecipes() function using a Promise. Look for comments in the code to help show you where to make the changes:
 
-Something in the function declaration needs to be changed
-A first line of the function needs to be added
 
 
  {% codeblock copy %}utils.js{% codeblock %}
@@ -33,16 +31,29 @@ try {
         drink.strIngredient1,
         drink.strIngredient2,
         drink.strIngredient3,
-        // Add more ingredients as needed
-      ].filter(Boolean), // Remove any empty values
+       
+      ].filter(Boolean), 
       instructions: drink.strInstructions,
     }));
-  } catch (error) {
-    throw new Error('Error fetching recipes:', error);
-  }
+    //Replace your existing catch and throw, the last 4 lines of code, with these 7 lines:
+      );
+      })
+      .catch((error) => {
+        reject(new Error('Error fetching recipes: ' + error));
+      });
+  });
 }
 
  ```
+
+
+# Checkpoint
+
+Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
+
+> [!CODECHECK]
+> ![](images/promiseSolution.png ":class=image-border")
+
 ## References and helpful links
 
 [MDN Reference: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
