@@ -1,7 +1,7 @@
 ## Functions, Promises and Finally
 
  
- 1. In the utils.js file, try rewriting the fetchInitialRecipes() function using a Promise. Look for comments in the code to help show you where to make the changes:
+ 1. In the utils.js file, try rewriting the fetchInitialRecipes() function using a Promise. Look for comments in the code below to help show you where to make the changes:
 
 
 
@@ -49,7 +49,7 @@ try {
 
 # Checkpoint
 
-Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
+Compare your _utils.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
 
 > [!CODECHECK]
 > ![](images/promiseSolution.png ":class=image-border")
