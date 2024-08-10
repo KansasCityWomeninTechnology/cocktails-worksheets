@@ -1,6 +1,6 @@
 # What is Web Development & HTML
 
-Today we cover what web development is and HTML basics. In this section of the worksheet, you will create your own _index.html_ page from the ground up. The _index.html_ file is the main HTML for a web page. HTML is one of the building blocks of a web page. It defines the structure of the page and lays the foundation to then add styles and dynamic content.
+Today we cover what web development is and also some HTML basics. In this section of the worksheet, you will create your own _index.html_ page from the ground up. The _index.html_ file is the main HTML for a web page. HTML is one of the building blocks of a web page. It defines the structure of the page and lays the foundation to then add styles and dynamic content.
 
 At the end of this section, you will have a webpage that looks like this:
 

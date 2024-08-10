@@ -12,7 +12,7 @@ Front-end architecture is the organization of code and project files. Though the
 
 HTML is one of the building blocks of a web page. It defines the structure of the page and lays the foundation to then add styles and dynamic content. 
 
-We’ll put both concepts to use here creating our own web page and begin understanding how to organize your code, HTML structure, as well as becoming more comfortable using an **I**ntegrated **D**evelopment **E**ditor (**IDE**) to write HTML.
+We’ll put both concepts to use here creating our own web page and begin understanding how to organize your code, HTML structure, as well as becoming more comfortable using an **I**ntegrated **D**evelopment **E**nvironment (**IDE**) to write HTML.
 
 The combination of these two concepts provides the structure and the bones of a website. Or if you're creating a cocktail, it's the glass that holds your cocktail together.
 

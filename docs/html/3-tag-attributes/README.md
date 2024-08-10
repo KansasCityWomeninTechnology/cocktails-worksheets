@@ -1,6 +1,8 @@
 # HTML Element Attributes
 
-Our web page is coming together. But web pages have images, and links. All these HTML elements use **attributes** for extra metadata it needs to work.
+Now back to coding!
+
+Our web page is coming together. But web pages have images and links. All these HTML elements use **attributes** for extra metadata they nee to work.
 
 We’ll add an image and links to practice using attributes.
 
@@ -14,7 +16,7 @@ Websites have eye catching images. Let's find one we like and get it ready to ad
    ![](images/flickr-filter.png ":class=image-border")
 4. Choose your favorite image, click on it and click on the download icon in the lower right corner. You get to choose what size you'd like on your page. Name it something easy to remember.
    ![](images/download.png ":class=image-border")
-5. Now let's connect our StackBlitz to GitHub repository to upload the image. Click `connect repository` button on the top-left of the screen.
+5. Now let's connect our StackBlitz to GitHub repository to upload the image. Click `Create a repository` button on the top left corner of the screen.
    ![](images/stackblitz-connect-repo.png ":class=image-border")
 6. Name the repository `Intro to html`.
    ![](images/stackblitz-create-repo.png ":class=image-border")
@@ -24,15 +26,15 @@ Websites have eye catching images. Let's find one we like and get it ready to ad
    ![](images/stackblitz-github.png ":class=image-border")
 9. We will add our cocktail image to readme so we can use it for our website. Click pencil icon on the top right of readme section to edit the README.md file.
    ![](images/readme.png ":class=image-border")
-10. Drag and drop the image to add. Then click `commit changes` to save the change.
+10. Drag and drop the image to add. Copy the URL ("https://...") to use in the next step. Then click `commit changes` to save the change.
     ![](images/add-image.png ":class=image-border")
     ![](images/save-change.png ":class=image-border")
 11. You should be able to see the image in README.md.
     ![](images/readme-image.png ":class=image-border")
-12. Click the image and open it in a new tab. The link of the file is the path you will use for the image. Now it's ready for use!
-    ![](images/image-path.png ":class=image-border")
 
 # Add an image
+
+Go back to StackBlitz and click the blue lightning bolt in the upper left corner of the screen. This will give you the option to go to your dashboard. Do this, then select the project under "Recent projects" to keep going. If you stay in the GitHub project, you won't be able to see a preview of your work.
 
 Now it's time to add the image to our website. We get to use our first attributes to provide the info the browser needs to display the image.
 

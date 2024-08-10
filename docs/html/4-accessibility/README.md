@@ -4,7 +4,7 @@ Now that we are done with the content, we need to check if our website is inclus
 
 # Add alt attribue
 
-You can have more than 1 attribute on a HTML element. Image tags have another attribute for alternate content, `alt`.
+You can have more than one attribute on a HTML element. Image tags have another attribute for alternate content, `alt`.
 
 1. Inside the `img` tag after the `src` attribute, type `alt="Image of cocktail"`. You can replace "Image of cocktail" to text better describing your image. Your image tag will look like this
 

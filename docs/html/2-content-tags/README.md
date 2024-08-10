@@ -45,9 +45,9 @@ Next, we'll want an "About" section and a "Contact" sections and add text. We'll
 1. After the `<h2></h2>` subtitle, press `Enter` to start a new line. Add a "About" section by typing `<section></section>`.
 
    > [!INFO]
-   > There's a lot of different HTML elements. There is a **semantic element** which tells you, the developer, and the browser its meaning such as `<header>`, `<footer>` and `<table>`. Then there is a **non-semantic element** that doesn't tell you much about its content such as `<div>` and `<span>`. When writing HTML, focus on the content and the meaning of what you are trying to communicate, not the website presentation. Good web development practice recommends doing so and calls this style of coding **Semantic HTML**.
+   > There are a lot of different types of HTML elements. There is a **semantic element** which tells you, the developer, and the browser its meaning such as `<header>`, `<footer>` and `<table>`. Then there is a **non-semantic element** that doesn't tell you much about its content such as `<div>` and `<span>`. When writing HTML, focus on the content and the meaning of what you are trying to communicate, not the website presentation. Good web development practice recommends doing so and calls this style of coding **Semantic HTML**.
    >
-   > `section` groups standalone content, typically include a header, and helps organize the HTML into logical pieces. Use the element that best describes your content to align with Semantic HTML practices.
+   > `section` groups standalone content, typically includes a header, and helps organize the HTML into logical pieces. Use the element that best describes your content to align with Semantic HTML practices.
    >
    > You may have seen or heard of `<div>` as a means to group content. Following best practices, use `<div>` to group elements only for styling purposes, not for content organization. Read more about `<section>` and `<div>` [in the references](./?id=references).
 
@@ -159,6 +159,9 @@ We want recognize our work and add a footer with copyright information.
 # Inspect HTML in Chrome
 
 You'll often find yourself needing to look at how your page renders in the browser to troubleshoot issues so let's give that a try.
+
+> [!INFO]
+> In this section,  your code won't change. You'll just be poking around in some inspection tools to see how a web page looks under the hood.
 
 1. Make sure your browser view is opened in a new tab, then right-click on your `<h2>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
 
