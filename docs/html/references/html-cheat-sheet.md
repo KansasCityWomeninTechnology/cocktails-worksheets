@@ -2,4 +2,4 @@
 
 A handy reference for HTML elements with a short description of the element.
 
-https://websitesetup.org/HTML5-cheat-sheet.pdf
+https://html.com/wp-content/uploads/html-cheat-sheet.pdf
