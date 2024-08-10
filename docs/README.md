@@ -9,7 +9,7 @@ _Coding & Cocktails is an introductory programming series for women presented by
 
 # Session Worksheets
 
-<!-- [The Glass: Front-End Architecture & HTML](/html/) -->
+ [The Glass: Front-End Architecture & HTML](/html/) 
 
 <!-- [The Garnish | Introduction to CSS](/css/) -->
 
@@ -17,5 +17,5 @@ _Coding & Cocktails is an introductory programming series for women presented by
 
 <!-- * [Angular Series SPA](/spa/) -->
 
- [Top Shelf | Advanced Javascript - ES6](/javascript_ES6/)
+<!-- [Top Shelf | Advanced Javascript - ES6](/javascript_ES6/)-->
 
