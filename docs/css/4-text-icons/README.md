@@ -71,14 +71,18 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
 
 1. Click the font of your choice.
 
-1. Click `Select Regular 400` next to the style you want.
-   > [!TIP] Depends on the styles of font you pick, the button might say something different such as `Select Thin 100`
+2. Click "Get font" (blue bubble at the bottom right corner of the page).
+
+3. Click "Get embed code."
+
+1. Click "change styles" and deselect everything, then select `Regular 400`.
+   > [!TIP] Depends on the styles of font you pick, the button might say something different such as `Thin 100`
 
 ![](images/fontSelect.png ":class=image-border")
 
 1. Find a font to use for body text and select the font using the steps outlined above.
 
-1. On the side bar, click on **@IMPORT** and copy the `@import` statement under `Use on the web` section.
+1. Click on the **@IMPORT** radio button and copy the `@import` statement under `Use on the web` section.
 
 ![](images/importFont.png ":class=image-border")
 
