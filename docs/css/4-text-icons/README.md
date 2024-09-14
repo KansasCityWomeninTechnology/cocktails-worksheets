@@ -71,9 +71,9 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
 
 1. Click the font of your choice.
 
-2. Click "Get font" (blue bubble at the bottom right corner of the page).
+1. Click "Get font" (blue bubble at the bottom right corner of the page).
 
-3. Click "Get embed code."
+1. Click "Get embed code."
 
 1. Click "change styles" and deselect everything, then select `Regular 400`.
    > [!TIP] Depends on the styles of font you pick, the button might say something different such as `Thin 100`
