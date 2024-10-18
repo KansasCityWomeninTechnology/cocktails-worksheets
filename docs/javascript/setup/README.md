@@ -28,7 +28,7 @@ We will use StackBlitz for our workshop. StackBlitz is a cloud development envir
 
 3. Now click **Static** under **Frontend** tab to create a new project for the session.
 
-![](./images/stackblitz-create-project.png ":class=image-border").
+![](./images/stackblitz-create-project.png ":class=image-border")
 
 4. We don't need _page2.html_ file. Let's delete the file by clicking the trashcan icon button
 
