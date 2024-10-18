@@ -22,15 +22,19 @@ We will use StackBlitz for our workshop. StackBlitz is a cloud development envir
 
 ![](./images/stackblitz-github.png ":class=image-border")
 
-2. Once you're signed in, click **Static** under **Frontend** tab to create a new project for the session.
+2. Once you're signed in, click "New Project."
 
-![](./images/stackblitz-create-project.png ":class=image-border")
+![](./images/stackblitz-new-project.png ":class=image-border")
 
-3. We don't need _page2.html_ file. Let's delete the file by clicking the trashcan icon button
+3. Now click **Static** under **Frontend** tab to create a new project for the session.
+
+![](./images/stackblitz-create-project.png ":class=image-border").
+
+4. We don't need _page2.html_ file. Let's delete the file by clicking the trashcan icon button
 
 ![](./images/stackblitz-delete-file.png ":class=image-border")
 
-4. Now you are ready to write some code! The StackBlitz page is split into 3 different sections. Far left is the project's file structure. The middle section is where you will write your code. Far right section is how your code looks like in a browser. Whenever you make a code change, you will see the change in the browser view as well.
+5. Now you are ready to write some code! The StackBlitz page is split into 3 different sections. Far left is the project's file structure. The middle section is where you will write your code. Far right section is how your code looks like in a browser. Whenever you make a code change, you will see the change in the browser view as well.
 
 ![](./images/stackblitz-project-view.png ":class=image-border")
 
