@@ -80,7 +80,7 @@ Remember these are the noun or verb text surrounded by angle brackets: **&lt;nou
 >
 > A verb is a word used to describe an action such as "make" or "become."
 
-> > [!TIP]
+> [!TIP]
 > If you highlight, then right-click on "<noun_1>" or any other text surrounded by angle brackets (be sure to include the angle brackets!), you will get a menu that will allow you to "Change All Occurrences." This is a good way to make sure you don't miss an occurrence of the thing you want to change.
 
 > [!WARNING]
