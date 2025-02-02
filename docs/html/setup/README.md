@@ -23,7 +23,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 ![](./images/github_login.png ":class=image-border")
 
-2. Once you're signed in, navigate to https://github.com/Tracy58468/CnC-Intro-to-HTML.
+2. Once you're signed in, navigate to [**the starter code repo**]https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-HTML.
 
 ![](./images/intro_repo_page.png ":class=image-border")
 
