@@ -19,15 +19,15 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 1. Navigate to [**GitHub**](https://github.com/login) and log in with your GitHub account.
 
-![](./images/github_login.png ":class=image-border")
+    ![](./images/github_login.png ":class=image-border")
 
 2. Once you're signed in, navigate to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-HTML) and click the "Use this template" button in the upper right-hand corner of the screen.
 
-![](./images/intro_repo_page.png ":class=image-border")
+    ![](./images/intro_repo_page.png ":class=image-border")
 
 3. Next, select the "Open in a codespace" option.
 
-![](./images/open_in_codespace.png ":class=image-border")
+    ![](./images/open_in_codespace.png ":class=image-border")
 
 4. Now you are ready to write some code! The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
@@ -49,11 +49,11 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 > View the worksheet and your IDE in split screen.
 >
 > If you want to open the browser view in a new window, right click on the tab and select "Move tab to new window." Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
-
+>
 > ![](.images/move_to_new_window.png ":class=image-border")
-
+>
 > ![](.images/side_by_side.png ":class=image-border")
-
+>
 > If you have any questions, feel free to ask. Mentors are happy to help!
 
 > [!TIP]
