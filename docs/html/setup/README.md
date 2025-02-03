@@ -9,15 +9,20 @@ Follow the instructions on this page to prepare your workspace.
 
 > [!WARNING]
 > We will use a cloud development environment called **GitHub Codespaces**. In order to use Codespaces, you will need a GitHub account. Codespaces **only** works with Chrome, so it is important that you use Google Chrome for today. If you use a different browser, things will not behave as this tutorial expects.
+> We will use a cloud development environment called **GitHub Codespaces**. In order to use Codespaces, you will need a GitHub account. Codespaces **only** works with Chrome.
 
 > Navigate to [**GitHub**](https://github.com) to create a personal account or log in. Feel free to ask your mentor for help! When complete and logged in to GitHub, return here to continue the instructions.
 
 # Create Intro to HTML Codespace :id=create-codespace
+# Create Intro to HTML Codespace :id=create-codespace
 
+We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud development environment which means you have an access to your code even if you are not on your own laptop.
 We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud development environment which means you have an access to your code even if you are not on your own laptop.
 
 1. Navigate to [**GitHub**](https://github.com/login) and log in with your GitHub account.
+1. Navigate to [**GitHub**](https://github.com/login) and log in with your GitHub account.
 
+![](./images/github_login.png ":class=image-border")
 ![](./images/github_login.png ":class=image-border")
 
 2. Once you're signed in, navigate to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-HTML).
