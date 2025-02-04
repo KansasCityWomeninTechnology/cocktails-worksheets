@@ -14,11 +14,11 @@ Let's start adding some visual elements to our web page by adding headers.
 
 2.  Add a header by typing `<h1></h1>`. Write the name of your cocktail lounge between the opening and closing tags.
 
-3.  Save your file. The file should reload automatically. Take a look at your webpage. **We have content!**
+3.  The file should reload automatically. Take a look at your webpage. **We have content!**
 
-    ![](https://media.giphy.com/media/3o6gEeg80PqeJBtsdy/giphy.gif)
+    ![](https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-on-brown-wooden-chair-5081968/)
 
-4.  In Stackblitz, after the closing `</h1>` tag, press `Enter` to start a new line and add an `<h2>` tag for a subtitle.
+4.  In the Codespaces IDE, after the closing `</h1>` tag, press `Enter` to start a new line and add an `<h2>` tag for a subtitle.
 
 5.  Add the text "Cocktails with a side of Code". The body section should look something like this
 
@@ -66,9 +66,9 @@ Next, we'll want an "About" section and a "Contact" sections and add text. We'll
 
    > [!TIP]Don't forget to close the `<p>` tag.
 
-4. Save your file and preview your page in Chrome. ![](../../images/emojis/star-eyes.png)
+4. Go ahead and take another look at your page in Chrome. ![](../../images/emojis/star-eyes.png)
 
-   > [!INFO]Feel free to save your work and preview your page as you code today. It's fun to see how each element progresses the creation of the webpage.
+   > [!INFO]Feel free to preview your page as you code today. It's fun to see how each element progresses the creation of the webpage.
 
 5. Now we want to add a new section to the page for "Contact". After the closing tag for `<section>`, add a new section element.
 
@@ -103,8 +103,8 @@ Next, we'll want an "About" section and a "Contact" sections and add text. We'll
    > </section>
    > ```
 
-8. Save your file and view it in Google Chrome. Your page should look similar to this:
-   ![](images/about-contact-checkpoint.png ":class=image-border")
+8. View your page again in Google Chrome. It should look similar to this:
+   ![](./images/about-contact-checkpoint.png ":class=image-border")
 
 # Navigation list of sections
 
@@ -132,6 +132,7 @@ Using list elements is also helpful for accessibility since screenreaders utiliz
    > There are 2 types of lists-- **u**nordered (bulleted) **l**ists and **o**rdered (numbered) **l**ists. Website navigation is often an unordered list.
 
 4. Each item in the unordered list has its own tag, `li`. Inside the `ul` element, add two `li` elements with the text "About" and "Contact".
+
    > [!HINT]
    > Place your cursor after `<ul>`, press `Enter`, and type `<li>About</li>`. Add a new `<li>` for "Contact". Your code should look like this
    >
@@ -165,17 +166,18 @@ You'll often find yourself needing to look at how your page renders in the brows
 
 1. Make sure your browser view is opened in a new tab, then right-click on your `<h2>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
 
-   ![](images/open-dev-tools.png ":class=image-border")
+   ![](./images/open-dev-tools.png ":class=image-border")
 
    > [!TIP]
    > Chrome DevTools has a lot of features. We'll use DevTools in upcoming sessions to help us dig deeper into our code.
 
 2. Notice you can see all your tags that you've added to the page and how they nest inside each other. It should look something like this:
-   ![](images/dev-tools.png ":class=image-border")
+
+   ![](./images/dev-tools.png ":class=image-border")
 
 3. Notice as you mouse over elements in the DevTools that they highlight in the rendered view above.
 
-   ![](images/dev-tool-highlight.png ":class=image-border")
+   ![](./images/dev-tool-highlight.png ":class=image-border")
 
 4. You can also click the arrows to the left of your `<section>` elements to expand them and see the elements inside them.
 
@@ -183,11 +185,11 @@ In addition to viewing elements, you can make and preview changes here before ma
 
 1.  In the **Elements** section of the DevTools, double click on the text inside your `<h2>` tag. This should make it editable. Change it to "Hello World" and then press `Enter`
 
-    ![](images/hello-world-1.png ":class=image-border")
+    ![](./images/hello-world-1.png ":class=image-border")
 
 2.  Your `<h2>` text should now display "Hello World" on your rendered page.
 
-    ![](images/hello-world-2.png ":class=image-border")
+    ![](./images/hello-world-2.png ":class=image-border")
 
     > [!WARNING]
     > This only lasts until you refresh the page! If you want to make a lasting change you need to make the change to the code in your IDE.
