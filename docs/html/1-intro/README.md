@@ -4,6 +4,8 @@ Today we cover what web development is and some HTML basics. In this section of 
 
 The _index.html_ file is the main HTML for a web page. HTML is one of the building blocks of a web page. It defines the structure of the page and lays the foundation to then add styles and dynamic content.
 
+**HTML** stands for **H**yper**T**ext **M**arkup **L**anguage.
+
 At the end of this section, you will have a webpage that looks like this:
 
 ![](./images/result.png ":class=image-border")
@@ -13,7 +15,7 @@ At the end of this section, you will have a webpage that looks like this:
 
 # Prepare the project for our code
 
-Let's check out what Swe have in the starter code we gave you and prepare the project for our code.
+Let's check out what we have in the starter code we gave you and prepare the project for our code.
 
 # Create HTML structure :id=structure
 
@@ -34,7 +36,9 @@ You'll see the following code snippet:
        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
        <title>Document</title>
      </head>
-     <body></body>
+     <body>
+     
+     </body>
    </html>
    ```
 
@@ -45,17 +49,15 @@ You'll see the following code snippet:
 
 # HEAD section
 
-1. In _index.html_, change the text between the `<title></title>` tags. The title displays on the browser tab. Today we'll make a Cocktail Lounge site so change the text from "Document" to "YourName's Cocktail Lounge".
+In _index.html_, change the text between the `<title></title>` tags. The title displays on the browser tab. Today we'll make a Cocktail Lounge site so change the text from "Document" to "YourName's Cocktail Lounge".
 
-![](images/tab-change.png ":class=image-border")
+![](./images/tab-change.png ":class=image-border")
 
 > [!INFO]
 > The title is in the `head` section. The `head` section contains data telling your browser more information about your page. This is also where you link to your styles and script files.
 
-2. Save the file.
-
-   > [!WARNING]
-   > You will need to switch to the new tab that opened when you clicked "Go Live" previously, or you won't be able to see the change.
+> [!WARNING]
+> You will need to switch to the new tab that opened when you clicked "Go Live" previously, or you won't be able to see the change.
 
 You won't see anything exciting on the page yet, but you should see your title displayed in the page tab.
 
