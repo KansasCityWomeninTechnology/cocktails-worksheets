@@ -10,35 +10,24 @@ We’ll add an image and links to practice using attributes.
 
 Websites have eye catching images. Let's find one we like and get it ready to add to our site!
 
-1. In Google Chrome, navigate to [flickr.com](http://flickr.com).
+1. In Google Chrome, navigate to [flickr.com](https://flickr.com).
 2. Search for a cocktail image.
 3. Change the license filter from "Any License" to "Commercial use allowed".
-   ![](images/flickr-filter.png ":class=image-border")
+   ![](./images/flickr-filter.png ":class=image-border")
 4. Choose your favorite image, click on it and click on the download icon in the lower right corner. You get to choose what size you'd like on your page. Name it something easy to remember.
-   ![](images/download.png ":class=image-border")
-5. Now let's connect our StackBlitz to GitHub repository to upload the image. Click `Create a repository` button on the top left corner of the screen.
-   ![](images/stackblitz-connect-repo.png ":class=image-border")
-6. Name the repository `Intro to html`.
-   ![](images/stackblitz-create-repo.png ":class=image-border")
-7. Once it's connected, you will see your current branch.
-   ![](images/stackblitz-connected.png ":class=image-border")
-8. Click the GitHub link to go to your GitHub repository for the StackBlitz project.
-   ![](images/stackblitz-github.png ":class=image-border")
-9. We will add our cocktail image to readme so we can use it for our website. Click pencil icon on the top right of readme section to edit the README.md file.
-   ![](images/readme.png ":class=image-border")
-10. Drag and drop the image to add. Copy the URL ("https://...") to use in the next step. Then click `commit changes` to save the change.
-    ![](images/add-image.png ":class=image-border")
-    ![](images/save-change.png ":class=image-border")
-11. You should be able to see the image in README.md.
-    ![](images/readme-image.png ":class=image-border")
+   ![](./images/download.png ":class=image-border")
+5. Now let's upload the image to your GitHub Codespace. Hover over the bold **Coding-and-Cocktails-Intro-to-HTML** in the explorer and look for the `New Folder` button to the right.
+   ![](./images/add_folder.png ":class=image-border")
+6. Name the folder "images."
+   ![](./images/images_folder.png ":class=image-border")
+7. Now navigate to the downloads folder on your computer and find the image file you downloaded. Drag and drop it on the "images" folder you just created. Voilá! Your image is now available to use.
+   ![](./images/image_uploaded.png ":class=image-border")
 
 # Add an image
 
-Go back to StackBlitz and click the blue lightning bolt in the upper left corner of the screen. This will give you the option to go to your dashboard. Do this, then select the project under "Recent projects" to keep going. If you stay in the GitHub project, you won't be able to see a preview of your work.
-
 Now it's time to add the image to our website. We get to use our first attributes to provide the info the browser needs to display the image.
 
-1. Image elements don't require closing tags. In StackBlitz, find the "About" section. Add an `<img />` tag below the "**About**" header on your page to add an image.
+1. Image elements don't require closing tags. In your ïndex.html file, find the "About" section. Add an `<img />` tag below the "**About**" header on your page to add an image.
 
    > [!INFO]
    > We created a **self-closing** tag. Self-closing tags have the `/>` written into the tag. HTML elements that don't require content or derive their information from attributes are self-closing.
@@ -60,9 +49,9 @@ Now it's time to add the image to our website. We get to use our first attribute
    > We're setting the value of the attribute `src` to the filename. You'll see instructions directing you to set the value of an attribute throughout this section. Use the same format `attribute="value"`.
 
    > [!TIP]
-   > We have a path of the image through GitHub. Make sure to include the path for the value of the attribute `src`.
+   > The path of the image is ./image/<filename>. Make sure to include the path for the value of the attribute `src`.
 
-4. Save your file and preview it in Chrome. Do you see your image? ![](../../images/emojis/party-popper.png)
+4. Now take a look at your page in Chrome. Do you see your image? ![](../../images/emojis/party-popper.png)
 
    > [!TIP]
    > Not seeing your image? Try opening up Chrome DevTools to see if there's an error. Does your path of the image match up to what's in the `src` attribute?
@@ -71,7 +60,7 @@ Now it's time to add the image to our website. We get to use our first attribute
 
 A navbar isn't helpful if it doesn't navigate to the different sections of the webpage. In this section we'll add `anchor` elements to the list of sections in the navbar and make it link their respective section in the webpage. The linked section also needs an attribute for hyperlinks to work.
 
-1. Links use the anchor element, `<a>`. We'll wrap the list items "About" and "Contact" in the navbar to link to their respective sections. In StackBlitz, place your cursor after the opening `<li>` tag and before the text **"About"** and type `<a>` to create a the anchor tag. Add the closing `</a>` after the text. The **"About"** text should now look like this:
+1. Links use the anchor element, `<a>`. We'll wrap the list items "About" and "Contact" in the navbar to link to their respective sections. Place your cursor after the opening `<li>` tag and before the text **"About"** and type `<a>` to create a the anchor tag. Add the closing `</a>` after the text. The **"About"** text should now look like this:
 
    {% codeblock %}index.html{% codeblock %}
 
@@ -91,12 +80,14 @@ A navbar isn't helpful if it doesn't navigate to the different sections of the w
 
 3. Find the `<section>` element for "About" in your _index.html_. This is where we add the link for the anchor. We'll use an `id` attribute. Inside the opening `<section>` tag, add the attribute `id` with the value "about".
 
-4. Save your file and preview in Chrome. The "About" text in the navbar at the top of the page now has an underline. You can test your link now.
+4. Take a look at your page in Chrome. The "About" text in the navbar at the top of the page now has an underline. You can test your link now.
 
    > [!TIP]
    > Since we don't have a lot of content on our page it may not appear to work at first. If you shrink the size of your browser window down so it is about half as tall, try clicking on the "About" navigation item again and the "about" section should show at the top!
 
-5. Now let's do "Contact". In StackBlitz, repeat the same steps we took for the "About" section but apply it to "Contact". Don't forget you have to add the anchor and update the id for the section.
+   >Alternatively, you can take a look at the URL for your page. When you click on the "About" link in the navigation bar, you will see the URL change to include "#about" at the end of the address.
+
+5. Now let's do "Contact". Repeat the same steps we took for the "About" section but apply it to "Contact". Don't forget you have to add the anchor and update the id for the section.
 
    > [!HINT]
    > Wrap the "Contact" text in the list with `<a>` tag and add the `href` attribute. Set the value to "#contact". Add the closing `</a>` tag. Find the `<section>` for "Contact" and add the attribute `id`</code>`. Set the value to "contact". Your code should look like this
@@ -110,7 +101,7 @@ A navbar isn't helpful if it doesn't navigate to the different sections of the w
    > </section>
    > ```
 
-6. Save your file and preview in Chrome.
+6. Take another look at your page in Chrome.
 
 You did it! You created a website!
 
@@ -120,7 +111,7 @@ You did it! You created a website!
 
 Compare your _index.html_ against the answer key for your work so far. It might look a little different depending on your spacing and text.
 
-> [!CODECHECK] > ![](images/html-checkpoint-2.png)
+> [!CODECHECK] > ![](./images/html-checkpoint-2.png)
 > You can also compare your _index.html_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/AnswerKeys/blob/checkpoint-html-attributes/html/index.html) if the image is too difficult to read.
 
 ## References and helpful links

@@ -155,7 +155,31 @@ We want recognize our work and add a footer with copyright information.
 
 1. After the "Contact" section, at the very end of the page but still in the `body`, we want to add a footer. The HTML element for footer is `footer`. Place your cursor after the closing `section` tag for "Contact", press `Enter`, and add the `footer` element.
 
-2. Footers often contain copyright information so try using an [HTML entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) to add a copyright symbol. Between the opening and closing `<footer></footer>` tags add the text `&copy; Copyright Your Name 2023`.
+2. Footers often contain copyright information so try using an [HTML entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) to add a copyright symbol. Between the opening and closing `<footer></footer>` tags add the text `&copy; Copyright Your Name <year>`. For the year, put the current year.
+
+3. Commit your code to a repository in your GitHub account by clicking on the "Source Control" icon along the left side of the explorer in your IDE.
+
+   ![](./images/source_control.png ":class=image-border")
+
+   Next, type a message in the text box above the green "Commit" button,
+
+   ![](./images/commit_message.png ":class=image-border")
+
+   then click the button. Next, click "Yes" in the box that says there are no staged changes to commit.
+
+   ![](./images/no_staged_changes.png ":class=image-border")
+
+   Then click "Publish Branch." Click "Allow" on the box that says it wants to sign in to your GitHub account. Choose the GitHub account you want to use (the same one you used to create the Codespace). Click "Publish Branch" a second time and select the "public" repository name.
+
+   ![](./images/publish_to_gh_public_repo.png ":class=image-border")
+
+   > [!TIP]You can click "No" on the tile at the bottom right corner of the screen that asks if you want to periodically run git fetch.
+   >
+   >  ![](./images/periodically_run_git_fetch.png ":class=image-border")
+
+   Now you can click the "Explorer" icon along the left side of the explorer in your IDE.
+
+   ![](./images/explorer.png ":class=image-border")
 
 # Inspect HTML in Chrome
 
