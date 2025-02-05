@@ -116,6 +116,8 @@ You did it! You created a website!
 
 ![](https://media.giphy.com/media/uaPeNbMJlGBPdZ5ube/giphy.gif)
 
+7. Now commit your project to your repo like you did before.
+
 # Checkpoint
 
 Compare your _index.html_ against the answer key for your work so far. It might look a little different depending on your spacing and text.
