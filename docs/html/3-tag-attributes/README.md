@@ -13,14 +13,23 @@ Websites have eye catching images. Let's find one we like and get it ready to ad
 1. In Google Chrome, navigate to [flickr.com](https://flickr.com).
 2. Search for a cocktail image.
 3. Change the license filter from "Any License" to "Commercial use allowed".
+
    ![](./images/flickr-filter.png ":class=image-border")
+
 4. Choose your favorite image, click on it and click on the download icon in the lower right corner. You get to choose what size you'd like on your page. Name it something easy to remember.
+
    ![](./images/download.png ":class=image-border")
+
 5. Now let's upload the image to your GitHub Codespace. Hover over the bold **Coding-and-Cocktails-Intro-to-HTML** in the explorer and look for the `New Folder` button to the right.
+   
    ![](./images/add_folder.png ":class=image-border")
+
 6. Name the folder "images."
+   
    ![](./images/images_folder.png ":class=image-border")
+
 7. Now navigate to the downloads folder on your computer and find the image file you downloaded. Drag and drop it on the "images" folder you just created. Voilá! Your image is now available to use.
+   
    ![](./images/image_uploaded.png ":class=image-border")
 
 # Add an image
