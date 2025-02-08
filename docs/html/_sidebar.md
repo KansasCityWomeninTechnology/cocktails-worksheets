@@ -9,13 +9,13 @@
   - [Accessibility](/html/4-accessibility/)
   - [Quiz](/html/quiz.md)
 
-- Homework
+<!-- - Homework
   - [Troubleshooting](/html/homework/troubleshooting.md)
-  - [Troubleshooting Bonus](/html/homework/troubleshooting-bonus.md)
+  - [Troubleshooting Bonus](/html/homework/troubleshooting-bonus.md) -->
 
 ---
 
-- [Answer Key](/html/answer-key.md)
+<!-- - [Answer Key](/html/answer-key.md) -->
 - [HTML Cheat Sheet](/html/references/html-cheat-sheet.md)
 - [References & Shortcuts](/html/references/)
 - [Glossary](https://github.com/KansasCityWomeninTechnology/LearningResources/blob/master/glossary.md)
