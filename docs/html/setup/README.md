@@ -48,7 +48,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 > [!TIP]
 > View the worksheet and your IDE in split screen.
 >
-> If you want to open the browser view in a new window, right click on the tab and select "Move tab to new window." Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
+> If you want to open the browser view in a new window, right click on the tab (control click on a Mac) and select "Move tab to new window." Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
 >
 > ![](./images/move_to_new_window.png ":class=image-border")
 >
