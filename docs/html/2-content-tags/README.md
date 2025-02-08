@@ -188,7 +188,7 @@ You'll often find yourself needing to look at how your page renders in the brows
 > [!INFO]
 > In this section,  your code won't change. You'll just be poking around in some inspection tools to see how a web page looks under the hood.
 
-1. Make sure your browser view is opened in a new tab, then right-click on your `<h2>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
+1. Make sure your browser view is opened in a new tab, then right-click (ctrl-click on Mac) on your `<h2>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
 
    ![](./images/open-dev-tools.png ":class=image-border")
 
