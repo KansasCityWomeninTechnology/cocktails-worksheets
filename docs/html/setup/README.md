@@ -21,7 +21,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/github_login.png ":class=image-border")
 
-2. Once you're signed in, navigate to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-HTML) and click the "Use this template" button in the upper right-hand corner of the screen.
+2. Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-HTML) and click the "Use this template" button in the upper right-hand corner of the screen.
 
     ![](./images/intro_repo_page.png ":class=image-border")
 
@@ -55,6 +55,8 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 > ![](./images/side_by_side.png ":class=image-border")
 >
 > If you have any questions, feel free to ask. Mentors are happy to help!
+
+> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a "Port 5500" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
 
 > [!TIP]
 > Did you know you can collapse the table of contents for worksheets?

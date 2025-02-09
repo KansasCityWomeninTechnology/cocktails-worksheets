@@ -6,7 +6,7 @@ The body section of your HTML contains the visible part of your webpage. Let's s
 
 Let's start adding some visual elements to our web page by adding headers.
 
-1.  In _index.html_, place your cursor on the blank line between `<body>` and `</body>`.
+1.  In _index.html_, place your cursor on the blank line between `<body>` and `</body>`. Press the tab button until your cursor is indented from the body tags.
 
     > [!INFO]Most HTML elements have an opening and closing tag. The `<body>` tag is the opening tag. The `</body>` tag closes that element.
 
