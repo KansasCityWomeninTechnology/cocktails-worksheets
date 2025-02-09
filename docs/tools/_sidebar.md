@@ -4,8 +4,6 @@
 <!-- * [Code Editor](/tools/vscode/)
 * [CodingAndCocktails Directory](/tools/directory/) -->
 
-
-
 <!-- * [Node & npm](/tools/node/)
 * [GitHub](/tools/version-control/github.md)
 * [Git](/tools/version-control/) -->
