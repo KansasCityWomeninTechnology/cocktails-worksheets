@@ -48,6 +48,8 @@ One really good skill to build is learning how to search for information on how 
 
 You can search this resource to find out how to link to different pages in your website (relative URLs). Handy hint:  There's a link to this particular entry in the tutorial.
 
+Remember, too, that there are other resources available in the [slides](https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/2023-front-end-html.html#/)from the Intro to HTML session!
+
 To add a new page to your site, click on the "New File" icon and type the name of the page for the file name. Don't forget to add .html to the end of the file! For example, for an "About" page,  you'll want to name the file "about.html".
 
 Add an "About" page and a "Contact" page, at the very least, and if you want, add another page or two.
