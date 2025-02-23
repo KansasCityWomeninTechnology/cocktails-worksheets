@@ -138,8 +138,6 @@ Let's take a look at the _index.html_ file. You should see the following code in
 
 2. Now we want to preview the _index.html_ file in Chrome. To see what your code looks like in a browser, click on the "Go Live" button at the bottom of the page towards the right. This will pop a new tab into your browser. Whenever you make a code change, you will see the change in the browser view as well.
 
-    ![](./images/go_live.png ":class=image-border")
-
 3. Take a look at your app in Google Chrome and notice the current styling. The page doesn't look good yet but we've got our initial setup for our project done. Now let's get to the fun part - styling!
 
 # Checkpoint
