@@ -20,9 +20,9 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/github_login.png ":class=image-border")
 
-2. Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-HTML) and click the "Use this template" button in the upper right-hand corner of the screen.
+2. Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-CSS) and click the "Use this template" button in the upper right-hand corner of the screen.
 
-    ![](./images/intro_repo_page.png ":class=image-border")
+    ![](./images/intro_css_repo_page.png ":class=image-border")
 
 3. Next, select the "Open in a codespace" option.
 
@@ -35,18 +35,17 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
     ![](./images/LiveServer_notification.png ":class=image-border")
 
 > [!TIP]
-> If you want to change the project name, you can do so by clicking the **lock icon** on the top center.
-> ![](./images/stackblitz-project-name-change.png ":class=image-border")
-
-> [!TIP]
 > View the worksheet and your IDE in split screen.
 >
-> If you click **Close** button on top right, it will close the browser view and you will have wider code section.
-> ![](./images/stackblitz-open-tab.png ":class=image-border")
-> If you want to open the browser view in a new tab, click **Open in New Tab**
-> You can always have code on one half of the screen and browser in the other half.
+> If you want to open the browser view in a new window, right click on the tab (control click on a Mac) and select "Move tab to new window." Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
+>
+> ![](./images/move_to_new_window.png ":class=image-border")
+>
+> ![](./images/side_by_side.png ":class=image-border")
 >
 > If you have any questions, feel free to ask. Mentors are happy to help!
+
+> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a "Port 5500" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
 
 > [!TIP]
 > Did you know you can collapse the table of contents for worksheets?
