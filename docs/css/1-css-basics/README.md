@@ -9,23 +9,9 @@
 
 # Prepare the project for our code
 
-StackBlitz creates some files and codes for us when we create a new project. Let's checkout out what StackBlitz gave us and prepare the project for our code.
+> [!TIP]Make sure auto save is enabled in your Codespace! Click on the hamburger menu in the upper left-nad corner of your Codespace and hover over "File." You should see "Auto Save" in the list that appears. There should be a checkmark to the left of "Auto Save." If there is no checkmark, click "Auto Save."
 
-1. We need only one _html_ file. Let's delete _page2.html_ file by clicking the trash icon.
-
-![](images/stackblitz-delete-file.png ":class=image-border")
-
-2. Now let's move on to _index.html_. We will add our code here so let's clear this file and leave it empty.
-
-![](images/stackblitz-indexhtml.png ":class=image-border")
-
-> [!TIP]Don't forget to save the files. If you have a white circle next to file name, it means you have changes that haven't saved yet. You can either click **Save** button on the top left or use shortcut `cmd` + `s` for Mac or `ctrl` + `s` for Windows.
->
-> ![](images/stackblitz-save.png ":class=image-border")
-
-# Prepare the HTML file
-
-1. Copy and paste the following HTML code into your _index.html_ file.
+Let's take a look at the _index.html_ file. You should see the following code in that file.
 
    {% codeblock copy %}index.html{% codeblock %}
 
@@ -115,22 +101,17 @@ StackBlitz creates some files and codes for us when we create a new project. Let
    ```
 
 > [!TIP]
-> Don't forget to save the file!
-
-> [!TIP]
 > Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
 
 # Prepare the styles.css :id=prepare-stylesheet
 
-1. We need a stylesheet file where we will put all our styles. StackBlitz already created it for us when we started our project. Look for _styles.css_ file. Let's see what's in the _styles.css_ file.
+1. We need a stylesheet file where we will put all our styles. The starter code already contains a _styles.css_ file. Let's see what's in there.
 
-> ![](images/stackblitz-css-file.png ":class=image-border")
-
-2. We already have some code in _styles.css_ but we want our own styles. Let's clear this file and leave it empty.
+2. As you can see, it's empty, and ready for us to start styling!
 
 # Link the style sheet into HTML :id=link-stylesheet
 
-1. In StackBlitz, open _index.html_. In the HTML `<head>` section (between the opening `<head>` and closing `</head>`), find the HTML tags for `title` and `script`. Place your cursor after the closing `script` tag, press `Enter`, and link your stylesheet by adding
+1. Open _index.html_. In the HTML `<head>` section (between the opening `<head>` and closing `</head>`), find the HTML tags for `title` and `script`. Place your cursor after the closing `script` tag, press `Enter`, and link your stylesheet by adding
 
    {% codeblock copy %}index.html{% codeblock %}
 
@@ -155,11 +136,11 @@ StackBlitz creates some files and codes for us when we create a new project. Let
    </head>
    ```
 
-1. Save your file.
+2. Now we want to preview the _index.html_ file in Chrome. To see what your code looks like in a browser, click on the "Go Live" button at the bottom of the page towards the right. This will pop a new tab into your browser. Whenever you make a code change, you will see the change in the browser view as well.
 
-1. Now we want to preview the _index.html_ file in Chrome. You can preview in StackBlitz, but don't forget you can also open your website in a new tab by clicking `Open in New Tab` button on top right!
+    ![](./images/go_live.png ":class=image-border")
 
-1. Take a look at your app in Google Chrome and notice the current styling. The page doesn't look good yet but we've got our initial setup for our project done. Now let's get to the fun part - styling!
+3. Take a look at your app in Google Chrome and notice the current styling. The page doesn't look good yet but we've got our initial setup for our project done. Now let's get to the fun part - styling!
 
 # Checkpoint
 

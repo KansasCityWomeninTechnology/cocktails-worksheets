@@ -11,7 +11,7 @@
 
 - Bonus
   <!-- - [Media Queries](/css/homework/media-query.md) -->
-  <!-- - [Homework](/css/homework/homework.md) -->
+  - [Homework](/css/homework/homework.md)
 
 ---
 
