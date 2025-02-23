@@ -9,7 +9,6 @@ Follow the instructions on this page to prepare your workspace.
 
 > [!WARNING]
 > We will use a cloud development environment called **GitHub Codespaces**. In order to use Codespaces, you will need a GitHub account. Codespaces **only** works with Chrome, so it is important that you use Google Chrome for today. If you use a different browser, things will not behave as this tutorial expects.
-> We will use a cloud development environment called **GitHub Codespaces**. In order to use Codespaces, you will need a GitHub account. Codespaces **only** works with Chrome.
 
 > Navigate to [**GitHub**](https://github.com) to create a personal account or log in. Feel free to ask your mentor for help! When complete and logged in to GitHub, return here to continue the instructions.
 
@@ -62,6 +61,8 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 > Did you know you can collapse the table of contents for worksheets?
 >
 > Click on the hamburger menu at the top of the page to toggle the table of contents.
+>
+> ![](./images/collapse_toc.png ":class=image-border")
 
 > [!TIP]
 > Did you know you can perform common tasks such as copy and paste?
