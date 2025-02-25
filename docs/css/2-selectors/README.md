@@ -21,7 +21,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > Feel free to choose different color if you'd like. You can always zoom in to have a closer look.
    > Check out [keyboard shortcut](/css/references/) for `Zoom in` and `Zoom out` shortcuts.
 
-1. Save your file and view in Chrome. Do you see the color of your header change?
+1. View your site in Chrome. Do you see the color of your header change?
 
 1. Repeat step 1 and add the same color to `h2`. You'll add this right after your `h1` style.
 
@@ -44,10 +44,10 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    >
    > We might need to override the style for a specific element later, but we want to build a strong foundation to build upon.
 
-1. Save your file and view your page in Chrome.
+1. View your page in Chrome. You might need to refresh the page to see your changes.
 
    > [!TIP]
-   > Save your _styles.css_ file and view your app often so you can see the changes as we go along. The worksheet will call out specific places to save and view the web page to illustrate a concept, but feel free to save and view your page as often as you want. It helps to see the changes as you write your CSS.
+   > View your app often so you can see the changes as we go along. You may need to refresh the page to see your changes. The worksheet will call out specific places to view the web page to illustrate a concept, but feel free to view your page as often as you want. It helps to see the changes as you write your CSS.
 
 # Add background color
 
@@ -73,10 +73,10 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 1. Select a background color for the "Drink menu" section.
 
-1. To add the background color for the "Drink menu" section, we need to know which HTML element is used for the section. In StackBlitz, open _index.html_ and find the HTML element for "Drink menu".
+1. To add the background color for the "Drink menu" section, we need to know which HTML element is used for the section. Open _index.html_ and find the HTML element for "Drink menu".
 
    > [!TIP]
-   > You can search for and find "Drink menu" in the _index.html_ in StackBlitz. Click on the magnifying glass on the left toolbar.
+   > You can use ctrl-F (cmd-F on a Mac) to search for and find "Drink menu" in the _index.html_.
    >
    > ![](images/stackblitz-search.png ":class=image-border")
    >
@@ -145,7 +145,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > [!INFO]
    > Define a style for more than 1 selector by comma separating the selector list.
 
-   Save and refresh your page. Do you see your default color applied?
+   Refresh your page. Do you see your default color applied?
 
 1. Let's go ahead and set the text color for all headers. Add `h3` to the style. Save and refresh your page to see the color applied to all the headers on the page.
 
@@ -171,7 +171,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > }
    > ```
 
-1. Save your file and view in Chrome. What happens when you hover over the list items in the drink menu?
+1. View your page in Chrome. What happens when you hover over the list items in the drink menu?
 
 ![](https://media.giphy.com/media/chzz1FQgqhytWRWbp3/giphy.gif)
 
@@ -188,21 +188,21 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 You'll often find yourself needing to look at how your page renders in the browser to troubleshoot issues so let's give that a try.
 
-1. If you haven't, in Chrome, open your website in a new tab.
+1. View your website.
 
-1. right-click on your `<h1>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
+2. Right-click on your `<h1>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
 
    > [!TIP]
    > Chrome DevTools has a lot of features. We'll use DevTools in upcoming sessions to help us dig deeper into our code.
 
-1. Notice you can see all your tags that you've added to the page and how they nest inside each other. It should look something like this:
+3. Notice that you can see all the tags that you've added to the page and how they nest inside each other. It should look something like this:
    ![](images/devTools.png ":class=image-border")
 
-1. Notice as you mouse over elements in the DevTools that they highlight in the rendered view above.
+4. Notice as you mouse over elements in the DevTools that they highlight in the rendered view above.
 
    ![](images/devToolHighlight.png ":class=image-border")
 
-1. You can also click the arrows to the left of your `<main>` elements to expand them and see the elements inside them.
+5. You can also click the arrows to the left of your `<main>` elements to expand them and see the elements inside them.
 
 In addition to viewing elements, you can make and preview changes here before making them in your code.
 
@@ -210,14 +210,14 @@ In addition to viewing elements, you can make and preview changes here before ma
 
     ![](images/helloWorld1.png ":class=image-border")
 
-1.  Your `<h1>` text should now display "Hello World" on your rendered page.
+2.  Your `<h1>` text should now display "Hello World" on your rendered page.
 
     ![](images/helloWorld2.png ":class=image-border")
 
     > [!WARNING]
     > This only lasts until you refresh the page! If you want to make a lasting change you need to make the change to the code in your IDE.
 
-1.  Refresh your page to see your text return to what you have in your code. You can either keep your DevTools open or close them with the small x in the upper right corner of the DevTools.
+3.  Refresh your page to see the text return to what you have in your code. You can either keep your DevTools open or close them with the small x in the upper right corner of the DevTools.
 
     > [!INFO]
     > Element inspection comes in handy when you're trying to style your page too!
