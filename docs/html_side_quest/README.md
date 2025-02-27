@@ -8,7 +8,7 @@
 
 Now that you've got a page for our cocktail lounge, let's take it a step further.
 
-Go to your GitHub page (github.com/<yourprofilename>). Click on the profile picture in the upper right-hand corner of the page and select "Your repositories."
+Go to your GitHub page (github.com//<yourprofilename>). Click on the profile picture in the upper right-hand corner of the page and select "Your repositories."
 
 ![](./images/github_profile.png ":class=image-border")
 

@@ -21,9 +21,9 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > Feel free to choose different color if you'd like. You can always zoom in to have a closer look.
    > Check out [keyboard shortcut](/css/references/) for `Zoom in` and `Zoom out` shortcuts.
 
-1. View your site in Chrome. Do you see the color of your header change?
+2. View your site in Chrome. Do you see the color of your header change?
 
-1. Repeat step 1 and add the same color to `h2`. You'll add this right after your `h1` style.
+3. Repeat step 1 and add the same color to `h2`. You'll add this right after your `h1` style.
 
    > [!HINT]
    >
@@ -44,14 +44,14 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    >
    > We might need to override the style for a specific element later, but we want to build a strong foundation to build upon.
 
-1. View your page in Chrome. You might need to refresh the page to see your changes.
+4. View your page in Chrome. You might need to refresh the page to see your changes.
 
    > [!TIP]
    > View your app often so you can see the changes as we go along. You may need to refresh the page to see your changes. The worksheet will call out specific places to view the web page to illustrate a concept, but feel free to view your page as often as you want. It helps to see the changes as you write your CSS.
 
 # Add background color
 
-1. Select a background color for the entire page and add it to the top of _styles.css_ by using the HTML `body` selector and `background-color` property.
+Select a background color for the entire page and add it to the top of _styles.css_ by using the HTML `body` selector and `background-color` property.
 
    > [!TIP]
    > Feel free to use [Colorhunt.co](https://colorhunt.co/) or [accessible color palette generator by Venngage](https://venngage.com/tools/accessible-color-palette-generator) for colors.
@@ -73,17 +73,14 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 1. Select a background color for the "Drink menu" section.
 
-1. To add the background color for the "Drink menu" section, we need to know which HTML element is used for the section. Open _index.html_ and find the HTML element for "Drink menu".
+2. To add the background color for the "Drink menu" section, we need to know which HTML element is used for the section. Open _index.html_ and find the HTML element for "Drink menu".
 
    > [!TIP]
    > You can use ctrl-F (cmd-F on a Mac) to search for and find "Drink menu" in the _index.html_.
    >
-   > ![](images/stackblitz-search.png ":class=image-border")
-   >
    > Or you can click anywhere in the _index.html_ file then use [keyboard shortcut](/css/references/).
-   > ![](images/stackblitz-search-shortcut.png ":class=image-border")
 
-1. Since "Drink menu" section is further down the file, we'll add the style at the bottom of the _styles.css_. "Drink menu" is in a `section` element, let's create a style for the `section` selector and set the `background-color`.
+3. Since "Drink menu" section is further down the file, we'll add the style at the bottom of the _styles.css_. "Drink menu" is in a `section` element, let's create a style for the `section` selector and set the `background-color`.
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -93,7 +90,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    }
    ```
 
-1. Uh oh! We set the background color for all `section` elements, including about sections. That's not what we wanted so let's fix it. The HTML element for "Drink menu" also has a `class` attribute named `drinks`. Change the selector from `section` to `.drinks`.
+4. Uh oh! We set the background color for all `section` elements, including about sections. That's not what we wanted so let's fix it. The HTML element for "Drink menu" also has a `class` attribute named `drinks`. Change the selector from `section` to `.drinks`.
 
    > [!INFO]
    > When applying CSS rules to `class` attributes, prepend a `.` to the selector.
@@ -115,7 +112,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 ## Navigation and footer
 
-1. To make the navigation and footer area pop, let's add a background color to them. Look at the _index.html_ file to identify the selectors for the navigation and footer sections. Since these are global styles, declare the styles near the top of _styles.css_ file.
+To make the navigation and footer area pop, let's add a background color to them. Look at the _index.html_ file to identify the selectors for the navigation and footer sections. Since these are global styles, declare the styles near the top of _styles.css_ file.
 
    > [!TIP]
    > HTML element for navigation is `nav` and HTML element for footer is `footer`
@@ -131,7 +128,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 1. We have the same color defined for 2 header selectors, `h1` and `h2`. We can combine the selectors into a selector list. Delete the style for `h2`.
 
-1. Combine the `h1` and `h2` selectors by separating them with a comma like this
+2. Combine the `h1` and `h2` selectors by separating them with a comma like this
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -147,9 +144,9 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
    Refresh your page. Do you see your default color applied?
 
-1. Let's go ahead and set the text color for all headers. Add `h3` to the style. Save and refresh your page to see the color applied to all the headers on the page.
+3. Let's go ahead and set the text color for all headers. Add `h3` to the style. Save and refresh your page to see the color applied to all the headers on the page.
 
-1. There's one other place where we have the same style defined for 2 different selectors- `nav` and `footer`. Let's combine the styles.
+4. There's one other place where we have the same style defined for 2 different selectors- `nav` and `footer`. Let's combine the styles.
    > [!HINT]
    > Delete the style for `footer` and change the selector for `nav` style to `nav, footer`.
 
@@ -157,9 +154,9 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 1. Select a color that displays when your mouse hovers over the drink menu list items.
 
-1. After the styles for the `.drinks`, create a style for `li` elements. Add the `background-color` property. The background color for all `li` elements changed. Hrm....
+2. After the styles for the `.drinks`, create a style for `li` elements. Add the `background-color` property. The background color for all `li` elements changed. Hrm....
 
-1. We want the background to show on hover, so we can use the **Pseudo Class** `:hover`. Change the selector to `li:hover`.
+3. We want the background to show on hover, so we can use the **Pseudo Class** `:hover`. Change the selector to `li:hover`.
 
    > [!HINT]
    >
@@ -171,11 +168,9 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > }
    > ```
 
-1. View your page in Chrome. What happens when you hover over the list items in the drink menu?
+4. View your page in Chrome. What happens when you hover over the list items in the drink menu?
 
-![](https://media.giphy.com/media/chzz1FQgqhytWRWbp3/giphy.gif)
-
-1. But we don't want all the `li` tags to hover. Just the ones in the drink menu. We could add a `class` or we can target only the `li` elements in `main` by changing the selector to `main li:hover`.
+5. But we don't want all the `li` tags to hover. Just the ones in the drink menu. We could add a `class` or we can target only the `li` elements in `main` by changing the selector to `main li:hover`.
 
    > [!INFO]
    > You are using the **Descendant combinator**. A combinator is a special selector. The descendant combinator contains 2 or more selectors with a space between each selector. The first selector is an ancestor of the second in the HTML. Selectors can be HTML elements or classes. So in this case, you are saying
@@ -183,6 +178,8 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > _"For all HTML `main` elements that has a descendant `li`, add a color when hovering."_
    >
    > Read more about the [Descendant combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator).
+
+![]( ":class=image-border")
 
 # Inspect HTML in Chrome
 
