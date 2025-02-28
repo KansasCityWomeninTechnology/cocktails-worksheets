@@ -10,7 +10,7 @@
    }
    ```
 
-   Save your file and view in Chrome. The webpage is starting to look better.
+   View your file in Chrome. The webpage is starting to look better.
 
    > [!INFO]
    > Learn more about styling lists using [MDN list styling reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists).
@@ -22,7 +22,7 @@
    >
    > Declare a style for `.drinks li` at the bottom of the file and add `padding-top: 40px;`.
 
-1. Let's also add a right and left margin to each list item in the "Drinks menu" section. Set the values to 15px; Can you guess the property names of the right and left margins?
+2. Let's also add a right and left margin to each list item in the "Drinks menu" section. Set the values to 15px; Can you guess the property names of the right and left margins?
 
    > [!HINT]
    >
@@ -35,7 +35,7 @@
    > }
    > ```
 
-1. Save your file and view in Chrome. You now have plenty of spacing between each drink menu item.
+3. View your file in Chrome. You now have plenty of spacing between each drink menu item.
 
 # Add normalization
 
@@ -81,21 +81,21 @@ Let's add some styling to the `nav` element with Grid.
 
 1. Let's add `display: grid;` to `.navbar ul`.
 
-1. Then we will add `grid-template-columns: repeat(4, 100px);` to create 4 columns of 100px width.
+2. Then we will add `grid-template-columns: repeat(4, 100px);` to create 4 columns of 100px width.
 
-1. To add gutter(space) between grid items, we will add `grid-gap: 10px;`
+3. To add gutter(space) between grid items, we will add `grid-gap: 10px;`
 
-1. Let's align the grid to right by adding `justify-content: right;`
+4. Let's align the grid to right by adding `justify-content: right;`
 
-1. Then let's align texts in the grid items to center by adding `justify-items: center;`
+5. Then let's align texts in the grid items to center by adding `justify-items: center;`
 
-1. The navigation text in the hyperlink doesn't stand out enough. Let's make the navigation text larger by adding `font-size: 1.5em;`
+6. The navigation text in the hyperlink doesn't stand out enough. Let's make the navigation text larger by adding `font-size: 1.5em;`
 
 We still have default styling for the hyperlink such as underline. Let's style `a` tag in `nav` element.
 
 1. Remove the hyperlink underline using `text-decoration: none;`.
 
-1. Change the text color to `white`.
+2. Change the text color to `white`.
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -108,7 +108,7 @@ We still have default styling for the hyperlink such as underline. Let's style `
 
 ## Footer
 
-1. In the footer, the copyright text needs to be a contrasting color and centered. Also set the `height` to `50px` and padding on top.
+In the footer, the copyright text needs to be a contrasting color and centered. Also set the `height` to `50px` and padding on top.
 
    > [!HINT]
    >
@@ -131,4 +131,4 @@ Compare your _styles.css_ against the answer key for your work. It might look a 
 >
 > Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2023-checkpoint-3/styles.css).
 
-Save your file and view your page in Chrome. ![](../../images/emojis/party-popper.png)
+Vew your page in Chrome. ![](../../images/emojis/party-popper.png)
