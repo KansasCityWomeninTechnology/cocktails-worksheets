@@ -17,6 +17,8 @@ You can have more than one attribute on a HTML element. Image tags have another 
    > [!INFO]
    > The `alt` attribute content displays if the browser can't show (aka **render**) your image. Screen readers use the `alt` for better accessibility to help visually impaired users of the site.
 
+2. Commit to your repo, as before.
+
 # Check with lighthouse
 
 We will use lighthouse to check our accessibility score.
@@ -29,4 +31,5 @@ We will use lighthouse to check our accessibility score.
    ![](images/lighthouse-score.png":class=image-border")
 
 Great job with your website! Share your success by posting a screenshot to Slack!
+
 ![](https://media.giphy.com/media/LQFNwVlQ4B5FtStbip/giphy.gif)
