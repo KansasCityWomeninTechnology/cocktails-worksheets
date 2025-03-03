@@ -58,7 +58,7 @@ Now it's time to add the image to our website. We get to use our first attribute
    > We're setting the value of the attribute `src` to the filename. You'll see instructions directing you to set the value of an attribute throughout this section. Use the same format `attribute="value"`.
 
    > [!TIP]
-   > The path of the image is ./image/<filename>. Make sure to include the path for the value of the attribute `src`.
+   > The path of the image is ./images/<filename>. Make sure to include the path for the value of the attribute `src`.
 
 4. Now take a look at your page in Chrome. Do you see your image? ![](../../images/emojis/party-popper.png)
 
