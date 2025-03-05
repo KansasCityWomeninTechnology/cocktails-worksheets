@@ -37,7 +37,7 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
 
 3. We want to add extra space at the bottom of the "Drinks menu" section by setting the `padding-bottom` property to "60px". Add the styling to `class="drinks"`
 
-4. Let's add some spacing and color to the element `h2` globally. Add `30px` for `padding-top`, `15px` for `margin-left`.
+4. Let's add some spacing to the element `h2` globally. Add `30px` for `padding-top`, `15px` for `margin-left`.
 
 5. We need some spacing between each list item. Add `40px padding-top`, `15px margin-right`, `15px margin-left`
 
