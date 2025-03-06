@@ -65,6 +65,8 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
    > }
    > ```
 
+8. Commit your changes, again!
+
 # Apply fonts
 
 1. Navigate to [Google Fonts](https://fonts.google.com/) and find a font to use for headers.
@@ -132,6 +134,7 @@ Let's add an icon in front of each drink menu
      content: "\f57b";
    }
    ```
+4. Dare we repeat the suggestion to commit your changes, yet again?
 
 # Checkpoint
 

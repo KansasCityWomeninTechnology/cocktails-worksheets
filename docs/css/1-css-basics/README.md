@@ -146,7 +146,7 @@ We want to make sure all our hard work is saved, so let's review how to commit t
 
 1. Commit your code to a repository in your GitHub account by clicking on the "Source Control" icon along the left side of the explorer in your IDE.
 
-![](./images/source_control.png ":class=image-border")
+  ![](./images/source_control.png ":class=image-border")
 
 2. Next, type a message in the text box above the green "Publish Branch" button, 
       
