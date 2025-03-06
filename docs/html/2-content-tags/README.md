@@ -161,17 +161,27 @@ We want recognize our work and add a footer with copyright information.
 
    ![](./images/source_control.png ":class=image-border")
 
-   Next, type a message in the text box above the green "Commit" button,
+   Next, type a message in the text box above the green "Publish Branch" button, 
+      
+   ![](./images/publish_branch.png ":class=image-border")
+   
+   then click the button. Click "Allow" on the box that says it wants to sign in to your GitHub account. 
+   
+   ![](./images/sign_in_to_GitHub.png ":class=image-border")
+   
+   Choose the GitHub account you want to use (the same one you used to create the Codespace). Click "Publish Branch" a second time and select the "public" repository name.
+
+   ![](./images/publish_to_gh_public_repo.png ":class=image-border")
+
+   Now click "Commit," then "Sync changes."
 
    ![](./images/commit_message.png ":class=image-border")
 
-   then click the button. Next, click "Yes" in the box that says there are no staged changes to commit.
+   ![](./images/sync_changes.png ":class=image-border")
+   
+   Next, click "Yes" in the box that says there are no staged changes to commit.
 
    ![](./images/no_staged_changes.png ":class=image-border")
-
-   Then click "Publish Branch." Click "Allow" on the box that says it wants to sign in to your GitHub account. Choose the GitHub account you want to use (the same one you used to create the Codespace). Click "Publish Branch" a second time and select the "public" repository name.
-
-   ![](./images/publish_to_gh_public_repo.png ":class=image-border")
 
    > [!TIP]You can click "No" on the tile at the bottom right corner of the screen that asks if you want to periodically run git fetch.
    >

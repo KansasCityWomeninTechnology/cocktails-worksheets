@@ -47,7 +47,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 > [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a "Port 5500" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
 >
- ![](.images/port_5500.png ":class=image-border")
+> ![](./images/port_5500.png ":class=image-border")
 
 > [!TIP]
 > Did you know you can collapse the table of contents for worksheets?
