@@ -8,9 +8,8 @@
   - [Box Model & Layout](/css/3-box-model-layout/)
   - [Text & Icons](/css/4-text-icons/)
   - [Quiz](/css/quiz.md)
-  - [Source Control](/#/source_control/)
 
-- Bonus
+<!-- - Bonus -->
   <!-- - [Media Queries](/css/homework/media-query.md) -->
   <!-- - [Homework](/css/homework/homework.md) -->
 
