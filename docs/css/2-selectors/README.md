@@ -44,7 +44,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    >
    > We might need to override the style for a specific element later, but we want to build a strong foundation to build upon.
 
-4. View your page in Chrome. You might need to refresh the page to see your changes.
+4. View your page in Chrome. You might need to refresh the page to see your changes. Don't forget to periodically commit your changes!
 
    > [!TIP]
    > View your app often so you can see the changes as we go along. You may need to refresh the page to see your changes. The worksheet will call out specific places to view the web page to illustrate a concept, but feel free to view your page as often as you want. It helps to see the changes as you write your CSS.
@@ -109,6 +109,8 @@ Select a background color for the entire page and add it to the top of _styles.c
    >   background-color: #dbe2ef;
    > }
    > ```
+
+5. Don't forget to commit your changes! Codespaces are automatically deleted after a few weeks, if you don't use them, so committing your changes saves your work so that you can get back to where you left off when you can get back to working.
 
 ## Navigation and footer
 
@@ -180,6 +182,8 @@ To make the navigation and footer area pop, let's add a background color to them
    > Read more about the [Descendant combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator).
 
 ![]( ":class=image-border")
+
+6. Don't forget to commit your changes again! (You can do this as frequently as you like. Commit early, commit often!)
 
 # Inspect HTML in Chrome
 

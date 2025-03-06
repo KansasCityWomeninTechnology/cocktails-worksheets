@@ -123,6 +123,8 @@ In the footer, the copyright text needs to be a contrasting color and centered. 
    > }
    > ```
 
+Commit those changes again!
+
 # Checkpoint
 
 Compare your _styles.css_ against the answer key for your work. It might look a little different depending on the color palette you chose.
