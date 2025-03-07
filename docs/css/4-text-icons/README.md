@@ -146,4 +146,4 @@ Compare your _styles.css_ against the answer key for your work. It might look a 
 
 Share your success by posting a screenshot to Slack!
 
-![](https://media.giphy.com/media/26tPplGWjN0xLybiU/giphy.gif)
+![](./images/thanks-for-my-new-website.jpg)

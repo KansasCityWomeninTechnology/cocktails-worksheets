@@ -181,7 +181,7 @@ To make the navigation and footer area pop, let's add a background color to them
    >
    > Read more about the [Descendant combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator).
 
-![]( ":class=image-border")
+![](images/EveryoneGetsAYay.jpg ":class=image-border")
 
 6. Don't forget to commit your changes again! (You can do this as frequently as you like. Commit early, commit often!)
 
