@@ -105,7 +105,7 @@ Let's take a look at the _index.html_ file. You should see the following code in
 
 # Prepare the styles.css :id=prepare-stylesheet
 
-1. We need a stylesheet file where we will put all our styles. The starter code already contains a _styles.css_ file. Let's see what's in there.
+1. We need a stylesheet file where we will put all our styles. The starter code already contains a _styles.css_ file inside the css folder. Let's see what's in there.
 
 2. As you can see, it's empty, and ready for us to start styling!
 
@@ -116,7 +116,7 @@ Let's take a look at the _index.html_ file. You should see the following code in
    {% codeblock copy %}index.html{% codeblock %}
 
    ```html
-   <link rel="stylesheet" href="styles.css" />
+   <link rel="stylesheet" href="./css/styles.css" />
    ```
 
    The `<head>` section of your HTML should look like this:
@@ -132,7 +132,7 @@ Let's take a look at the _index.html_ file. You should see the following code in
        src="https://kit.fontawesome.com/eeb19414a4.js"
        crossorigin="anonymous"
      ></script>
-     <link rel="stylesheet" href="styles.css" />
+     <link rel="stylesheet" href="./css/styles.css" />
    </head>
    ```
 
