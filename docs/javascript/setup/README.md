@@ -1,6 +1,6 @@
 # Setup :id=setup
 
-Tonight we will learn the basics of applying functionality to a website using **J**ava**S**cript(**JS**). The version of JavaScript that we will use is called **E**CMA**S**cript 6.
+Tonight we will learn the basics of applying functionality to a website using **J**ava**S**cript(**JS**). The version of JavaScript that we will use is called **E**CMA**S**cript **6**, but we will still refer to this as JavaScript or JS.
 
 Follow the instructions on this page to prepare your workspace.
 
@@ -12,7 +12,7 @@ Follow the instructions on this page to prepare your workspace.
 
 > Navigate to [**GitHub**](https://github.com) to create a personal account or log in. Feel free to ask your mentor for help! When complete and logged in to GitHub, return here to continue the instructions.
 
-# Create Intro to HTML Codespace :id=create-codespace
+# Create JavaScript Codespace :id=create-codespace
 
 We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud development environment which means you have an access to your code even if you are not on your own laptop.
 
@@ -20,7 +20,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/github_login.png ":class=image-border")
 
-2. Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-HTML) and click the "Use this template" button in the upper right-hand corner of the screen.
+2. **FIX THIS** Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-HTML) and click the "Use this template" button in the upper right-hand corner of the screen.
 
     ![](./images/intro_repo_page.png ":class=image-border")
 
@@ -30,23 +30,22 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 4. Now you are ready to write some code! The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
-    You may see a notification in the lower right-hand corner of the screen. You can dismiss this by clicking the "x".
+    **FIX IMAGE** You may see a notification in the lower right-hand corner of the screen. You can dismiss this by clicking the "x".
 
     ![](./images/LiveServer_notification.png ":class=image-border")
 
 > [!TIP]
-> If you want to change the project name, you can do so by clicking the **lock icon** on the top center.
-> ![](./images/stackblitz-project-name-change.png ":class=image-border")
-
-> [!TIP]
 > View the worksheet and your IDE in split screen.
 >
-> If you click **Close** button on top right, it will close the browser view and you will have wider code section.
-> ![](./images/stackblitz-open-tab.png ":class=image-border")
-> If you want to open the browser view in a new tab, click **Open in New Tab**
-> You can always have code on one half of the screen and browser in the other half.
+> If you want to open the browser view in a new window, right click on the tab (control click on a Mac) and select "Move tab to new window." Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
+>
+> ![](./images/move_to_new_window.png ":class=image-border")
+>
+> ![](./images/side_by_side.png ":class=image-border")
 >
 > If you have any questions, feel free to ask. Mentors are happy to help!
+
+> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a "Port 5500" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
 
 > [!TIP]
 > Did you know you can collapse the table of contents for worksheets?
