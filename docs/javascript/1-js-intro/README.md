@@ -1,6 +1,10 @@
-# Introducing JavaScript
+# Introduction to JavaScript (ECMAScript 6)
 
-We will explore the building blocks for programming-- variables, math operators, and data types using JavaScript. JavaScript is one of many programming languages used for application development.
+JavaScript is one of many programming languages used for application development. It is the programming language of the web and is the basis of everything we see on the internet.  Or, if you're creating a cocktail, JavaScript is the liquor -- the base and foundation of the drink.
+
+In this session, we will explore the building blocks for programming -- variables, math operators, and data types -- using JavaScript.
+
+We'll build our knowledge of JavaScript by becoming familiar with some of the features in the newest version of JavaScript, ES6, including new variable declarations (const and let), arrow functions, new array methods, and many others.
 
 > [!WARNING]
 > Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
@@ -34,7 +38,7 @@ You'll start practicing some JavaScript basics covered in the presentation and p
        <h2>Data Types</h2>
        <h3>What type is the first variable?</h3>
        <div id="type"></div>
-       <script src="script.js" type="text/javascript"></script>
+       <script src="script.js" type="text/JavaScript"></script>
      </body>
    </html>
    ```

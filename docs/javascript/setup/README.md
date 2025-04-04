@@ -20,7 +20,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/github_login.png ":class=image-border")
 
-2. **FIX THIS** Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-HTML) and click the "Use this template" button in the upper right-hand corner of the screen.
+2. Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-JS) and click the "Use this template" button in the upper right-hand corner of the screen.
 
     ![](./images/intro_repo_page.png ":class=image-border")
 
@@ -30,7 +30,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 4. Now you are ready to write some code! The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
-    **FIX IMAGE** You may see a notification in the lower right-hand corner of the screen. You can dismiss this by clicking the "x".
+    You may see a notification in the lower right-hand corner of the screen. You can dismiss this by clicking the "x".
 
     ![](./images/LiveServer_notification.png ":class=image-border")
 
