@@ -11,9 +11,6 @@ First we'll declare an array so we can use the array data in the application. We
    > [!HINT]
    > Type `const brainSkills = [];`
 
-   > [!WARNING]
-   > Don't forget to save your file after each code change!
-
 1. Place your cursor between the opening and closing square brackets and press `Enter`. Type `"JavaScript Types"`.
 
    > [!TIP]
@@ -31,7 +28,8 @@ First we'll declare an array so we can use the array data in the application. We
 
 1. Add more skills you learned at Coding & Cocktails or about coding tonight to the array by comma separating values. Your `brainSkills` array might look something like this:
 
-   ```js
+   {% codeblock copy %}script.js{% codeblock %}
+   ```
    const brainSkills = [
      "Front-End Architecture",
      "HTML",
@@ -51,7 +49,8 @@ To use the array data, we need to access the array elements. We can do this by i
 
 1. Iterate through the array using a `for` loop. Inside the `document.addEventListener` method, iterate through `brainSkills` array and add a console log for `index`:
 
-   ```js
+   {% codeblock copy %}script.js{% codeblock %}
+   ```
    for (let index = 0; index < brainSkills.length; index++) {
      console.log(index);
    }
@@ -62,7 +61,8 @@ To use the array data, we need to access the array elements. We can do this by i
 
 1. We can access an array element by the index using the syntax `name-of-array[index]`. Inside the `for` loop, change the `console.log` to access each array element:
 
-   ```js
+   {% codeblock copy %}script.js{% codeblock %}
+   ```
    console.log(index + " " + brainSkills[index]);
    ```
 
@@ -73,7 +73,8 @@ To use the array data, we need to access the array elements. We can do this by i
 
 1. Let's call the provided `addDevSkill` function for each element of the array. Remove the `console.log` and replace with a call to `addDevSkill` and pass in the array element:
 
-   ```js
+   {% codeblock copy %}script.js{% codeblock %}
+   ```
    addDevSkill(brainSkills[index]);
    ```
 
@@ -84,7 +85,8 @@ To use the array data, we need to access the array elements. We can do this by i
 
 1. Let's refactor our `for` loop to use a shorthand syntax, `forEach`. Comment out the `for` loop by adding `//` before each line of code to look like this:
 
-   ```js
+   {% codeblock copy %}script.js{% codeblock %}
+   ```
    // for (let index = 0; index < brainSkills.length; index++) {
    //       addDevSkill(brainSkills[index]);
    // }
@@ -97,7 +99,8 @@ To use the array data, we need to access the array elements. We can do this by i
 
 1. The `forEach` method requires a parameter of type `function` that gets called on each array element. We need to pass in a function with an element parameter. Place your cursor between the open and close parenthesis of the `forEach` and add `function(element) {}` to look like this:
 
-   ```js
+   {% codeblock copy %}script.js{% codeblock %}
+   ```
    brainSkills.forEach(function (element) {});
    ```
 
@@ -119,7 +122,7 @@ To use the array data, we need to access the array elements. We can do this by i
 
 ### Good job! Take a moment to think about all the things you learned tonight and pat yourself on the back!
 
-![](https://media.giphy.com/media/3o7abGQa0aRJUurpII/giphy.gif)
+![](images/pexels-kindelmedia-7688367.jpg ":class=image-border")
 
 ## Checkpoint
 
