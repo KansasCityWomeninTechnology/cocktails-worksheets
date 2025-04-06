@@ -128,7 +128,7 @@ In this section, we will write our own functions in JavaScript by using conditio
 
     document.addEventListener("DOMContentLoaded", function (event) {
 
-        document.getElementById('cocktail-section').innerHTML = <verb>(<noun>);
+      document.getElementById('cocktail-section').innerHTML = <verb>(<noun>);
 
     });
 
@@ -346,9 +346,11 @@ Business needs can be complex. We'll add conditional logic to execute different 
 >
 > `debugger;` is helpful for writing code, but don't use it for production code. Most linters will red flag `debugger` during the build process to help safe-guard your application.
 
+14. Commit the changes you've made.
+
 ### Celebrate with a cocktail or mocktail! You deserve it, rockstar!
 
-![](https://media.giphy.com/media/l378qdC4yO0YEv5Re/giphy.gif)
+![](images/pexels-shvets-production-6975384.jpg ":class=image-border")
 
 # Checkpoint
 
