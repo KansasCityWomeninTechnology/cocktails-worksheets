@@ -15,7 +15,7 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 
 ## Prepare the HTML file
 
-1. Replace code in _index.html_ with the code below.
+1. Take a look at the code in _index.html_. Compare it with the code below. It should be identical.
 
    {% codeblock copy %}index.html{% codeblock %}
 
@@ -38,21 +38,17 @@ You'll start practicing some JavaScript basics covered in the presentation and p
        <h2>Data Types</h2>
        <h3>What type is the first variable?</h3>
        <div id="type"></div>
-       <script src="script.js" type="text/JavaScript"></script>
+       <script src="./js/script.js" type="text/JavaScript"></script>
      </body>
    </html>
    ```
-
-> [!TIP]Don't forget to save the files. If you have a white circle next to file name, it means you have changes that haven't saved yet. You can either click **Save** button on the top left or use shortcut `cmd` + `s` for Mac or `ctrl` + `s` for Windows.
->
-> ![](images/stackblitz-save.png ":class=image-border")
 
 > [!TIP]
 > Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
 
 ## Prepare the script.js file
 
-1. Replace code in _script.js_ with the code below.
+1. Take a look at the _script.js_ file and compare it with the code below.
 
 {% codeblock copy %}script.js{% codeblock %}
 
@@ -68,9 +64,6 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 
     // Practice types and equality
     document.getElementById("type").innerHTML = typeof(<noun_1>);
-
-> [!WARNING]
-> Don’t worry about the error message! We’ll fix that in a minute
 
 ## Look for the MadLibs items to replace
 
