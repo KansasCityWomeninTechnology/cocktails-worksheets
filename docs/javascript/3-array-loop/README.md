@@ -11,7 +11,7 @@ First we'll declare an array so we can use the array data in the application. We
    > [!HINT]
    > Type `const brainSkills = [];`
 
-1. Place your cursor between the opening and closing square brackets and press `Enter`. Type `"JavaScript Types"`.
+2. Place your cursor between the opening and closing square brackets and press `Enter`. Type `"JavaScript Types"`.
 
    > [!TIP]
    > Don't forget the quotes to make the value a string.
@@ -19,14 +19,14 @@ First we'll declare an array so we can use the array data in the application. We
    > [!INFO]
    > You added an element to the array. Your array now has a length of 1.
 
-1. Inside the `document.addEventListener` method, add a `console.log` to log out the array. What do you see in DevTools when you reload the webpage?
+3. Inside the `document.addEventListener` method, add a `console.log` to log out the array. What do you see in DevTools when you reload the webpage?
 
    > [!HINT]
    > Type `console.log(brainSkills);`
 
-1. Arrays have built in properties. One property of an array is the length. Let's change our `console.log` above to log out the length of the array by using `brainSkills.length`. What do you see in DevTools when you reload the webpage?
+4. Arrays have built in properties. One property of an array is the length. Let's change our `console.log` above to log out the length of the array by using `brainSkills.length`. What do you see in DevTools when you reload the webpage?
 
-1. Add more skills you learned at Coding & Cocktails or about coding tonight to the array by comma separating values. Your `brainSkills` array might look something like this:
+5. Add more skills you learned at Coding & Cocktails or about coding tonight to the array by comma separating values. Your `brainSkills` array might look something like this:
 
    {% codeblock copy %}script.js{% codeblock %}
    ```
@@ -59,31 +59,31 @@ To use the array data, we need to access the array elements. We can do this by i
    > [!INFO]
    > You are logging out the array index. The index is the value corresponding to the element's position in the array.
 
-1. We can access an array element by the index using the syntax `name-of-array[index]`. Inside the `for` loop, change the `console.log` to access each array element:
+2. We can access an array element by the index using the syntax `name-of-array[index]`. Inside the `for` loop, change the `console.log` to access each array element:
 
    {% codeblock copy %}script.js{% codeblock %}
    ```
    console.log(index + " " + brainSkills[index]);
    ```
 
-1. In Chrome, take a look in the DevTools console to see the output.
+3. In Chrome, take a look in the DevTools console to see the output.
 
    > [!TIP]
    > Notice the first element is index 0 and the last index is array.length - 1. This affects conditional logic and is often the cause of errors. Developers call these errors "off by one error".
 
-1. Let's call the provided `addDevSkill` function for each element of the array. Remove the `console.log` and replace with a call to `addDevSkill` and pass in the array element:
+4. Let's call the provided `addDevSkill` function for each element of the array. Remove the `console.log` and replace with a call to `addDevSkill` and pass in the array element:
 
    {% codeblock copy %}script.js{% codeblock %}
    ```
    addDevSkill(brainSkills[index]);
    ```
 
-1. We now see the content of our array in the web page!
+5. We now see the content of our array in the web page!
 
    > [!INFO]
    > The `addDevSkill` function takes a string and adds it to the web page as a list item. Feel free to inspect using `debugger` to see the parameter for each function call.
 
-1. Let's refactor our `for` loop to use a shorthand syntax, `forEach`. Comment out the `for` loop by adding `//` before each line of code to look like this:
+6. Let's refactor our `for` loop to use a shorthand syntax, `forEach`. Comment out the `for` loop by adding `//` before each line of code to look like this:
 
    {% codeblock copy %}script.js{% codeblock %}
    ```
@@ -97,7 +97,7 @@ To use the array data, we need to access the array elements. We can do this by i
 
    Below the existing `for` loop, add `brainSkills.forEach();`. We will get an error in the console.
 
-1. The `forEach` method requires a parameter of type `function` that gets called on each array element. We need to pass in a function with an element parameter. Place your cursor between the open and close parenthesis of the `forEach` and add `function(element) {}` to look like this:
+7. The `forEach` method requires a parameter of type `function` that gets called on each array element. We need to pass in a function with an element parameter. Place your cursor between the open and close parenthesis of the `forEach` and add `function(element) {}` to look like this:
 
    {% codeblock copy %}script.js{% codeblock %}
    ```
@@ -111,14 +111,16 @@ To use the array data, we need to access the array elements. We can do this by i
    >
    > Check out the references in this section to read more about functions.
 
-1. Place your cursor between the opening and closing curly brace and press `Enter`. Type `console.log(element);` to log the element parameter to the console.
+8. Place your cursor between the opening and closing curly brace and press `Enter`. Type `console.log(element);` to log the element parameter to the console.
 
-1. We're back in business! Remove the `console.log(element);` and replace it with the call to `addDevSkill`.
+9. We're back in business! Remove the `console.log(element);` and replace it with the call to `addDevSkill`.
 
    > [!HINT]
    > Use `addDevSkill(element);` to call the function with the array element to display on the web page.
 
-1. Delete the commented out `for` loop and the log for the array length above it.
+10. Delete the commented out `for` loop and the log for the array length above it.
+
+11. Don't forget to commit your work!
 
 ### Good job! Take a moment to think about all the things you learned tonight and pat yourself on the back!
 
