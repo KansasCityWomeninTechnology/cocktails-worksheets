@@ -136,7 +136,7 @@ In this section, we will write our own functions in JavaScript by using conditio
 
 ## Commit your code
 
-
+We don't want to lose any of our work, so we will want to [commit it](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/) to a repo. Follow the instructions in the link above (hint:  open the link in a new tab) to save your work.
 
 ## Write a function
 
@@ -147,7 +147,7 @@ Let's get coding! We'll call a function and keep track of click events.
 2. Search for **&lt;noun>** and **&lt;verb>** and replace the variables. Save the file and look at the web page in Chrome. The lavender button now has the text "I'd like a cocktail please!", but we want it do something when we click on it.
 
 > [!TIP]
-> If you want to wrap your text, you can use Alt-z on Windows, or Cmd-z on a Mac.
+> If you want to wrap the text in your Codespaces IDE, you can use Alt-z on Windows, or Cmd-z on a Mac.
 
 3. It's easier to understand what's going on if we have visual indications of our work. Browsers have a built-in function to display alert messages. Let's display an alert message with the word "click" inside of it. Find the `clickHandler` function in _script.js_ and add `alert('click');` inside the function (between the curly braces). The `clickHandler` function should look like this:
 
@@ -273,9 +273,6 @@ Business needs can be complex. We'll add conditional logic to execute different 
 
 2. Use the `console.log` output to confirm we show the alert starting from the 3rd button click.
 
-   > [!TIP]
-   > You will use StackBlitz to type code statements and Chrome to verify your work when your web page reloads. Don't forget to save _scripts.js_ every time you type a code statement.
-
 3. If we want to only show the alert the first 3 times you clicked the button, how would you change the conditional statement?
 
    > [!HINT]
@@ -323,7 +320,7 @@ Business needs can be complex. We'll add conditional logic to execute different 
 >
 > `debugger;` works only when debugging capabilities, such as Chrome DevTools, is open.
 
-7. In the _scripts.js_ tab in Chrome, hover over `numberOfClicks`. It shows you the current value of the variable, 0. Click **Step** button, ![](images/step.png) (located at the upper right of DevTools window), to execute the next line of code in _script.js_. The line where we increment `numberOfClicks` highlights. The current value of `numberOfClicks` is still 0.
+7. In the _scripts.js_ tab in DevTools in Chrome, hover over `numberOfClicks`. It shows you the current value of the variable, 0. Click **Step** button, ![](images/step.png) (located at the upper right of DevTools window), to execute the next line of code in _script.js_. The line where we increment `numberOfClicks` highlights. The current value of `numberOfClicks` is still 0.
 
 > [!TIP]
 > Need help with debugging tool? Feel free to reach out to mentors!
@@ -358,7 +355,7 @@ Business needs can be complex. We'll add conditional logic to execute different 
 Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
 
 > [!CODECHECK]
-> ![](images/checkpoint.png ":class=image-border")
+> ![](images/pexels-shvets-production-6975384.jpg ":class=image-border")
 >
 > Hard to read? Compare your _script.js_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/javascript-101/blob/answerkey-functions/scripts.js).
 
