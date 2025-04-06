@@ -8,11 +8,6 @@ In this section, we will write our own functions in JavaScript by using conditio
 
 ## Prepare your workspace
 
-Let's create a new static project and set up our workspace.
-
-> [!TIP]
-> If you need a refresher on how to create a new project in StackBlitz, refer to [Create a new StackBlitz project](../setup/?id=create-new-project) section.
-
 1. Copy and paste the following HTML code into your _index.html_ file.
 
    {% codeblock copy %}index.html{% codeblock %}
@@ -22,8 +17,8 @@ Let's create a new static project and set up our workspace.
    <html lang="en">
      <head>
        <title>C&amp;C App</title>
-       <script type="text/javascript" src="script.js"></script>
-       <link rel="stylesheet" type="text/css" href="styles.css" />
+       <script type="text/javascript" src="./js/script.js"></script>
+       <link rel="stylesheet" type="text/css" href="./css/styles.css" />
      </head>
      <body>
        <h1>Welcome to Coding &amp; Cocktails!</h1>
@@ -51,7 +46,7 @@ Let's create a new static project and set up our workspace.
    </html>
    ```
 
-1. Copy and paste the following CSS code into your _styles.css_ file.
+1. Copy and paste the following CSS code into your _styles.css_ file. You'll find this file in the _css_ folder in your file tree.
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -109,7 +104,7 @@ Let's create a new static project and set up our workspace.
    }
    ```
 
-1. Copy and paste the following JavaScript code into your _script.js_ file.
+1. Copy and paste the following JavaScript code into your _script.js_ file. You'll find this file in the _js_ folder in your file tree.
 
    {% codeblock copy %}script.js{% codeblock %}
 
@@ -139,6 +134,10 @@ Let's create a new static project and set up our workspace.
 
    ```
 
+## Commit your code
+
+
+
 ## Write a function
 
 Let's get coding! We'll call a function and keep track of click events.
@@ -148,7 +147,7 @@ Let's get coding! We'll call a function and keep track of click events.
 2. Search for **&lt;noun>** and **&lt;verb>** and replace the variables. Save the file and look at the web page in Chrome. The lavender button now has the text "I'd like a cocktail please!", but we want it do something when we click on it.
 
 > [!TIP]
-> Don't forget to save files!
+> If you want to wrap your text, you can use Alt-z on Windows, or Cmd-z on a Mac.
 
 3. It's easier to understand what's going on if we have visual indications of our work. Browsers have a built-in function to display alert messages. Let's display an alert message with the word "click" inside of it. Find the `clickHandler` function in _script.js_ and add `alert('click');` inside the function (between the curly braces). The `clickHandler` function should look like this:
 
@@ -156,7 +155,7 @@ Let's get coding! We'll call a function and keep track of click events.
 
    ```
    const clickHandler = function (text) {
-     alert("click");
+     alert('click');
    };
    ```
 

@@ -8,10 +8,8 @@
   - [Arrays and loops](/javascript/3-array-loop/)
   - [Quiz](/javascript/quiz.md)
 
-- Bonus
-  - [Homework](/javascript/homework/homework.md)
-
 ---
 
 - [Answer Key](/javascript/answer-key.md)
 - [References & Shortcuts](/javascript/references/)
+- [Source Control](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/)
