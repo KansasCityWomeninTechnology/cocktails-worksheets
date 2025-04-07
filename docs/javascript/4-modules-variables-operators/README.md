@@ -1,4 +1,4 @@
-# Writing Javascript
+# Writing more advanced JavaScript
 
 Now we will create a project with interactive elements. In the rest of the worksheet we will add functionality to make the project more dynamic. When complete, you will have a web page that looks like this:
 
@@ -38,7 +38,7 @@ In this section, we will practice declaring variables, importing modules and usi
 
 4. Compare the CSS code in your _styles.css_ file with the following code.
 
-{% codeblock copy %}styles.css{% codeblock %}
+  {% codeblock copy %}styles.css{% codeblock %}
 ```css
 #recipes {
   display: grid;
@@ -86,61 +86,62 @@ In this section, we will practice declaring variables, importing modules and usi
 5. Create a _utils.js_ file and copy the code below into the new file.  To create a new file, click on the _js_ folder in your explorer, then click on the New File icon, then name the file _utils.js_.
 
 
-![](./images/click_on_js.png ":class=image-border")
+  ![](./images/click_on_js.png ":class=image-border")
 
 
-![](./images/add_file.png ":class=image-border")
+  ![](./images/add_file.png ":class=image-border")
 
 
   {% codeblock copy %}utils.js{% codeblock %}
 ```js
- const apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1';
+const apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1';
 
- export async function fetchInitialRecipes() {
- try {
-   const response = await fetch(`${apiUrl}/search.php?s=margarita`);
-   if (!response.ok) {
-     throw new Error('Network response was not ok');
-   }
-   const data = await response.json();
-   if (!data.drinks) {
-     throw new Error('No recipes found');
-   }
-  const recipes=[];
-  const drinks = data.drinks.slice(0, 3);
-  for (let i = 0; i < drinks.length; i++)
-   const drink = drinks[i];
-  const recipe ={
-     name: drink.strDrink,
-     ingredients: [
-       drink.strIngredient1,
-       drink.strIngredient2,
-       drink.strIngredient3,
-       // Add more ingredients as needed
-     ].filter(Boolean), // Remove any empty values
-     instructions: drink.strInstructions,
-  };
-   recipes.push(recipe);
- }
- return recipes;    
-    
- } catch (error) {
-   throw new Error('Error fetching recipes:', error);
- }
+export async function fetchInitialRecipes() {
+try {
+    const response = await fetch(`${apiUrl}/search.php?s=margarita`);
+    if (!response.ok) {
+        throw new Error('Network response was not ok');
+    }
+    const data = await response.json();
+    if (!data.drinks) {
+        throw new Error('No recipes found');
+    }
+    const recipes=[];
+    const drinks = data.drinks.slice(0, 3);
+    for (let i = 0; i < drinks.length; i++)
+        const drink = drinks[i];
+    const recipe ={
+        name: drink.strDrink,
+        ingredients: [
+            drink.strIngredient1,
+            drink.strIngredient2,
+            drink.strIngredient3,
+            // Add more ingredients as needed
+        ].filter(Boolean), // Remove any empty values
+        instructions: drink.strInstructions,
+    };
+    recipes.push(recipe);
+}
 
- export async function addRecipe(recipe) {
- try {
-   // Logic to add the recipe to your database/API would go here
-   console.log('Adding recipe:', recipe);
-   // For now, just returning the recipe as if it was added successfully
-   return recipe;
- } catch (error) {
-   throw new Error('Error adding recipe:', error);
- }
+return recipes;    
+  
+} catch (error) {
+    throw new Error('Error fetching recipes:', error);
+}
+
+export async function addRecipe(recipe) {
+    try {
+        // Logic to add the recipe to your database/API would go here
+        console.log('Adding recipe:', recipe);
+        // For now, just returning the recipe as if it was added successfully
+        return recipe;
+    } catch (error) {
+        throw new Error('Error adding recipe:', error);
+    }
 }
 ```
 
-## Replace the code in the JS file
+## Examine the code in the JS file
 
 6. Examine the code in your _script.js_ file and compare it with the following code.
 
