@@ -39,47 +39,47 @@ In this section, we will practice declaring variables, importing modules and usi
 4. Compare the CSS code in your _styles.css_ file with the following code.
 
   {% codeblock copy %}styles.css{% codeblock %}
-```css
-#recipes {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
+  ```css
+  #recipes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
 
-.recipe {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+  .recipe {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
 
-.recipe h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
+  .recipe h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
 
-.recipe .ingredients {
-  font-weight: bold;
-}
+  .recipe .ingredients {
+    font-weight: bold;
+  }
 
-.recipe .instructions {
-  margin-top: 10px;
-}
+  .recipe .instructions {
+    margin-top: 10px;
+  }
 
-#addRecipeButton {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
-}
+  #addRecipeButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
 
-#addRecipeButton:hover {
-  background-color: #0056b3;
-}
-```
+  #addRecipeButton:hover {
+    background-color: #0056b3;
+  }
+  ```
 
 ## Adding a new file to your project
 
