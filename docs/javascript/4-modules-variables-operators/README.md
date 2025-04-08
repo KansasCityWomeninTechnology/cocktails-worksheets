@@ -195,7 +195,7 @@ init();
 
 7. At the top of the file add a statement to pull in the  _fetchInitialRecipes_ from the utils.js file.
 
-8. Inside of the displayRecipes method, you'll need to add some code to recipeElement.innerHTML so that the recipe data appears on your page.
+8. Inside of the displayRecipes method, you'll need to add some code to recipeElement.innerHTML so that the recipe data appears on your page. You'll want to use template literals.
 
 9. Under the line declaring the constant addRecipeButton, declare an array to hold new recipes that will be added.
 
