@@ -97,47 +97,47 @@ In this section, we will practice declaring variables, importing modules and usi
 const apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1';
 
 export async function fetchInitialRecipes() {
-try {
-    const response = await fetch(`${apiUrl}/search.php?s=margarita`);
-    if (!response.ok) {
-        throw new Error('Network response was not ok');
-    }
-    const data = await response.json();
-    if (!data.drinks) {
-        throw new Error('No recipes found');
-    }
-    const recipes=[];
-    const drinks = data.drinks.slice(0, 3);
-    for (let i = 0; i < drinks.length; i++)
-        const drink = drinks[i];
-    const recipe ={
-        name: drink.strDrink,
-        ingredients: [
-            drink.strIngredient1,
-            drink.strIngredient2,
-            drink.strIngredient3,
-            // Add more ingredients as needed
-        ].filter(Boolean), // Remove any empty values
-        instructions: drink.strInstructions,
-    };
-    recipes.push(recipe);
-}
-
-return recipes;    
-  
-} catch (error) {
-    throw new Error('Error fetching recipes:', error);
-}
-
-export async function addRecipe(recipe) {
     try {
-        // Logic to add the recipe to your database/API would go here
-        console.log('Adding recipe:', recipe);
-        // For now, just returning the recipe as if it was added successfully
-        return recipe;
+        const response = await fetch(`${apiUrl}/search.php?s=margarita`);
+        const data = await response.json();
+  
+        const drinks = data.drinks.slice(0, 3);
+        const recipes = [];
+  
+        for (let i = 0; i < drinks.length; i++) {
+            const drink = drinks[i];
+        
+            const recipe = {
+            name: drink.strDrink,
+            ingredients: [
+                drink.strIngredient1,
+                drink.strIngredient2,
+                drink.strIngredient3,
+                // Add more if needed
+            ],
+            instructions: drink.strInstructions,
+            }
+  
+        recipes.push(recipe);
+        }
+  
+      console.log(recipes);
+      return recipes;
+  
     } catch (error) {
-        throw new Error('Error adding recipe:', error);
+      throw new Error(`Error fetching recipes: ${error.message}`);
     }
+}
+  
+
+export function addRecipe(recipe) {
+  try {
+    // Logic to add the recipe to your database/API would go here
+    console.log('Adding recipe:', recipe);
+    return recipe;
+  } catch (error) {
+    throw new Error(`Error adding recipes: ${error.message}`);
+  }
 }
 ```
 
@@ -193,14 +193,18 @@ async function init() {
 init();
 ```
 
-7. At the top of the file add a statement to pull in the  _fetchInitialRecipes_ and _addRecipe_ from the utils.js file.
+7. At the top of the file add a statement to pull in the  _fetchInitialRecipes_ from the utils.js file.
 
-8. Under the line declaring the constant addRecipeButton, declare an array to hold new recipes that will be added.
+8. Inside of the displayRecipes method, you'll need to add some code to recipeElement.innerHTML so that the recipe data appears on your page.
 
-9. Within the function _handleAddRecipe_ declare a constant variable and create a prompt users will see when they need to name the new drink
+9. Under the line declaring the constant addRecipeButton, declare an array to hold new recipes that will be added.
 
-10. Within the same function, declare a constant variable and prompt for when users need to add instructions for creating the new drink 
-Note: Reference the _try_ clause in the function to see what variable names are expected
+10. Within the function _handleAddRecipe_ declare a constant variable and create a prompt users will see when they need to name the new drink
+
+11. Within the same function, declare a constant variable and prompt for when users need to add instructions for creating the new drink. 
+Note: Reference the _try_ clause in the function to see what variable names are expected.
+
+12. Within the same function, inside the _try_ clause, add code that will display the information you want to see on your page, i.e., the initial recipes and any recipes you add thereafter. Hint:  This will involve spreading an array.
 
 > [!TIP]
 > Add comments throughout the page so you can remember what your code does the next time you come back to it.
@@ -211,9 +215,12 @@ Note: Reference the _try_ clause in the function to see what variable names are 
 > [!TIP]
 > Don't forget mentors are here to help you. If you have any questions, feel free to ask!
 
+> [!TIP]
+> Don't forget to commit your code, periodically.
+
 # Checkpoint
 
-Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
+FIX THIS! Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
 
 > [!CODECHECK]
 > ![](images/checkpoint.png ":class=image-border")

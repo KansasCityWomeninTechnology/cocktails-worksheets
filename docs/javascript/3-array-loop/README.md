@@ -29,7 +29,7 @@ First we'll declare an array so we can use the array data in the application. We
 5. Add more skills you learned at Coding & Cocktails or about coding tonight to the array by comma separating values. Your `brainSkills` array might look something like this:
 
    {% codeblock copy %}script.js{% codeblock %}
-   ```
+   ```js
    const brainSkills = [
      "Front-End Architecture",
      "HTML",
@@ -50,7 +50,7 @@ To use the array data, we need to access the array elements. We can do this by i
 1. Iterate through the array using a `for` loop. Inside the `document.addEventListener` method, iterate through `brainSkills` array and add a console log for `index`:
 
    {% codeblock copy %}script.js{% codeblock %}
-   ```
+   ```js
    for (let index = 0; index < brainSkills.length; index++) {
      console.log(index);
    }
@@ -62,7 +62,7 @@ To use the array data, we need to access the array elements. We can do this by i
 2. We can access an array element by the index using the syntax `name-of-array[index]`. Inside the `for` loop, change the `console.log` to access each array element:
 
    {% codeblock copy %}script.js{% codeblock %}
-   ```
+   ```js
    console.log(index + " " + brainSkills[index]);
    ```
 
@@ -74,7 +74,7 @@ To use the array data, we need to access the array elements. We can do this by i
 4. Let's call the provided `addDevSkill` function for each element of the array. Remove the `console.log` and replace with a call to `addDevSkill` and pass in the array element:
 
    {% codeblock copy %}script.js{% codeblock %}
-   ```
+   ```js
    addDevSkill(brainSkills[index]);
    ```
 
@@ -86,7 +86,7 @@ To use the array data, we need to access the array elements. We can do this by i
 6. Let's refactor our `for` loop to use a shorthand syntax, `forEach`. Comment out the `for` loop by adding `//` before each line of code to look like this:
 
    {% codeblock copy %}script.js{% codeblock %}
-   ```
+   ```js
    // for (let index = 0; index < brainSkills.length; index++) {
    //       addDevSkill(brainSkills[index]);
    // }
@@ -100,7 +100,7 @@ To use the array data, we need to access the array elements. We can do this by i
 7. The `forEach` method requires a parameter of type `function` that gets called on each array element. We need to pass in a function with an element parameter. Place your cursor between the open and close parenthesis of the `forEach` and add `function(element) {}` to look like this:
 
    {% codeblock copy %}script.js{% codeblock %}
-   ```
+   ```js
    brainSkills.forEach(function (element) {});
    ```
 

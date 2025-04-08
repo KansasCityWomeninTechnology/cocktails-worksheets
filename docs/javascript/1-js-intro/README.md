@@ -51,7 +51,7 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 1. Take a look at the _script.js_ file and compare it with the code below.
 
 {% codeblock copy %}script.js{% codeblock %}
-
+```js
     // Define two numeric variables
     const <noun_1> = 5;
     const <noun_2> = 25;
@@ -64,6 +64,7 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 
     // Practice types and equality
     document.getElementById("type").innerHTML = typeof(<noun_1>);
+```
 
 ## Look for the MadLibs items to replace
 
