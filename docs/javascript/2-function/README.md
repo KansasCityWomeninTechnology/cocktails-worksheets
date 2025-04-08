@@ -108,7 +108,7 @@ In this section, we will write our own functions in JavaScript by using conditio
 
    {% codeblock copy %}script.js{% codeblock %}
 
-   ```
+   ```js
    const addDevSkill = function (skill) {
    	let listItem = document.createElement('li');
    	listItem.innerHTML = skill;
@@ -153,7 +153,7 @@ Let's get coding! We'll call a function and keep track of click events.
 
    {% codeblock copy %}script.js{% codeblock %}
 
-   ```
+   ```js
    const clickHandler = function (text) {
      alert('click');
    };
@@ -171,7 +171,7 @@ Let's get coding! We'll call a function and keep track of click events.
 
    {% codeblock copy %}script.js{% codeblock %}
 
-   ```
+   ```js
    let numberOfClicks = 0;
    ```
 
@@ -183,7 +183,7 @@ Let's get coding! We'll call a function and keep track of click events.
 
    {% codeblock copy %}script.js{% codeblock %}
 
-   ```
+   ```js
    numberOfClicks = numberOfClicks + 1;
    ```
 
@@ -205,7 +205,7 @@ Let's get coding! We'll call a function and keep track of click events.
 
    {% codeblock copy %}script.js{% codeblock %}
 
-   ```
+   ```js
    alert('click ' + numberOfClicks);
    ```
 
@@ -219,7 +219,7 @@ As applications grow, we need ways to troubleshoot code. We'll learn the basics 
 
    {% codeblock copy %}script.js{% codeblock %}
 
-   ```
+   ```js
    alert(text);
    ```
 
@@ -262,7 +262,7 @@ Business needs can be complex. We'll add conditional logic to execute different 
 
    {% codeblock copy %}script.js{% codeblock %}
 
-   ```
+   ```js
    if (numberOfClicks > 2) {
          alert(text);
    }
@@ -293,7 +293,7 @@ Business needs can be complex. We'll add conditional logic to execute different 
 
    {% codeblock copy %}script.js{% codeblock %}
 
-   ```
+   ```js
    if (numberOfClicks <= 3) {
      alert(text);
    } else {
@@ -305,7 +305,7 @@ Business needs can be complex. We'll add conditional logic to execute different 
 
    {% codeblock copy %}script.js{% codeblock %}
 
-   ```
+   ```js
    const clickHandler = function (text) {
      debugger;
      numberOfClicks = numberOfClicks + 1;
