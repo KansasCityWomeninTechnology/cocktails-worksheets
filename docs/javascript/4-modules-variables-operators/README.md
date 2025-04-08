@@ -220,13 +220,7 @@ Note: Reference the _try_ clause in the function to see what variable names are 
 
 # Checkpoint
 
-FIX THIS! Compare your _script.js_ against the answer key for your work. It might look a little different depending on the variable names you chose.
-
-> [!CODECHECK]
-> ![](images/checkpoint.png ":class=image-border")
->
-> Hard to read? Compare your _script.js_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/javascript-101/blob/answerkey-functions/scripts.js).
-
+Compare your _script.js_ against the [answer key](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-JS-2-answer-key/blob/main/script-mvo.js). It might look a little different depending on the variable names you chose.
 
 ### Celebrate with a cocktail or mocktail! You deserve it, rockstar!
 
