@@ -10,7 +10,7 @@ In this section, we will practice declaring variables, importing modules and usi
 
 ## Prepare your workspace
 
-1. Click on the following link to [the starter code repo] for the rest of the session. Click the "Use this template" button in the upper right-hand corner of the screen, as before.
+1. Click on the following link to [the starter code repo](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-JS-2) for the rest of the session. Click the "Use this template" button in the upper right-hand corner of the screen, as before.
 
 2. Next, select the "Open in a codespace" option.
 
