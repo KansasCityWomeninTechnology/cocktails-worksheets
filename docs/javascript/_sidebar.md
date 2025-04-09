@@ -6,7 +6,7 @@
   - [Intro to JavaScript](/javascript/1-js-intro/)
   - [Working with functions](/javascript/2-function/)
   - [Arrays and loops](/javascript/3-array-loop/)
-  - [Modules, Variables, and Operators](/javascript/4-modules-variables-operators/)
+  - [Modules, Variables, and Operators](/javascript/4-modules-variables/)
   - [Quiz](/javascript/quiz.md)
   <!-- - [Data Types and Methods](/javascript/5-data-types-methods/)
   - [Promises](/javascript/6-promises/) -->
