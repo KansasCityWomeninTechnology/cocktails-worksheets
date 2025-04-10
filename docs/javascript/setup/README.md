@@ -1,6 +1,6 @@
 # Setup :id=setup
 
-Tonight we will learn the basics of applying functionality to a website using **J**ava**S**cript(**JS**). The version of JavaScript that we will use is called **E**CMA**S**cript **6**, but we will still refer to this as JavaScript or JS.
+Tonight we will learn the basics of applying functionality to a website using **J**ava**S**cript(**JS**).
 
 Follow the instructions on this page to prepare your workspace.
 

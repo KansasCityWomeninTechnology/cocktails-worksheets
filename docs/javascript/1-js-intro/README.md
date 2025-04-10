@@ -1,10 +1,10 @@
-# Introduction to JavaScript (ECMAScript 6)
+# Introduction to JavaScript
 
 JavaScript is one of many programming languages used for application development. It is the programming language of the web and is the basis of everything we see on the internet.  Or, if you're creating a cocktail, JavaScript is the liquor -- the base and foundation of the drink.
 
 In this session, we will explore the building blocks for programming -- variables, math operators, and data types -- using JavaScript.
 
-We'll build our knowledge of JavaScript by becoming familiar with some of the features in the newest version of JavaScript, ES6, including new variable declarations (const and let), arrow functions, new array methods, and many others.
+We’ll build our knowledge of JavaScript by becoming familiar with variable declarations (const and let), functions, array methods, and many others.
 
 > [!WARNING]
 > Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
@@ -48,7 +48,7 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 
 ## Prepare the script.js file
 
-1. Take a look at the _script.js_ file and compare it with the code below.
+1. Take a look at the _script.js_ file and compare it with the code below. You will see red squiggly lines. This is expected! Those will disappear when you've completed this exercise.
 
 {% codeblock copy %}script.js{% codeblock %}
 ```js
@@ -63,7 +63,7 @@ You'll start practicing some JavaScript basics covered in the presentation and p
     document.getElementById("math").innerHTML = <noun_3>;
 
     // Practice types and equality
-    document.getElementById("type").innerHTML = typeof(<noun_1>);
+    document.getElementById("type").innerHTML = typeof <noun_1>;
 ```
 
 ## Look for the MadLibs items to replace
@@ -79,7 +79,11 @@ Remember these are the noun or verb text surrounded by angle brackets: **&lt;nou
 > A verb is a word used to describe an action such as "make" or "become."
 
 > [!TIP]
-> If you highlight, then right-click on "<noun_1>" or any other text surrounded by angle brackets (be sure to include the angle brackets!), you will get a menu that will allow you to "Change All Occurrences." This is a good way to make sure you don't miss an occurrence of the thing you want to change.
+> If you highlight, then right-click on "<noun_1>" or any other text surrounded by angle brackets (be sure to include the angle brackets!), you will get a menu that will include an option to "Change All Occurrences." This is a good way to make sure you don't miss an occurrence of the thing you want to change.
+
+> ![](images/change_all_occurrences.png ":class=image-border")
+
+> If this doesn't work for you, and instead you see a drop-down, click the drop-down and select "Replace." This should allow you to change all instances at once.
 
 > [!WARNING]
 > Make sure to replace all instances of a variable with the same noun!

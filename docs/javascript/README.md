@@ -11,9 +11,10 @@ JavaScript is the programming language of the web and is the basis of everything
 
 In this session, we will become familiar with building blocks for programming such as variables, math and logic operations, and loops. We will interact with the Document Object Model using JavaScript to dynamically change elements on a webpage.
 
-We will be focusing on the latest version of JavaScript, ECMAScript 6, or ES6, for short.
+We will be focusing on modern JavaScript, which
+includes newer features introduced in subsequent versions up to ES2024.
 
-While JavaScript has been around since 1995, it has evolved over the decades since. ECMAScript 6, released in 2015, is the latest such evolution.
+While JavaScript has been around since 1995, it has evolved over the decades since. ECMAScript 2024, released in 2024, is the latest such evolution. ES2025 will be released later this year.
 
 > [!TIP]
 > Don't know a term? [Click here to check out our glossary!](http://bit.ly/CnCgloss)
