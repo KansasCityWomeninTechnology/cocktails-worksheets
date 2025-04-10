@@ -81,6 +81,7 @@ Remember these are the noun or verb text surrounded by angle brackets: **&lt;nou
 > [!TIP]
 > If you highlight, then right-click on "&lt;noun_1>" or any other text surrounded by angle brackets (be sure to include the angle brackets!), you will get a menu that will include an option to "Change All Occurrences." This is a good way to make sure you don't miss an occurrence of the thing you want to change.
 
+
 > ![](images/change_all_occurrences.png ":class=image-border")
 
 > If this doesn't work for you, and instead you see a drop-down, click the drop-down and select "Replace." This should allow you to change all instances at once.
