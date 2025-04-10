@@ -1,4 +1,4 @@
-# Writing Javascript
+# Writing JavaScript
 
 Now we will create a web page with interactive elements. In the rest of the worksheet we will build button click handling and manipulate the elements on the web page. When complete, you will have a web page that looks like this
 

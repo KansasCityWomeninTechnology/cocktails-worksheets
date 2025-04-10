@@ -22,7 +22,7 @@ First we'll declare an array so we can use the array data in the application. We
 3. Inside the `document.addEventListener` method, add a `console.log` to log out the array. What do you see in DevTools when you reload the webpage?
 
    > [!HINT]
-   > Type `console.log(brainSkills);`
+   > Type `console.log('brainSkills', brainSkills);`
 
 4. Arrays have built in properties. One property of an array is the length. Let's change our `console.log` above to log out the length of the array by using `brainSkills.length`. What do you see in DevTools when you reload the webpage?
 
@@ -63,7 +63,7 @@ To use the array data, we need to access the array elements. We can do this by i
 
    {% codeblock copy %}script.js{% codeblock %}
    ```js
-   console.log('index', index + " " + 'brainSkills index', brainSkills[index]);
+   console.log('index', index + " " + 'brainSkills item', brainSkills[index]);
    ```
 
 3. In Chrome, take a look in the DevTools console to see the output.
@@ -111,9 +111,9 @@ To use the array data, we need to access the array elements. We can do this by i
    >
    > Check out the references in this section to read more about functions.
 
-8. Place your cursor between the opening and closing curly brace and press `Enter`. Type `console.log(element);` to log the element parameter to the console.
+8. Place your cursor between the opening and closing curly brace and press `Enter`. Type `console.log('element', element);` to log the element parameter to the console.
 
-9. We're back in business! Remove the `console.log(element);` and replace it with the call to `addDevSkill`.
+9. We're back in business! Remove the `console.log('element', element);` and replace it with the call to `addDevSkill`.
 
    > [!HINT]
    > Use `addDevSkill(element);` to call the function with the array element to display on the web page.
