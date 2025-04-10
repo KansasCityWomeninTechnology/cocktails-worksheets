@@ -52,7 +52,7 @@ To use the array data, we need to access the array elements. We can do this by i
    {% codeblock copy %}script.js{% codeblock %}
    ```js
    for (let index = 0; index < brainSkills.length; index++) {
-     console.log(index);
+     console.log('index', index);
    }
    ```
 
@@ -63,7 +63,7 @@ To use the array data, we need to access the array elements. We can do this by i
 
    {% codeblock copy %}script.js{% codeblock %}
    ```js
-   console.log(index + " " + brainSkills[index]);
+   console.log('index', index + " " + 'brainSkills index', brainSkills[index]);
    ```
 
 3. In Chrome, take a look in the DevTools console to see the output.
