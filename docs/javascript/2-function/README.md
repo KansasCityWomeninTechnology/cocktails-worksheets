@@ -129,7 +129,7 @@ In this section, we will write our own functions in JavaScript by using conditio
 
   document.addEventListener("DOMContentLoaded", function (event) {
 
-    document.getElementById('cocktail-section').innerHTML = <verb>(<noun>);
+      document.getElementById('cocktail-section').innerHTML = <verb>(<noun>);
 
   });
 
