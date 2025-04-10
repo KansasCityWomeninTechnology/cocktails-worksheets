@@ -79,7 +79,7 @@ Remember these are the noun or verb text surrounded by angle brackets: **&lt;nou
 > A verb is a word used to describe an action such as "make" or "become."
 
 > [!TIP]
-> If you highlight, then right-click on "<noun_1>" or any other text surrounded by angle brackets (be sure to include the angle brackets!), you will get a menu that will include an option to "Change All Occurrences." This is a good way to make sure you don't miss an occurrence of the thing you want to change.
+> If you highlight, then right-click on "&lt;noun_1>" or any other text surrounded by angle brackets (be sure to include the angle brackets!), you will get a menu that will include an option to "Change All Occurrences." This is a good way to make sure you don't miss an occurrence of the thing you want to change.
 
 > ![](images/change_all_occurrences.png ":class=image-border")
 
@@ -121,7 +121,7 @@ Logical operations are the basis of computer programming. Explore types, arithme
 > The value of a variable is to the right of the '=' sign.
 
 > [!HINT]
-> What is the output of "What type is the first variable" when you add quotation marks around the 5? What if you change the variable in `typeof()` on line 12 to use the variable **&lt;noun_3>** from line 6?
+> What is the output of "What type is the first variable" when you add quotation marks around the 5? What if you change the variable in `typeof` on line 12 to use the variable **&lt;noun_3>** from line 6?
 
 2.  Remove the `* 2` from line 6 then change the `>` to `==`. Make note of the comparison value in the output.
 

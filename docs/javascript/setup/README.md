@@ -1,6 +1,6 @@
 # Setup :id=setup
 
-Tonight we will learn the basics of applying functionality to a website using **J**ava**S**cript(**JS**).
+Tonight we will learn the basics of applying functionality to a website using **J**ava**S**cript (**JS**).
 
 Follow the instructions on this page to prepare your workspace.
 

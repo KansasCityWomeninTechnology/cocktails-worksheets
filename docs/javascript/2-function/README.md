@@ -116,8 +116,9 @@ In this section, we will write our own functions in JavaScript by using conditio
    };
 
     const <verb> = function (item) {
-    return 'I\'d like a ' + item + ', please!';
+      return 'I\'d like a ' + item + ', please!';
     };
+    
     const <noun> = 'cocktail';
 
     const clickHandler = function (text) {
@@ -147,7 +148,7 @@ Let's get coding! We'll call a function and keep track of click events.
 2. Search for **&lt;noun>** and **&lt;verb>** and replace the variables. Save the file and look at the web page in Chrome. The lavender button now has the text "I'd like a cocktail please!", but we want it do something when we click on it.
 
 > [!TIP]
-> If you want to wrap the text in your Codespaces IDE, you can use Alt-z on Windows, or Cmd-z on a Mac.
+> If you want to wrap the text in your Codespaces IDE, you can use Alt-z on Windows, or Opt-z on a Mac.
 
 3. It's easier to understand what's going on if we have visual indications of our work. Browsers have a built-in function to display alert messages. Let's display an alert message with the word "click" inside of it. Find the `clickHandler` function in _script.js_ and add `alert('click');` inside the function (between the curly braces). The `clickHandler` function should look like this:
 
@@ -229,7 +230,7 @@ As applications grow, we need ways to troubleshoot code. We'll learn the basics 
 > [!INFO]
 > Notice there are no quotation marks. This now references the variable named `text`, not the string "text". Try adding quotation marks and interact with the button in Chrome to see the difference.
 
-2. We still want to see the button click counter for troubleshooting purposes. We can log the number of clicks to the console. Add `console.log(numberOfClicks);` right after incrementing the clicks in the `clickHandler` function.
+2. We still want to see the button click counter for troubleshooting purposes. We can log the number of clicks to the console. Add `console.log('numberOfClicks', numberOfClicks);` right after incrementing the clicks in the `clickHandler` function.
 
 3. Make sure your project is opened in a new tab. In the project tab, to see console logging in action, open the Chrome DevTools and click on the button. You should see the number of clicks write to the console. Leave DevTools open.
 
@@ -258,7 +259,7 @@ As applications grow, we need ways to troubleshoot code. We'll learn the basics 
 
 Business needs can be complex. We'll add conditional logic to execute different code paths.
 
-1. Inside the `clickHandler` function, add an `if` statement to only show the alert for greater than 2 button clicks by adding a conditional statement:
+1. Inside the `clickHandler` function, remove the alert(text) and add an if statement in its place. When we add a conditional statement, we cause the alert to only be shown if there are greater than 2 button clicks:
 
    {% codeblock copy %}script.js{% codeblock %}
 
@@ -269,7 +270,7 @@ Business needs can be complex. We'll add conditional logic to execute different 
    ```
 
    > [!TIP]
-   > Notice the indention on the `alert(text);`. Indent everything inside the `if` statement to make it easier to read your code. Doing so helps your brain group logical units of code together at a glance!
+   > Notice the indentation on the `alert(text);`. Indent everything inside the `if` statement to make it easier to read your code. Doing so helps your brain group logical units of code together at a glance!
 
 2. Use the `console.log` output to confirm we show the alert starting from the 3rd button click.
 
@@ -338,7 +339,7 @@ Business needs can be complex. We'll add conditional logic to execute different 
 > [!INFO]
 > We are using **Step** in this session, but debugging tools, such as Chrome DevTools, have other capabilities to make debugging easy. You can add **breakpoints** to force your web page to pause execution without adding `debugger;` statements so you can execute multiple lines of code pausing execution using the **Resume** button instead of **Step**. You can also add the `numberOfClicks` variable to a watch list so that you can see the value at a glance.
 
-12. Repeat the stepping through the code and resuming until you click for the 4th time. Does the `else` condition execute?
+12. Click the button multiple times. Repeat the stepping through the code by clicking the button and resuming until you click for the 4th time. Does the else condition execute?
 
 13. In _script.js_, remove the `debugger;` statement so we aren't interrupted in the rest of the worksheet. Feel free to add it back if you get stuck!
 
