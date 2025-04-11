@@ -8,7 +8,7 @@ In this section, we will write our own functions in JavaScript by using conditio
 
 ## Prepare your workspace
 
-1. Copy and paste the following HTML code into your _index.html_ file.
+1. Replace the contents of your _index.html_ file with the following code. You can copy and paste it.
 
    {% codeblock copy %}index.html{% codeblock %}
 
@@ -46,7 +46,7 @@ In this section, we will write our own functions in JavaScript by using conditio
    </html>
    ```
 
-1. Copy and paste the following CSS code into your _styles.css_ file. You'll find this file in the _css_ folder in your file tree.
+1. Likewise, replace the contents of your _styles.css_ page with the following CSS code. You'll find this file in the _css_ folder in your file tree.
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -104,7 +104,7 @@ In this section, we will write our own functions in JavaScript by using conditio
    }
    ```
 
-1. Copy and paste the following JavaScript code into your _script.js_ file. You'll find this file in the _js_ folder in your file tree.
+1. And finally, replace the contents of your _script.js_ file with the following JavaScript code. You'll find this file in the _js_ folder in your file tree.
 
    {% codeblock copy %}script.js{% codeblock %}
 
