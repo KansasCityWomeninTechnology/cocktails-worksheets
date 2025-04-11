@@ -1,7 +1,7 @@
 <div>
     <img src="images/logo.png" style="float: left; margin: 0px 15px 15px 0px; height:125px;">
     <h2 style="display:inline-block;margin-top:1em;">Coding &amp; Cocktails: The Liquor</h2>
-    <h3 style="margin-top:0;margin-bottom:2em;">Introduction to JavaScript/ECMAScript 6</h3>
+    <h3 style="margin-top:0;margin-bottom:2em;">Introduction to JavaScript</h3>
 </div>
 <hr>
 
