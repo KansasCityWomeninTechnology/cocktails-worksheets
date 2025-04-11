@@ -1,4 +1,4 @@
-# Writing JavaScript
+# Working with functions
 
 Now we will create a web page with interactive elements. In the rest of the worksheet we will build button click handling and manipulate the elements on the web page. When complete, you will have a web page that looks like this
 
@@ -272,7 +272,7 @@ Business needs can be complex. We'll add conditional logic to execute different 
    > [!TIP]
    > Notice the indentation on the `alert(text);`. Indent everything inside the `if` statement to make it easier to read your code. Doing so helps your brain group logical units of code together at a glance!
 
-2. Use the `console.log` output to confirm we show the alert starting from the 3rd button click.
+2. Use the `console.log` output to confirm that there is a message that appears after the second button click. Every time you click the button, the number in the console should increment by 1.
 
 3. If we want to only show the alert the first 3 times you clicked the button, how would you change the conditional statement?
 
