@@ -1,12 +1,12 @@
 <div>
     <img src="images/logo.png" style="float: left; margin: 0px 15px 15px 0px; height:125px;">
-    <h2 style="display:inline-block;margin-top:1em;">Coding &amp; Cocktails: The Garnish</h2>
-    <h3 style="margin-top:0;margin-bottom:2em;">CSS Side Quest</h3>
+    <h2 style="display:inline-block;margin-top:1em;">Coding &amp; Cocktails: The Liquor</h2>
+    <h3 style="margin-top:0;margin-bottom:2em;">JavaScript Side Quest</h3>
 </div>
 
 ### Overview
 
-Now that you've got a few pages for your portfolio, let's get them styled.
+Now that you've got a few pages for your portfolio and you have them styled, let's add a "go to top" button!
 
 Go to your [GitHub Codespaces page](https://github.com/codespaces). If you see a Codespaces page for your repo, click on the three dots and select "Open in browser."
 
@@ -24,17 +24,21 @@ Now click on the link for your portfolio repository, then click on the green "Co
 
 ![](./images/create_codespace.png ":class=image-border")
 
-When your codespace is open, double-click on the _styles.css_ file. In this file, you will see CSS that we created for you when we created the Intro to HTML starter code. Select the contents of the file and delete them.
+When your codespace is open, we're going to rearrange the file tree a bit.
 
-Go back to the _styles.css_ file in your Intro to CSS repo and copy the normalizations to your portfolio's _styles.css_ file.
+Click on the "New Folder" icon that appears when you hover over the name of your repo (in bold). Name that folder "css."  Repeat this, except this time, name the new folder "js".
 
-It's good to spend some time thinking about how you want your pages to look. Take a look at some web pages that you like, and some that you don't, and figure out what resonates most with how you want your portfolio to appear, then plan out on paper where you want elements of your page to appear and what they should look like before you start applying CSS.
+Now, drag your _styles.css_ file to the _css_ folder. Click on the green "Move" button when it asks if you are sure.
 
-One really good skill to build is learning how to search for information on how to do things. In the tutorial we just completed, you were given some resources. One of these is the Mozilla Development Network. This organization has documentation about [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) that you will find useful.
+Double-click on the _index.html_ file. In the link to the stylesheet, add "../css/" to the beginning of the _styles.css_ href. This will allow your HTML file to find the new location of your CSS file. Now do the same for your "About" and "Contact" pages.
+
+Commit your changes!
+
+One really good skill to build is learning how to search for information on how to do things. In the tutorial we just completed, you were given some resources. One of these is the Mozilla Development Network. This organization has documentation about [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) that you will find useful.
 
 You can search this resource to find out how to apply styling your website.
 
-Remember, too, that there are other resources available in the [slides](https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/2023-front-end-html.html#/) from the Intro to CSS session!
+Remember, too, that there are other resources available in the [slides](https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/) from the Intro to JavaScript session!
 
 Don't forget to commit your changes to your repo!
 
