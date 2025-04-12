@@ -116,10 +116,10 @@ In this section, we will write our own functions in JavaScript by using conditio
    };
 
   const <verb> = function (item) {
-      return 'I\'d like a ' + item + ', please!';
+      return "I\'d like a ' + item + ', please!";
   };
     
-  const <noun> = 'cocktail';
+  const <noun> = "cocktail";
 
   const clickHandler = function (text) {
 
@@ -129,7 +129,7 @@ In this section, we will write our own functions in JavaScript by using conditio
 
   document.addEventListener("DOMContentLoaded", function (event) {
 
-      document.getElementById('cocktail-section').innerHTML = <verb>(<noun>);
+      document.getElementById("cocktail-section").innerHTML = <verb>(<noun>);
 
   });
 
@@ -156,12 +156,12 @@ Let's get coding! We'll call a function and keep track of click events.
 
    ```js
    const clickHandler = function (text) {
-     alert('click');
+     alert("click");
    };
    ```
 
 > [!TIP]
-> Notice `alert('click');` is **indented** inside the function. Indenting code inside functions make it easier for you to see where a function begins (the open curly brace) and where it ends (the close curly brace). Indention makes code human readable.
+> Notice `alert("click");` is **indented** inside the function. Indenting code inside functions make it easier for you to see where a function begins (the open curly brace) and where it ends (the close curly brace). Indention makes code human readable.
 
 > [!INFO]
 > We passed in the string "click" to the built in function `alert`. You can use either double quotes "" or single quotes '' for strings.
@@ -180,7 +180,7 @@ Let's get coding! We'll call a function and keep track of click events.
 > You declared `numberOfClicks` variable outside of the function so that it's accessible by more than `clickHandler` function. The **scope** of the variable and function determines accessibility of that variable or function in the application.
 > Learn more by reading [MDN documentation on scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope).
 
-6. Track the clicks by incrementing `numberOfClicks` by 1 for each button click. We can do this inside the `clickHandler` function. Place your cursor after the opening curly brace and press `Enter` to create a new line above `alert('click');`. Type the following statement:
+6. Track the clicks by incrementing `numberOfClicks` by 1 for each button click. We can do this inside the `clickHandler` function. Place your cursor after the opening curly brace and press `Enter` to create a new line above `alert("click");`. Type the following statement:
 
    {% codeblock copy %}script.js{% codeblock %}
 
