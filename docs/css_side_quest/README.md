@@ -34,7 +34,7 @@ One really good skill to build is learning how to search for information on how 
 
 You can search this resource to find out how to apply styling your website.
 
-Remember, too, that there are other resources available in the [slides](https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/01-glasswork/2023-front-end-html.html#/) from the Intro to CSS session!
+Remember, too, that there are other resources available in the [slides](https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/css-series/2023-css.html#/) from the Intro to CSS session!
 
 Don't forget to commit your changes to your repo!
 
