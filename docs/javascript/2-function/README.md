@@ -116,7 +116,7 @@ In this section, we will write our own functions in JavaScript by using conditio
    };
 
   const <verb> = function (item) {
-      return "I\'d like a ' + item + ', please!";
+      return "I\'d like a " + item + ", please!";
   };
     
   const <noun> = "cocktail";
