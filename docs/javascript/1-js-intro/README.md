@@ -68,6 +68,10 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 
 ## Look for the MadLibs items to replace
 
+Now, find the "Go Live" at the bottom right corner of the IDE and click it. This will open a new browser tab where you will be able to see your web page.
+
+> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a "Port 5500" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
+
 Remember these are the noun or verb text surrounded by angle brackets: **&lt;noun_2>**. You can use choose any noun or verb you like for the variable name.
 
 > [!TIP]
