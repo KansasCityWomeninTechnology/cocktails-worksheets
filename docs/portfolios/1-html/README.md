@@ -6,8 +6,6 @@
 
 ### Overview
 
-Now that you've got a page for our cocktail lounge, let's take it a step further.
-
 Go to your GitHub page (`https://github.com/<yourprofilename>`). Click on the profile picture in the upper right-hand corner of the page and select "Your repositories."
 
 ![](./images/github_profile.png ":class=image-border")
@@ -22,11 +20,13 @@ Next, select the link that says "Import a repository."
 
 ![](./images/import_repo.png ":class=image-border")
 
-Go back to the tab that has your repositories listed and right click on the "Coding-and-Cocktails-Intro-to-HTML" link, and copy the link address.
+Copy the following link address.
 
-Return to the tab that has the import tool on it and paste the URL you just copied into the box for the source repository URL. Enter your GitHub user name and password in the boxes provided.
+https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Portfolio
 
-Type something in the "Repository name" box, as well.
+Return to the tab that has the import tool on it and paste the URL you just copied into the box for the source repository URL.
+
+Type something in the "Repository name" box, as well. You'll want to name the repo something like "my-portfolio" or "portfolio."
 
 Make sure your repository is public, or no one will be able to see it!
 
@@ -55,5 +55,3 @@ To add a new page to your site, click on the "New File" icon and type the name o
 Add an "About" page and a "Contact" page, at the very least, and if you want, add another page or two.
 
 Don't forget to commit your changes to your repo!
-
-Once you've got your site set up the way you like it, post the link to your repo in the  **#codingandcocktails** channel on [Slack](http://kcwit.slack.com/) to let us see what you can do.
