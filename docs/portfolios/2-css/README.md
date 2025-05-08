@@ -8,9 +8,11 @@
 
 Now that you've got a few pages for your portfolio, let's get them styled.
 
-Double-click on the _styles.css_ file. In this file, you will see CSS that we created for you when we created the Intro to HTML starter code. Select the contents of the file and delete them.
+Double-click on the _styles.css_ file. It should be empty.
 
-Go back to the _styles.css_ file in your Intro to CSS repo and copy the normalizations to your portfolio's _styles.css_ file.
+The many different browsers that exist have default rules to style plain HTML. These default rules differ between all the browsers. This can mean that your page can look a bit different, depending on which browser you use to view it.
+
+To level the playing field and to provide cross-browser consistency, many developers like to "reset" the built-in browser styling or apply so-called "normalizations" to the CSS before adding their own styling. 
 
 It's good to spend some time thinking about how you want your pages to look. Take a look at some web pages that you like, and some that you don't. Figure out what resonates most with how you want your portfolio to appear, then plan out on paper where you want elements of your page to appear and what they should look like before you start applying CSS.
 

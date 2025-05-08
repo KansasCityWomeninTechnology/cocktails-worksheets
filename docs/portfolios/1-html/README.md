@@ -42,7 +42,7 @@ On the next page, select "Select a repository," then select the new repo you jus
 
 The first thing that you will see is the readme file for the repository. Delete the text that appears there and write something new. Generally, the readme is to tell people what the repo is for.
 
-Next, double-click on index.html. CThis is the file you will want to use to create content for the home page of your portfolio website.
+Next, double-click on index.html. This is the file you will want to use to create content for the home page of your portfolio website.
 
 Since you're going to be showing your web development skills, you'll likely want to add separate "About" and "Contact" pages, as well as other pages that you might decide to include.
 
