@@ -14,6 +14,4 @@ Go back to the _styles.css_ file in your Intro to CSS repo and copy the normaliz
 
 It's good to spend some time thinking about how you want your pages to look. Take a look at some web pages that you like, and some that you don't. Figure out what resonates most with how you want your portfolio to appear, then plan out on paper where you want elements of your page to appear and what they should look like before you start applying CSS.
 
-[Mozilla CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
 Don't forget to commit your changes to your repo!
