@@ -8,7 +8,7 @@
 
 ---
 
-From previous sessions:
+**From previous sessions:**
 
 - [HTML References & Shortcuts](/html/references/)
 - [CSS Cheat Sheet](/css/references/css_cheat_sheet.md)
@@ -16,13 +16,13 @@ From previous sessions:
 - [JS References & Shortcuts](/javascript/references/)
 - [Source Control](/source_control/)
 
-Mozilla Developer Network:
+**Mozilla Developer Network:**
 
 - [Mozilla HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Mozilla CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Mozilla JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Other resources:
+**Other resources:**
 
 - [HTML Cheat Sheet](https://html.com/wp-content/uploads/html-cheat-sheet.pdf)
 - [Glossary](https://github.com/KansasCityWomeninTechnology/LearningResources/blob/master/glossary.md)
