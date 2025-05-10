@@ -101,4 +101,20 @@ color: #FFF;
 
 Now add a link to this stylesheet in all your HTML heads.
 
+Last, we'll need to add something to our HTML file(s) so that our button shows up on the page.
+
+{% codeblock copy %}backToTopButton.css{% codeblock %}
+
+```html
+    <div class="back-to-top-wrapper">
+      <button onclick="scrollToTop()" class="back-to-top-btn" title="Go to top">
+        <!-- Paste in svg of chevron-up -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+        </svg>
+      </button>
+    </div>
+
+```
+
 Go to your site and test the button out!
