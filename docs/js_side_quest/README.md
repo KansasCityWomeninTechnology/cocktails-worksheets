@@ -86,45 +86,46 @@ If you're having a problem figuring out how to link the JavaScript file, check b
 
 In your _css_ folder, add a new file called backToTopButton.css. Copy and paste the following code into that file.
 
-    {% codeblock copy %}backToTopButton.css{% codeblock %}
+{% codeblock copy %}backToTopButton.css{% codeblock %}
 
-    ```css
-    .back-to-top-wrapper {
-    /* Positions the back-to-top button fixed at bottom-right corner */
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    z-index: 999;
-    }
+```css
 
-    .back-to-top-btn {
-    /* Initially hides the button and styles it as a circular clickable element */
-    display: none;
-    width: 40px;
-    padding: 3px;
-    background-color: white;
-    border-radius: 50%; /* makes button a circle */
-    border: 1px solid #2222224D;
-    cursor: pointer; /* Shows the user that button is clickable */
-    }
+.back-to-top-wrapper {
+/* Positions the back-to-top button fixed at bottom-right corner */
+position: fixed;
+bottom: 40px;
+right: 40px;
+z-index: 999;
+}
 
-    .back-to-top-btn:hover {
-    /* Changes background color on hover for visual feedback */
-    background-color: #2222224D;
-    border: none;
-    }
+.back-to-top-btn {
+/* Initially hides the button and styles it as a circular clickable element */
+display: none;
+width: 40px;
+padding: 3px;
+background-color: white;
+border-radius: 50%; /* makes button a circle */
+border: 1px solid #2222224D;
+cursor: pointer; /* Shows the user that button is clickable */
+}
 
-    .back-to-top-btn svg {
-    /* Styles the SVG icon inside the button */
-    display: block;
-    color: #222222;
-    }
+.back-to-top-btn:hover {
+/* Changes background color on hover for visual feedback */
+background-color: #2222224D;
+border: none;
+}
 
-    .back-to-top-btn svg:hover {
-    /* Changes the color of the SVG icon on hover */
-    color: #FFF;
-    }
-    ```
+.back-to-top-btn svg {
+/* Styles the SVG icon inside the button */
+display: block;
+color: #222222;
+}
+
+.back-to-top-btn svg:hover {
+/* Changes the color of the SVG icon on hover */
+color: #FFF;
+}
+```
 
 Now add a link to this stylesheet in all your HTML heads.
 
