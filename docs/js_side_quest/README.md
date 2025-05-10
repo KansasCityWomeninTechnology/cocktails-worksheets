@@ -40,9 +40,10 @@ Inside the _js_ folder, create a new file called backToTop.js.
 
 Copy and paste the following code into that file.
 
-    {% codeblock copy %}backToTop.js{% codeblock %}
+{ codeblock copy %}backToTop.js{% codeblock %}
 
-    ```js
+```js
+
     // This function toggles the visibility of the back-to-top button based on scroll position
     const scrollFunction = () => {
     const backToTopButton = document.querySelector(".back-to-top-btn");
@@ -68,7 +69,7 @@ Copy and paste the following code into that file.
 
     // Add a scroll event listener to trigger scrollFunction whenever the user scrolls
     window.addEventListener("scroll", scrollFunction);
-    ```
+```
 
 In each of your HTML files, add a link to the _backToTop.js_ file.
 
@@ -77,10 +78,11 @@ If you're having a problem figuring out how to link the JavaScript file, check b
 > [!CODECHECK]
 >
 > In the _head_ section, add this line:
-> 
+>
+> {% codeblock copy %}{% codeblock %}
 > ```js
 > <script src="../js/backToTop.js"></script>
-```
+>```
 
 In your _css_ folder, add a new file called backToTopButton.css. Copy and paste the following code into that file.
 
