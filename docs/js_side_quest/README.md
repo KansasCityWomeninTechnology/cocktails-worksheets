@@ -133,8 +133,6 @@ Go to your site and test the button out!
 
 One really good skill to build is learning how to search for information on how to do things. In the tutorial we just completed, you were given some resources. One of these is the Mozilla Development Network. This organization has documentation about [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) that you will find useful.
 
-You can search this resource to find out how to apply styling your website.
-
 Remember, too, that there are other resources available in the [slides](https://kansascitywomenintechnology.github.io/CodingCocktailsSlideTemplate/03-liquor/javascript.html#/) from the Intro to JavaScript session!
 
 Don't forget to commit your changes to your repo!

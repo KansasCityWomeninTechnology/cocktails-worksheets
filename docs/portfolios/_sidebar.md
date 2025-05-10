@@ -5,6 +5,7 @@
   - [HTML](/portfolios/1-html/)
   - [CSS](/portfolios/2-css/)
   - [JavaScript](/portfolios/3-js/)
+  - [Deploy](/portfolios/4-deploy/)
 
 ---
 
