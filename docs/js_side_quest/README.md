@@ -76,9 +76,11 @@ If you're having a problem figuring out how to link the JavaScript file, check b
 
 > [!CODECHECK]
 >
-> In the _<head>_ section, add this line:
+> In the _head_ section, add this line:
 > 
+> ```js
 > <script src="../js/backToTop.js"></script>
+```
 
 In your _css_ folder, add a new file called backToTopButton.css. Copy and paste the following code into that file.
 

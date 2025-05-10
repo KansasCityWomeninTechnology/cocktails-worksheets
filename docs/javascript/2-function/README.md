@@ -157,7 +157,6 @@ Let's get coding! We'll call a function and keep track of click events.
    ```js
    const clickHandler = function (text) {
      alert("click");
-   // test comment
    };
    ```
 
