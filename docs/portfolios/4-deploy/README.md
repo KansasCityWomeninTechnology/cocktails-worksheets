@@ -16,7 +16,7 @@ Domain names don't cost much, but depending on the host you choose, hosting fees
 
 Luckily, GitHub has a **free** way to publish, or deploy, your portfolio site!
 
-Go to your repo's home page (https://github.com/<YOUR_USER_NAME>/<YOUR_REPO_NAME>).
+Go to your repo's home page (```https://github.com/<YOUR_USER_NAME>/<YOUR_REPO_NAME>```).
 
 Click on "Settings." You will now see a page that looks something like this:
 
@@ -32,7 +32,7 @@ Click on the "None" box and select your main branch, then click "Save."
 
 Now, at the top of the page, click on "Actions." You should now see a page that looks something like this, with a yellow icon to the left of "pages build and deployment."
 
-![](.images/workflow.png ":class=image-border")
+![](./images/workflow.png ":class=image-border")
 
 When that icon changes to a green check mark, click on "pages build and deployment." You will see a diagram with "build" on the left and "report-build-status" and "deploy" on the right. In the "deploy" box is a link to your web page. Click it and make sure everything works.
 
@@ -40,7 +40,7 @@ You will likely find that your links, styling, and JavaScript do not work. This 
 
 You can find all your hrefs by using ctrl-shift-f (cmd-shift-f on a Mac) and entering "href." You can then click on each of them in succession and add the appropriate repo name to the beginning of every href. Take a look at the following screen shot for an example.
 
-![](.images/find_href.png ":class=image-border:)
+![](./images/find_href.png ":class=image-border")
 
 Once you have fixed all of your hrefs and committed your changes, your site will go through the build and deploy process automatically. This will take a couple of minutes, but when it's complete, your site should work as expected. Force refresh your page and make sure everything works.
 
