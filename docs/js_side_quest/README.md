@@ -144,6 +144,7 @@ Last, we'll need to add something to our HTML file(s) so that our button shows u
     </div>
 
 ```
+Also add ```<link rel="stylesheet" href="../css/backToTopButton.css">``` to the head of your HTML file(s).
 
 Go to your site and test the button out!
 

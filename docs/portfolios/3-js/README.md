@@ -101,7 +101,7 @@ color: #FFF;
 
 Now add a link to this stylesheet in all your HTML heads.
 
-Last, we'll need to add something to our HTML file(s) so that our button shows up on the page.
+Last, we'll need to add something to our HTML file(s) so that our button shows up on the page. Make sure this goes after any other HTML you have in the body.
 
 {% codeblock copy %}backToTopButton.css{% codeblock %}
 
@@ -116,5 +116,8 @@ Last, we'll need to add something to our HTML file(s) so that our button shows u
     </div>
 
 ```
+Also add ```<link rel="stylesheet" href="../css/backToTopButton.css">``` to the head of your HTML file(s).
 
 Go to your site and test the button out!
+
+If something doesn't work, use your inspection tools to debug!
