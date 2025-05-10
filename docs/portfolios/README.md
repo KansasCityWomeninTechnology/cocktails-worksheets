@@ -7,3 +7,7 @@
 ### Overview
 
 In this session, we will build a portfolio website.
+
+Resumes are nice, but it can be helpful to show off your skills, rather than just talk about them. Building a website to act as a portfolio or to supplement your resume is a good way to hone your skills while making something you can actually use to help you get a job.
+
+Let's get started!
