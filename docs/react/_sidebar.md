@@ -1,4 +1,4 @@
-- [Overview](/javascript/)
+- [Overview](/react/)
 
 - Worksheet
 
