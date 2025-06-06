@@ -11,7 +11,7 @@ The more you practice, the more comfortable you’ll feel! Work through the foll
 
 ### Work through the following tutorials
 
-1. Mozilla Developer Network: [JavaScripts Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+1. Mozilla Developer Network: [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
 1. Codecademy learn JavaScript: [codecademy.com/learn/introduction-to-javascript](https://www.codecademy.com/learn/introduction-to-javascript)
 

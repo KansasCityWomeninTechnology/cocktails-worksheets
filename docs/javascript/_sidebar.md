@@ -21,3 +21,13 @@
 - [Answer Key](/javascript/answer-key.md)
 - [References & Shortcuts](/javascript/references/)
 - [Source Control](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/)
+
+---
+
+**Other resources:**
+
+- [Mozilla JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+**Practice debugging**
+
+[Debugging JavaScript tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript/)
