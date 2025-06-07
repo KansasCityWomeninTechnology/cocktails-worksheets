@@ -35,7 +35,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 >
 > By default, Codespaces opens a preview in a pane on your IDE. If you want to see the preview in a full-sized tab, you can click on the icon in the upper right-hand corner of the preview pane, as shown below. Your preview will remain in a pane alongside your code until you close that pane.
 >
-> ![](.images/open_in_browser.png ":class=image-border")
+> ![](/.images/open_in_browser.png ":class=image-border")
 >
 > If you want to open the browser view in a new window, right click on the tab (control click on a Mac) and select "Move tab to new window." Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
 >
