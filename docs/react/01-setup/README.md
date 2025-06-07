@@ -22,7 +22,6 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 2. Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-React) and click the "Use this template" button in the upper right-hand corner of the screen.
 
-**REPLACE THIS IMAGE**
     ![](./images/intro_repo_page.png ":class=image-border")
 
 3. Next, select the "Open in a codespace" option.
@@ -31,13 +30,12 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 4. Now you are ready to write some code! The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
-    You may see a notification in the lower right-hand corner of the screen. You can dismiss this by clicking the "x".
-
-**REPLACE THIS IMAGE**
-    ![](./images/LiveServer_notification.png ":class=image-border")
-
 > [!TIP]
 > View the worksheet and your IDE in split screen.
+>
+> By default, Codespaces opens a preview in a pane on your IDE. If you want to see the preview in a full-sized tab, you can click on the icon in the upper right-hand corner of the preview pane, as shown below. Your preview will remain in a pane alongside your code until you close that pane.
+>
+> ![](.images/open_in_browser.png ":class=image-border")
 >
 > If you want to open the browser view in a new window, right click on the tab (control click on a Mac) and select "Move tab to new window." Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
 >
@@ -55,4 +53,4 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 > [!TIP]
 > Did you know you can perform common tasks such as copy and paste?
 >
-> When working without a mouse, keyboard shortcuts will be faster than a trackpad. Open the [handy dandy keyboard shortcut reference in a new tab](/react/keyboard-shortcuts/ ":target=_blank") so you can refer to it easily!
+> When working without a mouse, keyboard shortcuts will be faster than a trackpad. Open the [handy dandy keyboard shortcut reference in a new tab](/keyboard-shortcuts/ ":target=_blank") so you can refer to it easily!
