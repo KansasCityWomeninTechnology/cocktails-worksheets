@@ -28,14 +28,14 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/open_in_codespace.png ":class=image-border")
 
-4. Now you are ready to write some code! The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
+4. The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
 > [!TIP]
 > View the worksheet and your IDE in split screen.
 >
 > By default, Codespaces opens a preview in a pane on your IDE. If you want to see the preview in a full-sized tab, you can click on the icon in the upper right-hand corner of the preview pane, as shown below. Your preview will remain in a pane alongside your code until you close that pane.
 >
-> ![](/.images/open_in_browser.png ":class=image-border")
+> ![](./images/open_in_browser.png ":class=image-border")
 >
 > If you want to open the browser view in a new window, right click on the tab (control click on a Mac) and select "Move tab to new window." Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
 >
