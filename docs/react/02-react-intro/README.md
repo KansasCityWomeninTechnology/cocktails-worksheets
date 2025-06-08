@@ -1,114 +1,248 @@
 # Introduction to React
 
-React is a JavaScript library created by Meta. (more stuff)
+React is a JavaScript library created by Meta to help developers build user interfaces, especially for websites and web apps.
+
+But let’s break that down:
+
+You know when you visit a website like Instagram or Airbnb, and everything feels smooth — buttons respond instantly, pages load without flashing or restarting, and you can interact with parts of the page (like liking a photo) without reloading the whole thing?
+ 
+That’s often thanks to something like React working behind the scenes.
+
+React lets us build small, reusable pieces of UI (called components) that make up a whole page — kind of like building with LEGO blocks.
+
+In this session, we'll build a page that will serve up a different fact about you every time a user presses a button. We'll do this by building components that can be reused on our web page.
 
 > [!WARNING]
 > Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
 
-# stuff
+# Review the starter code
 
-## stuff
+## Overall file structure
 
-1. stuff
+If you take a look at your explorer tree on the left, you'll see a number of files and folders.
 
-**codeblock sample**
-   {% codeblock copy %}index.html{% codeblock %}
+All of our React files will reside in the _src_ folder. We will be working exclusively with files in this folder, today.
 
-   ```html
-   <!DOCTYPE html>
-   <html lang="en">
-     <head>
-       <title>Intro to JS</title>
-     </head>
+## App.css
 
-     <body>
-       <h1>Introducing JavaScript</h1>
+Let's take a look at the _App.css_ file, first. You should see the code below in that file.
 
-       <h2>Variables, Booleans, Operators, Comparison</h2>
-       <h3>
-         Is the first variable times two greater than the second variable?
-       </h3>
-       <div id="math"></div>
+This CSS code is going to be used to style the page and all the React components. We've set this up now to get it out of the way, since we're more interested in learning React than in reviewing CSS in this session. However, when you get home, you can take your time to go through the CSS at your own pace.
 
-       <h2>Data Types</h2>
-       <h3>What type is the first variable?</h3>
-       <div id="type"></div>
-       <script src="./js/script.js" type="text/JavaScript"></script>
-     </body>
-   </html>
+   {% codeblock copy %}App.css{% codeblock %}
+
+   ```css
+   .App {
+      text-align: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #333;
+    }
+
+    .app-header {
+      background-color: #fff;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .app-header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2.5rem;
+      color: #4a5568;
+      font-weight: bold;
+    }
+
+    .app-header p {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #718096;
+    }
+
+    .fun-fact-generator {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      padding: 3rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .fun-fact-generator h2 {
+      color: #4a5568;
+      font-size: 2.2rem;
+      margin-bottom: 2rem;
+      font-weight: bold;
+    }
+
+    .add-fact-section {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: #f8fafc;
+      border-radius: 15px;
+      border: 2px solid #e2e8f0;
+    }
+
+    .add-fact-section h3 {
+      color: #4a5568;
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+    }
+
+    .input-container {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .fact-input {
+      flex: 1;
+      min-width: 250px;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      border: 2px solid #e2e8f0;
+      border-radius: 25px;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    .fact-input:focus {
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    .add-button {
+      padding: 0.75rem 1.5rem;
+      background: linear-gradient(45deg, #48bb78, #38a169);
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .add-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(72, 187, 120, 0.3);
+    }
+
+    .fact-count {
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #718096;
+      font-style: italic;
+    }
+
+    .fact-display {
+      min-height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: #f7fafc;
+      border-radius: 15px;
+      border-left: 5px solid #667eea;
+    }
+
+    .fact-display h3 {
+      color: #667eea;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .fact-text {
+      font-size: 1.3rem;
+      line-height: 1.6;
+      color: #2d3748;
+      margin: 0;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .prompt-text {
+      font-size: 1.2rem;
+      color: #718096;
+      margin: 0;
+      font-style: italic;
+    }
+
+    .fact-button {
+      background: linear-gradient(45deg, #667eea, #764ba2);
+      color: white;
+      border: none;
+      padding: 2rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    }
+
+    .fact-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    }
+
+    .fact-button:active {
+      transform: translateY(0);
+    }
+
+    .fact-button:disabled {
+      background: #e2e8f0;
+      color: #a0aec0;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+
+    /* Stops hover animation if button is disabled */
+    .fact-button:disabled:hover {
+      transform: none;
+      box-shadow: none;
+    }
    ```
 
-> [!TIP]
-> Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
+## App.jsx, index.jsx, and index.html
 
-## stuff
+### _index.html_
 
-1. stuff
+In "normal" web pages, the home page for a website is usually named "index.html." We do have an "index.html" for this project, but if you take a look at what's inside that file, you will find some boilerplate code. At the bottom of the file, you will see a script reference that points to _/src/index.jsx_. We will not touch anything in _index.html_
 
-**codeblock sample**
-{% codeblock copy %}script.js{% codeblock %}
+### _index.jsx_
+
+_index.jsx_ contains some JavaScript that points to _App.jsx_ in the declaration of the _root_ variable. _App_ is also imported from _App.jsx_ at the top of the file.
+
+### _App.jsx_
+
+Inside the _App.jsx_ file, you will see the code below.
+
+{% codeblock copy %}App.jsx{% codeblock %}
 ```js
-    // Define two numeric variables
-    const <noun_1> = 5;
-    const <noun_2> = 25;
+    import React from 'react';
+    import './App.css';
 
-    // Set a new variable to determine if twice the first numeric variable is greater than the second numeric variable from above.
-    const <noun_3> = <noun_1> * 2 > <noun_2>;
+    function App() {
+      return (
+        <div className="App">
 
-    // Output the comparison.
-    document.getElementById("math").innerHTML = <noun_3>;
+        </div>
+      );
+    }
 
-    // Practice types and equality
-    document.getElementById("type").innerHTML = typeof <noun_1>;
+    export default App;
 ```
 
-## Go Live
-
-Now, find the "Go Live" at the bottom right corner of the IDE and click it. This will open a new browser tab where you will be able to see your web page.
-
-> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a "Port 5500" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
-
-Remember these are the noun or verb text surrounded by angle brackets: **&lt;noun_2>**. You can use choose any noun or verb you like for the variable name.
+We will add to the code in this file so that our page displays what we desire.
 
 > [!TIP]
 > Feel free to ask mentors for help! We are here to help you!
 
-**info on how to find all instances of a term in Codespaces**
-> [!TIP]
-> If you highlight, then right-click on "&lt;noun_1>" or any other text surrounded by angle brackets (be sure to include the angle brackets!), you will get a menu that will include an option to "Change All Occurrences." This is a good way to make sure you don't miss an occurrence of the thing you want to change.
-
-> ![](images/change_all_occurrences.png ":class=image-border")
-
-> If this doesn't work for you, and instead you see a drop-down, click the drop-down and select "Replace." This should allow you to change all instances at once.
-
-> [!WARNING]
-> Make sure to replace all instances of a variable with the same noun!
->
-> Make sure to remove the angle brackets <> around the text so your code will work!
-
-Check what you have!
-
-**REPLACE THIS IMAGE**
-![](images/checkpoint.png ":class=image-border")
-
-# Checkpoint
-
-Compare your WORK against the answer key for your work. It might look a little different depending on the variable names you chose.
-
-**code to check against**
-> [!CODECHECK]
->
-> ```js
-> const numOne = 5;
-> const numTwo = 25;
->
-> const numThree = numOne * 2 > numTwo;
->
-> document.getElementById("math").innerHTML = numThree;
->
-> document.getElementById("type").innerHTML = typeof numOne;
-> ```
-
-# References and helpful links
 
 
