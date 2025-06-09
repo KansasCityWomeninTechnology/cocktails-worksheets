@@ -22,6 +22,7 @@ export default WelcomeHeader;
 At the beginning of your _App.jsx_ file, import WelcomeHeader from WelcomeHeader.jsx.
 
 > [!HINT]
+> 
 > {% codeblock copy %}WelcomeHeader.jsx{% codeblock %}
 > 
 > ```js
