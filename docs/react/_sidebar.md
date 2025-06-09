@@ -4,12 +4,10 @@
 
   - [Setup Instructions](/react/01-setup/)
   - [Intro to React](/react/02-react-intro/)
-  - [Welcome Header](/react/03-welcome-header/)
-  - [TBD2](/react/04-/)
-  - [TBD3](/react/05-)
-  <!-- - [Modules and variables](/javascript/4-modules-variables/) -->  
-  <!-- - [Data Types and Methods](/javascript/5-data-types-methods/) -->
-  <!-- - [Promises](/javascript/6-promises/) -->
+  - [Welcome Header Component](/react/03-welcome-header/)
+  - [Fact Generator Component](/react/04-fact-generator/)
+  - [Fact Display Component](/react/05-fact-display)
+  - [TBD](/react/06-)
 
   <!-- NOTE:
   Any commented-out lines need to be MOVED to the end of the list above, or things won't work right! -->
