@@ -4,7 +4,7 @@
 
   - [Setup Instructions](/react/01-setup/)
   - [Intro to React](/react/02-react-intro/)
-  - [TBD1](/react/03-/)
+  - [Welcome Header](/react/03-welcome-header/)
   - [TBD2](/react/04-/)
   - [TBD3](/react/05-)
   <!-- - [Modules and variables](/javascript/4-modules-variables/) -->  
@@ -18,5 +18,5 @@
 
 ---
 
-- [Keyboard shortcuts](/react/keyboard-shortcuts)
+- [Keyboard shortcuts](/keyboard-shortcuts)
 - [Source Control](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/)
