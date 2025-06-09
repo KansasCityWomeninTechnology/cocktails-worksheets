@@ -1,4 +1,4 @@
-# Welcome Header
+# Welcome Header Component
 
 Now you are ready to write some code! Let's get started!
 
@@ -6,24 +6,26 @@ In the _src_ folder in your explorer tree, add a file named _WelcomeHeader.jsx_,
 
 {% codeblock copy %}WelcomeHeader.jsx{% codeblock %}
 ```js
-    import React from 'react';
+import React from 'react';
 
-    const WelcomeHeader = () => {
+const WelcomeHeader = () => {
+    return (
+        <>
+        
+        </>
+    );
+};
 
-        return (
-            <>
-            
-            </>
-        );
-    };
-
-    export default WelcomeHeader;
+export default WelcomeHeader;
 ```
 
 At the beginning of your _App.jsx_ file, import WelcomeHeader from WelcomeHeader.jsx.
 
 > [!HINT]
-> `import WelcomeHeader from './WelcomeHeader';`
+> {% codeblock copy %}{% codeblock %}
+> ```js
+>      import WelcomeHeader from './WelcomeHeader';`
+> ```
 
 You'll also need to add the WelcomeHeader component to this file. Where might you put this and how do you add the component?
 
@@ -35,10 +37,10 @@ Remember that we will create content using HTML tags. Since this is the welcome 
 
 {% codeblock copy %}WelcomeHeader.jsx{% codeblock %}
 ```html
-    <header className="app-header">
-      <h1>My Fun Facts</h1>
-      <p>Random Personal Facts Generator</p>
-    </header>
+<header className="app-header">
+    <h1>My Fun Facts</h1>
+    <p>Random Personal Facts Generator</p>
+</header>
 ```
 
 Let's go to our web page preview and inspect it. Go to the "Elements" tab and take a look at `<div class="App>`. Do you see `<WelcomeHeader />` there, or do you see the content that you added to _WelcomeHeader.jsx_ there? Can you figure out why `<WelcomeHeader />` doesn't appear, and only the content we added to _WelcomeHeader.jsx_ shows up?
