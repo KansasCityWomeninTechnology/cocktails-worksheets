@@ -41,6 +41,7 @@ First, let's add an array of `personalFacts` to our _FactGenerator_. This array 
 > [!HINT]
 > It should look something like this:
 >
+> ```
 > / list of facts about me
 > const personalFacts = [
   "I have a unique talent or hobby that surprises people",
@@ -49,6 +50,7 @@ First, let's add an array of `personalFacts` to our _FactGenerator_. This array 
   "I once had an embarrassing moment that became a funny story",
   "I have a hidden skill that most people don't know about"
 > ];
+> ```
 
 Now we need to add a `useState` to our FactGenerator component. This will allow us to WHAT, NESSA?
 
