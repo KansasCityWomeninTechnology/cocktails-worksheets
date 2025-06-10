@@ -81,7 +81,7 @@ Now let's add an `onClick` to the button with this code.
 
 {% codeblock copy %}FactGenerator.jsx{% codeblock %}
 ```js
-    onClick={generateRandomFact}
+onClick={generateRandomFact}
     disabled={personalFacts.length === 0}
 ```
 
