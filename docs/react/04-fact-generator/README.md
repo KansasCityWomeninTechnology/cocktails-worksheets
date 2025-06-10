@@ -8,8 +8,6 @@ Add this to your _FactGenerator.jsx_.
 
 {% codeblock copy %}FactGenerator.jsx{% codeblock %}
 ```js
-import React, { useState } from 'react';
-
 const FactGenerator = () => {
 
     return (
@@ -52,5 +50,56 @@ First, let's add an array of `personalFacts` to our _FactGenerator_. This array 
 > ];
 > ```
 
-Now we need to add a `useState` to our FactGenerator component. This will allow us to WHAT, NESSA?
+Now we need to add a `useState` to our _FactGenerator_ component. This will allow us to keep track of which fact is in use at any given time. _useState_ reserves a little bit of memory for our app.
+
+Add this to your _FactGenerator.jsx_ file, at the top.
+
+{% codeblock copy %}FactGenerator.jsx{% codeblock %}
+```js
+import React, { useState } from 'react';
+```
+
+Now, we need to add a `useState` to the _FactGenerator_ function.
+
+Add the following to your _FactGenerator_ function inside of _FactGenerator.jsx_, just above the _return_ statement.
+
+{% codeblock copy %}FactGenerator.jsx{% codeblock %}
+```js
+const [currentFact, setCurrentFact] = useState('');
+
+
+const generateRandomFact = () => {
+    if (personalFacts.length > 0) {
+        const randomIndex = Math.floor(Math.random() * personalFacts.length);
+        setCurrentFact(personalFacts[randomIndex]);
+    }
+};
+```
+
+Don't forget to indent your code to the same level as teh _return_ statement to keep it readable!
+
+Now let's add an `onClick` to the button with this code.
+
+{% codeblock copy %}FactGenerator.jsx{% codeblock %}
+```js
+onClick={generateRandomFact}
+disabled={personalFacts.length === 0}
+```
+
+This should be indented at the same level as `className`.
+
+Our button still doesn't do anything. Go ahead and click it to see what happens.
+
+We can fix this by adding a `useEffect` to the _FactGenerator_ function to log the changes to the console. `useEffect` is called when the component is first rendered and then also any time `currentFact` changes (when the button is clicked).
+
+Add this between the _useState_ and _generateRandomFact_ portions of _FactGenerator_ and then import `useEffect` at the top of the file.
+
+{% codeblock copy %}FactGenerator.jsx{% codeblock %}
+```js
+useEffect(() => {
+    console.log('My fact:', currentFact);
+}, [currentFact]);
+```
+
+Now go click the button and look at the console to see if anything happens. You should see one of your random facts logged each time you click the button.
 
