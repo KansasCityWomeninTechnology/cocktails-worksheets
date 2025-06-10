@@ -65,15 +65,14 @@ Add the following to your _FactGenerator_ function inside of _FactGenerator.jsx_
 
 {% codeblock copy %}FactGenerator.jsx{% codeblock %}
 ```js
-const [currentFact, setCurrentFact] = useState('');
+    const [currentFact, setCurrentFact] = useState('');
 
-
-const generateRandomFact = () => {
-    if (personalFacts.length > 0) {
-        const randomIndex = Math.floor(Math.random() * personalFacts.length);
-        setCurrentFact(personalFacts[randomIndex]);
-    }
-};
+    const generateRandomFact = () => {
+        if (personalFacts.length > 0) {
+            const randomIndex = Math.floor(Math.random() * personalFacts.length);
+            setCurrentFact(personalFacts[randomIndex]);
+        }
+    };
 ```
 
 Don't forget to indent your code to the same level as teh _return_ statement to keep it readable!
@@ -82,8 +81,8 @@ Now let's add an `onClick` to the button with this code.
 
 {% codeblock copy %}FactGenerator.jsx{% codeblock %}
 ```js
-onClick={generateRandomFact}
-disabled={personalFacts.length === 0}
+    onClick={generateRandomFact}
+    disabled={personalFacts.length === 0}
 ```
 
 This should be indented at the same level as `className`.
@@ -96,10 +95,9 @@ Add this between the _useState_ and _generateRandomFact_ portions of _FactGenera
 
 {% codeblock copy %}FactGenerator.jsx{% codeblock %}
 ```js
-useEffect(() => {
-    console.log('My fact:', currentFact);
-}, [currentFact]);
+    useEffect(() => {
+        console.log('My fact:', currentFact);
+    }, [currentFact]);
 ```
 
 Now go click the button and look at the console to see if anything happens. You should see one of your random facts logged each time you click the button.
-

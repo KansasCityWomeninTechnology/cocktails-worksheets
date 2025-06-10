@@ -6,7 +6,7 @@
   - [Intro to React](/react/02-react-intro/)
   - [Welcome Header Component](/react/03-welcome-header/)
   - [Fact Generator Component](/react/04-fact-generator/)
-  - [Fact Display Component](/react/05-fact-display)
+  - [Fact Display Component](/react/05-fact-display/)
   - [TBD](/react/06-)
 
   <!-- NOTE:
