@@ -82,7 +82,7 @@ Now let's add an `onClick` to the button with this code.
 {% codeblock copy %}FactGenerator.jsx{% codeblock %}
 ```js
 onClick={generateRandomFact}
-    disabled={personalFacts.length === 0}
+disabled={personalFacts.length === 0}
 ```
 
 This should be indented at the same level as `className`.
@@ -100,4 +100,4 @@ Add this between the _useState_ and _generateRandomFact_ portions of _FactGenera
     }, [currentFact]);
 ```
 
-Now go click the button and look at the console to see if anything happens. You should see one of your random facts logged each time you click the button.
+Now go click the button and look at the console to see if anything happens. You should see one of your random facts logged each time you click the button. Note that since this is random, and there are only 5 facts to choose from, it _may_ appear as though nothing is changing when you click the button. This is expected behavior! Just keep clicking!
