@@ -7,7 +7,6 @@
   - [Welcome Header Component](/react/03-welcome-header/)
   - [Fact Generator Component](/react/04-fact-generator/)
   - [Fact Display Component](/react/05-fact-display/)
-  - [TBD](/react/06-)
 
   <!-- NOTE:
   Any commented-out lines need to be MOVED to the end of the list above, or things won't work right! -->

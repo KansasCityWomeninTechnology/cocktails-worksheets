@@ -17,7 +17,7 @@ All of our React files will reside in the _src_ folder. We will be working exclu
 
 Let's take a look at the _App.css_ file, first. You should see the code below in that file.
 
-This CSS code is going to be used to style the page and all the React components. We've set this up now to get it out of the way, since we're more interested in learning React than in reviewing CSS in this session. However, when you get home, you can take your time to go through the CSS at your own pace.
+This CSS code is going to be used to style the page and all the React components. We've set this up now to get it out of the way, since we're more interested in learning React than in reviewing CSS in this session. However, when you get home, you can take your time to go through the CSS at your own pace. Here's a [link to the CSS worksheet](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/css/).
 
    {% codeblock copy %}App.css{% codeblock %}
 
@@ -203,7 +203,20 @@ This CSS code is going to be used to style the page and all the React components
 
 ### _index.html_
 
-In "normal" web pages, the home page for a website is usually named "index.html." We do have an "index.html" for this project, but if you take a look at what's inside that file, you will find some boilerplate code. At the bottom of the file, you will see a script reference that points to _/src/index.jsx_. We will not touch anything in _index.html_
+In plain HTML (or HTML and CSS) web pages, the home page for a website is usually named "index.html." We do have an "index.html" for this project and this is where the browser starts looking, but if you take a look at what's inside that file, you will find some boilerplate code. At the bottom of the file, you will see a script reference that points to _/src/index.jsx_. This tells the browser to go look in that file for more instructions to follow.
+
+In turn, the _index.jsx_ file invokes React and renders the app. You can see this in the code snippet below.
+
+{% codeblock copy %}index.jsx{% codeblock %}
+
+```js
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
+We will not touch anything in _index.html_ or _index.jsx_.
 
 ### _index.jsx_
 
