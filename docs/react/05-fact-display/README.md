@@ -56,3 +56,15 @@ Now go test your button out! You should be able to see a random fact displaying 
 
 Remember that since there are only 5 facts and this is a random pick, the same fact may be chosen several times in a row, so it may look like there's nothing happening.
 
+Now, we might want to let people know how many facts there are to choose from. We can add another bit of text to the page, but in which file might we want to place that?
+
+We want to put it in _FactGenerator.jsx_. Why do we want to put it there, and where, exactly, should it go in that file?
+
+![HINT]
+> If you take a look at _App.jsx_ again, you'll see that the _App_ function calls `<WelcomeHeader />` and `<FactGenerator />`. All of our content that is not the welcome header is in _FactGenerator_.
+>
+> You can put the statement about how many facts there are anywhere you want, but it makes a lot of sense to put it below the button. The currently-selected fact will go above the button. Decide where you think it looks best and put it there.
+
+## Check your code
+
+How did you do? If you want to check your work against our answer key, you can look [here](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-React-answer-key).
