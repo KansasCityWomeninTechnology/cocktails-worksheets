@@ -36,7 +36,7 @@ We're going to want to somehow pull this into our _App.jsx_ file. Can you rememb
 
 Woo hoo! We now have a button! However, the clicking the button doesn't do anything, yet. We'll fix this later.
 
-First, let's add an array of `personalFacts` (facts about _YOU_ to our _FactGenerator_. This array will need to go above the _FactGenerator_ arrow function. Remember that to declare an array, we need to use square brackets, and each array element needs to be separated by a comma. Your facts will be strings, so you'll need to enclose each fact with either double (") or single (') quotes, whichever you like. It doesn't matter which you choose, but be sure to _be consistent_!
+First, let's add an array of `personalFacts` (facts about _YOU_) to our _FactGenerator_. This array will need to go above the _FactGenerator_ arrow function. Remember that to declare an array, we need to use square brackets, and each array element needs to be separated by a comma. Your facts will be strings, so you'll need to enclose each fact with either double (") or single (') quotes, whichever you like. It doesn't matter which you choose, but be sure to _be consistent_!
 
 > [!HINT]
 > It should look something like this (the following list is only an example):

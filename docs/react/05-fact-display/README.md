@@ -33,6 +33,7 @@ Since this is React, we use props to pass data to components. The way we do that
 
 > [!HINT]
 > `FactDisplay`'s first line should look like this after you've added `{ currentFact }`:
+> 
 > `const FactDisplay = ({ currentFact }) => {`
 
 ## Ternaries
@@ -41,7 +42,7 @@ Now we need to create a way to decide what to display in that component.
 
 When the page first loads, we want people to be prompted to click the button, but after that, we want a random fact to be displayed.
 
-One way to do that is to write a conditional. For example, we could be thinking, "`if` the page has been loaded for the first time, we want "Press the button below to view a fun fact about me!" to be displayed, `else` we want a random fact to be displayed.
+One way to do that is to write a conditional. For example, we could be thinking, "`if` the page has been loaded for the first time, we want 'Press the button below to view a fun fact about me!' to be displayed, `else` we want a random fact to be displayed.
 
 Sometimes, it can be cleaner to express this kind of logic as a _ternary_. A ternary is a short-hand way of writing an `if...else` statement. You set a condition followed by a question mark (?), then add what you want the code to execute if the condition is truthy. You follow this with a colon (:), then write the expression that you want executed if the condition is falsy.
 
