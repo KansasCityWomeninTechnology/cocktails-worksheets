@@ -65,3 +65,6 @@ We want to put it in _FactGenerator.jsx_. Why do we want to put it there, and wh
 >
 > You can put the statement about how many facts there are anywhere you want, but it makes a lot of sense to put it below the button. The currently-selected fact will go above the button. Decide where you think it looks best and put it there.
 
+## Check your code
+
+How did you do? If you want to check your work against our answer key, you can look [here](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-React-answer-key).
