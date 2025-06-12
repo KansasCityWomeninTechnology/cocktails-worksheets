@@ -8,6 +8,8 @@ Add this to your _FactGenerator.jsx_.
 
 {% codeblock copy %}FactGenerator.jsx{% codeblock %}
 ```js
+import React from 'react';
+
 const FactGenerator = () => {
 
     return (
@@ -30,17 +32,17 @@ export default FactGenerator;
 We're going to want to somehow pull this into our _App.jsx_ file. Can you remember how we did that for _WelcomeHeader_?
 
 > [!HINT]
-> You'll want to `import FactGenerator from './FactGenerator';` then add the `<FactGenerator />` component to the return statement for the _App()_ function.
+> You'll want to `import FactGenerator from './FactGenerator';` then add the `<FactGenerator />` component to the return statement for the _App()_ function. Put it below `<WelcomeHeader />`.
 
 Woo hoo! We now have a button! However, the clicking the button doesn't do anything, yet. We'll fix this later.
 
-First, let's add an array of `personalFacts` to our _FactGenerator_. This array will need to go above the _FactGenerator_ arrow function. Remember that to declare an array, we need to use square brackets, and each array element needs to be separated by a comma. Since your facts will be sentences, and thus strings, you'll need to enclose each fact with either double or single quotes. It doesn't matter which you choose, but be sure to _be consistent_!
+First, let's add an array of `personalFacts` (facts about _YOU_ to our _FactGenerator_. This array will need to go above the _FactGenerator_ arrow function. Remember that to declare an array, we need to use square brackets, and each array element needs to be separated by a comma. Your facts will be strings, so you'll need to enclose each fact with either double (") or single (') quotes, whichever you like. It doesn't matter which you choose, but be sure to _be consistent_!
 
 > [!HINT]
-> It should look something like this:
+> It should look something like this (the following list is only an example):
 >
 > ```
-> / list of facts about me
+> // list of facts about me
 > const personalFacts = [
   "I have a unique talent or hobby that surprises people",
   "There's a place I've visited that changed my perspective on life",
@@ -50,13 +52,13 @@ First, let's add an array of `personalFacts` to our _FactGenerator_. This array 
 > ];
 > ```
 
-Now we need to add a `useState` to our _FactGenerator_ component. This will allow us to keep track of which fact is in use at any given time. _useState_ reserves a little bit of memory for our app.
+Now we need to add a `useState` to our _FactGenerator_ component. This will allow us to keep track of which fact is being displayed at any given time. _useState_ reserves a little bit of memory for our app.
 
 Add this to your _FactGenerator.jsx_ file, at the top.
 
 {% codeblock copy %}FactGenerator.jsx{% codeblock %}
 ```js
-import React, { useState } from 'react';
+import { useState } from 'react';
 ```
 
 Now, we need to add a `useState` to the _FactGenerator_ function.
@@ -75,7 +77,7 @@ Add the following to your _FactGenerator_ function inside of _FactGenerator.jsx_
     };
 ```
 
-Don't forget to indent your code to the same level as teh _return_ statement to keep it readable!
+Don't forget to indent your code to the same level as the _return_ statement to keep it readable!
 
 Now let's add an `onClick` to the button with this code.
 
@@ -91,7 +93,7 @@ Our button still doesn't do anything. Go ahead and click it to see what happens.
 
 We can fix this by adding a `useEffect` to the _FactGenerator_ function to log the changes to the console. `useEffect` is called when the component is first rendered and then also any time `currentFact` changes (when the button is clicked).
 
-Add this between the _useState_ and _generateRandomFact_ portions of _FactGenerator_ and then import `useEffect` at the top of the file.
+Add this between the _useState_ and _generateRandomFact_ portions of _FactGenerator_ and then import `useEffect` at the top of the file by typing `import { useEffect } from 'react';`.
 
 {% codeblock copy %}FactGenerator.jsx{% codeblock %}
 ```js
@@ -100,4 +102,11 @@ Add this between the _useState_ and _generateRandomFact_ portions of _FactGenera
     }, [currentFact]);
 ```
 
-Now go click the button and look at the console to see if anything happens. You should see one of your random facts logged each time you click the button. Note that since this is random, and there are only 5 facts to choose from, it _may_ appear as though nothing is changing when you click the button. This is expected behavior! Just keep clicking!
+Now go click the button and look at the console (right-click on the page and select _Inspect_, then click on the _Console_ tab) to see if anything happens. You should see one of your random facts logged each time you click the button. Note that since this is random, and there are only 5 facts to choose from, it _may_ appear as though nothing is changing when you click the button.
+
+Because we are not forcing the _generateRandomFact_ function to NOT generate the same fact twice in a row, it may generate the same fact more than once in succession. If this happens, the _currectFact_ does not change and therefore, the _useEffect_ does not run.
+
+Also, you’ll see the _useEffect_ log twice on initial render because React Strict Mode double-invokes effects in development to help catch bugs. It’s intentional and you don't need to worry about it!
+
+This is expected behavior! Just keep clicking!
+

@@ -205,6 +205,8 @@ This CSS code is going to be used to style the page and all the React components
 
 In plain HTML (or HTML and CSS) web pages, the home page for a website is usually named "index.html." We do have an "index.html" for this project and this is where the browser starts looking, but if you take a look at what's inside that file, you will find some boilerplate code. At the bottom of the file, you will see a script reference that points to _/src/index.jsx_. This tells the browser to go look in that file for more instructions to follow.
 
+### _index.jsx_
+
 In turn, the _index.jsx_ file invokes React and renders the app. You can see this in the code snippet below.
 
 {% codeblock copy %}index.jsx{% codeblock %}
@@ -217,8 +219,6 @@ root.render(
 );
 ```
 We will not touch anything in _index.html_ or _index.jsx_.
-
-### _index.jsx_
 
 _index.jsx_ contains some JavaScript that points to _App.jsx_ in the declaration of the _root_ variable. _App_ is also imported from _App.jsx_ at the top of the file.
 

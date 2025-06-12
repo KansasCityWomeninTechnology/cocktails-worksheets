@@ -2,10 +2,10 @@
 
 We can see which fact has been randomly selected in the console, but that fact doesn't display on our web page when we click the button. We need to fix this!
 
-Add `<FactDisplay /> just above the button in the return statement for _FactGenerator_. Don't forget to import _FactDisplay_ at the top of the file!
+Add `<FactDisplay />` just above the button in the return statement for _FactGenerator_. Don't forget to import _FactDisplay_ at the top of the file!
 
-[!HINT]
-If you start typing `import FactDisplay`, you will be presented with a list of potential imports. The IDE will help you fill out the rest of the line if you choose what you want.
+> [!HINT]
+> If you start typing `import FactDisplay`, you will be presented with a list of potential imports. The IDE will help you fill out the rest of the line if you choose what you want.
 
 Take a look at the _FactDisplay.jsx_ file. What do you expect to see when you look at your web page, now? Now go look at your page.
 
@@ -27,17 +27,25 @@ We need to add something, like a property (or as we call it in React, a prop) to
 
 Now that we've added a prop to _FactDisplay_ in _FactGenerator.jsx_, we need to pass that prop to _FactDisplay_ inside of _FactDisplay.jsx_.
 
-If you take a look at what already exists in _FactDisplay.jsx_, you will see that we're declaring a constant called `FactDisplay` that is an arrow function. However, we don't have any variables we're passing to that function, at the moment (note the empty parentheses). We need to add `currentFact` to that declaration so that React knows what to do with the function.
+If you take a look at what already exists in _FactDisplay.jsx_, you will see that `FactDisplay` is defined as a functional component using an arrow function assigned to a const. You will notice that the parentheses are currently empty. This means that no data is currently passed to the component.
+
+Since this is React, we use props to pass data to components. The way we do that is to add our prop inside the parentheses. We need to update `FactDisplay`'s definition to accept props so that it can access data we pass to it. Add `{ currentFact }` to that declaration so that React knows what to do with the function.
+
+> [!HINT]
+> `FactDisplay`'s first line should look like this after you've added `{ currentFact }`:
+> `const FactDisplay = ({ currentFact }) => {`
 
 ## Ternaries
 
-Since this is React, we're passing a prop to the function. The way we do that is to add `{currentFact}` inside the parentheses. Then we need to create a way to decide what to display in that component. When the page first loads, we want people to be prompted to click the button, but after that, we want a random fact to be displayed.
+Now we need to create a way to decide what to display in that component.
+
+When the page first loads, we want people to be prompted to click the button, but after that, we want a random fact to be displayed.
 
 One way to do that is to write a conditional. For example, we could be thinking, "`if` the page has been loaded for the first time, we want "Press the button below to view a fun fact about me!" to be displayed, `else` we want a random fact to be displayed.
 
 Sometimes, it can be cleaner to express this kind of logic as a _ternary_. A ternary is a short-hand way of writing an `if...else` statement. You set a condition followed by a question mark (?), then add what you want the code to execute if the condition is truthy. You follow this with a colon (:), then write the expression that you want executed if the condition is falsy.
 
-In our case, inside the return statement for `FactDisplay`,we'll want to end up with the following (note that some of this already exist in the return statement, so BE CAREFUL):
+In our case, inside the return statement for `FactDisplay`,we'll want to end up with the following (note that some of this already exist in the return statement, so BE CAREFUL when you copy and paste!):
 
 {% codeblock copy %}FactDisplay.jsx{% codeblock %}
 ```js
