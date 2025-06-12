@@ -17,7 +17,7 @@ To get our facts to display, we need to do a few things.
 
 We need to add something, like a property (or as we call it in React, a prop) to the <FactDisplay /> component we just added to _FactGenerator.jsx_ so that component will display our facts. Looking at the code in the rest of _FactGenerator.jsx_, what makes sense to you to use as a prop?
 
-[!HINT]
+> [!HINT]
 > Since we have 5 facts, but we only want to display one at a time, we'll use the variable `currentFact` to tell `<FactDisplay />` what to render. It should look something like this:
 >
 > {% codeblock copy %}FactGenerator.jsx{% codeblock %}
@@ -60,7 +60,7 @@ Now, we might want to let people know how many facts there are to choose from. W
 
 We want to put it in _FactGenerator.jsx_. Why do we want to put it there, and where, exactly, should it go in that file?
 
-[!HINT]
+> [!HINT]
 > If you take a look at _App.jsx_ again, you'll see that the _App_ function calls `<WelcomeHeader />` and `<FactGenerator />`. All of our content that is not the welcome header is in _FactGenerator_.
 >
 > You can put the statement about how many facts there are anywhere you want, but it makes a lot of sense to put it below the button. The currently-selected fact will go above the button. Decide where you think it looks best and put it there.
