@@ -19,7 +19,7 @@ _Coding & Cocktails is an introductory programming series for women presented by
 
 <!-- [The Shaker | Let's Build a Portfolio Website](/portfolios/) -->
 
-<!-- [Top Shelf | Intro to React](/react/) -->
+[Top Shelf | Intro to React](/react/)
 
 <!-- * [Angular Series SPA](/spa/) -->
 
