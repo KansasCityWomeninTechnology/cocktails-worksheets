@@ -14,7 +14,7 @@ Follow the instructions on this page to prepare your workspace.
 
 # Create Intro to HTML Codespace :id=create-codespace
 
-We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud development environment which means you have an access to your code even if you are not on your own laptop.
+We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud development environment which means you have access to your code even if you are not on your own laptop.
 
 1. Navigate to [**GitHub**](https://github.com/login) and log in with your GitHub account.
 
@@ -28,7 +28,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/open_in_codespace.png ":class=image-border")
 
-4. Now you are ready to write some code! The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
+4. Now you are ready to write some code! The Codespaces page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
     You may see a notification in the lower right-hand corner of the screen. You can dismiss this by clicking the "x".
 
