@@ -20,15 +20,15 @@ Let's start adding some visual elements to our web page by adding headers.
 
 4.  In the Codespaces IDE, after the closing `</h1>` tag, press `Enter` to start a new line and add an `<h2>` tag for a subtitle.
 
-5.  Add the text "Cocktails with a side of Code". The body section should look something like this
+5.  Add the text "Cocktails with a side of Code". The body section should look something like this (note that if you copy and paste this, you'll want to make sure your `<body>` and `<body/>` tags are indented at the same level as the `<head>` and `<head/>` tags and that everything inside the body tags is indented, as well):
 
     {% codeblock copy %}index.html{% codeblock %}
 
     ```html
-      <body>
-         <h1>Coding's Cocktail Lounge</h1>
-         <h2>Cocktails with a side of Code</h2>
-      </body>
+   <body>
+      <h1>Coding's Cocktail Lounge</h1>
+      <h2>Cocktails with a side of Code</h2>
+   </body>
     ```
 
     > [!INFO]
