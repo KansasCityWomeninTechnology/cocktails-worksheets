@@ -25,10 +25,10 @@ Let's start adding some visual elements to our web page by adding headers.
     {% codeblock copy %}index.html{% codeblock %}
 
     ```html
-    <body>
-      <h1>Coding's Cocktail Lounge</h1>
-      <h2>Cocktails with a side of Code</h2>
-    </body>
+      <body>
+         <h1>Coding's Cocktail Lounge</h1>
+         <h2>Cocktails with a side of Code</h2>
+      </body>
     ```
 
     > [!INFO]
