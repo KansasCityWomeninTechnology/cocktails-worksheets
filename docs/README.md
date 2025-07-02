@@ -11,7 +11,7 @@ _Coding & Cocktails is an introductory programming series for women presented by
 
 <!-- [The Glass: Front-End Architecture & HTML](/html/) -->
 
-<!-- [HTML Side Quest](/html_side_quest/) -->
+[HTML Side Quest](/html_side_quest/)
 
 <!-- [The Garnish | Introduction to CSS](/css/) -->
 
@@ -19,7 +19,7 @@ _Coding & Cocktails is an introductory programming series for women presented by
 
 <!-- [The Shaker | Let's Build a Portfolio Website](/portfolios/) -->
 
-[Top Shelf | Intro to React](/react/)
+<!-- [Top Shelf | Intro to React](/react/) -->
 
 <!-- * [Angular Series SPA](/spa/) -->
 

@@ -16,6 +16,8 @@
 ---
 
 <!-- - [Answer Key](/html/answer-key.md) -->
+- [Keyboard shortcuts](/keyboard-shortcuts)
+- [Source Control](/source_control/)
 - [HTML Cheat Sheet](/html/references/html-cheat-sheet.md)
 - [References & Shortcuts](/html/references/)
 - [Glossary](https://github.com/KansasCityWomeninTechnology/LearningResources/blob/master/glossary.md)
