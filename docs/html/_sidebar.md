@@ -16,9 +16,9 @@
 ---
 
 <!-- - [Answer Key](/html/answer-key.md) -->
-- [Keyboard Shortcuts](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/keyboard-shortcuts)
-- [Source Control](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/)
+- [Keyboard Shortcuts](#/keyboard-shortcuts/)
+- [Source Control](#/source_control/)
 - [HTML Cheat Sheet](/html/references/html-cheat-sheet.md)
-- [References & Shortcuts](/html/references/)
+<!-- - [References & Shortcuts](/html/references/) -->
 - [Glossary](https://github.com/KansasCityWomeninTechnology/LearningResources/blob/master/glossary.md)
 - [Learning Resources](https://github.com/KansasCityWomeninTechnology/LearningResources/blob/master/LearningResources.md)
