@@ -15,5 +15,5 @@
 
 ---
 
-- [Keyboard Shortcuts](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/keyboard-shortcuts)
+- [Keyboard Shortcuts](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/keyboard-shortcuts/)
 - [Source Control](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/)
