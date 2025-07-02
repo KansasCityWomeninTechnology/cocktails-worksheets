@@ -1,4 +1,4 @@
-# Helpful Keyboard Shortcuts test
+# Helpful Keyboard Shortcuts
 
 | Command                                    | Mac Key Combination    | Windows Key Combination |
 | ------------------------------------------ | ---------------------- | ----------------------- |
