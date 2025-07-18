@@ -114,8 +114,6 @@ A navbar isn't helpful if it doesn't navigate to the different sections of the w
 
 You did it! You created a website!
 
-![](https://media.giphy.com/media/uaPeNbMJlGBPdZ5ube/giphy.gif)
-
 7. Now commit your project to your repo like you did before.
 
 # Checkpoint

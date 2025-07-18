@@ -2,7 +2,7 @@
 
 Now that we are done with the content, we need to check if our website is inclusive.
 
-# Add alt attribue
+# Add alt attribute
 
 You can have more than one attribute on a HTML element. Image tags have another attribute for alternate content, `alt`.
 
@@ -32,4 +32,4 @@ We will use lighthouse to check our accessibility score.
 
 Great job with your website! Share your success by posting a screenshot to Slack!
 
-![](https://media.giphy.com/media/LQFNwVlQ4B5FtStbip/giphy.gif)
+![](./images/pexels-cup-of-couple-8015244.jpg)
