@@ -16,7 +16,7 @@ Let's start adding some visual elements to our web page by adding headers.
 
 3.  The file should reload automatically. Take a look at your webpage. **We have content!**
 
-    ![](https://commons.wikimedia.org/wiki/File:Happy_Black_Woman_Using_A_Computer.svg , <a href="https://creativecommons.org/licenses/by-sa/4.0">Free Clip Art CC BY-SA 4.0</a>, via Wikimedia Commons)
+    ![](https://commons.wikimedia.org/wiki/File:Happy_Black_Woman_Using_A_Computer.svg), <a href="https://creativecommons.org/licenses/by-sa/4.0">Free Clip Art CC BY-SA 4.0</a>, via Wikimedia Commons
 
 4.  In the Codespaces IDE, after the closing `</h1>` tag, press `Enter` to start a new line and add an `<h2>` tag for a subtitle.
 
