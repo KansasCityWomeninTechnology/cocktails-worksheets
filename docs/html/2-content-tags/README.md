@@ -242,6 +242,7 @@ In addition to viewing elements, you can make and preview changes here before ma
 ### You're doing great!
 
 Take a moment to celebrate what you've learned today!
+
 ![](./images/pexels-gabby-k-5874597.jpg)
 
 # Checkpoint
