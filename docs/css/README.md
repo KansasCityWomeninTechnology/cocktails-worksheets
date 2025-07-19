@@ -8,10 +8,3 @@
 ### Overview
 
 During this session we’ll introduce **C**ascading **S**tyle **S**heets (**CSS**) and see how it can make your website go from ho-hum to wow. Or if you're creating a cocktail, CSS is the garnish that makes your cocktail extra special. We’ll start with the basics of CSS styling and learn about CSS layout systems that make adding style to your website easier!
-
-> [!TIP]
-> Don't know a term? [Click here to check out our glossary!](http://bit.ly/CnCgloss)
-
-> [!TIP]Want to be more efficient at working with your computer?
->
-> [Click here to see our list of Helpful Keyboard Shortcuts!](/css/references/)

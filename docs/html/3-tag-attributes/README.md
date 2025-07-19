@@ -112,7 +112,7 @@ A navbar isn't helpful if it doesn't navigate to the different sections of the w
 
 6. Take another look at your page in Chrome.
 
-You did it! You created a website!
+   You did it! You created a website!
 
 7. Now commit your project to your repo like you did before.
 
