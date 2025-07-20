@@ -20,4 +20,3 @@
 - [Source Control](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/)
 - [Glossary](https://github.com/KansasCityWomeninTechnology/LearningResources/blob/master/glossary.md)
 - [CSS Cheat Sheet](/css/references/css_cheat_sheet.md)
-- [References & Shortcuts](/css/references/)
