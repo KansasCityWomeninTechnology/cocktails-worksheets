@@ -11,7 +11,7 @@ At the end of this section, you will have a webpage that looks like this:
 ![](./images/result.png ":class=image-border")
 
 > [!WARNING]
-> Before starting the worksheet, please take a moment to review the [Setup instructions](../setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
+> Before starting the worksheet, please take a moment to review the [Setup instructions](../01-setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
 
 # Prepare the project for our code
 
