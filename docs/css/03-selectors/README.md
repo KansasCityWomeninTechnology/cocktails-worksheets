@@ -19,7 +19,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
    > [!TIP]
    > Feel free to choose different color if you'd like. You can always zoom in to have a closer look.
-   > Check out [keyboard shortcut](/css/references/) for `Zoom in` and `Zoom out` shortcuts.
+   > Check out [keyboard shortcuts](../../keyboard-shortcuts/) for `Zoom in` and `Zoom out` shortcuts.
 
 2. View your site in Chrome. Do you see the color of your header change?
 
@@ -78,7 +78,7 @@ Select a background color for the entire page and add it to the top of _styles.c
    > [!TIP]
    > You can use ctrl-F (cmd-F on a Mac) to search for and find "Drink menu" in the _index.html_.
    >
-   > Or you can click anywhere in the _index.html_ file then use [keyboard shortcut](/css/references/).
+   > Or you can click anywhere in the _index.html_ file then use [keyboard shortcut](../../keyboard-shortcuts/).
 
 3. Since "Drink menu" section is further down the file, we'll add the style at the bottom of the _styles.css_. "Drink menu" is in a `section` element, let's create a style for the `section` selector and set the `background-color`.
 

@@ -2,11 +2,11 @@
 
 - Worksheet
 
-  - [Setup Instructions](/css/setup/)
-  - [CSS Basics](/css/1-css-basics/)
-  - [Selectors](/css/2-selectors/)
-  - [Box Model & Layout](/css/3-box-model-layout/)
-  - [Text & Icons](/css/4-text-icons/)
+  - [Setup Instructions](/css/01-setup/)
+  - [CSS Basics](/css/02-css-basics/)
+  - [Selectors](/css/03-selectors/)
+  - [Box Model & Layout](/css/04-box-model-layout/)
+  - [Text & Icons](/css/05-text-icons/)
   - [Quiz](/css/quiz.md)
 
 <!-- - Bonus -->
