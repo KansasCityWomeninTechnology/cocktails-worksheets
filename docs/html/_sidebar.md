@@ -2,11 +2,11 @@
 
 - Worksheet
 
-  - [Setup Instructions](/html/setup/)
-  - [Intro to HTML](/html/1-intro/)
-  - [HTML Content Tags](/html/2-content-tags/)
-  - [HTML Tag Attributes](/html/3-tag-attributes/)
-  - [Accessibility](/html/4-accessibility/)
+  - [Setup Instructions](/html/01-setup/)
+  - [Intro to HTML](/html/02-intro/)
+  - [HTML Content Tags](/html/03-content-tags/)
+  - [HTML Tag Attributes](/html/04-tag-attributes/)
+  - [Accessibility](/html/05-accessibility/)
   - [Quiz](/html/quiz.md)
 
 <!-- - Homework
