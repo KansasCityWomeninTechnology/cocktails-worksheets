@@ -17,7 +17,7 @@ _Coding & Cocktails is an introductory programming series for women presented by
 
 [CSS Side Quest](/css_side_quest/)
 
-<!-- [The Liquor | Introduction to JavaScript](/javascript/) -->
+[The Liquor | Introduction to JavaScript](/javascript/)
 
 <!-- [The Shaker | Let's Build a Portfolio Website](/portfolios/) -->
 
