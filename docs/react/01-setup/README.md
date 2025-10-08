@@ -28,6 +28,16 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/open_in_codespace.png ":class=image-border")
 
+> [!TIP]
+> You may see an "unexpected error" notification that looks somewhat like this:
+>
+>  ![](./images/unexpected_error_reload.png ":class=image-border")
+>
+> If you see this, just click the "Reload" button.
+
+> [!TIP]
+> Codespaces may take a long time to load in the first place. If this happens, close the tab that your Codespace is open in, then navigate to your "Codespaces" page in your GitHub account. Scroll to the bottom and find your Codespace, then select "Open in Browser," which appears when you click on the three-dot icon to the right.
+
 4. The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
 > [!TIP]
