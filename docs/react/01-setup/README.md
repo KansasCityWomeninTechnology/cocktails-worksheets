@@ -38,7 +38,16 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 > [!TIP]
 > Codespaces may take a long time to load in the first place. If this happens, close the tab that your Codespace is open in, then navigate to your "Codespaces" page in your GitHub account. Scroll to the bottom and find your Codespace, then select "Open in Browser," which appears when you click on the three-dot icon to the right.
 
-4. The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
+> [!TIP]
+> When your Codespace has finally finished loading, it may look like the image below, and it may tell you "vite: not found" as you can see inside the red oval in the image.
+>
+> If Vite has not installed, then type "npm install vite" (as in the green oval in the image) and hit "Enter." Vite will install. You will then need to type "npm start" and hit "Enter," and you'll be good to go!
+>
+> ![](./images/install_vite.png ":class=image-border")
+
+The Codespace page is split into 3 or 4 different sections, depending on whether Vite was already installed or whether you had to install it, yourself.
+
+On the far left is the project's file structure. The top (middle) section is where you will write your code. The bottom (middle) section is where you will find the terminal. The far right section (if there are 4 sections) is the preview pane.
 
 > [!TIP]
 > View the worksheet and your IDE in split screen.
