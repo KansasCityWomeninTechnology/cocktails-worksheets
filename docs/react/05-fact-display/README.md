@@ -46,7 +46,7 @@ One way to do that is to write a conditional. For example, we could be thinking,
 
 Sometimes, it can be cleaner to express this kind of logic as a _ternary_. A ternary is a short-hand way of writing an `if...else` statement. You set a condition followed by a question mark (?), then add what you want the code to execute if the condition is truthy. You follow this with a colon (:), then write the expression that you want executed if the condition is falsy.
 
-In our case, inside the return statement for `FactDisplay`,we'll want to end up with the following (note that some of this already exist in the return statement, so BE CAREFUL when you copy and paste!):
+In our case, inside the return statement for `FactDisplay`, we'll want to end up with the following (note that some of this already exist in the return statement, so BE CAREFUL when you copy and paste!):
 
 {% codeblock copy %}FactDisplay.jsx{% codeblock %}
 ```js

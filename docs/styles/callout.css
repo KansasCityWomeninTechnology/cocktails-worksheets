@@ -9,6 +9,8 @@
    --cnc-callout-extracredit-border: #666b8f;
    --cnc-callout-hint-background: #f1e4f8;
    --cnc-callout-hint-border: #666b8f;
+   --cnc-callout-note-background: #dcd9dd;
+   --cnc-callout-note-border: #8e8e8f71;
    --cnc-callout-codecheck-background: #e6fffa;
    --cnc-callout-codecheck-border: #38b2ac;
 }
@@ -79,6 +81,16 @@ div.cnc-callout.cnc-hint {
 div.cnc-callout.cnc-hint:before {
    content: "\f059"; /* question mark */
    color: var(--cnc-callout-hint-border);
+}
+
+div.cnc-callout.cnc-note {
+   border-color: var(--cnc-callout-note-border);
+   background: var(--cnc-callout-note-background);
+}
+
+div.cnc-callout.cnc-note:before {
+   content: "\f059"; /* question mark */
+   color: var(--cnc-callout-note-border);
 }
 
 div.cnc-callout.cnc-codecheck {
