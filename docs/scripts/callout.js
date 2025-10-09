@@ -1,5 +1,5 @@
 (function () {
-  const CALLOUTTYPES = ['EXTRACREDIT', 'WARNING', 'INFO', 'TIP', 'HINT', 'CODECHECK'];
+  const CALLOUTTYPES = ['EXTRACREDIT', 'WARNING', 'INFO', 'TIP', 'HINT', 'NOTE', 'CODECHECK'];
   const REGEX = RegExp(`<\\s*blockquote[^>]*>(?:<p>|[\\S\\n]*)?\\[!((?:${CALLOUTTYPES.join('|')})?)\\]([\\s\\S]*?)(?:<\\/p>)?<\\s*\\/\\s*blockquote>`, 'g');
 
   const stdPanel = (calloutType, contents) => {
