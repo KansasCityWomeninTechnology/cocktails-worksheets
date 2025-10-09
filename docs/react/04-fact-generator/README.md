@@ -77,7 +77,8 @@ Add the following to your _FactGenerator_ function inside of _FactGenerator.jsx_
     };
 ```
 
-Don't forget to indent your code to the same level as the _return_ statement to keep it readable!
+> [!INFO]
+> You'll likely need to fix the indentation on the code you paste! It should be indented code to the same level as the _return_ statement to keep it readable!
 
 Now let's add an `onClick` to the button with this code.
 
@@ -93,7 +94,7 @@ Our button still doesn't do anything. Go ahead and click it to see what happens.
 
 We can fix this by adding a `useEffect` to the _FactGenerator_ function to log the changes to the console. `useEffect` is called when the component is first rendered and then also any time `currentFact` changes (when the button is clicked).
 
-Add this between the _useState_ and _generateRandomFact_ portions of _FactGenerator_ and then import `useEffect` at the top of the file by typing `import { useEffect } from 'react';`.
+Add this between the _useState_ and _generateRandomFact_ portions of _FactGenerator_ (don't forget to fix the indentation!) and then import `useEffect` at the top of the file by typing `import { useEffect } from 'react';`.
 
 {% codeblock copy %}FactGenerator.jsx{% codeblock %}
 ```js

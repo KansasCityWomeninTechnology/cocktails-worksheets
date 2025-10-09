@@ -17,13 +17,13 @@ _Coding & Cocktails is an introductory programming series for women presented by
 
 <!-- [CSS Side Quest](/css_side_quest/) -->
 
-[The Liquor | Introduction to JavaScript](/javascript/)
+<!-- [The Liquor | Introduction to JavaScript](/javascript/) -->
 
-[JavaScript Side Quest](/js_side_quest/)
+<!-- [JavaScript Side Quest](/js_side_quest/) -->
+
+[Top Shelf | Intro to React](/react/)
 
 <!-- [The Shaker | Let's Build a Portfolio Website](/portfolios/) -->
-
-<!-- [Top Shelf | Intro to React](/react/) -->
 
 <!-- * [Angular Series SPA](/spa/) -->
 
