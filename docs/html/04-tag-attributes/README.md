@@ -10,15 +10,19 @@ We’ll add an image and links to practice using attributes.
 
 Websites have eye catching images. Let's find one we like and get it ready to add to our site!
 
-1. In Google Chrome, navigate to [flickr.com](https://flickr.com).
-2. Search for a cocktail image.
-3. Change the license filter from "Any License" to "Commercial use allowed".
+1. In Google Chrome, navigate to the [Creative Commons search portal](https://search.creativecommons.org).
+   
+2. Select the "Wikimedia Commons" box in the "Search using" list, then search for a cocktail image.
 
-   ![](./images/flickr-filter.png ":class=image-border")
+   ![](./images/cc_search_portal.png ":class=image-border")
 
-4. Choose your favorite image, click on it and click on the download icon in the lower right corner. You get to choose what size you'd like on your page. Name it something easy to remember.
+3. Click on "License," then select "No restrictions."
+   
+   ![](./images/wikimedia_no_restrictions.png ":class=imageborder")
 
-   ![](./images/download.png ":class=image-border")
+4. Choose your favorite image, click on it then right-click on the larger image that shows up and select "Save image as." Name it something easy to remember.
+
+   ![](./images/wikimedia_save_image_as.png ":class=image-border")
 
 5. Now let's upload the image to your GitHub Codespace. Hover over the bold **Coding-and-Cocktails-Intro-to-HTML** in the explorer and look for the `New Folder` button to the right.
    
