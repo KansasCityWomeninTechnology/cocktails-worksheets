@@ -55,7 +55,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     You can close the notification that may appear in the lower right-hand corner of your IDE screen.
 
-    ![](.images/port_notification.png ":class=image-border")
+    ![](./images/port_notification.png ":class=image-border")
 
 > [!TIP]
 > View the worksheet and your IDE in split screen.
