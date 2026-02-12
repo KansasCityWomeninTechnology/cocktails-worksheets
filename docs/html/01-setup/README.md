@@ -31,11 +31,11 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 > [!WARNING]
 > Codespaces will take a ***long*** time to open. At times, it may seem stuck. Please ask a mentor if you are concerned about how it's behaving as it starts up. So long as you see this in the lower right-hand corner, you should be ok.
 >
->   ![](.images/building_codespace.png ":class=image-border")
+>   ![](./images/building_codespace.png ":class=image-border")
 > 
 > Once it finishes loading, click the "X" in the "Build with Agent" panel on the right.
 >
->   ![](.images/close_agent.png ":class=image-border")
+>   ![](./images/close_agent.png ":class=image-border")
 
 4. Now you are ready to write some code! The Codespaces page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
@@ -70,7 +70,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 > [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a URL in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
 >
-> ![](.images/discard_live_session.png ":class=image-border")
+> ![](./images/discard_live_session.png ":class=image-border")
 
 > [!TIP]
 > Did you know you can collapse the table of contents for worksheets?
