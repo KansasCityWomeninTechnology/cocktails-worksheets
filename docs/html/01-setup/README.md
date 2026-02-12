@@ -28,6 +28,15 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/open_in_codespace.png ":class=image-border")
 
+> [!WARNING]
+> Codespaces will take a ***long*** time to open. At times, it may seem stuck. Please ask a mentor if you are concerned about how it's behaving as it starts up. So long as you see this in the lower right-hand corner, you should be ok.
+>
+>   ![](.images/building_codespace.png ":class=image-border")
+> 
+> Once it finishes loading, click the "X" in the "Build with Agent" panel on the right.
+>
+>   ![](.images/close_agent.png ":class=image-border")
+
 4. Now you are ready to write some code! The Codespaces page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
     You may see a notification in the lower right-hand corner of the screen. You can dismiss this by clicking the "x".
@@ -44,18 +53,24 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/blank_page.png ":class=image-border")
 
+    You can close the notification that may appear in the lower right-hand corner of your IDE screen.
+
+    ![](.images/port_notification.png ":class=image-border")
+
 > [!TIP]
 > View the worksheet and your IDE in split screen.
 >
 > If you want to open the browser view in a new window, right click on the tab (control click on a Mac) and select "Move tab to new window." Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
 >
-> ![](./images/move_to_new_window.png ":class=image-border")
+> ![](./images/move_to_new_window_2.png ":class=image-border")
 >
 > ![](./images/side_by_side.png ":class=image-border")
 >
 > If you have any questions, feel free to ask. Mentors are happy to help!
 
-> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a "Port 5500" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
+> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a URL in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
+>
+> ![](.images/discard_live_session.png ":class=image-border")
 
 > [!TIP]
 > Did you know you can collapse the table of contents for worksheets?
