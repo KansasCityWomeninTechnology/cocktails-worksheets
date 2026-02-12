@@ -2,7 +2,7 @@
 
 Now back to coding!
 
-Our web page is coming together. But web pages have images and links. All these HTML elements use **attributes** for extra metadata they nee to work.
+Our web page is coming together. But web pages have images and links. All these HTML elements use **attributes** for extra metadata they need to work.
 
 We’ll add an image and links to practice using attributes.
 
