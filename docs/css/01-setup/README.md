@@ -5,7 +5,9 @@ Tonight we will learn the basics of applying styles to a website using **C**asca
 Follow the instructions on this page to prepare your workspace.
 
 > [!TIP]
-> Open [Slack](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails friends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any stumbling blocks tonight.
+> Open [Slack](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails friends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any stumbling blocks tonight. 
+> 
+> If you haven't signed up for our Slack, yet, please follow [this link](https://join.slack.com/t/kcwit/shared_invite/zt-3rhkf2k3r-sDUuOdcNK5Pd1XnJ6AwONQ) to sign up.
 
 > [!WARNING]
 > We will use a cloud development environment called **GitHub Codespaces**. In order to use Codespaces, you will need a GitHub account. Codespaces **only** works with Chrome, so it is important that you use Google Chrome for today. If you use a different browser, things will not behave as this tutorial expects.
