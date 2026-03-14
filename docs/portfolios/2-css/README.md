@@ -4,7 +4,7 @@
     <h3 style="margin-top:0;margin-bottom:2em;">Let's Build a Portfolio Website - CSS</h3>
 </div>
 
-### Overview
+### CSS
 
 Now that you've got a few pages for your portfolio, let's get them styled.
 
