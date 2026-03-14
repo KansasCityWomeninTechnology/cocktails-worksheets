@@ -4,7 +4,7 @@
     <h3 style="margin-top:0;margin-bottom:2em;">Let's Build a Portfolio Website - HTML</h3>
 </div>
 
-### Overview
+### HTML
 
 Go to your GitHub page (`https://github.com/<yourprofilename>`). Click on the profile picture in the upper right-hand corner of the page and select "Your repositories."
 

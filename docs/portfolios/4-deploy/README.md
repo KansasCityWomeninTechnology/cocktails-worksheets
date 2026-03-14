@@ -4,7 +4,7 @@
     <h3 style="margin-top:0;margin-bottom:2em;">Let's Build a Portfolio Website - Deployment</h3>
 </div>
 
-### Overview
+### Deploy
 
 Yay! You have a portfolio website built! There's only one problem:  It's only visible if you "go live" from inside your Codespace.
 

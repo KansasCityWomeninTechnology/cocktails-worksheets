@@ -4,7 +4,7 @@
     <h3 style="margin-top:0;margin-bottom:2em;">Let's Build a Portfolio Website - JavaScript</h3>
 </div>
 
-### Overview
+### JavaScript
 
 Now that you've got a few pages for your portfolio and you have them styled, let's add a "go to top" button!
 
