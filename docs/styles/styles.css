@@ -26,7 +26,7 @@ article.markdown-section > h1:not(:first-child) {
 
 /* Fix TOC plugin not taking into account navbar */
 .page_toc {
-   top: 20px; /*was 70px. 100 px went wrong way*/
+   top: 120px; /*was 70px*/
 }
 
 
