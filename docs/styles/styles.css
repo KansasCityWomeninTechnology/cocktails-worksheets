@@ -8,7 +8,7 @@ article.markdown-section > h1:not(:first-child) {
 }
 
 .markdown-section iframe {
-   margin: 1em 0;
+   margin: 2em 0; /*was 1em 0*/
    border: 1px solid #eee;
    width: 1px;
    min-width: 100%;
