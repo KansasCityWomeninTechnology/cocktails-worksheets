@@ -2,14 +2,14 @@
 
 - Worksheet
 
-  - [Setup Instructions](/javascript/setup/)
-  - [Intro to JavaScript](/javascript/1-js-intro/)
-  - [Working with functions](/javascript/2-function/)
-  - [Arrays and loops](/javascript/3-array-loop/)
+  - [Setup Instructions](/javascript/01-setup/)
+  - [Intro to JavaScript](/javascript/02-js-intro/)
+  - [Working with functions](/javascript/03-function/)
+  - [Arrays and loops](/javascript/04-array-loop/)
   - [Quiz](/javascript/quiz.md)
-  <!-- - [Modules and variables](/javascript/4-modules-variables/) -->  
-  <!-- - [Data Types and Methods](/javascript/5-data-types-methods/) -->
-  <!-- - [Promises](/javascript/6-promises/) -->
+  <!-- - [Modules and variables](/javascript/05-modules-variables/) -->  
+  <!-- - [Data Types and Methods](/javascript/06-data-types-methods/) -->
+  <!-- - [Promises](/javascript/07-promises/) -->
 
   <!-- NOTE:
   Any commented-out lines need to be MOVED to the end of the list above, or things won't work right! -->
