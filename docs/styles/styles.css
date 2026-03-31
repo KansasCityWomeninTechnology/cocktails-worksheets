@@ -4,7 +4,7 @@
 
 /* Overrides not available in the themes plugin*/
 article.markdown-section > h1:not(:first-child) {
-   margin-top: 3rem; /*was 3rem*/
+   margin-top: 6rem; /*was 3rem*/
 }
 
 .markdown-section iframe {
