@@ -4,6 +4,7 @@
  [JavaScript](/javascript/)
  [React](/react/)
  [Source Control](/source_control/)
+ [Pre-Session Setup](/presession_setup/)
 
 <!-- * [Tools](/tools/)
 * [SPA Sessions](/spa/) -->
