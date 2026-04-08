@@ -7,8 +7,13 @@ article.markdown-section > h1:not(:first-child) {
    margin-top: 3rem; /*was 3rem*/ /*Changing this seemingly did nothing.*/
 }
 
+/* Override for title top margin. */
+.markdown-section h1{
+   margin-top: 6rem;
+}
+
 .markdown-section iframe {
-   margin: 6rem 0; /*was 1em 0*/ /*Changing this seemingly did nothing*/
+   margin: 1em 0; /*was 1em 0*/ /*Changing this seemingly did nothing*/
    border: 1px solid #eee;
    width: 1px;
    min-width: 100%;
