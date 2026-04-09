@@ -28,6 +28,15 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/open_in_codespace.png ":class=image-border")
 
+> [!WARNING]
+> Codespaces will take a ***long*** time to open. At times, it may seem stuck. Please ask a mentor if you are concerned about how it's behaving as it starts up. So long as you see this in the lower right-hand corner, you should be ok.
+>
+>   ![](./images/building_codespace.png ":class=image-border")
+> 
+> Once it finishes loading, click the "X" in the "Build with Agent" panel on the right. (On Mac, you may need to click the "Toggle secondary sidebar" icon or use the Option-Command-B keyboard combo.)
+>
+>   ![](./images/close_agent.png ":class=image-border")
+
 4. Now you are ready to write some code! The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
     You may see a notification in the lower right-hand corner of the screen. You can dismiss this by clicking the "x".

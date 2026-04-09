@@ -35,7 +35,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 >
 >   ![](./images/building_codespace.png ":class=image-border")
 > 
-> Once it finishes loading, click the "X" in the "Build with Agent" panel on the right.
+> Once it finishes loading, click the "X" in the "Build with Agent" panel on the right. (On Mac, you may need to click the "Toggle secondary sidebar" icon or use the Option-Command-B keyboard combo.)
 >
 >   ![](./images/close_agent.png ":class=image-border")
 
