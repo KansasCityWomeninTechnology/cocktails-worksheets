@@ -77,3 +77,7 @@ We want to put it in _FactGenerator.jsx_. Why do we want to put it there, and wh
 ## Check your code
 
 How did you do? If you want to check your work against our answer key, you can look [here](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-React-answer-key).
+
+## Commit your code
+
+We don't want to lose any of our work, so we will want to [commit it](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/) to a repo. Follow the instructions in the link above (hint:  open the link in a new tab) to save your work.

@@ -111,3 +111,6 @@ Also, you’ll see the _useEffect_ log twice on initial render because React Str
 
 This is expected behavior! Just keep clicking!
 
+## Commit your code
+
+We don't want to lose any of our work, so we will want to [commit it](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/) to a repo. Follow the instructions in the link above (hint:  open the link in a new tab) to save your work.

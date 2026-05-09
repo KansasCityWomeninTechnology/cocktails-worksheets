@@ -60,3 +60,6 @@ Let's go to our web page preview and inspect it. Go to the "Elements" tab and ta
 > [!HINT]
 > The reason is that React only renders the HTML output of the child components, and `<WelcomeHeader />` is a child component of _App.jsx_.
 
+## Commit your code
+
+We don't want to lose any of our work, so we will want to [commit it](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/) to a repo. Follow the instructions in the link above (hint:  open the link in a new tab) to save your work.
