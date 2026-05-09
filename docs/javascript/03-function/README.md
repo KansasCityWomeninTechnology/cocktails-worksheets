@@ -46,7 +46,7 @@ In this section, we will write our own functions in JavaScript by using conditio
    </html>
    ```
 
-1. Likewise, replace the contents of your _styles.css_ page with the following CSS code. You'll find this file in the _css_ folder in your file tree.
+2. Likewise, replace the contents of your _styles.css_ page with the following CSS code. You'll find this file in the _css_ folder in your file tree.
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -104,7 +104,7 @@ In this section, we will write our own functions in JavaScript by using conditio
    }
    ```
 
-1. And finally, replace the contents of your _script.js_ file with the following JavaScript code. You'll find this file in the _js_ folder in your file tree.
+3. And finally, replace the contents of your _script.js_ file with the following JavaScript code. You'll find this file in the _js_ folder in your file tree.
 
    {% codeblock copy %}script.js{% codeblock %}
 

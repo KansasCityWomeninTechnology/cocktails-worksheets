@@ -247,5 +247,7 @@ We will add to the code in this file so that our page displays what we desire.
 > [!TIP]
 > Feel free to ask mentors for help! We are here to help you!
 
+## Commit your code
 
+Before we move on, we don't want to lose any of our work, so we will want to [commit it](https://kansascitywomenintechnology.github.io/cocktails-worksheets/#/source_control/) to a repo. Follow the instructions in the link above (hint:  open the link in a new tab) to save your work.
 
