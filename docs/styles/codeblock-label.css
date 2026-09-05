@@ -19,23 +19,23 @@ div.cnc-codeblock-label > pre[data-lang] {
 }
 
 .cnc-copy-code-button {
-    flex-basis: 10%;
-    text-align: right;
-    position: relative;
-    padding: 0.4em 0.8em 0.4em 0.8em;
-    border: 0;
-    background: transparent;
-    color: inherit;
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0;
-    border-radius: 0 var(--code-block-border-radius) 0 0;
+   flex-basis: 10%;
+   text-align: right;
+   position: relative;
+   padding: 0.4em 0.8em 0.4em 0.8em;
+   border: 0;
+   background: transparent;
+   color: inherit;
+   font-family: inherit;
+   font-size: 100%;
+   margin: 0;
+   border-radius: 0 var(--code-block-border-radius) 0 0;
 }
 
 .cnc-copy-code-button,
 .cnc-copy-code-button span {
-    cursor: pointer;
-    transition: all 0.25s ease;
+   cursor: pointer;
+   transition: all 0.25s ease;
 }
 
 .cnc-copy-code-button:hover {

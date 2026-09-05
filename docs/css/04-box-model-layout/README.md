@@ -10,7 +10,7 @@
    }
    ```
 
-   View your file in Chrome. The webpage is starting to look better.
+   View your file in **Chrome**. The webpage is starting to look better.
 
    > [!INFO]
    > Learn more about styling lists using [MDN list styling reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists).
@@ -35,11 +35,11 @@
    > }
    > ```
 
-3. View your file in Chrome. You now have plenty of spacing between each drink menu item.
+3. View your file in **Chrome**. You now have plenty of spacing between each drink menu item.
 
 # Add normalization
 
-Many browsers have their own pre-settings such as margins, paddings and font styling. Normalizing evens out the difference between browsers by resetting the browser default stylings so your website can be consistent no matter what browswer you are using.
+Many browsers have their own pre-settings such as margins, paddings and font styling. Normalizing evens out the difference between browsers by resetting the browser default stylings so your website can be consistent no matter what browswr you are using.
 
 1. Add the following to the top of _styles.css_.
 
@@ -123,7 +123,7 @@ In the footer, the copyright text needs to be a contrasting color and centered. 
    > }
    > ```
 
-Commit those changes again!
+**Commit those changes** again!
 
 # Checkpoint
 
@@ -131,6 +131,6 @@ Compare your _styles.css_ against the answer key for your work. It might look a 
 
 > [!CODECHECK]
 >
-> Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2023-checkpoint-3/styles.css).
+> Compare your _styles.css_ file with our [**answer key**](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2023-checkpoint-3/styles.css).
 
-Vew your page in Chrome. ![](../../images/emojis/party-popper.png)
+View your page in **Chrome**. ![](../../images/emojis/party-popper.png)

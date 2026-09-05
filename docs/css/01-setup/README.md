@@ -22,11 +22,11 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
     ![](./images/github_login.png ":class=image-border")
 
-2. Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-CSS) and click the "Use this template" button in the upper right-hand corner of the screen.
+2. Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-CSS) and click the "**Use this template**" button in the upper right-hand corner of the screen.
 
     ![](./images/intro_css_repo_page.png ":class=image-border")
 
-3. Next, select the "Open in a codespace" option.
+3. Next, select the "**Open in a codespace**" option.
 
     ![](./images/open_in_codespace.png ":class=image-border")
 
@@ -35,24 +35,24 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 >
 >   ![](./images/building_codespace.png ":class=image-border")
 > 
-> Once it finishes loading, click the "X" in the "Build with Agent" panel on the right. (On Mac, you may need to click the "Toggle secondary sidebar" icon or use the Option-Command-B keyboard combo.)
+> Once it finishes loading, click the "**X**" in the "**Build with Agent**" panel on the right. (On Mac, you may need to click the "**Toggle secondary sidebar**" icon or use the **Option-Command-B** keyboard combo.)
 >
 >   ![](./images/close_agent.png ":class=image-border")
 
 4. Now you are ready to write some code! The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
-5. Click Go Live in the lower right-hand corner of the screen. This will open a preview of your web page in a new tab. After you've taken a look at what we're starting with, return to the Codespace tab.
+5. Click **Go Live** in the lower right-hand corner of the screen. This will open a preview of your web page in a new tab. After you've taken a look at what we're starting with, return to the Codespace tab.
 
     ![](./images/go_live.png ":class=image-border")
 
-    You may see some notifications in the lower right-hand corner of the screen when you get back to the Codespace tab. You can dismiss these by clicking the "x".
+    You may see some notifications in the lower right-hand corner of the screen when you get back to the Codespace tab. You can dismiss these by clicking the **"x"**.
 
     ![](./images/close_server_notifs.png ":class=image-border")
 
 > [!TIP]
 > View the worksheet and your IDE in split screen.
 >
-> If you want to open the browser view in a new window, right click on the tab (control click on a Mac) and select "Move tab to new window." Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
+> If you want to open the browser view in a new window, right click on the tab (control click on a Mac) and select "**Move tab to new window.**" Then you can put the browser view of your web page on half of your screen and the IDE on the other half.
 >
 > ![](./images/move_to_new_window.png ":class=image-border")
 >
@@ -60,18 +60,18 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 >
 > If you have any questions, feel free to ask. Mentors are happy to help!
 
-> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a "Port 5500" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
+> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "**Go Live.**" There will be a "**Port 5500**" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
 >
 > ![](./images/port_5500.png ":class=image-border")
 
 > [!TIP]
 > Did you know you can collapse the table of contents for worksheets?
 >
-> Click on the hamburger menu (:fas fa-bars:) at the top of the page to toggle the table of contents.
+> Click on the hamburger menu (**:fas fa-bars:**) at the top of the page to toggle the table of contents.
 >
 > ![](./images/collapse_toc.png ":class=image-border")
 
 > [!TIP]
 > Did you know you can perform common tasks such as copy and paste?
 >
-> When working without a mouse, keyboard shortcuts will be faster than a trackpad. Open the [handy dandy keyboard shortcut reference in a new tab](/css/references/ ":target=_blank") so you can refer to it easily!
+> When working without a mouse, keyboard shortcuts will be faster than a trackpad. Open the [**handy dandy keyboard shortcut reference in a new tab**](/css/references/ ":target=_blank") so you can refer to it easily!

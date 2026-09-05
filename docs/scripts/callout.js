@@ -33,7 +33,7 @@
         <div class="cnc-callout cnc-codecheck">
           <details>
             <p></p>
-            <summary>Expand this section to compare your work.
+            <summary><b>Expand this section to compare your work.</b>
             </summary>
             ${contents}
           </details>
