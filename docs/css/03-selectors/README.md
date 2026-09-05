@@ -1,6 +1,6 @@
 # Adding styles
 
-Let's add some styling to the HTML! Throughout this worksheet, if you need help choosing colors, feel free to use [Colorhunt.co](https://colorhunt.co/) or [accessible color palette generator by Venngage](https://venngage.com/tools/accessible-color-palette-generator) for accessibility friendly color palette. They have lots of color palette samples!
+Let's add some styling to the HTML! Throughout this worksheet, if you need help choosing colors, feel free to use [Colorhunt.co](https://colorhunt.co/) or [accessible color palette generator by Venngage](https://venngage.com/tools/accessible-color-palette-generator) for accessibility-friendly color palette. They have lots of color palette samples!
 
 > [!TIP]
 > Need a refresher on HTML? Check out the [HTML session worksheet](../../html/).
@@ -18,7 +18,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    ```
 
    > [!TIP]
-   > Feel free to choose different color if you'd like. You can always zoom in to have a closer look.
+   > Feel free to choose a different color if you'd like. You can always zoom in to have a closer look.
    > Check out [keyboard shortcuts](../../keyboard-shortcuts/) for `Zoom in` and `Zoom out` shortcuts.
 
 2. View your site in **Chrome**. Do you see the color of your header change?
@@ -43,6 +43,9 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > Notice the color applies to all `h2` elements, including the "Drink menu" text. This is an example of how styles **cascade**.
    >
    > We might need to override the style for a specific element later, but we want to build a strong foundation to build upon.
+
+   > [!INFO]
+   > Accessibility note:  To make your site accessible to everyone, ensure there is a high contrast between your text and background. We recommend using the darkest color from your chosen palette for your header text and the lightest color for your background. 
 
 4. View your page in **Chrome**. You might need to refresh the page to see your changes. Don't forget to periodically **commit your changes**!
 
@@ -114,7 +117,7 @@ Select a background color for the entire page and add it to the top of **_styles
 
 ## Navigation and footer
 
-To make the navigation and footer area pop, let's add a background color to them. Look at the **_index.html_** file to identify the selectors for the navigation and footer sections. Since these are global styles, declare the styles near the top of **_styles.css_** file.
+To make the navigation and footer area stand out, let's add a background color to them. Look at the **_index.html_** file to identify the selectors for the navigation and footer sections. Since these are global styles, declare the styles near the top of **_styles.css_** file.
 
    > [!TIP]
    > HTML element for navigation is `nav` and HTML element for footer is `footer`
@@ -170,14 +173,14 @@ To make the navigation and footer area pop, let's add a background color to them
    > }
    > ```
 
-4. View your page in **Chrome**. What happens when you hover over the list items in the drink menu?
+4. **View** your page in Chrome. What happens when you hover over the list items in the drink menu?
 
 5. But we don't want all the `li` tags to hover. Just the ones in the drink menu. We could add a `class` or we can target only the `li` elements in `main` by changing the selector to `main li:hover`.
 
    > [!INFO]
    > You are using the **Descendant combinator**. A combinator is a special selector. The descendant combinator contains 2 or more selectors with a space between each selector. The first selector is an ancestor of the second in the HTML. Selectors can be HTML elements or classes. So in this case, you are saying
    >
-   > _"For all HTML `main` elements that has a descendant `li`, add a color when hovering."_
+   > _"For all HTML `main` elements that have a descendant `li`, add a color when hovering."_
    >
    > Read more about the [Descendant combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator).
 
@@ -189,7 +192,7 @@ To make the navigation and footer area pop, let's add a background color to them
 
 You'll often find yourself needing to look at how your page renders in the browser to troubleshoot issues so let's give that a try.
 
-1. View your website.
+1. **View** your website.
 
 2. **Right-click** on your `<h1>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
 

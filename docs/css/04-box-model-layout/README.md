@@ -35,11 +35,11 @@
    > }
    > ```
 
-3. View your file in **Chrome**. You now have plenty of spacing between each drink menu item.
+3. **View** your page in Chrome. You now have plenty of spacing between each drink menu item.
 
 # Add normalization
 
-Many browsers have their own pre-settings such as margins, paddings and font styling. Normalizing evens out the difference between browsers by resetting the browser default stylings so your website can be consistent no matter what browswr you are using.
+Have you ever noticed that a website looks slightly different in Chrome than it does in Safari or Firefox? That is because every browser comes with its own set of "default" styles that it applies to every page it loads. To make sure our website looks the same for everyone, we use _normalization_. We are telling the browser: "Ignore your own default settings and use the styles I provide.
 
 1. Add the following to the top of **_styles.css_**.
 
@@ -75,6 +75,10 @@ Many browsers have their own pre-settings such as margins, paddings and font sty
 
 # Apply layout styling for each area
 
+Up until now, we have used sweeping styles that affect large groups of elements at once. This is great for consistency, but you'll notice that some elements don't respond the way you want or look a little off. We often have to tweak small, specific elements. This is why understanding inheritance, or how child elements "inherit" styles from their parent elements, is so important, so you know how each change affects every element in the HTML.
+
+Below are some tweaks we can apply to different areas of our page to make them distinct from the main body of the page. We generally want to style navigation areas differently from the main body, and we want to set off headers and footers, as well.
+
 ## Navigation
 
 Let's add some styling to the `nav` element with Grid.
@@ -83,7 +87,7 @@ Let's add some styling to the `nav` element with Grid.
 
 2. Then we will add `grid-template-columns: repeat(4, 100px);` to create 4 columns of 100px width.
 
-3. To add gutter (space between items) between grid items, we will add `grid-gap: 10px;`
+3. To add gutter (the space between items) between grid items, we will add `grid-gap: 10px;`
 
 4. Let's align the grid to right by adding `justify-content: right;`
 
@@ -108,7 +112,7 @@ We still have default styling for the hyperlink such as underline. Let's style t
 
 ## Footer
 
-In the footer, the copyright text needs to be a contrasting color and centered. Also set the `height` to `50px` and padding on top.
+In the footer, we want the copyright text to be a contrasting color and centered. Also set the `height` to `50px` and add padding on top to set the footer off a bit more.
 
    > [!HINT]
    >
