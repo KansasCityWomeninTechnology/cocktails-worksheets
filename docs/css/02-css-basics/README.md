@@ -2,7 +2,7 @@
 
 **C**ascading **S**tyle **S**heets (**CSS**) is used to decorate your website with visual appeal and invites the user to connect with your website's personality. Tonight we'll apply CSS to the "LadyDev Bar" web page.
 
-The example below shows one way your page could look. Use it as a guide, but please experiment! Feel free to change colors, fonts, or layout to make the site your own. Experiment!
+The example below shows one way your page could look. Use it as a guide, but please experiment! Feel free to change colors, fonts, or layout to make the site your own.
 
 ![](images/lady-dev-bar.png ":class=image-border")
 
@@ -115,6 +115,10 @@ Let's take a look at the **_index.html_** file. You should see the following cod
 
 Now we will link our CSS file to the HTML file by putting it inside the `<head>` tag.
 
+We do this so that the browser knows where to find the styling for the page. The **_index.html_** file contains the content of the web page (anything you want displayed on the page, including text, images, tables, etc.), and the **_styles.css_** file contains the code that tells the browser _how_ that content should be displayed. The World Wide Web Consortium (W3C) [recommends](https://www.w3schools.com/CSS/css_howto.asp) that the link to an external stylesheet (_styles.css_) should appear in the `<head>` section because that is where any links to external stylesheets are usually found. This is the most common way to add CSS to a web page.
+
+It's also a lot easier to separate content from styling if you put the link to the stylesheet in the `<head>` section.
+
 1. Open **_index.html_**. In the HTML `<head>` section (between the opening `<head>` and closing `</head>`), find the HTML tags for `title` and `script`. Place your cursor after the closing `script` tag, press `Enter`, and link your stylesheet by adding
 
    {% codeblock copy %}index.html{% codeblock %}
@@ -139,10 +143,6 @@ Now we will link our CSS file to the HTML file by putting it inside the `<head>`
      <link rel="stylesheet" href="./css/styles.css" />
    </head>
    ```
-
-We do this so that the browser knows where to find the styling for the page. The **_index.html_** file contains the content of the web page (anything you want displayed on the page, including text, images, tables, etc.), and the **_styles.css_** file contains the code that tells the browser _how_ that content should be displayed. The World Wide Web Consortium (W3C) [recommends](https://www.w3schools.com/CSS/css_howto.asp) that the link to an external stylesheet (_styles.css_) should appear in the `<head>` section because that is where any links to external stylesheets are usually found. This is the most common way to add CSS to a web page.
-
-It's also a lot easier to separate content from styling if you put the link to the stylesheet in the `<head>` section.
 
 1. Now we want to preview the **_index.html_** file in Chrome. To see what your code looks like in a browser, click on the "**Go Live**" button at the bottom of the page towards the right. This will open a new tab in your browser. Whenever you make a code change, you will see the change in the browser view as well.
 

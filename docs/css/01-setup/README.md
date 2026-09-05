@@ -20,7 +20,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 1. Navigate to [**GitHub**](https://github.com/login) and log in with your GitHub account.
  
-If you didn't have a chance to create a GitHub account before the session, this page will let you set one up. Feel free to ask a mentor for help if ou need it!
+If you didn't have a chance to create a GitHub account before the session, this page will let you set one up. Feel free to ask a mentor for help if you need it!
 
     ![](./images/github_login.png ":class=image-border")
 

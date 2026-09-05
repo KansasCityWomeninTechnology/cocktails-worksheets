@@ -10,19 +10,19 @@
    }
    ```
 
-   View your file in **Chrome**. The webpage is starting to look better.
+   **View** your file in Chrome. The web page is starting to look better.
 
    > [!INFO]
    > Learn more about styling lists using [MDN list styling reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists).
 
-1. We want to add extra space between each list item in the "Drinks menu" section by setting the `padding-top` property to "40px" on the list items. Create a style targeting `li` with parent `class="drinks"`.
+2. We want to add extra space between each list item in the "Drinks menu" section by setting the `padding-top` property to "40px" on the list items. Create a style targeting `li` with parent `class="drinks"`.
 
    > [!HINT]
    > We want to declare a style for the selector `li` with parent selector `.drinks`. We can use the Descendant combinator.
    >
    > Declare a style for `.drinks li` at the bottom of the file and add `padding-top: 40px;`.
 
-2. Let's also add a right and left margin to each list item in the "Drinks menu" section. Set the values to 15px; Can you guess the property names of the right and left margins?
+3. Let's also add a right and left margin to each list item in the "Drinks menu" section. Set the values to 15px. Can you guess the property names of the right and left margins?
 
    > [!HINT]
    >
@@ -35,11 +35,11 @@
    > }
    > ```
 
-3. **View** your page in Chrome. You now have plenty of spacing between each drink menu item.
+4. **View** your page in Chrome. You now have plenty of spacing between each drink menu item.
 
 # Add normalization
 
-Have you ever noticed that a website looks slightly different in Chrome than it does in Safari or Firefox? That is because every browser comes with its own set of "default" styles that it applies to every page it loads. To make sure our website looks the same for everyone, we use _normalization_. We are telling the browser: "Ignore your own default settings and use the styles I provide.
+Have you ever noticed that a website looks slightly different in Chrome than it does in Safari or Firefox? That is because every browser comes with its own set of "default" styles that it applies to every page it loads. To make sure our website looks the same for everyone, we use _normalization_. We are telling the browser: "Ignore your own default settings and use the styles I provide."
 
 1. Add the following to the top of **_styles.css_**.
 
