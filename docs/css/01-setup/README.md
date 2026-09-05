@@ -41,11 +41,11 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 4. Now you are ready to write some code! The Codespace page is split into 3 different sections. On the far left is the project's file structure. The top right section is where you will write your code. The bottom right section is where you will find the terminal.
 
-5. Click **Go Live** in the lower right-hand corner of the screen. This will open a preview of your web page in a new tab. After you've taken a look at what we're starting with, return to the Codespace tab.
+5. Click "**Go Live**" in the lower right-hand corner of the screen. This will open a preview of your web page in a new tab. After you've taken a look at what we're starting with, return to the Codespace tab.
 
     ![](./images/go_live.png ":class=image-border")
 
-    You may see some notifications in the lower right-hand corner of the screen when you get back to the Codespace tab. You can dismiss these by clicking the **"x"**.
+    You may see some notifications in the lower right-hand corner of the screen when you get back to the Codespace tab. You can dismiss these by clicking the "**x**".
 
     ![](./images/close_server_notifs.png ":class=image-border")
 
@@ -60,7 +60,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 >
 > If you have any questions, feel free to ask. Mentors are happy to help!
 
-> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "**Go Live.**" There will be a "**Port 5500**" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
+> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "**Go Live.**" There will be a "**Port 5500**" in its place. Click that to discard the live session. "**Go Live**" will reappear and you can click on it to create a new live session.
 >
 > ![](./images/port_5500.png ":class=image-border")
 
