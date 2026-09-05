@@ -21,7 +21,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > Feel free to choose a different color if you'd like. You can always zoom in to have a closer look.
    > Check out [keyboard shortcuts](../../keyboard-shortcuts/) for `Zoom in` and `Zoom out` shortcuts.
 
-2. View your site in **Chrome**. Do you see the color of your header change?
+2. **View** your site in Chrome. Do you see the color of your header change?
 
 3. Repeat step 1 and add the same color to `h2`. You'll add this right after your `h1` style.
 
@@ -47,7 +47,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > [!INFO]
    > Accessibility note:  To make your site accessible to everyone, ensure there is a high contrast between your text and background. We recommend using the darkest color from your chosen palette for your header text and the lightest color for your background. 
 
-4. View your page in **Chrome**. You might need to refresh the page to see your changes. Don't forget to periodically **commit your changes**!
+4. **View** your page in Chrome. You might need to refresh the page to see your changes. Don't forget to periodically **commit your changes**!
 
    > [!TIP]
    > View your app often so you can see the changes as we go along. You may need to refresh the page to see your changes. The worksheet will call out specific places to view the web page to illustrate a concept, but feel free to view your page as often as you want. It helps to see the changes as you write your CSS.

@@ -18,7 +18,7 @@ Our "LadyDev Bar" looks better but it's not quite there yet. Let's keep on apply
 
 2.  Let's increase the size of the text for the header in the about section starting with the `h1` tag. We want to only target the `h1` element with `hero-text` class. Set the font size of `h1` to "5em" by adding `font-size: 5em;`.
 
-3.  The `h1` text and the `p` text on the about section look good, but the `h2` text looks small. Set the font size of the `h2` text only in the hero title to "1.5em".
+3.  The `h1` text and the `p` text on the about section look good, but the `h2` text looks small. Set the font size of the `h2` text only in the hero title to "1.5em."
 
 ## Drink Menu
 
@@ -84,7 +84,7 @@ As you write your CSS, you'll see two different ways to target elements. It's he
 
 ![](images/fontSelect.png ":class=image-border")
 
-6. Find a font to use for body text and select the font using the steps outlined above.
+6. Find a font to use for the body text and select the font using the steps outlined above.
 
 7. Click on the **@IMPORT** radio button and copy the `@import` statement under `Use on the web` section.
 
@@ -94,7 +94,7 @@ As you write your CSS, you'll see two different ways to target elements. It's he
 
    > [!INFO] We don't need the `<style></style>` tag around the `@import` statement
 
-9. In the style declared for the `body`, add font for body text using the CSS rules specified by Google. In the example above, Google specified `font-family: 'Catamaran', sans-serif;`.
+9. In the style declared for the `body`, add the font for the body text using the CSS rules specified by Google. In the example above, Google specified `font-family: 'Catamaran', sans-serif;`.
 
    > [!INFO]
    > If you select a font with 2 words in the name you'll need to wrap the font name in quotation marks.
@@ -116,7 +116,7 @@ We always want to start with defining styles for global elements. In this case, 
    > [!INFO]
    > Why use `em` instead of `px` for font size? `em` is a calculated font size based off of the parent's font value. Read more about the different ways to set font size in "Possible approaches" section of [MDN documentation on font size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size).
 
-# Add icon
+# Add an icon
 
 Let's add an icon in front of each drink menu
 
