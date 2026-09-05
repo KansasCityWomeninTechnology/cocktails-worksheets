@@ -21,7 +21,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    > Feel free to choose different color if you'd like. You can always zoom in to have a closer look.
    > Check out [keyboard shortcuts](../../keyboard-shortcuts/) for `Zoom in` and `Zoom out` shortcuts.
 
-2. View your site in Chrome. Do you see the color of your header change?
+2. View your site in **Chrome**. Do you see the color of your header change?
 
 3. Repeat step 1 and add the same color to `h2`. You'll add this right after your `h1` style.
 
@@ -44,7 +44,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
    >
    > We might need to override the style for a specific element later, but we want to build a strong foundation to build upon.
 
-4. View your page in Chrome. You might need to refresh the page to see your changes. Don't forget to periodically commit your changes!
+4. View your page in **Chrome**. You might need to refresh the page to see your changes. Don't forget to periodically **commit your changes**!
 
    > [!TIP]
    > View your app often so you can see the changes as we go along. You may need to refresh the page to see your changes. The worksheet will call out specific places to view the web page to illustrate a concept, but feel free to view your page as often as you want. It helps to see the changes as you write your CSS.
@@ -76,7 +76,7 @@ Select a background color for the entire page and add it to the top of _styles.c
 2. To add the background color for the "Drink menu" section, we need to know which HTML element is used for the section. Open _index.html_ and find the HTML element for "Drink menu".
 
    > [!TIP]
-   > You can use ctrl-F (cmd-F on a Mac) to search for and find "Drink menu" in the _index.html_.
+   > You can use **ctrl-F** (**cmd-F** on a Mac) to search for and find "Drink menu" in the _index.html_.
    >
    > Or you can click anywhere in the _index.html_ file then use [keyboard shortcut](../../keyboard-shortcuts/).
 
@@ -110,7 +110,7 @@ Select a background color for the entire page and add it to the top of _styles.c
    > }
    > ```
 
-5. Don't forget to commit your changes! Codespaces are automatically deleted after a few weeks, if you don't use them, so committing your changes saves your work so that you can get back to where you left off when you can get back to working.
+5. Don't forget to **commit your changes**! Codespaces are automatically deleted after a few weeks, if you don't use them, so committing your changes saves your work so that you can get back to where you left off when you can get back to working.
 
 ## Navigation and footer
 
@@ -170,7 +170,7 @@ To make the navigation and footer area pop, let's add a background color to them
    > }
    > ```
 
-4. View your page in Chrome. What happens when you hover over the list items in the drink menu?
+4. View your page in **Chrome**. What happens when you hover over the list items in the drink menu?
 
 5. But we don't want all the `li` tags to hover. Just the ones in the drink menu. We could add a `class` or we can target only the `li` elements in `main` by changing the selector to `main li:hover`.
 
@@ -183,7 +183,7 @@ To make the navigation and footer area pop, let's add a background color to them
 
 ![](images/EveryoneGetsAYay.jpg ":class=image-border")
 
-6. Don't forget to commit your changes again! (You can do this as frequently as you like. Commit early, commit often!)
+6. Don't forget to **commit your changes** again! (You can do this as frequently as you like. Commit early, commit often!)
 
 # Inspect HTML in Chrome
 
@@ -191,7 +191,7 @@ You'll often find yourself needing to look at how your page renders in the brows
 
 1. View your website.
 
-2. Right-click on your `<h1>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
+2. **Right-click** on your `<h1>` element and select **Inspect**. This will open up your Chrome Developer Tools (DevTools) to the **Elements** tab and highlight the element in the HTML.
 
    > [!TIP]
    > Chrome DevTools has a lot of features. We'll use DevTools in upcoming sessions to help us dig deeper into our code.
@@ -203,11 +203,11 @@ You'll often find yourself needing to look at how your page renders in the brows
 
    ![](images/devToolHighlight.png ":class=image-border")
 
-5. You can also click the arrows to the left of your `<main>` elements to expand them and see the elements inside them.
+5. You can also **click the arrows** to the left of your `<main>` elements to expand them and see the elements inside them.
 
 In addition to viewing elements, you can make and preview changes here before making them in your code.
 
-1.  In the **Elements** section of the DevTools, double click on the text inside your `<h1>` tag. This should make it editable. Change it to "Hello World" and then press `Enter`
+1.  In the **Elements** section of the DevTools, double click on the text inside your `<h1>` tag. This should make it editable. Change it to "**Hello World**" and then press `Enter`
 
     ![](images/helloWorld1.png ":class=image-border")
 
@@ -218,7 +218,7 @@ In addition to viewing elements, you can make and preview changes here before ma
     > [!WARNING]
     > This only lasts until you refresh the page! If you want to make a lasting change you need to make the change to the code in your IDE.
 
-3.  Refresh your page to see the text return to what you have in your code. You can either keep your DevTools open or close them with the small x in the upper right corner of the DevTools.
+3.  Refresh your page to see the text return to what you have in your code. You can either keep your DevTools open or close them with the small ""**x**" in the upper right corner of the DevTools.
 
     > [!INFO]
     > Element inspection comes in handy when you're trying to style your page too!
@@ -229,4 +229,4 @@ Compare your _styles.css_ against the answer key for your work. It might look a 
 
 > [!CODECHECK] > ![Code from styles.css](images/checkpoint.png)
 >
-> Hard to read? Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2023-checkpoint-2-selectors/styles.css).
+> Hard to read? Compare your _styles.css_ file with our [**answer key**](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2023-checkpoint-2-selectors/styles.css).

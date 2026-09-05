@@ -5,11 +5,11 @@
 ![](images/lady-dev-bar.png ":class=image-border")
 
 > [!WARNING]
-> Before starting the worksheet, please take a moment to review the [Setup instructions](../01-setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
+> Before starting the worksheet, please take a moment to review the [**Setup instructions**](../01-setup/?id=setup) to ensure you have all the tools and workspace setup you need for today's work.
 
 # Prepare the project for our code
 
-> [!TIP]Make sure auto save is enabled in your Codespace! Click on the hamburger menu in the upper left-nad corner of your Codespace and hover over "File." You should see "Auto Save" in the list that appears. There should be a checkmark to the left of "Auto Save." If there is no checkmark, click "Auto Save."
+> [!TIP]Make sure auto save is enabled in your Codespace! Click on the hamburger menu in the upper left-nad corner of your Codespace and hover over "**File**." You should see "**Auto Save**" in the list that appears. There should be a checkmark to the left of "Auto Save." If there is no checkmark, click "**Auto Save**."
 
 Let's take a look at the _index.html_ file. You should see the following code in that file.
 
@@ -111,7 +111,7 @@ Let's take a look at the _index.html_ file. You should see the following code in
 
 # Link the style sheet into HTML :id=link-stylesheet
 
-1. Open _index.html_. In the HTML `<head>` section (between the opening `<head>` and closing `</head>`), find the HTML tags for `title` and `script`. Place your cursor after the closing `script` tag, press `Enter`, and link your stylesheet by adding
+1. Open **_index.html_**. In the HTML `<head>` section (between the opening `<head>` and closing `</head>`), find the HTML tags for `title` and `script`. Place your cursor after the closing `script` tag, press `Enter`, and link your stylesheet by adding
 
    {% codeblock copy %}index.html{% codeblock %}
 
@@ -136,47 +136,47 @@ Let's take a look at the _index.html_ file. You should see the following code in
    </head>
    ```
 
-2. Now we want to preview the _index.html_ file in Chrome. To see what your code looks like in a browser, click on the "Go Live" button at the bottom of the page towards the right. This will pop a new tab into your browser. Whenever you make a code change, you will see the change in the browser view as well.
+2. Now we want to preview the _index.html_ file in **Chrome**. To see what your code looks like in a browser, click on the "**Go Live**" button at the bottom of the page towards the right. This will pop a new tab into your browser. Whenever you make a code change, you will see the change in the browser view as well.
 
-3. Take a look at your app in Google Chrome and notice the current styling. The page doesn't look good yet but we've got our initial setup for our project done.
+3. Take a look at your app in Google **Chrome** and notice the current styling. The page doesn't look good yet but we've got our initial setup for our project done.
 
 # Committing our work
 
 We want to make sure all our hard work is saved, so let's review how to commit to our repo.
 
-1. Commit your code to a repository in your GitHub account by clicking on the "Source Control" icon along the left side of the explorer in your IDE.
+1. Commit your code to a repository in your GitHub account by clicking on the "**Source Control**" icon along the left side of the explorer in your IDE.
 
    ![](./images/source_control.png ":class=image-border")
 
-2. Next, type a message in the text box above the green "Commit" button.
+2. Next, type a message in the text box above the green "**Commit**" button.
       
    ![](./images/commit_message.png ":class=image-border")
 
-3. Next, click "Yes" in the box that says there are no staged changes to commit.
+3. Next, click "**Yes**" in the box that says there are no staged changes to commit.
 
    ![](./images/no_staged_changes.png ":class=image-border")
 
-4. Now, click the "Publish Branch" button.
+4. Now, click the "**Publish Branch**" button.
 
    ![](./images/publish_branch.png ":class=image-border")
    
-5. Click "Allow" on the box that says it wants to sign in to your GitHub account. 
+5. Click "**Allow**" on the box that says it wants to sign in to your GitHub account. 
    
    ![](./images/sign_in_to_GitHub.png ":class=image-border")
    
-6. Choose the GitHub account you want to use (the same one you used to create the Codespace). Click "Publish Branch" a second time and select the "public" repository name.
+6. Choose the GitHub account you want to use (the same one you used to create the Codespace). Click "**Publish Branch**" a second time and select the "**public**" repository name.
 
    ![](./images/publish_to_gh_public_repo.png ":class=image-border")
 
-   > [!TIP]The next time you commit, type a message in the box above the "Commit" button, click "Commit," then "Sync changes."
+   > [!TIP]The next time you commit, **type a message in the box above the "Commit" button**, click "**Commit**," then "**Sync changes**."
    >
    > ![](./images/sync_changes.png ":class=image-border")
    
-   > [!TIP]You can click "No" on the tile at the bottom right corner of the screen that asks if you want to periodically run git fetch.
+   > [!TIP]You can click "**No**" on the tile at the bottom right corner of the screen that asks if you want to periodically run git fetch.
    >
    >  ![](./images/periodically_run_git_fetch.png ":class=image-border")
 
-7. Now you can click the "Explorer" icon along the left side of the explorer in your IDE.
+7. Now you can click the "**Explorer**" icon along the left side of the explorer in your IDE.
 
    ![](./images/explorer.png ":class=image-border")
 
@@ -188,4 +188,4 @@ Compare your project folder against the answer key for your work.
 
 > [!CODECHECK]
 >
-> Compare your folder setup with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/tree/2023-checkpoint-1-css-basics).
+> Compare your folder setup with our [**answer key**](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/tree/2023-checkpoint-1-css-basics).

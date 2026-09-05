@@ -16,7 +16,7 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
     > }
     > ```
 
-2.  Let's increase the size of the text for the header in about section starting with the `h1` tag. We want to only target the `h1` element with `hero-text` class. Set the font size of `h1` to "5em" by adding `font-size: 5em;`.
+2.  Let's increase the size of the text for the header in the about section starting with the `h1` tag. We want to only target the `h1` element with `hero-text` class. Set the font size of `h1` to "5em" by adding `font-size: 5em;`.
 
 3.  The `h1` text and the `p` text on the about section look good, but the `h2` text looks small. Set the font size of the `h2` text only in the hero title to "1.5em".
 
@@ -65,20 +65,20 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
    > }
    > ```
 
-8. Commit your changes, again!
+8. **Commit your changes**, again!
 
 # Apply fonts
 
-1. Navigate to [Google Fonts](https://fonts.google.com/) and find a font to use for headers.
+1. Navigate to [**Google Fonts**](https://fonts.google.com/) and find a font to use for headers.
 
 2. Click the font of your choice.
 
-3. Click "Get font" (blue bubble at the bottom right corner of the page).
+3. Click "**Get font**" (blue bubble at the bottom right corner of the page).
 
-4. Click "Get embed code."
+4. Click "**Get embed code**."
 
-5. Click "change styles" and deselect everything, then select `Regular 400`.
-   > [!TIP] Depends on the styles of font you pick, the button might say something different such as `Thin 100`
+5. Click "**change styles**" and deselect everything, then select `Regular 400`.
+   > [!TIP] Depending on the styles of font you pick, the button might say something different such as `Thin 100`
 
 ![](images/fontSelect.png ":class=image-border")
 
@@ -102,7 +102,7 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
    > [!EXTRACREDIT]
    > Often you'll want to provide backup fonts for the page to fall back on in case it can't load the chosen font. A common fallback for sans-serif fonts might include Arial, Helvetica, sans-serif. For serif fonts it might include "Times New Roman", Times, serif as backups.
    >
-   > You can see the fallback fonts in action if you remove the "@import" statement for the fonts in your _styles.css_ file, save your file, and view the page. Notice how the font changes.
+   > You can see the fallback fonts in action if you remove the "**@import**" statement for the fonts in your _styles.css_ file, save your file, and view the page. Notice how the font changes.
 
    > [!INFO]
    > Learn more by reading [MDN documentation on font family](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family).
@@ -118,7 +118,7 @@ We always want to start with defining styles for global elements. In this case, 
 
 Let's add an icon in front of each drink menu
 
-1. Head to [FontAwesome icons](https://fontawesome.com/icons) and search for `drink` icon.
+1. Head to [**FontAwesome icons**](https://fontawesome.com/icons) and search for `drink` icon.
 
 2. Click the icon of your selection.
 
@@ -134,7 +134,7 @@ Let's add an icon in front of each drink menu
      content: "\f57b";
    }
    ```
-4. Dare we repeat the suggestion to commit your changes, yet again?
+4. Dare we repeat the suggestion to **commit your changes**, yet again?
 
 # Checkpoint
 
@@ -142,7 +142,7 @@ Compare your _styles.css_ against the answer key for your work. It might look a 
 
 > [!CODECHECK]
 >
-> Compare your _styles.css_ file with our [answer key](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2023-checkpoint-4/styles.css).
+> Compare your _styles.css_ file with our [**answer key**](https://github.com/KansasCityWomeninTechnology/CSSCompilerPractice/blob/2023-checkpoint-4/styles.css).
 
 Share your success by posting a screenshot to Slack!
 
