@@ -7,7 +7,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 # Add text color
 
-1. We'll start applying colors to the main `h1` header first. In _styles.css_, declare a style for `h1` tag. Use the `color` property and substitute the hex color you selected for the title like this
+1. We'll start applying colors to the main `h1` header first. In **_styles.css_**, declare a style for `h1` tag. Use the `color` property and substitute the hex color you selected for the title like this
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -51,7 +51,7 @@ Let's add some styling to the HTML! Throughout this worksheet, if you need help 
 
 # Add background color
 
-Select a background color for the entire page and add it to the top of _styles.css_ by using the HTML `body` selector and `background-color` property.
+Select a background color for the entire page and add it to the top of **_styles.css_** by using the HTML `body` selector and `background-color` property.
 
    > [!TIP]
    > Feel free to use [Colorhunt.co](https://colorhunt.co/) or [accessible color palette generator by Venngage](https://venngage.com/tools/accessible-color-palette-generator) for colors.
@@ -73,14 +73,14 @@ Select a background color for the entire page and add it to the top of _styles.c
 
 1. Select a background color for the "Drink menu" section.
 
-2. To add the background color for the "Drink menu" section, we need to know which HTML element is used for the section. Open _index.html_ and find the HTML element for "Drink menu".
+2. To add the background color for the "Drink menu" section, we need to know which HTML element is used for the section. Open **_index.html_** and find the HTML element for "**Drink menu**".
 
    > [!TIP]
-   > You can use **ctrl-F** (**cmd-F** on a Mac) to search for and find "Drink menu" in the _index.html_.
+   > You can use **ctrl-F** (**cmd-F** on a Mac) to search for and find "**Drink menu**" in the **_index.html_**.
    >
-   > Or you can click anywhere in the _index.html_ file then use [keyboard shortcut](../../keyboard-shortcuts/).
+   > Or you can click anywhere in the **_index.html_** file then use [**keyboard shortcut**](../../keyboard-shortcuts/).
 
-3. Since "Drink menu" section is further down the file, we'll add the style at the bottom of the _styles.css_. "Drink menu" is in a `section` element, let's create a style for the `section` selector and set the `background-color`.
+3. Since "Drink menu" section is further down the file, we'll add the style at the bottom of _styles.css_. "Drink menu" is in a `section` element, let's create a style for the `section` selector and set the `background-color`.
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -114,7 +114,7 @@ Select a background color for the entire page and add it to the top of _styles.c
 
 ## Navigation and footer
 
-To make the navigation and footer area pop, let's add a background color to them. Look at the _index.html_ file to identify the selectors for the navigation and footer sections. Since these are global styles, declare the styles near the top of _styles.css_ file.
+To make the navigation and footer area pop, let's add a background color to them. Look at the **_index.html_** file to identify the selectors for the navigation and footer sections. Since these are global styles, declare the styles near the top of **_styles.css_** file.
 
    > [!TIP]
    > HTML element for navigation is `nav` and HTML element for footer is `footer`
@@ -218,7 +218,7 @@ In addition to viewing elements, you can make and preview changes here before ma
     > [!WARNING]
     > This only lasts until you refresh the page! If you want to make a lasting change you need to make the change to the code in your IDE.
 
-3.  Refresh your page to see the text return to what you have in your code. You can either keep your DevTools open or close them with the small ""**x**" in the upper right corner of the DevTools.
+3.  Refresh your page to see the text return to what you have in your code. You can either keep your DevTools open or close them with the small "**x**" in the upper right corner of the DevTools.
 
     > [!INFO]
     > Element inspection comes in handy when you're trying to style your page too!

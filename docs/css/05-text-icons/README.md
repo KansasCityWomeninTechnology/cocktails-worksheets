@@ -24,7 +24,7 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
 
 1. Increase the size of the `h2` elements in the drinks menu to 3em.
 
-2. Each drink title needs to be a little larger. In _index.html_, we see the drink titles are `h3` elements. They also have a `class="beverage"` assigned to it. We can create a style for `h3` with the `class="beverage"` by using the selector `h3.beverage`. Set the font size to 1.5em.
+2. Each drink title needs to be a little larger. In **_index.html_**, we see the drink titles are `h3` elements. They also have a `class="beverage"` assigned to it. We can create a style for `h3` with the `class="beverage"` by using the selector `h3.beverage`. Set the font size to 1.5em.
 
    > [!EXTRACREDIT]
    > Notice there's no space between the element `h3` and the class `.beverage` in the selector.
@@ -88,7 +88,7 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
 
 ![](images/importFont.png ":class=image-border")
 
-8. Paste the `@import` statement at the top of your _styles.css_ file, before the normalizing styles.
+8. Paste the `@import` statement at the top of your **_styles.css_** file, before the normalizing styles.
 
    > [!INFO] We don't need the `<style></style>` tag around the `@import` statement
 
@@ -120,11 +120,11 @@ Let's add an icon in front of each drink menu
 
 1. Head to [**FontAwesome icons**](https://fontawesome.com/icons) and search for `drink` icon.
 
-2. Click the icon of your selection.
+2. Click the icon of your choice.
 
 ![](images/icon-select.png ":class=image-border")
 
-3. At the bottom of the _styles.css_, add `content` property with the code for the icon you selected to `beverage` class. Don't forget to add `before` so the icon gets added before the each drink item
+3. At the bottom of **_styles.css_**, add `content` property with the code for the icon you selected to `beverage` class. Don't forget to add `before` so the icon gets added before the each drink item
 
    {% codeblock copy %}styles.css{% codeblock %}
 

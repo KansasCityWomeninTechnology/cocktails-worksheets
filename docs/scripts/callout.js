@@ -18,7 +18,7 @@
         <div class="cnc-callout cnc-hint">
           <details>
             <p></p>
-            <summary>Need a little help? Expand this section for guidance.
+            <summary><b>Need a little help? Expand this section for guidance.</b>
             </summary>
             ${contents}
           </details>

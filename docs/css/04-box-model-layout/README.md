@@ -1,6 +1,6 @@
 # Add spacing
 
-1. We don't want the bullets for any lists. Remove the bullets for all `ul` by creating a global style and setting the `list-style-type` property to "none". Your code should look like this.
+1. We don't want bullets for any lists. Remove the bullets for all `ul` by creating a global style and setting the `list-style-type` property to "none". Your code should look like this.
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -41,7 +41,7 @@
 
 Many browsers have their own pre-settings such as margins, paddings and font styling. Normalizing evens out the difference between browsers by resetting the browser default stylings so your website can be consistent no matter what browswr you are using.
 
-1. Add the following to the top of _styles.css_.
+1. Add the following to the top of **_styles.css_**.
 
    {% codeblock copy %}styles.css{% codeblock %}
 
@@ -83,15 +83,15 @@ Let's add some styling to the `nav` element with Grid.
 
 2. Then we will add `grid-template-columns: repeat(4, 100px);` to create 4 columns of 100px width.
 
-3. To add gutter(space) between grid items, we will add `grid-gap: 10px;`
+3. To add gutter (space between items) between grid items, we will add `grid-gap: 10px;`
 
 4. Let's align the grid to right by adding `justify-content: right;`
 
-5. Then let's align texts in the grid items to center by adding `justify-items: center;`
+5. Then let's align text in the grid items to center by adding `justify-items: center;`
 
 6. The navigation text in the hyperlink doesn't stand out enough. Let's make the navigation text larger by adding `font-size: 1.5em;`
 
-We still have default styling for the hyperlink such as underline. Let's style `a` tag in `nav` element.
+We still have default styling for the hyperlink such as underline. Let's style the `a` tag in `nav` element.
 
 1. Remove the hyperlink underline using `text-decoration: none;`.
 

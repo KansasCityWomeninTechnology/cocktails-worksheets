@@ -105,7 +105,7 @@ Let's take a look at the _index.html_ file. You should see the following code in
 
 # Prepare the styles.css :id=prepare-stylesheet
 
-1. We need a stylesheet file where we will put all our styles. The starter code already contains a _styles.css_ file inside the css folder. Let's see what's in there.
+1. We need a stylesheet file where we will put all our styles. The starter code already contains a **_styles.css_** file inside the css folder. Let's see what's in there.
 
 2. As you can see, it's empty, and ready for us to start styling!
 
