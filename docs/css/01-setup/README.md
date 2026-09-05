@@ -2,23 +2,25 @@
 
 Tonight we will learn the basics of applying styles to a website using **C**ascading **S**tyle **S**heets (**CSS**).
 
-Follow the instructions on this page to prepare your workspace.
+You should have received a [pre-session guide](https://drive.google.com/file/d/1UoX64J_8szac83q34tURfYh4V56JMwzV/view?usp=drive_link) in your e-mail. If you did not follow the instructions in that guide, you will need to install Google Chrome and create a GitHub account. Follow the instructions on this page to prepare your workspace.
 
 > [!TIP]
-> Open [Slack](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails friends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any stumbling blocks tonight. 
+> Open [**Slack**](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails friends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any issues tonight. 
 > 
-> If you haven't signed up for our Slack, yet, please follow [this link](https://join.slack.com/t/kcwit/shared_invite/zt-3rhkf2k3r-sDUuOdcNK5Pd1XnJ6AwONQ) to sign up.
+> If you haven't signed up for our Slack, yet, please follow [**this link**](https://join.slack.com/t/kcwit/shared_invite/zt-3rhkf2k3r-sDUuOdcNK5Pd1XnJ6AwONQ) to sign up.
 
 > [!WARNING]
-> We will use a cloud development environment called **GitHub Codespaces**. In order to use Codespaces, you will need a GitHub account. Codespaces **only** works with Chrome, so it is important that you use Google Chrome for today. If you use a different browser, things will not behave as this tutorial expects.
-
-> Navigate to [**GitHub**](https://github.com) to create a personal account or log in. Feel free to ask your mentor for help! When complete and logged in to GitHub, return here to continue the instructions.
+> We will use a cloud development environment called **GitHub Codespaces**. This means that your workspace is saved online, allowing you to access it from any computer with an internet connection.
+> 
+> In order to use Codespaces, you will need a GitHub account. For the best experience, we recommend using **Google Chrome**. While other browsers may work, using Chrome will ensure that all the tools and previews behave as this tutorial expects.
 
 # Create Intro to CSS Codespace
 
 We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud development environment which means you have an access to your code even if you are not on your own laptop.
 
 1. Navigate to [**GitHub**](https://github.com/login) and log in with your GitHub account.
+ 
+If you didn't have a chance to create a GitHub account before the session, this page will let you set one up. Feel free to ask a mentor for help if ou need it!
 
     ![](./images/github_login.png ":class=image-border")
 
@@ -74,4 +76,4 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 > [!TIP]
 > Did you know you can perform common tasks such as copy and paste?
 >
-> When working without a mouse, keyboard shortcuts will be faster than a trackpad. Open the [**handy dandy keyboard shortcut reference in a new tab**](/css/references/ ":target=_blank") so you can refer to it easily!
+> When working without a mouse, keyboard shortcuts will be faster than a trackpad. To speed up your workflow, we recommend using these for tasks like copying and pasting. Open this [**useful keyboard shortcut reference in a new tab**](/css/references/ ":target=_blank") so you can refer to it easily!

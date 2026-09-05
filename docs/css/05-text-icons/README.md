@@ -1,6 +1,6 @@
 # Apply text styling for each area
 
-Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying styles!
+Our "LadyDev Bar" looks better but it's not quite there yet. Let's keep on applying styles!
 
 ## About section
 
@@ -21,6 +21,8 @@ Our "LadyDev Bar" looks better but not quite there yet. Let's keep on applying s
 3.  The `h1` text and the `p` text on the about section look good, but the `h2` text looks small. Set the font size of the `h2` text only in the hero title to "1.5em".
 
 ## Drink Menu
+
+As you write your CSS, you'll see two different ways to target elements. It's helpful to understand the logic behind them: Combined Selectors (e.g., h3.beverage) target a specific element only if it has a specific class label. Descendant Selectors (e.g., .drinks h2) target an element based on its location, styling an element sitting inside a specific container. 
 
 1. Increase the size of the `h2` elements in the drinks menu to 3em.
 
