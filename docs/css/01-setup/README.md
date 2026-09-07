@@ -7,7 +7,7 @@ You should have received a [pre-session guide](https://drive.google.com/file/d/1
 > [!TIP]
 > Open [**Slack**](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails friends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any issues tonight. 
 > 
-> If you haven't signed up for our Slack, yet, please follow [**this link**](https://join.slack.com/t/kcwit/shared_invite/zt-3rhkf2k3r-sDUuOdcNK5Pd1XnJ6AwONQ) to sign up.
+> If you haven't signed up for our Slack, yet, please follow [**this link**](https://kcwit.slack.com/join/shared_invite/zt-494tjmvl1-x35yf76XY6femXMi82WCFA#/shared-invite/email) to sign up.
 
 > [!WARNING]
 > We will use a cloud development environment called **GitHub Codespaces**. This means that your workspace is saved online, allowing you to access it from any computer with an internet connection.
