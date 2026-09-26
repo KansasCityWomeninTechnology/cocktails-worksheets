@@ -68,9 +68,9 @@ You'll start practicing some JavaScript basics covered in the presentation and p
 
 ## Look for the MadLibs items to replace
 
-Now, find the "Go Live" at the bottom right corner of the IDE and click it. This will open a new browser tab where you will be able to see your web page.
+Now, find the "**Go Live**" at the bottom right corner of the IDE and click it. This will open a new browser tab where you will be able to see your web page.
 
-> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "Go Live." There will be a "Port 5500" in its place. Click that to discard the live session. "Go Live" will reappear and you can click on it to create a new live session.
+> [!TIP] If you accidentally close the browser tab that is displaying your page, go back down to where you saw "**Go Live**." There will be a "**Port 5500**" in its place. Click that to discard the live session. "**Go Live**" will reappear and you can click on it to create a new live session.
 
 Remember these are the noun or verb text surrounded by angle brackets: **&lt;noun_2>**. You can use choose any noun or verb you like for the variable name.
 
@@ -83,12 +83,12 @@ Remember these are the noun or verb text surrounded by angle brackets: **&lt;nou
 > A verb is a word used to describe an action such as "make" or "become."
 
 > [!TIP]
-> If you highlight, then right-click on "&lt;noun_1>" or any other text surrounded by angle brackets (be sure to include the angle brackets!), you will get a menu that will include an option to "Change All Occurrences." This is a good way to make sure you don't miss an occurrence of the thing you want to change.
+> If you highlight, then right-click on "**&lt;noun_1>**" or any other text surrounded by angle brackets (be sure to include the angle brackets!), you will get a menu that will include an option to "**Change All Occurrences**." This is a good way to make sure you don't miss an occurrence of the thing you want to change.
 
 
 > ![](images/change_all_occurrences.png ":class=image-border")
 
-> If this doesn't work for you, and instead you see a drop-down, click the drop-down and select "Replace." This should allow you to change all instances at once.
+> If this doesn't work for you, and instead you see a drop-down, click the drop-down and select "**Replace**." This should allow you to change all instances at once.
 
 > [!WARNING]
 > Make sure to replace all instances of a variable with the same noun!

@@ -1,6 +1,6 @@
 # Working with functions
 
-Now we will create a web page with interactive elements. In the rest of the worksheet we will build button click handling and manipulate the elements on the web page. When complete, you will have a web page that looks like this
+Now we will create a web page with interactive elements. In the rest of the worksheet we will build button click handling and manipulate the elements on the web page. When complete, you will have a web page that looks like this.
 
 ![](images/result.png ":class=image-border")
 
@@ -143,12 +143,12 @@ We don't want to lose any of our work, so we will want to [commit it](https://ka
 
 Let's get coding! We'll call a function and keep track of click events.
 
-1. In _script.js_. You'll see MadLibs items like we had in the first section of the worksheet.
+1. In _script.js_, you'll see MadLibs items like we had in the first section of the worksheet.
 
 2. Search for **&lt;noun>** and **&lt;verb>** and replace the variables. Save the file and look at the web page in Chrome. The lavender button now has the text "I'd like a cocktail please!", but we want it do something when we click on it.
 
 > [!TIP]
-> If you want to wrap the text in your Codespaces IDE, you can use Alt-z on Windows, or Opt-z on a Mac.
+> If you want to wrap the text in your Codespaces IDE, you can use **Alt-z** on Windows, or **Opt-z** on a Mac.
 
 3. It's easier to understand what's going on if we have visual indications of our work. Browsers have a built-in function to display alert messages. Let's display an alert message with the word "click" inside of it. Find the `clickHandler` function in _script.js_ and add `alert('click');` inside the function (between the curly braces). The `clickHandler` function should look like this:
 
@@ -161,7 +161,7 @@ Let's get coding! We'll call a function and keep track of click events.
    ```
 
 > [!TIP]
-> Notice `alert("click");` is **indented** inside the function. Indenting code inside functions make it easier for you to see where a function begins (the open curly brace) and where it ends (the close curly brace). Indention makes code human readable.
+> Notice `alert("click");` is *indented* inside the function. Indenting code inside functions make it easier for you to see where a function begins (the open curly brace) and where it ends (the close curly brace). Indention makes code human readable.
 
 > [!INFO]
 > We passed in the string "click" to the built in function `alert`. You can use either double quotes "" or single quotes '' for strings.
