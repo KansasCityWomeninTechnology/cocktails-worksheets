@@ -24,7 +24,7 @@ First we'll declare an array so we can use the array data in the application. We
    > [!HINT]
    > Type `console.log('brainSkills', brainSkills);`
 
-4. Arrays have built in properties. One property of an array is the length. Let's change our `console.log` above to log out the length of the array by using `brainSkills.length`. What do you see in DevTools when you reload the webpage?
+4. Arrays have built-in properties. One property of an array is the length. Let's change our `console.log` above to log out the length of the array by using `brainSkills.length`. What do you see in DevTools when you reload the webpage?
 
 5. Add more skills you learned at Coding & Cocktails or about coding tonight to the array by comma separating values. Your `brainSkills` array might look something like this:
 
@@ -105,7 +105,7 @@ To use the array data, we need to access the array elements. We can do this by i
    ```
 
    > [!INFO]
-   > In JavaScript, you can declare **functions** and **function expressions**. Function declarations use the syntax `function myFunction(){}` while function expressions use the syntax `const myFunction = function(){};`. In a function expression, you are assigning the function to a variable. This makes it easier to pass functions as parameters. We have been using **function expressions**.
+   > In JavaScript, you can declare *functions* and *function expressions*. Function declarations use the syntax `function myFunction(){}` while function expressions use the syntax `const myFunction = function(){};`. In a function expression, you are assigning the function to a variable. This makes it easier to pass functions as parameters. We have been using *function expressions*.
    >
    > Additionally, JavaScript functions can be named or anonymous. The function declaration inside the `forEach` is an example of an anonymous function.
    >
