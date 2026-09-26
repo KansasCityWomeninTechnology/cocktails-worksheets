@@ -22,7 +22,7 @@ We will use GitHub Codespaces for our workshop. GitHub Codespaces is a cloud dev
 
 If you didn't have a chance to create a GitHub account before the session, this page will let you set one up. Feel free to ask a mentor for help if you need it!
 
-    ![](./images/github_login.png ":class=image-border")
+![](./images/github_login.png ":class=image-border")
 
 2. Once you're signed in, click on the following link to [**the starter code repo**](https://github.com/KansasCityWomeninTechnology/Coding-and-Cocktails-Intro-to-JS) and click the "**Use this template**" button in the upper right-hand corner of the screen.
 
