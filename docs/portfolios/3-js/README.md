@@ -56,7 +56,7 @@ If you're having a problem figuring out how to link the JavaScript file, check b
 > <script src="../js/backToTop.js"></script>
 >```
 
-In your _css_ folder, **add a new file** called backToTopButton.css. Copy and paste the following code into that file.
+In your _css_ folder, **add a new file** called **backToTopButton.css**. Copy and paste the following code into that file.
 
 {% codeblock copy %}backToTopButton.css{% codeblock %}
 
