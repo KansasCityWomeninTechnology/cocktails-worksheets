@@ -8,7 +8,7 @@
 
 Now that you've got a few pages for your portfolio and you have them styled, let's add a "go to top" button!
 
-Inside the _js_ folder, create a new file called backToTop.js.
+Inside the _js_ folder, create a new file called **backToTop.js**.
 
 Copy and paste the following code into that file.
 
@@ -56,7 +56,7 @@ If you're having a problem figuring out how to link the JavaScript file, check b
 > <script src="../js/backToTop.js"></script>
 >```
 
-In your _css_ folder, add a new file called backToTopButton.css. Copy and paste the following code into that file.
+In your _css_ folder, add a new file called **backToTopButton.css**. Copy and paste the following code into that file.
 
 {% codeblock copy %}backToTopButton.css{% codeblock %}
 

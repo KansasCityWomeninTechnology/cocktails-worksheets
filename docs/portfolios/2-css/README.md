@@ -8,7 +8,7 @@
 
 Now that you've got a few pages for your portfolio, let's get them styled.
 
-Double-click on the _styles.css_ file. It should be empty.
+Double-click on the _**styles.css**_ file. It should be empty.
 
 The many different browsers that exist have default rules to style plain HTML. These default rules differ between all the browsers. This can mean that your page can look a bit different, depending on which browser you use to view it.
 
