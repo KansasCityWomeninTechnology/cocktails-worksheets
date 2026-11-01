@@ -8,7 +8,7 @@
 
 Now that you've got a few pages for your portfolio and you have them styled, let's add a "go to top" button!
 
-Inside the _js_ folder, create a new file called **backToTop.js**.
+Inside the _js_ folder, **create a new file called backToTop.js**.
 
 Copy and paste the following code into that file.
 
@@ -43,20 +43,20 @@ window.scrollTo({
 window.addEventListener("scroll", scrollFunction);
 ```
 
-In each of your HTML files, add a link to the _backToTop.js_ file.
+In each of your HTML files, **add a link** to the _backToTop.js_ file.
 
 If you're having a problem figuring out how to link the JavaScript file, check below.
 
 > [!CODECHECK]
 >
-> In the _head_ section, add this line:
+> In the _**head**_ section, add this line:
 >
 > {% codeblock copy %}{% codeblock %}
 > ```js
 > <script src="../js/backToTop.js"></script>
 >```
 
-In your _css_ folder, add a new file called **backToTopButton.css**. Copy and paste the following code into that file.
+In your _css_ folder, **add a new file** called **backToTopButton.css**. Copy and paste the following code into that file.
 
 {% codeblock copy %}backToTopButton.css{% codeblock %}
 
@@ -99,9 +99,9 @@ color: #FFF;
 }
 ```
 
-Now add a link to this stylesheet in all your HTML heads.
+Now **add a link** to this stylesheet in all your HTML heads.
 
-Last, we'll need to add something to our HTML file(s) so that our button shows up on the page. Make sure this goes after any other HTML you have in the body.
+Last, we'll need to add something to our HTML file(s) so that our button shows up on the page. Make sure this goes **after** any other HTML you have in the body.
 
 {% codeblock copy %}backToTopButton.css{% codeblock %}
 
