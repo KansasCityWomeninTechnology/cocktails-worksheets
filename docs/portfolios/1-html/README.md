@@ -79,7 +79,7 @@ Potential employers want to get to know you and see your web development skills,
 - **Home** (index.html), including a short welcome message and a link to your other pages
 - **About** (about.html), with your name, a photo, and a short bio
 - **Contact** (contact.html), with your email and links to your social media profiles
-  
+
 Because you already built the homepage, we suggest creating About and Contact pages. After this session, you can add more pages to highlight the work you’ve done and projects you’ve contributed to!
 
 Since you're going to be showing your web development skills, you'll likely want to add separate "**About**" and "**Contact**" pages, as well as other pages that you might decide to include.
