@@ -76,9 +76,9 @@ The *index.html* file is the file that displays the contents of your portfolio�
 
 Potential employers want to get to know you and see your web development skills, so you'll want to add more pages to your website. Most portfolio sites include:
 
-    - **Home** (index.html), including a short welcome message and a link to your other pages
-    - **About** (about.html), with your name, a photo, and a short bio
-    - **Contact** (contact.html), with your email and links to your social media profiles
+- **Home** (index.html), including a short welcome message and a link to your other pages
+- **About** (about.html), with your name, a photo, and a short bio
+- **Contact** (contact.html), with your email and links to your social media profiles
   
 Because you already built the homepage, we suggest creating About and Contact pages. After this session, you can add more pages to highlight the work you’ve done and projects you’ve contributed to!
 

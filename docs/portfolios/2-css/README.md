@@ -10,7 +10,7 @@ Now that you've got a few pages for your portfolio, let's get them styled.
 
 If you joined us for the CSS session, you're all set. If you haven't, here's the basic idea: CSS tells the browser how your pages should look. Every style is applied to one part of your page, like a heading being a specific size, font, or color.
 
-Open the css/ folder in your file list and double-click on the _**styles.css**_ file. It should be empty.
+Open the **css** folder in your file list and double-click on the _**styles.css**_ file. It should be empty.
 
 Everything you write for this part of the project goes in this file.
 

@@ -124,10 +124,10 @@ Go to your site and test the button out!
 
 Note that the button will not show up until you scroll. If you don't have a lot of content on your page, there might not be enough "stuff" on your page to require you to scroll.
 
-Developers aren't generally the ones creating the content for the sites they build, so they will generally use filler text like Lorem Ipsum to add enough content for testing.
+Developers aren't generally the ones creating the content for the sites they build, so they will sometimes use filler text like Lorem Ipsum to add enough content for testing.
 
 You can try this out, yourself! Go take a look at the [Lorem Ipsum generator](https://www.lipsum.com/). This page will give you a bit of background on Lorem Ipsum and it will generate text you can copy and paste into the body of your HTML file to give you enough content so that you'll need to scroll the page to see the footer.
 
-If something doesn't work, use your inspection tools to debug! Right-click on your page and select Inspect. Then click the Console tab. Errors show up in red and tell you which file has the problem.
+If something doesn't work, use your inspection tools to debug! Right-click on your page and select **Inspect**. Then click the **Console** tab. Errors show up in red and tell you which file has the problem.
 
 Don't forget to commit your changes to your repo!
