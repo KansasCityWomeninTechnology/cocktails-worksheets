@@ -6,7 +6,9 @@
 
 ### JavaScript
 
-Now that you've got a few pages for your portfolio and you have them styled, let's add a "go to top" button!
+Now that you've got a few pages for your portfolio and you have them styled, let's add a "back to top" button!
+
+If you attended the CSS and JavaScript sessions, this should look familiar. If not, a JavaScript file only works on a page if the page links to it. The same goes for a CSS file. The link tells the browser where to find the file. Your HTML files are in the same place as the js and css folders.
 
 Inside the _js_ folder, **create a new file called backToTop.js**.
 
@@ -53,7 +55,7 @@ If you're having a problem figuring out how to link the JavaScript file, check b
 >
 > {% codeblock copy %}{% codeblock %}
 > ```js
-> <script src="../js/backToTop.js"></script>
+> <script src="js/backToTop.js"></script>
 >```
 
 In your _css_ folder, **add a new file** called **backToTopButton.css**. Copy and paste the following code into that file.
@@ -107,7 +109,7 @@ Last, we'll need to add something to our HTML file(s) so that our button shows u
 
 ```html
     <div class="back-to-top-wrapper">
-      <button onclick="scrollToTop()" class="back-to-top-btn" title="Go to top">
+      <button onclick="scrollToTop()" class="back-to-top-btn" title="Back to top">
         <!-- Paste in svg of chevron-up -->
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
@@ -116,8 +118,16 @@ Last, we'll need to add something to our HTML file(s) so that our button shows u
     </div>
 
 ```
-Also add ```<link rel="stylesheet" href="../css/backToTopButton.css">``` to the head of your HTML file(s).
+Also add ```<link rel="stylesheet" href="css/backToTopButton.css">``` to the head of your HTML file(s).
 
 Go to your site and test the button out!
 
-If something doesn't work, use your inspection tools to debug!
+Note that the button will not show up until you scroll. If you don't have a lot of content on your page, there might not be enough "stuff" on your page to require you to scroll.
+
+Developers aren't generally the ones creating the content for the sites they build, so they will generally use filler text like Lorem Ipsum to add enough content for testing.
+
+You can try this out, yourself! Go take a look at the [Lorem Ipsum generator](https://www.lipsum.com/). This page will give you a bit of background on Lorem Ipsum and it will generate text you can copy and paste into the body of your HTML file to give you enough content so that you'll need to scroll the page to see the footer.
+
+If something doesn't work, use your inspection tools to debug! Right-click on your page and select Inspect. Then click the Console tab. Errors show up in red and tell you which file has the problem.
+
+Don't forget to commit your changes to your repo!
