@@ -35,13 +35,9 @@ Now, at the top of the page, click on "**Actions**." You should now see a page t
 ![](./images/workflow.png ":class=image-border")
 
 When that icon changes to a green check mark, click on "**pages build and deployment**." You will see a diagram with "build" on the left and "report-build-status" and "deploy" on the right. In the "**deploy**" box is a link to your web page. Click it and make sure everything works.
+ 
+If your links or styling don’t work, check the start of each href. Your site’s address includes the name of your repo. If an href starts with a slash, like “/css/backToTopButton.css”, the browser may skip the repository name and be unable to locate the file. Start each href with the folder name instead, with no slash. For example, “/css/backToTopButton.css” becomes “css/backToTopButton.css”. This works in Go Live and on your published site.
 
-You will likely find that your links, styling, and JavaScript do not work. This is because you are able to deploy any repository in your GitHub account, so you need to add the name of your repository to the hrefs in your files. (This would not be necessary if you were using a hosting provider like GoDaddy or Ionos.) In this example, the repository is named "my-portfolio," so we need to add "**/my-portfolio**" to the **beginning of every href** in the repo.
-
-You can find all your hrefs by using **ctrl-shift-f** (**cmd-shift-f** on a Mac) and entering "**href**." You can then click on each of them in succession and add the appropriate repo name to the beginning of every href. Take a look at the following screen shot for an example.
-
-![](./images/find_href.png ":class=image-border")
-
-Once you have fixed all of your hrefs and committed your changes, your site will go through the build and deploy process automatically. This will take a couple of minutes, but when it's complete, your site should work as expected. Force refresh your page and make sure everything works.
+Any time you make changes and commit them, your site will go through the build and deploy process automatically. This will take a couple of minutes, but when it's complete, your site should be updated. Force refresh your page by using Ctrl-F5 or Ctrl-Shift-R on Windows or Cmd-Shift-R on a Mac and make sure everything works.
 
 Hurray! You've done it!
